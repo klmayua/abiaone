@@ -1,0 +1,2994 @@
+# Master Page Registry
+
+This document lists the detailed metadata and governance properties for all 115 migrated pages.
+
+### Page 1: Secure Abia | Intelligence & Public Safety
+- **page_id:** `c218bc7180c44f99bb98a8bf8a49ae1d`
+- **page_name:** `Secure Abia | Intelligence & Public Safety`
+- **page_title:** `Secure Abia | Intelligence & Public Safety`
+- **route:** `/secure-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Secure Abia | Intelligence & Public Safety section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 15
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 2: Serve Abia | Digital Government Services
+- **page_id:** `3e132278568f4786bdcbabf16c77df50`
+- **page_name:** `Serve Abia | Digital Government Services`
+- **page_title:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Serve Abia | Digital Government Services section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 45
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 3: Procurement & Tenders Registry | ABIA ONE
+- **page_id:** `24f18c34ef0b465f9bf54b435a6a204d`
+- **page_name:** `Procurement & Tenders Registry | ABIA ONE`
+- **page_title:** `Procurement & Tenders Registry | ABIA ONE`
+- **route:** `/procurement-tenders-registry`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Procurement & Tenders Registry | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 4: Ministry of Communication | ABIA ONE
+- **page_id:** `0094191edbf74c2a98153d913f1737c0`
+- **page_name:** `Ministry of Communication | ABIA ONE`
+- **page_title:** `Ministry of Communication | ABIA ONE`
+- **route:** `/ministry-of-communication`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Communication | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Communication
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 5: Connect Abia | Engagement Hub
+- **page_id:** `b453f2efb8d242a3952e0ba33d2c2f7d`
+- **page_name:** `Connect Abia | Engagement Hub`
+- **page_title:** `Connect Abia | Engagement Hub`
+- **route:** `/connect-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Connect Abia | Engagement Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 14
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 6: Secure Abia | Command Dashboard (Desktop)
+- **page_id:** `3ba0276dd7e24974b06e8d95edb81c3e`
+- **page_name:** `Secure Abia | Command Dashboard (Desktop)`
+- **page_title:** `Secure Abia | Command Dashboard (Desktop)`
+- **route:** `/secure-abia-2`
+- **route_group:** `Dashboard Workspace`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the Secure Abia | Command Dashboard (Desktop) section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /secure-abia-2
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 7: Ab_One_Concept_Note.md
+- **page_id:** `9448728499910663983`
+- **page_name:** `Ab_One_Concept_Note.md`
+- **page_title:** `Ab_One_Concept_Note.md`
+- **route:** `/aboneconceptnote`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ab_One_Concept_Note.md section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** NO
+- **footer_navigation_present:** NO
+- **CTA_count:** 0
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 8: Civil Service | Admin Portal
+- **page_id:** `7db34d9a117147828bb98f7b8411f131`
+- **page_name:** `Civil Service | Admin Portal`
+- **page_title:** `Civil Service | Admin Portal`
+- **route:** `/civil-service-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Civil Service | Admin Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 9: Ministry of Health | ABIA ONE
+- **page_id:** `eb00b02ce3454b82a50c77eabd975588`
+- **page_name:** `Ministry of Health | ABIA ONE`
+- **page_title:** `Ministry of Health | ABIA ONE`
+- **route:** `/ministry-of-health`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Health | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 17
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 10: Environment & Sustainability | ABIA ONE
+- **page_id:** `f3a7acd86ddd4243b4ef9ee4c9b78e8e`
+- **page_name:** `Environment & Sustainability | ABIA ONE`
+- **page_title:** `Environment & Sustainability | ABIA ONE`
+- **route:** `/environment-sustainability`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Environment & Sustainability | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 34
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 11: Economic Transformation | ABIA ONE
+- **page_id:** `fe8ecd0e19dc4c639d4944d0c295c0f8`
+- **page_name:** `Economic Transformation | ABIA ONE`
+- **page_title:** `Economic Transformation | ABIA ONE`
+- **route:** `/economic-transformation`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Economic Transformation | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 12: Civil Service Portal | ABIA ONE
+- **page_id:** `7809886ba64a4ef8bfde3d5e72d71cfb`
+- **page_name:** `Civil Service Portal | ABIA ONE`
+- **page_title:** `Civil Service Portal | ABIA ONE`
+- **route:** `/civil-service-portal`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Civil Service Portal | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 13: AI Academy | Course Catalog & Skills Hub
+- **page_id:** `86dff515e12e4887896b3b148b5f2628`
+- **page_name:** `AI Academy | Course Catalog & Skills Hub`
+- **page_title:** `AI Academy | Course Catalog & Skills Hub`
+- **route:** `/ai-academy`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the AI Academy | Course Catalog & Skills Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 28
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 14: Invest in Aba | Global Industrial Marketplace
+- **page_id:** `0502e6882dd24689bea39c0a68d18d94`
+- **page_name:** `Invest in Aba | Global Industrial Marketplace`
+- **page_title:** `Invest in Aba | Global Industrial Marketplace`
+- **route:** `/invest-in-aba`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Invest in Aba | Global Industrial Marketplace section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 18
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 15: Local Governance | ABIA ONE
+- **page_id:** `f9572b2b88684a7da96af6dbcce7561e`
+- **page_name:** `Local Governance | ABIA ONE`
+- **page_title:** `Local Governance | ABIA ONE`
+- **route:** `/local-governance`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Local Governance | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 16: GADA | Field Operations Hub
+- **page_id:** `14b665aad5984571a2105e1d744fb700`
+- **page_name:** `GADA | Field Operations Hub`
+- **page_title:** `GADA | Field Operations Hub`
+- **route:** `/gada-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the GADA | Field Operations Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** Greater Aba Development Authority (GADA)
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 17: Digital Archives & Heritage | ABIA ONE
+- **page_id:** `6e76d18b8ccf48cd918e1e60e5d84ce3`
+- **page_name:** `Digital Archives & Heritage | ABIA ONE`
+- **page_title:** `Digital Archives & Heritage | ABIA ONE`
+- **route:** `/digital-archives-heritage`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Digital Archives & Heritage | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 31
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 18: Border Trade & Logistics | ABIA ONE
+- **page_id:** `a3af37f0efa6471087ad5388b2dc5539`
+- **page_name:** `Border Trade & Logistics | ABIA ONE`
+- **page_title:** `Border Trade & Logistics | ABIA ONE`
+- **route:** `/border-trade-logistics`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Border Trade & Logistics | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 19: Science & Technology | ABIA ONE
+- **page_id:** `680c32a6cd434e3d9a79b8654e35d765`
+- **page_name:** `Science & Technology | ABIA ONE`
+- **page_title:** `Science & Technology | ABIA ONE`
+- **route:** `/science-technology`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Science & Technology | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 22
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 20: Emergency & Crisis Response | ABIA ONE
+- **page_id:** `615b271f48594d76aa0a221ab0d7d81b`
+- **page_name:** `Emergency & Crisis Response | ABIA ONE`
+- **page_title:** `Emergency & Crisis Response | ABIA ONE`
+- **route:** `/emergency-crisis-response`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Emergency & Crisis Response | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 21: Health & Wellness | ABIA ONE
+- **page_id:** `c57825e3e91443d192c12f1501680dfb`
+- **page_name:** `Health & Wellness | ABIA ONE`
+- **page_title:** `Health & Wellness | ABIA ONE`
+- **route:** `/health-wellness`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Health & Wellness | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 22: Sovereign Fund & Investment Portfolio | ABIA ONE
+- **page_id:** `c680d06611444f708bb2c21715bd55a0`
+- **page_name:** `Sovereign Fund & Investment Portfolio | ABIA ONE`
+- **page_title:** `Sovereign Fund & Investment Portfolio | ABIA ONE`
+- **route:** `/sovereign-fund-investment-portfolio`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Sovereign Fund & Investment Portfolio | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 23: Social Welfare | ABIA ONE
+- **page_id:** `5e9c1358ce48411885715274b4021752`
+- **page_name:** `Social Welfare | ABIA ONE`
+- **page_title:** `Social Welfare | ABIA ONE`
+- **route:** `/social-welfare`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Social Welfare | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 33
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 24: Environment & Sustainability
+- **page_id:** `1dbe271a20fc409196f90822a726382a`
+- **page_name:** `Environment & Sustainability`
+- **page_title:** `Environment & Sustainability`
+- **route:** `/environment-sustainability-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Environment & Sustainability section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 4
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 25: Transport & Mobility Hub
+- **page_id:** `9208b6d29aab43e5993a4cca324c0d89`
+- **page_name:** `Transport & Mobility Hub`
+- **page_title:** `Transport & Mobility Hub`
+- **route:** `/transport-mobility-hub-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transport & Mobility Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 26: Trade & Logistics | Admin Hub
+- **page_id:** `500c92d0cc2247298a8caf8de88f09bd`
+- **page_name:** `Trade & Logistics | Admin Hub`
+- **page_title:** `Trade & Logistics | Admin Hub`
+- **route:** `/trade-logistics-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Trade & Logistics | Admin Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 14
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 27: Digital Archives & Heritage | ABIA ONE
+- **page_id:** `fe23079e09644b59921e0d68f63efdc6`
+- **page_name:** `Digital Archives & Heritage | ABIA ONE`
+- **page_title:** `Digital Archives & Heritage | ABIA ONE`
+- **route:** `/digital-archives-heritage-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Digital Archives & Heritage | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 28: ABIA ONE | Unified Transformation Dashboard
+- **page_id:** `f892de0a300946e29972a1bd33dae6be`
+- **page_name:** `ABIA ONE | Unified Transformation Dashboard`
+- **page_title:** `ABIA ONE | Unified Transformation Dashboard`
+- **route:** `/`
+- **route_group:** `Dashboard Workspace`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the ABIA ONE | Unified Transformation Dashboard section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 19
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 29: Civil Service Portal | ABIA ONE
+- **page_id:** `ccacc50996fd4a8391bc417ee3197340`
+- **page_name:** `Civil Service Portal | ABIA ONE`
+- **page_title:** `Civil Service Portal | ABIA ONE`
+- **route:** `/civil-service-portal-2`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Civil Service Portal | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 30: Legal & Institutional Registry | ABIA ONE
+- **page_id:** `76dcff587cf04026bb84e118ce2197e7`
+- **page_name:** `Legal & Institutional Registry | ABIA ONE`
+- **page_title:** `Legal & Institutional Registry | ABIA ONE`
+- **route:** `/legal-institutional-registry`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Legal & Institutional Registry | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 22
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 31: Open Abia | State Budget Transparency
+- **page_id:** `f5b6fa74c9dd43378415222f707dcba3`
+- **page_name:** `Open Abia | State Budget Transparency`
+- **page_title:** `Open Abia | State Budget Transparency`
+- **route:** `/open-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Open Abia | State Budget Transparency section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 32: Serve Abia | Digital Government Services
+- **page_id:** `168481f84dae46be8efe11b24f6277a9`
+- **page_name:** `Serve Abia | Digital Government Services`
+- **page_title:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Serve Abia | Digital Government Services section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 33: Secure Abia | Citizen Safety Portal
+- **page_id:** `cd0ae0a3d2c5471db5ce5db3707cd2e4`
+- **page_name:** `Secure Abia | Citizen Safety Portal`
+- **page_title:** `Secure Abia | Citizen Safety Portal`
+- **route:** `/secure-abia-3`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Secure Abia | Citizen Safety Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 16
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 34: Governor's Command Center | ABIA ONE
+- **page_id:** `50da11b9cb194afebd5ed6db270d2cf5`
+- **page_name:** `Governor's Command Center | ABIA ONE`
+- **page_title:** `Governor's Command Center | ABIA ONE`
+- **route:** `/governors-command-center`
+- **route_group:** `Dashboard Workspace`
+- **page_category:** `executive_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the Governor's Command Center | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /governors-command-center
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 28
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 35: Education & Learning | ABIA ONE
+- **page_id:** `785637f6253245e9a39271300f01fe24`
+- **page_name:** `Education & Learning | ABIA ONE`
+- **page_title:** `Education & Learning | ABIA ONE`
+- **route:** `/education-learning`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Education & Learning | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Education
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 24
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 36: GADA | Citizen Portal
+- **page_id:** `7471b18937974f1c8592d9276c8cf62f`
+- **page_name:** `GADA | Citizen Portal`
+- **page_title:** `GADA | Citizen Portal`
+- **route:** `/gada`
+- **route_group:** `Public Portal`
+- **page_category:** `agency_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the GADA | Citizen Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** Greater Aba Development Authority (GADA)
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 24
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 37: Cooperatives & Micro-Credit
+- **page_id:** `956a38f3da604457ab44a920e4c91345`
+- **page_name:** `Cooperatives & Micro-Credit`
+- **page_title:** `Cooperatives & Micro-Credit`
+- **route:** `/cooperatives-micro-credit-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Cooperatives & Micro-Credit section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 8
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 38: Cooperatives & Micro-Credit | ABIA ONE
+- **page_id:** `84d87828d492401e8ddda79eaacfa053`
+- **page_name:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **page_title:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **route:** `/cooperatives-micro-credit`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Cooperatives & Micro-Credit | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 39: Ministry of Communication | Citizen Portal
+- **page_id:** `7eca4bf077a94a49b8fec35f7d3b3202`
+- **page_name:** `Ministry of Communication | Citizen Portal`
+- **page_title:** `Ministry of Communication | Citizen Portal`
+- **route:** `/ministry-of-communication-2`
+- **route_group:** `Public Portal`
+- **page_category:** `ministry_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the Ministry of Communication | Citizen Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Communication
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 22
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 40: Environment & Sustainability | ABIA ONE
+- **page_id:** `15ee2b12337c4e2395352f94cce7d740`
+- **page_name:** `Environment & Sustainability | ABIA ONE`
+- **page_title:** `Environment & Sustainability | ABIA ONE`
+- **route:** `/environment-sustainability-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Environment & Sustainability | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 34
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 41: Commerce & Trade | ABIA ONE
+- **page_id:** `705c1ea16fdb44afabc76d7376aab230`
+- **page_name:** `Commerce & Trade | ABIA ONE`
+- **page_title:** `Commerce & Trade | ABIA ONE`
+- **route:** `/commerce-trade`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Commerce & Trade | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 42: Economic Transformation | ABIA ONE
+- **page_id:** `60850458dce94a90bb21133119316163`
+- **page_name:** `Economic Transformation | ABIA ONE`
+- **page_title:** `Economic Transformation | ABIA ONE`
+- **route:** `/economic-transformation-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Economic Transformation | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 18
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 43: Housing & Urban Development | ABIA ONE
+- **page_id:** `221c76a41d544b819ab435a01a5314a3`
+- **page_name:** `Housing & Urban Development | ABIA ONE`
+- **page_title:** `Housing & Urban Development | ABIA ONE`
+- **route:** `/housing-urban-development`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Housing & Urban Development | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 44: ABIA ONE | Unified Transformation Dashboard
+- **page_id:** `7b59716e8a0443a2ac44f8eb223395a1`
+- **page_name:** `ABIA ONE | Unified Transformation Dashboard`
+- **page_title:** `ABIA ONE | Unified Transformation Dashboard`
+- **route:** `/home-variant`
+- **route_group:** `Dashboard Workspace`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the ABIA ONE | Unified Transformation Dashboard section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /home-variant
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 45: Water Resources & Irrigation | ABIA ONE
+- **page_id:** `5f2ca863f19e4602a09d719ef16ca98b`
+- **page_name:** `Water Resources & Irrigation | ABIA ONE`
+- **page_title:** `Water Resources & Irrigation | ABIA ONE`
+- **route:** `/water-resources-irrigation`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Water Resources & Irrigation | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 46: Transport & Mobility | ABIA ONE
+- **page_id:** `8a8688b55cda482f83623147204d1d69`
+- **page_name:** `Transport & Mobility | ABIA ONE`
+- **page_title:** `Transport & Mobility | ABIA ONE`
+- **route:** `/transport-mobility`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transport & Mobility | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 47: State Archives | ABIA ONE
+- **page_id:** `979bf9e091dd403d9f8f0b0ab4c812f6`
+- **page_name:** `State Archives | ABIA ONE`
+- **page_title:** `State Archives | ABIA ONE`
+- **route:** `/state-archives`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the State Archives | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 48: Governor's Command Center | ABIA ONE
+- **page_id:** `208fc753c5c74269b9ef274971a3c04f`
+- **page_name:** `Governor's Command Center | ABIA ONE`
+- **page_title:** `Governor's Command Center | ABIA ONE`
+- **route:** `/governors-command-center-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `executive_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the Governor's Command Center | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /governors-command-center-mobile
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 49: Legal & Institutional Registry
+- **page_id:** `594ebeafbc60405c96ea8ee555c85e23`
+- **page_name:** `Legal & Institutional Registry`
+- **page_title:** `Legal & Institutional Registry`
+- **route:** `/legal-institutional-registry-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Legal & Institutional Registry section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 50: SME Growth & Support | ABIA ONE
+- **page_id:** `feb0f59fecaf4ed586e281661905b87f`
+- **page_name:** `SME Growth & Support | ABIA ONE`
+- **page_title:** `SME Growth & Support | ABIA ONE`
+- **route:** `/sme-growth-support`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the SME Growth & Support | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 34
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 51: Live Incident Feed | ABIA ONE (Desktop)
+- **page_id:** `24a7268ac3ec4f65ada01333fe169990`
+- **page_name:** `Live Incident Feed | ABIA ONE (Desktop)`
+- **page_title:** `Live Incident Feed | ABIA ONE (Desktop)`
+- **route:** `/live-incident-feed`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Live Incident Feed | ABIA ONE (Desktop) section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 52: Ministry of Agriculture | Citizen Portal
+- **page_id:** `bc9174abcf9541b59747bae3cfb04189`
+- **page_name:** `Ministry of Agriculture | Citizen Portal`
+- **page_title:** `Ministry of Agriculture | Citizen Portal`
+- **route:** `/ministry-of-agriculture`
+- **route_group:** `Public Portal`
+- **page_category:** `ministry_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the Ministry of Agriculture | Citizen Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Agriculture
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 53: Citizen Consultations | Connect Abia
+- **page_id:** `eb462c4446d14f10bfef9968a62f8a5f`
+- **page_name:** `Citizen Consultations | Connect Abia`
+- **page_title:** `Citizen Consultations | Connect Abia`
+- **route:** `/citizen-consultations`
+- **route_group:** `Public Portal`
+- **page_category:** `public_service_page`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Citizen Consultations | Connect Abia section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 24
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 54: Jobs Abia | Career Portal
+- **page_id:** `00a04dcfd01d454d88f3d528979f2bfe`
+- **page_name:** `Jobs Abia | Career Portal`
+- **page_title:** `Jobs Abia | Career Portal`
+- **route:** `/jobs-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Jobs Abia | Career Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 18
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 55: Border Trade & Logistics | ABIA ONE
+- **page_id:** `50b5ffacc79749759ba0c5117713cedd`
+- **page_name:** `Border Trade & Logistics | ABIA ONE`
+- **page_title:** `Border Trade & Logistics | ABIA ONE`
+- **route:** `/border-trade-logistics-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Border Trade & Logistics | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 18
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 56: Greater Aba Development Authority | ABIA ONE
+- **page_id:** `6cf859ff869e4ec8b9c2b83c730e65c3`
+- **page_name:** `Greater Aba Development Authority | ABIA ONE`
+- **page_title:** `Greater Aba Development Authority | ABIA ONE`
+- **route:** `/greater-aba-development-authority`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Greater Aba Development Authority | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** Greater Aba Development Authority (GADA)
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 19
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 57: Build Abia | Progress Tracker
+- **page_id:** `0b173559acef47c095428f1cb1932109`
+- **page_name:** `Build Abia | Progress Tracker`
+- **page_title:** `Build Abia | Progress Tracker`
+- **route:** `/build-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Build Abia | Progress Tracker section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 5
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 58: Ministry of Agriculture | ABIA ONE
+- **page_id:** `9c55a0a2c15d4ae69077788f8559466e`
+- **page_name:** `Ministry of Agriculture | ABIA ONE`
+- **page_title:** `Ministry of Agriculture | ABIA ONE`
+- **route:** `/ministry-of-agriculture-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Agriculture | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Agriculture
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 38
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 59: Women & Gender Affairs | ABIA ONE
+- **page_id:** `3e79d1caf6b949278a326cfa14fd3d81`
+- **page_name:** `Women & Gender Affairs | ABIA ONE`
+- **page_title:** `Women & Gender Affairs | ABIA ONE`
+- **route:** `/women-gender-affairs`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Women & Gender Affairs | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 28
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 60: Education & Learning | ABIA ONE
+- **page_id:** `d7168a2a706b420ca105267879b3fb10`
+- **page_name:** `Education & Learning | ABIA ONE`
+- **page_title:** `Education & Learning | ABIA ONE`
+- **route:** `/education-learning-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Education & Learning | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Education
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 61: AI Academy | Learning Hub
+- **page_id:** `fa1fdaf4b20f40caab69536234d9f214`
+- **page_name:** `AI Academy | Learning Hub`
+- **page_title:** `AI Academy | Learning Hub`
+- **route:** `/ai-academy-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the AI Academy | Learning Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 8
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 62: Employer Portal | Jobs Abia Marketplace
+- **page_id:** `d144e31e77db4697adf1574f88bb4fbe`
+- **page_name:** `Employer Portal | Jobs Abia Marketplace`
+- **page_title:** `Employer Portal | Jobs Abia Marketplace`
+- **route:** `/employer-portal`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Employer Portal | Jobs Abia Marketplace section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 28
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 63: News & Press Center | ABIA ONE
+- **page_id:** `576ec115667340f9a6b87316133cc720`
+- **page_name:** `News & Press Center | ABIA ONE`
+- **page_title:** `News & Press Center | ABIA ONE`
+- **route:** `/news-press-center`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the News & Press Center | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 64: Invest Abia | Global Gateway
+- **page_id:** `7ab43129d39a4c5580d5a9fd5161e93d`
+- **page_name:** `Invest Abia | Global Gateway`
+- **page_title:** `Invest Abia | Global Gateway`
+- **route:** `/invest-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_landing_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Invest Abia | Global Gateway section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 65: Tourism & Culture | ABIA ONE
+- **page_id:** `eb6ff065569e4f2aad64e77769848d64`
+- **page_name:** `Tourism & Culture | ABIA ONE`
+- **page_title:** `Tourism & Culture | ABIA ONE`
+- **route:** `/tourism-culture`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Tourism & Culture | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 32
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 66: Citizen Identity & Civil Registry | ABIA ONE
+- **page_id:** `2f11d585a3724f19879be7045e4c4454`
+- **page_name:** `Citizen Identity & Civil Registry | ABIA ONE`
+- **page_title:** `Citizen Identity & Civil Registry | ABIA ONE`
+- **route:** `/citizen-identity-civil-registry`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Citizen Identity & Civil Registry | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 67: Citizen Identity | Digital ID
+- **page_id:** `06f814683c054a9bb34eb1e95ad8c2c8`
+- **page_name:** `Citizen Identity | Digital ID`
+- **page_title:** `Citizen Identity | Digital ID`
+- **route:** `/citizen-identity-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Citizen Identity | Digital ID section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 5
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 68: Commerce & Trade | ABIA ONE
+- **page_id:** `0a26cba50be3437d84de35bbeddc357a`
+- **page_name:** `Commerce & Trade | ABIA ONE`
+- **page_title:** `Commerce & Trade | ABIA ONE`
+- **route:** `/commerce-trade-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Commerce & Trade | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 69: Ministry of Health | Portal
+- **page_id:** `7e6f8d1a70e445c5bc347b92ad1e431e`
+- **page_name:** `Ministry of Health | Portal`
+- **page_title:** `Ministry of Health | Portal`
+- **route:** `/ministry-of-health-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `ministry_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the Ministry of Health | Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 70: Women & Gender Affairs | Portal
+- **page_id:** `ae980a2ea5df4916bb1dfc26699d5091`
+- **page_name:** `Women & Gender Affairs | Portal`
+- **page_title:** `Women & Gender Affairs | Portal`
+- **route:** `/women-gender-affairs-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Women & Gender Affairs | Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 6
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 71: Emergency Response | ABIA ONE (Desktop)
+- **page_id:** `f29e52932a6b4c2484db5a6e65d8af8a`
+- **page_name:** `Emergency Response | ABIA ONE (Desktop)`
+- **page_title:** `Emergency Response | ABIA ONE (Desktop)`
+- **route:** `/emergency-response`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Emergency Response | ABIA ONE (Desktop) section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 19
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 72: Open Abia | Procurement & Tenders Registry
+- **page_id:** `7523358aaad845ac94d4ba627fa28587`
+- **page_name:** `Open Abia | Procurement & Tenders Registry`
+- **page_title:** `Open Abia | Procurement & Tenders Registry`
+- **route:** `/open-abia-2`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Open Abia | Procurement & Tenders Registry section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 29
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 73: MDA Performance | ABIA ONE
+- **page_id:** `939bf397949e4b9997d2f8ec0d0ebfbb`
+- **page_name:** `MDA Performance | ABIA ONE`
+- **page_title:** `MDA Performance | ABIA ONE`
+- **route:** `/mda-performance`
+- **route_group:** `Dashboard Workspace`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the MDA Performance | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /mda-performance
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 74: Secure Abia | Intelligence Command
+- **page_id:** `c4a9c8aae1f845c893e336858c4168c9`
+- **page_name:** `Secure Abia | Intelligence Command`
+- **page_title:** `Secure Abia | Intelligence Command`
+- **route:** `/secure-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Secure Abia | Intelligence Command section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 14
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 75: GADA | Citizen Portal (Mobile)
+- **page_id:** `585d20528b2847529199c8fbb6fd7e86`
+- **page_name:** `GADA | Citizen Portal (Mobile)`
+- **page_title:** `GADA | Citizen Portal (Mobile)`
+- **route:** `/gada-mobile-2`
+- **route_group:** `Mobile Experience`
+- **page_category:** `agency_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the GADA | Citizen Portal (Mobile) section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** Greater Aba Development Authority (GADA)
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 76: Ministry of Health | Admin Hub
+- **page_id:** `65c4c83c8b1b407e8cf427a7dc201faa`
+- **page_name:** `Ministry of Health | Admin Hub`
+- **page_title:** `Ministry of Health | Admin Hub`
+- **route:** `/ministry-of-health-mobile-2`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Health | Admin Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 77: Connect Abia | Citizen Engagement & News
+- **page_id:** `a4dc98dfeacd43ba968da1b88d32b95f`
+- **page_name:** `Connect Abia | Citizen Engagement & News`
+- **page_title:** `Connect Abia | Citizen Engagement & News`
+- **route:** `/connect-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Connect Abia | Citizen Engagement & News section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 24
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 78: Tourism & Culture | ABIA ONE
+- **page_id:** `6562edfec9f445739aeeedc8a938b07b`
+- **page_name:** `Tourism & Culture | ABIA ONE`
+- **page_title:** `Tourism & Culture | ABIA ONE`
+- **route:** `/tourism-culture-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Tourism & Culture | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 79: Invest Abia | Global Investment Gateway
+- **page_id:** `d08f50fd6cc74cafa2d6cca2e7496955`
+- **page_name:** `Invest Abia | Global Investment Gateway`
+- **page_title:** `Invest Abia | Global Investment Gateway`
+- **route:** `/invest-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `public_landing_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Invest Abia | Global Investment Gateway section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 23
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 80: Transparent Governance | ABIA ONE
+- **page_id:** `75ccd8c9702d4d2b980eeab5691e005d`
+- **page_name:** `Transparent Governance | ABIA ONE`
+- **page_title:** `Transparent Governance | ABIA ONE`
+- **route:** `/transparent-governance`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transparent Governance | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 81: Transparent Governance | ABIA ONE
+- **page_id:** `faff0cf6275e4053984d8cf5aa9bf6e3`
+- **page_name:** `Transparent Governance | ABIA ONE`
+- **page_title:** `Transparent Governance | ABIA ONE`
+- **route:** `/transparent-governance-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transparent Governance | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 82: Ministry of Agriculture | Admin Hub
+- **page_id:** `e31fdd9e740346f5b9ad9845bbb03f70`
+- **page_name:** `Ministry of Agriculture | Admin Hub`
+- **page_title:** `Ministry of Agriculture | Admin Hub`
+- **route:** `/ministry-of-agriculture-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Agriculture | Admin Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Agriculture
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 83: Ministry of Education | Admin Hub
+- **page_id:** `141a7731fc1745ad96c7d75c55e02d3c`
+- **page_name:** `Ministry of Education | Admin Hub`
+- **page_title:** `Ministry of Education | Admin Hub`
+- **route:** `/ministry-of-education-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Education | Admin Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Education
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 10
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 84: Utilities & Environment | ABIA ONE
+- **page_id:** `908d1d825822480a8f35dd0aec5f6a6f`
+- **page_name:** `Utilities & Environment | ABIA ONE`
+- **page_title:** `Utilities & Environment | ABIA ONE`
+- **route:** `/utilities-environment`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Utilities & Environment | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 85: AI Academy | Future-Ready Digital Skills
+- **page_id:** `65dcc9bd2a614c47883111193bb3bb1a`
+- **page_name:** `AI Academy | Future-Ready Digital Skills`
+- **page_title:** `AI Academy | Future-Ready Digital Skills`
+- **route:** `/ai-academy-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the AI Academy | Future-Ready Digital Skills section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 86: Aba 2.0 | Urban Renewal Hub
+- **page_id:** `184970dd526d42f18b4e21c605128bba`
+- **page_name:** `Aba 2.0 | Urban Renewal Hub`
+- **page_title:** `Aba 2.0 | Urban Renewal Hub`
+- **route:** `/aba-20-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Aba 2.0 | Urban Renewal Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 10
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 87: Agri-Transformation | ABIA ONE
+- **page_id:** `1e91500e7cde47c98f00344cfc37a442`
+- **page_name:** `Agri-Transformation | ABIA ONE`
+- **page_title:** `Agri-Transformation | ABIA ONE`
+- **route:** `/agri-transformation`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Agri-Transformation | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 88: Transport & Mobility | ABIA ONE
+- **page_id:** `455935cf943a4899a6742eda0a9a521a`
+- **page_name:** `Transport & Mobility | ABIA ONE`
+- **page_title:** `Transport & Mobility | ABIA ONE`
+- **route:** `/transport-mobility-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transport & Mobility | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 19
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 89: Housing & Urban Development | ABIA ONE
+- **page_id:** `23934633e0d44ffe9099da46ebcb306a`
+- **page_name:** `Housing & Urban Development | ABIA ONE`
+- **page_title:** `Housing & Urban Development | ABIA ONE`
+- **route:** `/housing-urban-development-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Housing & Urban Development | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 90: Aba 2.0 | Urban Renewal Hub
+- **page_id:** `8bc375c51a00471e9eac1d634a4ac405`
+- **page_name:** `Aba 2.0 | Urban Renewal Hub`
+- **page_title:** `Aba 2.0 | Urban Renewal Hub`
+- **route:** `/aba-20`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Aba 2.0 | Urban Renewal Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 20
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 91: Youth & Sports | ABIA ONE
+- **page_id:** `2d27b86edadb496f860da6fa2d286f4f`
+- **page_name:** `Youth & Sports | ABIA ONE`
+- **page_title:** `Youth & Sports | ABIA ONE`
+- **route:** `/youth-sports`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Youth & Sports | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 92: ABIA ONE | Citizen Dashboard
+- **page_id:** `479d52672e8e4447bd3a2a9ebfbf6a0b`
+- **page_name:** `ABIA ONE | Citizen Dashboard`
+- **page_title:** `ABIA ONE | Citizen Dashboard`
+- **route:** `/home-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the ABIA ONE | Citizen Dashboard section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /home-mobile
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 11
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 93: Land & Property | Digital Gov Services
+- **page_id:** `325eb5d8a2b249639a3b4b2a4c4e17f8`
+- **page_name:** `Land & Property | Digital Gov Services`
+- **page_title:** `Land & Property | Digital Gov Services`
+- **route:** `/land-property`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Land & Property | Digital Gov Services section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 17
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 94: Diaspora Gateway | ABIA ONE
+- **page_id:** `e1f23347484f47fc878e39d87b7979dc`
+- **page_name:** `Diaspora Gateway | ABIA ONE`
+- **page_title:** `Diaspora Gateway | ABIA ONE`
+- **route:** `/diaspora-gateway`
+- **route_group:** `Public Portal`
+- **page_category:** `public_landing_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Diaspora Gateway | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 35
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 95: Open Abia | Transparency Monitor
+- **page_id:** `d486d82d53154c6c99019a7c739be782`
+- **page_name:** `Open Abia | Transparency Monitor`
+- **page_title:** `Open Abia | Transparency Monitor`
+- **route:** `/open-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `reporting_dashboard`
+- **page_subcategory:** `Analytics & Controls`
+- **page_purpose:** Represents the Open Abia | Transparency Monitor section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** /open-abia-mobile
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 13
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 96: Serve Abia | Digital Services
+- **page_id:** `798fe83d3f534733860bd90827e7589e`
+- **page_name:** `Serve Abia | Digital Services`
+- **page_title:** `Serve Abia | Digital Services`
+- **route:** `/serve-abia-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Serve Abia | Digital Services section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 97: Ministry of Health | Citizen Portal
+- **page_id:** `ad88ba000c1248059e27f77aaf800933`
+- **page_name:** `Ministry of Health | Citizen Portal`
+- **page_title:** `Ministry of Health | Citizen Portal`
+- **route:** `/ministry-of-health-2`
+- **route_group:** `Public Portal`
+- **page_category:** `ministry_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the Ministry of Health | Citizen Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 29
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 98: Industrial Hubs | Manufacturing Excellence
+- **page_id:** `31e8fe21064f4bc68c2b0f9bca39df42`
+- **page_name:** `Industrial Hubs | Manufacturing Excellence`
+- **page_title:** `Industrial Hubs | Manufacturing Excellence`
+- **route:** `/industrial-hubs`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Industrial Hubs | Manufacturing Excellence section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 99: Water Resources & Irrigation | ABIA ONE
+- **page_id:** `cf199a7e69474894962ec644e90525b5`
+- **page_name:** `Water Resources & Irrigation | ABIA ONE`
+- **page_title:** `Water Resources & Irrigation | ABIA ONE`
+- **route:** `/water-resources-irrigation-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Water Resources & Irrigation | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 18
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 100: Women & Gender Affairs | ABIA ONE
+- **page_id:** `82139b156d6348b19c8b014082c47a08`
+- **page_name:** `Women & Gender Affairs | ABIA ONE`
+- **page_title:** `Women & Gender Affairs | ABIA ONE`
+- **route:** `/women-gender-affairs-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Women & Gender Affairs | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 30
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 101: Ministry of Agriculture | Portal
+- **page_id:** `f2e4708421c24c129cd5f06cfb951ab0`
+- **page_name:** `Ministry of Agriculture | Portal`
+- **page_title:** `Ministry of Agriculture | Portal`
+- **route:** `/ministry-of-agriculture-mobile-2`
+- **route_group:** `Mobile Experience`
+- **page_category:** `ministry_portal`
+- **page_subcategory:** `Sector Workspace`
+- **page_purpose:** Represents the Ministry of Agriculture | Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Agriculture
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 10
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 102: Legal & Institutional Registry | ABIA ONE
+- **page_id:** `889251da34374de4860b1cd67180f943`
+- **page_name:** `Legal & Institutional Registry | ABIA ONE`
+- **page_title:** `Legal & Institutional Registry | ABIA ONE`
+- **route:** `/legal-institutional-registry-2`
+- **route_group:** `Public Portal`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Legal & Institutional Registry | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 29
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 103: Secure Abia | Safety Portal
+- **page_id:** `b8b03c9bf2f74881b5a5773c3ed5c602`
+- **page_name:** `Secure Abia | Safety Portal`
+- **page_title:** `Secure Abia | Safety Portal`
+- **route:** `/secure-abia-mobile-2`
+- **route_group:** `Mobile Experience`
+- **page_category:** `citizen_service`
+- **page_subcategory:** `Public Interaction`
+- **page_purpose:** Represents the Secure Abia | Safety Portal section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** Unified Digital Services
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 104: Transport & Mobility | Command Hub
+- **page_id:** `81ee8077dc184c76b9e85e0822a8b720`
+- **page_name:** `Transport & Mobility | Command Hub`
+- **page_title:** `Transport & Mobility | Command Hub`
+- **route:** `/transport-mobility-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Transport & Mobility | Command Hub section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 10
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 105: Build Abia | Infrastructure Progress Map
+- **page_id:** `523d18a9a8f64eefaea3252aecf387ed`
+- **page_name:** `Build Abia | Infrastructure Progress Map`
+- **page_title:** `Build Abia | Infrastructure Progress Map`
+- **route:** `/build-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Build Abia | Infrastructure Progress Map section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 21
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 106: Science & Technology | ABIA ONE
+- **page_id:** `49e9fa972e714e7c89e5ad3b98966a86`
+- **page_name:** `Science & Technology | ABIA ONE`
+- **page_title:** `Science & Technology | ABIA ONE`
+- **route:** `/science-technology-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Science & Technology | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 33
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 107: Tourism & Culture | Explore
+- **page_id:** `bad5c9791c434166ac5663bf104053c7`
+- **page_name:** `Tourism & Culture | Explore`
+- **page_title:** `Tourism & Culture | Explore`
+- **route:** `/tourism-culture-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `public_landing_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Tourism & Culture | Explore section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 10
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 108: Public Reporting | Secure Abia (Desktop)
+- **page_id:** `1803f6638be34d57b3d393ba6779e683`
+- **page_name:** `Public Reporting | Secure Abia (Desktop)`
+- **page_title:** `Public Reporting | Secure Abia (Desktop)`
+- **route:** `/public-reporting`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Public Reporting | Secure Abia (Desktop) section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 14
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 109: Cooperatives & Micro-Credit | ABIA ONE
+- **page_id:** `d532823eec144332829e8c13bcc36f1c`
+- **page_name:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **page_title:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **route:** `/cooperatives-micro-credit-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Cooperatives & Micro-Credit | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 110: Health & Wellness | ABIA ONE
+- **page_id:** `e12fb6c7397f49fa9a0a61562ca15b66`
+- **page_name:** `Health & Wellness | ABIA ONE`
+- **page_title:** `Health & Wellness | ABIA ONE`
+- **route:** `/health-wellness-2`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Health & Wellness | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Health
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 24
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 111: Serve Abia | Digital Government Services
+- **page_id:** `6fab82fd365144aebca7a92ca06ea85d`
+- **page_name:** `Serve Abia | Digital Government Services`
+- **page_title:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia-3`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Serve Abia | Digital Government Services section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 25
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 112: Digital Archives & Heritage
+- **page_id:** `1da63f2b6fe6488abcb5c1f4066dbef0`
+- **page_name:** `Digital Archives & Heritage`
+- **page_title:** `Digital Archives & Heritage`
+- **route:** `/digital-archives-heritage-mobile`
+- **route_group:** `Mobile Experience`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Digital Archives & Heritage section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_navigation_present:** NO
+- **CTA_count:** 9
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 113: Jobs Abia | Employment & Talent Marketplace
+- **page_id:** `ed089c756d8d48a99d0952124c83da2f`
+- **page_name:** `Jobs Abia | Employment & Talent Marketplace`
+- **page_title:** `Jobs Abia | Employment & Talent Marketplace`
+- **route:** `/jobs-abia`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Jobs Abia | Employment & Talent Marketplace section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 26
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 114: Social Welfare | ABIA ONE
+- **page_id:** `01098b5bd76f4be1a9b7de7a963d0846`
+- **page_name:** `Social Welfare | ABIA ONE`
+- **page_title:** `Social Welfare | ABIA ONE`
+- **route:** `/social-welfare-2`
+- **route_group:** `Public Portal`
+- **page_category:** `public_information_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Social Welfare | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** N/A
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 27
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
+### Page 115: Ministry of Agriculture | ABIA ONE
+- **page_id:** `be44a9d39ae144f7bd8d5e87404a944d`
+- **page_name:** `Ministry of Agriculture | ABIA ONE`
+- **page_title:** `Ministry of Agriculture | ABIA ONE`
+- **route:** `/ministry-of-agriculture-3`
+- **route_group:** `Public Portal`
+- **page_category:** `transaction_page`
+- **page_subcategory:** `General Info`
+- **page_purpose:** Represents the Ministry of Agriculture | ABIA ONE section of the ABIA ONE platform.
+- **primary_audience:** Citizens & Stakeholders
+- **secondary_audience:** State Employees & Administrators
+- **parent_page:** `/`
+- **child_pages:** None
+- **associated_dashboard:** N/A
+- **associated_ministry:** Ministry of Agriculture
+- **associated_agency:** N/A
+- **associated_service:** N/A
+- **current_layout:** Responsive Grid / Bento Box
+- **navigation_pattern:** Header Navbar, Footer, and Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_navigation_present:** YES
+- **CTA_count:** 17
+- **governance_status:** `APPROVED_AS_MIGRATED`
+
+---
