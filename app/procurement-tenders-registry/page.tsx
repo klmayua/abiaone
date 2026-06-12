@@ -15,10 +15,10 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 </div>
 <div className="hidden md:flex items-center gap-8">
-<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Economy</a>
-<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="text-primary font-label-md text-label-md border-b-2 border-brass-gold pb-1" href="#">Governance</a>
-<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Security</a>
+<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="text-primary font-label-md text-label-md border-b-2 border-brass-gold pb-1" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </div>
 <div className="flex items-center gap-4">
 <button className="bg-forest-green text-white px-4 py-2 rounded-lg font-label-md text-label-md">Citizen Portal</button>
@@ -33,11 +33,11 @@ export default function Page() {
 <p className="font-body-md text-body-md text-on-surface-variant">Procurement Registry</p>
 </div>
 <nav className="flex-grow space-y-1">
-<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg bg-secondary-container text-on-secondary-container transition-all" href="#">
+<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg bg-secondary-container text-on-secondary-container transition-all" href="/open-abia">
 <span className="material-symbols-outlined">payments</span>
 <span className="font-label-sm text-label-sm">Procurement Dashboard</span>
 </a>
-<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="/open-abia">
 <span className="material-symbols-outlined">account_balance</span>
 <span className="font-label-sm text-label-sm">Active Tenders</span>
 </a>
@@ -45,7 +45,7 @@ export default function Page() {
 <span className="material-symbols-outlined">mitre</span>
 <span className="font-label-sm text-label-sm">Vendor Compliance</span>
 </a>
-<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<a className="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="/secure-abia">
 <span className="material-symbols-outlined">security</span>
 <span className="font-label-sm text-label-sm">Audit Trails</span>
 </a>
@@ -282,15 +282,15 @@ export default function Page() {
 <div className="space-y-4">
 <p className="font-label-caps text-label-caps text-forest-deep font-bold">INITIATIVES</p>
 <ul className="space-y-2">
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div className="space-y-4">
 <p className="font-label-caps text-label-caps text-forest-deep font-bold">LEGAL</p>
 <ul className="space-y-2">
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
 </ul>
 </div>

@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex justify-between items-center px-64 h-20 max-w-max-width mx-auto">
 <div className="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed">ABIA ONE</div>
 <div className="hidden md:flex gap-8">
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Economy</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Digital Gov</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Governance</a>
-<a className="text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold font-semibold pb-1" href="#">Security</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/local-governance">Governance</a>
+<a className="text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold font-semibold pb-1" href="/secure-abia">Security</a>
 </div>
 <button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition-all cursor-pointer">Citizen Portal</button>
 </div>

@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
 <div className="font-display-lg text-display-lg font-bold text-primary">ABIA ONE</div>
 <div className="hidden md:flex gap-8">
-<a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer transition-all duration-200" href="#">Economy</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Digital Gov</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Governance</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Security</a>
+<a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer transition-all duration-200" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Digital Gov</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/secure-abia">Security</a>
 </div>
 <button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-medium hover:opacity-90 active:opacity-80 transition-all">Citizen Portal</button>
 </div>
@@ -30,15 +30,15 @@ export default function Page() {
 <p className="font-caption text-caption text-on-surface-variant opacity-70">State Operating System</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-4 text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 transition-all duration-200" href="#">
+<a className="flex items-center gap-4 text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 transition-all duration-200" href="/economic-transformation">
 <span className="material-symbols-outlined">payments</span>
 <span className="font-body-md">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-4 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all duration-200" href="#">
+<a className="flex items-center gap-4 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all duration-200" href="/serve-abia">
 <span className="material-symbols-outlined">account_balance</span>
 <span className="font-body-md">Digital Government</span>
 </a>
-<a className="flex items-center gap-4 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all duration-200" href="#">
+<a className="flex items-center gap-4 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all duration-200" href="/local-governance">
 <span className="material-symbols-outlined">gavel</span>
 <span className="font-body-md">Transparent Governance</span>
 </a>
@@ -210,17 +210,17 @@ export default function Page() {
 <div className="grid grid-cols-2 md:flex gap-8 md:gap-12">
 <div className="flex flex-col gap-2">
 <p className="font-bold text-primary mb-2">Institutional Links</p>
-<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Abia Investment House</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="/invest-in-aba">Abia Investment House</a>
 <a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Ministry of Finance</a>
 </div>
 <div className="flex flex-col gap-2">
 <p className="font-bold text-primary mb-2">Transparency</p>
-<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Annual Budget Reports</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="/open-abia">Annual Budget Reports</a>
 <a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
 </div>
 <div className="flex flex-col gap-2">
 <p className="font-bold text-primary mb-2">Support</p>
-<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Investor Relations</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="/invest-in-aba">Investor Relations</a>
 <a className="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" href="#">Contact Support</a>
 </div>
 </div>

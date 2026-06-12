@@ -144,7 +144,7 @@ export default function Page() {
 {/*  BottomNavBar  */}
 <nav className="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-2 bg-surface dark:bg-surface-container-highest border-t border-outline-variant dark:border-outline shadow-sm rounded-t-full">
 {/*  Dashboard Active  */}
-<a className="flex flex-col items-center justify-center bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-full px-4 py-1 transition-all duration-200 ease-in-out" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-full px-4 py-1 transition-all duration-200 ease-in-out" href="/home-mobile">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>dashboard</span>
 <span className="font-label-md text-[10px]">Dashboard</span>
 </a>

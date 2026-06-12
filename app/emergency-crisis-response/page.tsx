@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-4">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
 <div className="hidden md:flex gap-6 ml-8">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-gold pb-1 transition-colors" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-gold pb-1 transition-colors" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -43,7 +43,7 @@ export default function Page() {
 </div>
 </div>
 <nav className="space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg transition-all font-body-md" href="#">
+<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg transition-all font-body-md" href="/">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>dashboard</span>
 <span>Live Dispatch</span>
 </a>
@@ -340,10 +340,10 @@ export default function Page() {
 <p className="font-body-md text-on-surface-variant">© 2024 Government of Abia State, Nigeria. Built for the Future. Ensuring public safety through digital excellence.</p>
 </div>
 <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-4">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a>
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
 </div>

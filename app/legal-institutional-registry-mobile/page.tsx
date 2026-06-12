@@ -136,7 +136,7 @@ export default function Page() {
 <nav className="fixed bottom-0 left-0 w-full z-50 rounded-t-full shadow-sm bg-surface-container-lowest dark:bg-on-background border-t border-outline-variant dark:border-slate-gray">
 <div className="flex justify-around items-center h-20 w-full px-base pb-safe">
 {/*  Hub is active because it houses the Registry/Library within the ecosystem  */}
-<a className="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 duration-200" href="#">
+<a className="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 duration-200" href="/home-mobile">
 <span className="material-symbols-outlined mb-1" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>

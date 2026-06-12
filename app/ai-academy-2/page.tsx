@@ -19,10 +19,10 @@ export default function Page() {
 <span className="font-headline-md text-headline-md text-forest-green font-semibold hidden md:block">AI Academy</span>
 </div>
 <nav className="hidden md:flex items-center gap-8">
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Serve Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Jobs Abia</a>
-<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="#">AI Academy</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Connect Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/serve-abia">Serve Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/jobs-abia">Jobs Abia</a>
+<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="/ai-academy">AI Academy</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/connect-abia">Connect Abia</a>
 </nav>
 <div className="flex items-center gap-6">
 <div className="hidden lg:flex items-center bg-surface-container rounded-lg px-3 py-1.5 border border-outline-variant">
@@ -316,7 +316,7 @@ export default function Page() {
 <h4 className="font-bold text-forest-green mb-6">Learning Portals</h4>
 <ul className="space-y-4">
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">AI Fundamentals</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Data Science</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/science-technology">Data Science</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Digital Entrepreneurship</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Web 3.0 Training</a></li>
 </ul>
@@ -325,7 +325,7 @@ export default function Page() {
 <h4 className="font-bold text-forest-green mb-6">Government</h4>
 <ul className="space-y-4">
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Transparency Portals</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Institutional News</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/news-press-center">Institutional News</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Contact Support</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">State Projects</a></li>
 </ul>
@@ -335,7 +335,7 @@ export default function Page() {
 <ul className="space-y-4">
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Privacy Policy</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Terms of Service</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Open Data Initiative</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/open-abia">Open Data Initiative</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">API Documentation</a></li>
 </ul>
 </div>

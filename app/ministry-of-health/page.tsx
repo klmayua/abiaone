@@ -17,7 +17,7 @@ export default function Page() {
 <p className="font-label-md text-label-md text-on-surface-variant opacity-70">Health OS v2.0</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-forest-green font-bold bg-surface-container-highest transition-all" href="#">
+<a className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-forest-green font-bold bg-surface-container-highest transition-all" href="/ministry-of-health">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md text-label-md">Health Index</span>
 </a>
@@ -312,7 +312,7 @@ export default function Page() {
 <div className="flex gap-8">
 <a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Privacy Policy</a>
 <a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Terms of Service</a>
-<a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Security Audit</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="/secure-abia">Security Audit</a>
 </div>
 </div>
 </footer>

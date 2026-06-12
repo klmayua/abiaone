@@ -17,10 +17,10 @@ export default function Page() {
                 ABIA ONE
             </div>
 <div className="hidden md:flex items-center gap-8 font-body-md text-body-md">
-<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="#">Serve Abia</a>
-<a className="text-forest-green dark:text-primary-fixed border-b-2 border-forest-green dark:border-primary-fixed pb-1" href="#">Jobs Abia</a>
-<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="#">AI Academy</a>
-<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="#">Connect Abia</a>
+<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="/serve-abia">Serve Abia</a>
+<a className="text-forest-green dark:text-primary-fixed border-b-2 border-forest-green dark:border-primary-fixed pb-1" href="/jobs-abia">Jobs Abia</a>
+<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="/ai-academy">AI Academy</a>
+<a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="/connect-abia">Connect Abia</a>
 </div>
 <div className="flex items-center gap-4">
 <button className="px-6 py-2 bg-forest-green text-white font-medium rounded-lg hover:opacity-90 transition-all cursor-pointer">
@@ -326,8 +326,8 @@ export default function Page() {
 <div className="flex flex-col gap-3">
 <h5 className="text-forest-green dark:text-primary-fixed font-bold mb-2">Platform</h5>
 <a className="text-on-surface-variant dark:text-surface-variant text-caption font-caption hover:text-brass-gold transition-colors" href="#">Transparency Portals</a>
-<a className="text-on-surface-variant dark:text-surface-variant text-caption font-caption hover:text-brass-gold transition-colors" href="#">Institutional News</a>
-<a className="text-on-surface-variant dark:text-surface-variant text-caption font-caption hover:text-brass-gold transition-colors" href="#">Jobs Abia</a>
+<a className="text-on-surface-variant dark:text-surface-variant text-caption font-caption hover:text-brass-gold transition-colors" href="/news-press-center">Institutional News</a>
+<a className="text-on-surface-variant dark:text-surface-variant text-caption font-caption hover:text-brass-gold transition-colors" href="/jobs-abia">Jobs Abia</a>
 </div>
 <div className="flex flex-col gap-3">
 <h5 className="text-forest-green dark:text-primary-fixed font-bold mb-2">Legal</h5>

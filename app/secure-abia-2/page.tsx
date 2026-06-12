@@ -18,23 +18,23 @@ export default function Page() {
 </div>
 <nav className="flex-1 space-y-1">
 {/*  Command Center is Active  */}
-<a className="flex items-center gap-3 px-3 py-3 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant rounded-lg transition-all group" href="#">
+<a className="flex items-center gap-3 px-3 py-3 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant rounded-lg transition-all group" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md text-label-md">Command Center</span>
 </a>
-<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="/ministry-of-communication">
 <span className="material-symbols-outlined">campaign</span>
 <span className="font-label-md text-label-md">Communications</span>
 </a>
-<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="/ministry-of-agriculture">
 <span className="material-symbols-outlined">agriculture</span>
 <span className="font-label-md text-label-md">Agriculture</span>
 </a>
-<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="/ministry-of-health">
 <span className="material-symbols-outlined">medical_services</span>
 <span className="font-label-md text-label-md">Health</span>
 </a>
-<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="/greater-aba-development-authority">
 <span className="material-symbols-outlined">location_city</span>
 <span className="font-label-md text-label-md">GADA</span>
 </a>
@@ -69,7 +69,7 @@ export default function Page() {
 <div className="hidden md:flex h-6 w-px bg-outline-variant mx-2"></div>
 <div className="hidden md:flex items-center gap-6">
 <a className="text-forest-green font-bold border-b-2 border-forest-green py-5 font-label-md text-label-md" href="#">Real-Time Ops</a>
-<a className="text-on-surface-variant hover:text-forest-green py-5 transition-colors font-label-md text-label-md" href="#">Incident Logs</a>
+<a className="text-on-surface-variant hover:text-forest-green py-5 transition-colors font-label-md text-label-md" href="/secure-abia">Incident Logs</a>
 <a className="text-on-surface-variant hover:text-forest-green py-5 transition-colors font-label-md text-label-md" href="#">Asset Tracking</a>
 </div>
 </div>
@@ -300,7 +300,7 @@ export default function Page() {
 <div className="flex gap-4">
 <a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Privacy Policy</a>
 <a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Terms of Service</a>
-<a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Security Audit</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="/secure-abia">Security Audit</a>
 </div>
 </div>
 </footer>

@@ -17,7 +17,7 @@ export default function Page() {
 <p className="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest mt-1">Command Center</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg transition-transform scale-95" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg transition-transform scale-95" href="/">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>
@@ -41,7 +41,7 @@ export default function Page() {
 <span className="material-symbols-outlined" data-icon="badge">badge</span>
 <span className="font-label-md text-label-md">Personnel</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-label-md text-label-md">Security</span>
 </a>
@@ -68,9 +68,9 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <h2 className="font-headline-md text-headline-md font-bold text-forest-green">Micro-Credit Dashboard</h2>
 <nav className="hidden md:flex gap-6">
-<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
 </nav>
 </div>
@@ -296,7 +296,7 @@ export default function Page() {
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors underline" href="#">Privacy Policy</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors underline" href="#">Terms of Service</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors underline" href="#">Contact Us</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors underline" href="#">Press Office</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors underline" href="/news-press-center">Press Office</a>
 </div>
 </footer>
 </main>

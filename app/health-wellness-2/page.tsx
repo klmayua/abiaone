@@ -19,11 +19,11 @@ export default function Page() {
 <span className="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Health</span>
 </div>
 <div className="hidden md:flex items-center space-x-8">
-<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1 transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1 transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/local-governance">Governance</a>
 </div>
 <div className="flex items-center gap-6">
 <div className="flex gap-4">
@@ -158,7 +158,7 @@ export default function Page() {
 <span className="material-symbols-outlined text-secondary text-[32px] mb-4">monitoring</span>
 <h4 className="font-headline-md text-[20px] text-on-surface mb-2">Health Statistics</h4>
 <p className="font-body-md text-body-md text-on-surface-variant mb-6 text-sm">Transparent real-time data on disease surveillance, birth rates, and hospital capacity across the state.</p>
-<a className="text-forest-green font-label-md text-label-md font-bold underline" href="#">View Dashboard</a>
+<a className="text-forest-green font-label-md text-label-md font-bold underline" href="/">View Dashboard</a>
 </div>
 </div>
 </section>
@@ -245,8 +245,8 @@ export default function Page() {
 <ul className="space-y-2">
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">ASHIA Enrollment</a></li>
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Facility Directory</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Wellness Portal</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Medical Careers</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/ministry-of-health">Wellness Portal</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/jobs-abia">Medical Careers</a></li>
 </ul>
 </div>
 <div>
@@ -254,7 +254,7 @@ export default function Page() {
 <ul className="space-y-2">
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a></li>
 </ul>
 </div>
 <div className="col-span-2 md:col-span-1">

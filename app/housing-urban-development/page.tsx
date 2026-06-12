@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <nav className="hidden md:flex gap-6">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -35,11 +35,11 @@ export default function Page() {
 <p className="font-body-md text-on-surface-variant text-sm">Abia Development Authority</p>
 </div>
 <nav className="flex-grow flex flex-col gap-2">
-<a className="flex items-center gap-4 px-6 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all" href="#">
+<a className="flex items-center gap-4 px-6 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md">Overview</span>
 </a>
-<a className="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg transition-all" href="/aba-20">
 <span className="material-symbols-outlined">home_work</span>
 <span className="font-label-md">Housing Registry</span>
 </a>
@@ -313,15 +313,15 @@ export default function Page() {
 <div>
 <h5 className="font-label-caps text-label-caps text-on-surface mb-4">ECOSYSTEM</h5>
 <ul className="flex flex-col gap-2 text-sm text-on-surface-variant">
-<li><a className="hover:text-brass-accent underline decoration-brass-accent" href="#">Invest Abia</a></li>
-<li><a className="hover:text-brass-accent" href="#">Serve Abia</a></li>
-<li><a className="hover:text-brass-accent" href="#">Build Abia</a></li>
+<li><a className="hover:text-brass-accent underline decoration-brass-accent" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="hover:text-brass-accent" href="/serve-abia">Serve Abia</a></li>
+<li><a className="hover:text-brass-accent" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
 <h5 className="font-label-caps text-label-caps text-on-surface mb-4">GOVERNANCE</h5>
 <ul className="flex flex-col gap-2 text-sm text-on-surface-variant">
-<li><a className="hover:text-brass-accent" href="#">Open Abia</a></li>
+<li><a className="hover:text-brass-accent" href="/open-abia">Open Abia</a></li>
 <li><a className="hover:text-brass-accent" href="#">Privacy Policy</a></li>
 <li><a className="hover:text-brass-accent" href="#">Contact Us</a></li>
 </ul>

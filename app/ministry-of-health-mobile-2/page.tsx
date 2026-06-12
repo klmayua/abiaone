@@ -19,7 +19,7 @@ export default function Page() {
 </div>
 <div className="hidden md:flex items-center gap-8">
 <nav className="flex gap-6">
-<a className="font-label-md text-label-md text-forest-green hover:opacity-80 transition-opacity" href="#">Health Services</a>
+<a className="font-label-md text-label-md text-forest-green hover:opacity-80 transition-opacity" href="/ministry-of-health-mobile">Health Services</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Logistics</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Reporting</a>
 </nav>
@@ -250,7 +250,7 @@ export default function Page() {
 </main>
 {/*  BottomNavBar (Mobile Only)  */}
 <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest border-t border-outline-variant shadow-sm px-base pb-safe h-20 flex justify-around items-center">
-<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-transform active:scale-90 duration-200" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-transform active:scale-90 duration-200" href="/home-mobile">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>

@@ -16,10 +16,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-md text-headline-md text-forest-green font-semibold tracking-tighter cursor-pointer">ABIA ONE</span>
 <div className="hidden md:flex gap-6">
-<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer transition-all" href="#">Serve Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Jobs Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">AI Academy</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Connect Abia</a>
+<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer transition-all" href="/serve-abia">Serve Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/jobs-abia">Jobs Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/ai-academy">AI Academy</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/connect-abia">Connect Abia</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -190,7 +190,7 @@ export default function Page() {
 </div>
 <ul className="space-y-3">
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Tax Clearance Certificates</a></li>
-<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Trade Licenses</a></li>
+<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="/economic-transformation">Trade Licenses</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Small Business Grants</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Export Permits</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Contractor Registration</a></li>
@@ -203,9 +203,9 @@ export default function Page() {
 <h3 className="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Infrastructure</h3>
 </div>
 <ul className="space-y-3">
-<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Building Plan Approval</a></li>
-<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Land Ownership Records</a></li>
-<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Utility Connections</a></li>
+<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="/build-abia">Building Plan Approval</a></li>
+<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="/land-property">Land Ownership Records</a></li>
+<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="/connect-abia">Utility Connections</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Waste Management Fees</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">GIS Mapping Services</a></li>
 </ul>
@@ -231,7 +231,7 @@ export default function Page() {
 <h3 className="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Health</h3>
 </div>
 <ul className="space-y-3">
-<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Health Facility Finder</a></li>
+<li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="/ministry-of-health">Health Facility Finder</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Immunization Schedules</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Medical Practitioner License</a></li>
 <li><a className="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Blood Bank Registry</a></li>
@@ -265,8 +265,8 @@ export default function Page() {
 <div className="flex flex-col gap-3">
 <h4 className="font-label-md text-on-surface font-bold uppercase mb-2">Resources</h4>
 <a className="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Transparency Portals</a>
-<a className="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Institutional News</a>
-<a className="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">State Budget</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Institutional News</a>
+<a className="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">State Budget</a>
 </div>
 <div className="flex flex-col gap-3">
 <h4 className="font-label-md text-on-surface font-bold uppercase mb-2">Legal</h4>

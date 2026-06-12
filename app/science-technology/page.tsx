@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
 <div className="hidden md:flex gap-6">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -33,7 +33,7 @@ export default function Page() {
 <p className="text-xs text-on-surface-variant opacity-70">Modern Governance OS</p>
 </div>
 <nav className="flex-1 space-y-2">
-<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all translate-x-1" href="#">
+<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all translate-x-1" href="/science-technology">
 <span className="material-symbols-outlined">mitre</span>
 <span className="font-label-sm text-label-sm">Science &amp; Tech Hub</span>
 </a>
@@ -45,7 +45,7 @@ export default function Page() {
 <span className="material-symbols-outlined">account_balance</span>
 <span className="font-label-sm text-label-sm">IP Protection</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all rounded-lg" href="/secure-abia">
 <span className="material-symbols-outlined">security</span>
 <span className="font-label-sm text-label-sm">Tech Parks</span>
 </a>
@@ -292,14 +292,14 @@ export default function Page() {
 </div>
 <div className="col-span-1 flex flex-col gap-3">
 <h6 className="font-label-caps text-label-caps font-bold text-forest-green">Ecosystem</h6>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Invest Abia</a>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Serve Abia</a>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Build Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="/invest-in-aba">Invest Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="/serve-abia">Serve Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="/build-abia">Build Abia</a>
 </div>
 <div className="col-span-1 flex flex-col gap-3">
 <h6 className="font-label-caps text-label-caps font-bold text-forest-green">Resources</h6>
 <a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">IP Protection Hub</a>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Open Data Portal</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="/open-abia">Open Data Portal</a>
 <a className="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Privacy Policy</a>
 </div>
 <div className="col-span-1 flex flex-col gap-3">

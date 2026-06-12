@@ -16,10 +16,10 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 </div>
 <nav className="hidden md:flex gap-8 items-center h-full">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 <div className="flex items-center gap-4">
 <button className="hidden md:block px-4 py-2 border border-brass-gold text-secondary font-medium text-sm rounded-lg hover:bg-secondary-container transition-all">Emergency</button>
@@ -39,19 +39,19 @@ export default function Page() {
 </div>
 </div>
 <nav className="flex flex-col gap-1">
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/economic-transformation">
 <span className="material-symbols-outlined text-[20px]">payments</span>
 <span className="font-label-md text-sm">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg transition-all translate-x-1" href="#">
+<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg transition-all translate-x-1" href="/digital-archives-heritage">
 <span className="material-symbols-outlined text-[20px]" style={{"fontVariationSettings":"'FILL' 1"}}>mitre</span>
 <span className="font-label-md text-sm">Cultural Heritage</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/serve-abia">
 <span className="material-symbols-outlined text-[20px]">account_balance</span>
 <span className="font-label-md text-sm">Digital Government</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/secure-abia">
 <span className="material-symbols-outlined text-[20px]">security</span>
 <span className="font-label-md text-sm">Public Trust</span>
 </a>
@@ -159,7 +159,7 @@ export default function Page() {
 <div className="flex-1 flex flex-col justify-center">
 <h4 className="font-headline-md text-lg text-forest-deep">State Museum Digital Archive</h4>
 <p className="font-body-md text-sm text-on-surface-variant mt-2">Access high-resolution 3D scans of the Ohafia War Dance regalia and historical Nok-influence ceramics.</p>
-<a className="inline-flex items-center gap-2 text-forest-green font-bold text-sm mt-4 group" href="#">
+<a className="inline-flex items-center gap-2 text-forest-green font-bold text-sm mt-4 group" href="/open-abia">
                                 Open Explorer <span className="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_right_alt</span>
 </a>
 </div>
@@ -291,10 +291,10 @@ export default function Page() {
 <div>
 <h5 className="font-label-md text-sm font-bold text-forest-deep mb-4 uppercase tracking-widest">Connect</h5>
 <ul className="flex flex-col gap-2">
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Invest Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Serve Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Build Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Open Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/build-abia">Build Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 <div>
@@ -309,7 +309,7 @@ export default function Page() {
 <p>© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
 <div className="flex gap-6">
 <a className="hover:underline" href="#">Transparency Portal</a>
-<a className="hover:underline" href="#">E-Governance Hub</a>
+<a className="hover:underline" href="/local-governance">E-Governance Hub</a>
 </div>
 </div>
 </div>

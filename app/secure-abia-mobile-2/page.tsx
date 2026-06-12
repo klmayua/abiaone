@@ -136,7 +136,7 @@ export default function Page() {
 </main>
 {/*  Bottom Navigation Bar  */}
 <nav className="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-2 bg-surface dark:bg-surface-container-highest border-t border-outline-variant shadow-sm rounded-t-full">
-<a className="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-200" href="#">
+<a className="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-200" href="/home-mobile">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>

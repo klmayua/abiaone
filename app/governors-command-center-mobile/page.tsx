@@ -199,7 +199,7 @@ export default function Page() {
 {/*  Bottom Navigation Bar  */}
 <nav className="fixed bottom-0 left-0 w-full z-50 bg-surface-container-lowest border-t border-outline-variant shadow-sm h-20 px-base pb-safe flex justify-around items-center rounded-t-full">
 {/*  Dashboard (Active)  */}
-<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200" href="/home-mobile">
 <span className="material-symbols-outlined fill-icon" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>

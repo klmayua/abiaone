@@ -18,10 +18,10 @@ export default function Page() {
 <span className="hidden md:block font-label-caps text-sm tracking-widest text-primary font-bold">HEALTH PORTAL</span>
 </div>
 <nav className="hidden lg:flex gap-8 items-center">
-<a className="font-label-caps text-sm text-primary border-b-2 border-brass-gold pb-1 transition-all duration-200" href="#">Economy</a>
-<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-caps text-sm text-primary border-b-2 border-brass-gold pb-1 transition-all duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-caps text-sm text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 <div className="flex items-center gap-4">
 <button className="hidden md:flex items-center gap-2 px-4 py-2 border border-eagle-red text-eagle-red rounded-lg font-medium hover:bg-eagle-red/5 transition-all">
@@ -262,10 +262,10 @@ export default function Page() {
 <div>
 <h5 className="font-label-caps text-primary font-bold mb-4">PLATFORMS</h5>
 <ul className="space-y-2 text-sm text-on-surface-variant">
-<li><a className="hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
-<li><a className="hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
-<li><a className="hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
-<li><a className="hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 <div>
@@ -273,8 +273,8 @@ export default function Page() {
 <ul className="space-y-2 text-sm text-on-surface-variant">
 <li><a className="hover:text-brass-gold transition-colors" href="#">PHC Locator</a></li>
 <li><a className="hover:text-brass-gold transition-colors" href="#">ASCHIA Portal</a></li>
-<li><a className="hover:text-brass-gold transition-colors" href="#">Health Stats</a></li>
-<li><a className="hover:text-brass-gold transition-colors" href="#">Public Health News</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/ministry-of-health">Health Stats</a></li>
+<li><a className="hover:text-brass-gold transition-colors" href="/ministry-of-health">Public Health News</a></li>
 </ul>
 </div>
 <div>

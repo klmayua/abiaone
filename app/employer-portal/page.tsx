@@ -16,10 +16,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-display-lg text-headline-md font-bold text-primary">ABIA ONE</span>
 <nav className="hidden md:flex gap-6">
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Economy</a>
-<a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 transition-colors cursor-pointer" href="#">Jobs</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Governance</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="#">Security</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
+<a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 transition-colors cursor-pointer" href="/jobs-abia">Jobs</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -38,7 +38,7 @@ export default function Page() {
 <p className="text-on-surface-variant text-caption">State Operating System</p>
 </div>
 <nav className="flex-1 flex flex-col">
-<a className="text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 flex items-center gap-3" href="#">
+<a className="text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 flex items-center gap-3" href="/economic-transformation">
 <span className="material-symbols-outlined">dashboard</span> Economic Transformation
             </a>
 <a className="text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3" href="#">
@@ -47,7 +47,7 @@ export default function Page() {
 <a className="text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3" href="#">
 <span className="material-symbols-outlined">groups</span> Artisan Matching
             </a>
-<a className="text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3" href="#">
+<a className="text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3" href="/sme-growth-support">
 <span className="material-symbols-outlined">handshake</span> SME Support
             </a>
 </nav>

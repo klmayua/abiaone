@@ -15,11 +15,11 @@ export default function Page() {
 <div className="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-16">
 <div className="font-headline-md text-headline-md font-bold text-forest-green">ABIA ONE</div>
 <div className="hidden md:flex items-center space-x-8">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="#">Serve</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/local-governance">Governance</a>
 </div>
 <div className="flex items-center space-x-4">
 <span className="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-forest-green" data-icon="language">language</span>
@@ -36,7 +36,7 @@ export default function Page() {
 <p className="font-caption text-caption text-on-surface-variant">State Operating System</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center space-x-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<a className="flex items-center space-x-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="/">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>
@@ -60,7 +60,7 @@ export default function Page() {
 <span className="material-symbols-outlined" data-icon="badge">badge</span>
 <span className="font-label-md text-label-md">Personnel</span>
 </a>
-<a className="flex items-center space-x-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<a className="flex items-center space-x-3 px-3 py-2 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-label-md text-label-md">Security</span>
 </a>
@@ -276,7 +276,7 @@ export default function Page() {
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a>
 </div>
 </div>
 </footer>

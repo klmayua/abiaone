@@ -17,11 +17,11 @@ export default function Page() {
             ABIA ONE
         </div>
 <div className="hidden md:flex items-center space-x-8">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/local-governance">Governance</a>
 </div>
 <div className="flex items-center space-x-4">
 <span className="material-symbols-outlined text-on-surface-variant cursor-pointer">language</span>
@@ -35,7 +35,7 @@ export default function Page() {
 <h3 className="font-headline-sm text-headline-md font-bold text-forest-green">Command Center</h3>
 <p className="font-label-md text-on-surface-variant text-xs">State Operating System</p>
 </div>
-<a className="flex items-center space-x-3 p-3 text-on-surface-variant hover:bg-surface-container-highest rounded-lg transition-all" href="#">
+<a className="flex items-center space-x-3 p-3 text-on-surface-variant hover:bg-surface-container-highest rounded-lg transition-all" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md">Dashboard</span>
 </a>
@@ -254,7 +254,7 @@ export default function Page() {
 <div className="flex flex-col space-y-2">
 <span className="font-label-md font-bold text-forest-green uppercase text-xs">Reach Out</span>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a>
 </div>
 </div>
 </footer>

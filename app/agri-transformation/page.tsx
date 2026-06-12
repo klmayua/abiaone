@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-4">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
 <nav className="hidden md:flex gap-8 ml-12">
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -40,19 +40,19 @@ export default function Page() {
 </div>
 </div>
 <nav className="space-y-1">
-<a className="flex items-center gap-3 p-3 bg-secondary-container text-on-secondary-container rounded-lg mx-0 translate-x-1 duration-150" href="#">
+<a className="flex items-center gap-3 p-3 bg-secondary-container text-on-secondary-container rounded-lg mx-0 translate-x-1 duration-150" href="/economic-transformation">
 <span className="material-symbols-outlined" data-icon="payments">payments</span>
 <span className="font-label-md text-label-md">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/serve-abia">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
 <span className="font-label-md text-label-md">Digital Government</span>
 </a>
-<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/local-governance">
 <span className="material-symbols-outlined" data-icon="vptree">mitre</span>
 <span className="font-label-md text-label-md">Transparent Governance</span>
 </a>
-<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 p-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security" data-weight="fill" style={{"fontVariationSettings":"'FILL' 1"}}>security</span>
 <span className="font-label-md text-label-md">Public Trust</span>
 </a>
@@ -285,7 +285,7 @@ export default function Page() {
 <div>
 <div className="font-label-caps text-label-caps text-primary font-bold mb-4">Invest Abia</div>
 <ul className="space-y-2 font-body-md text-body-md text-on-surface-variant">
-<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Agriculture</a></li>
+<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="/ministry-of-agriculture">Agriculture</a></li>
 <li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Industry</a></li>
 <li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Tech Parks</a></li>
 </ul>
@@ -293,8 +293,8 @@ export default function Page() {
 <div>
 <div className="font-label-caps text-label-caps text-primary font-bold mb-4">Serve Abia</div>
 <ul className="space-y-2 font-body-md text-body-md text-on-surface-variant">
-<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Education</a></li>
-<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Health</a></li>
+<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="/education-learning">Education</a></li>
+<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="/ministry-of-health">Health</a></li>
 <li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Welfare</a></li>
 </ul>
 </div>
@@ -302,7 +302,7 @@ export default function Page() {
 <div className="font-label-caps text-label-caps text-primary font-bold mb-4">Open Abia</div>
 <ul className="space-y-2 font-body-md text-body-md text-on-surface-variant">
 <li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Data Portal</a></li>
-<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Budget</a></li>
+<li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="/open-abia">Budget</a></li>
 <li><a className="hover:text-brass-accent underline-offset-4 hover:underline" href="#">Laws</a></li>
 </ul>
 </div>

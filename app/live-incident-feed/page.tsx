@@ -17,23 +17,23 @@ export default function Page() {
 <p className="font-label-md text-label-md text-on-surface-variant opacity-70">Abia One OS v2.0</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 text-forest-green font-bold bg-surface-container-highest rounded-lg transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-forest-green font-bold bg-surface-container-highest rounded-lg transition-all" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md text-label-md">Command Center</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="/ministry-of-communication">
 <span className="material-symbols-outlined">campaign</span>
 <span className="font-label-md text-label-md">Communications</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="/ministry-of-agriculture">
 <span className="material-symbols-outlined">agriculture</span>
 <span className="font-label-md text-label-md">Agriculture</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="/ministry-of-health">
 <span className="material-symbols-outlined">medical_services</span>
 <span className="font-label-md text-label-md">Health</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container transition-all rounded-lg" href="/greater-aba-development-authority">
 <span className="material-symbols-outlined">location_city</span>
 <span className="font-label-md text-label-md">GADA</span>
 </a>
@@ -314,7 +314,7 @@ export default function Page() {
 <div className="flex items-center gap-6">
 <a className="text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Privacy Policy</a>
 <a className="text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Terms of Service</a>
-<a className="text-caption text-on-surface-variant hover:text-forest-green transition-colors font-bold flex items-center gap-1" href="#">
+<a className="text-caption text-on-surface-variant hover:text-forest-green transition-colors font-bold flex items-center gap-1" href="/secure-abia">
 <span className="w-2 h-2 rounded-full bg-forest-green"></span>
                     Security Audit Passed
                 </a>

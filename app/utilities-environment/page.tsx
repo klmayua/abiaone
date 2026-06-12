@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed uppercase tracking-tighter">ABIA ONE</span>
 <div className="hidden md:flex gap-6 items-center">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -42,7 +42,7 @@ export default function Page() {
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>delete</span>
 <span className="font-body-md font-semibold">Waste Management</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all group" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all group" href="/water-resources-irrigation">
 <span className="material-symbols-outlined">water_drop</span>
 <span className="font-body-md">Water Projects</span>
 </a>
@@ -50,7 +50,7 @@ export default function Page() {
 <span className="material-symbols-outlined">construction</span>
 <span className="font-body-md">Public Works</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all group" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all group" href="/open-abia">
 <span className="material-symbols-outlined">description</span>
 <span className="font-body-md">Active Tenders</span>
 </a>
@@ -251,10 +251,10 @@ export default function Page() {
 <div>
 <h5 className="font-label-caps text-label-caps text-forest-deep mb-6 font-bold">Government</h5>
 <ul className="space-y-3">
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 <div>

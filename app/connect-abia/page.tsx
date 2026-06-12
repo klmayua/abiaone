@@ -17,10 +17,10 @@ export default function Page() {
 <span className="font-headline-md text-headline-md text-forest-green font-semibold">ABIA ONE</span>
 </div>
 <nav className="hidden md:flex gap-8 items-center">
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Serve Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Jobs Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">AI Academy</a>
-<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="#">Connect Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/serve-abia">Serve Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/jobs-abia">Jobs Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/ai-academy">AI Academy</a>
+<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="/connect-abia">Connect Abia</a>
 </nav>
 <div className="flex items-center gap-4">
 <button className="bg-forest-green text-state-white px-6 py-2 rounded font-body-md font-medium hover:opacity-90 active:opacity-80 transition-all">
@@ -297,7 +297,7 @@ export default function Page() {
 <div className="col-span-1 flex flex-col gap-3">
 <span className="font-label-md text-forest-green font-bold mb-2">Connect</span>
 <a className="font-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Transparency Portals</a>
-<a className="font-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Institutional News</a>
+<a className="font-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Institutional News</a>
 <a className="font-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Support</a>
 </div>
 <div className="col-span-1 flex flex-col gap-3">

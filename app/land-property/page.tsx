@@ -17,10 +17,10 @@ export default function Page() {
 <span className="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed">ABIA ONE</span>
 </div>
 <div className="hidden md:flex gap-8 items-center">
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Economy</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Digital Gov</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Governance</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Security</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="/secure-abia">Security</a>
 <div className="ml-4 px-6 py-2 bg-primary-container text-on-primary font-semibold rounded-lg cursor-pointer transition-all duration-200 active:opacity-80">
                     Citizen Portal
                 </div>
@@ -39,15 +39,15 @@ export default function Page() {
 <p className="text-caption font-caption text-on-surface-variant">State Operating System</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="/economic-transformation">
 <span className="material-symbols-outlined">payments</span>
 <span>Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 text-forest-green dark:text-primary-fixed font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3" href="#">
+<a className="flex items-center gap-3 text-forest-green dark:text-primary-fixed font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3" href="/serve-abia">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>account_balance</span>
 <span>Digital Government</span>
 </a>
-<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="/local-governance">
 <span className="material-symbols-outlined">gavel</span>
 <span>Transparent Governance</span>
 </a>

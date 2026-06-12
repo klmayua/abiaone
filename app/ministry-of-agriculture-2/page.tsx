@@ -17,7 +17,7 @@ export default function Page() {
 <p className="font-label-md text-label-md text-on-surface-variant opacity-70">State Operating System</p>
 </div>
 <div className="space-y-1 flex-grow">
-<a className="flex items-center space-x-3 p-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<a className="flex items-center space-x-3 p-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>
@@ -60,11 +60,11 @@ export default function Page() {
 <div className="flex items-center space-x-8">
 <span className="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim">ABIA ONE</span>
 <nav className="hidden lg:flex space-x-6">
-<a className="font-label-md text-label-md text-forest-green dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1 transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-forest-green dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1 transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/local-governance">Governance</a>
 </nav>
 </div>
 <div className="flex items-center space-x-4">
@@ -378,9 +378,9 @@ export default function Page() {
 <div>
 <h5 className="font-label-md text-forest-green mb-4">Resources</h5>
 <ul className="space-y-2">
-<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Data</a></li>
-<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Budget Report</a></li>
-<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Investment Guide</a></li>
+<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Data</a></li>
+<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Budget Report</a></li>
+<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Investment Guide</a></li>
 </ul>
 </div>
 <div>
@@ -388,7 +388,7 @@ export default function Page() {
 <ul className="space-y-2">
 <li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
 <li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a></li>
-<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a></li>
+<li><a className="text-sm text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a></li>
 </ul>
 </div>
 </div>

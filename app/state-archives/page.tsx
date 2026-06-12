@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <div className="hidden md:flex gap-6 items-center">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -35,7 +35,7 @@ export default function Page() {
 <p className="font-caption text-caption text-outline">Modern Governance OS</p>
 </div>
 <nav className="flex flex-col gap-1">
-<a className="flex items-center gap-3 px-4 py-3 mx-2 bg-secondary-container text-on-secondary-container rounded-lg translate-x-1 duration-150" href="#">
+<a className="flex items-center gap-3 px-4 py-3 mx-2 bg-secondary-container text-on-secondary-container rounded-lg translate-x-1 duration-150" href="/digital-archives-heritage">
 <span className="material-symbols-outlined">account_balance</span>
 <span className="font-label-md text-label-md">Executive Archives</span>
 </a>
@@ -47,7 +47,7 @@ export default function Page() {
 <span className="material-symbols-outlined">payments</span>
 <span className="font-label-md text-label-md">Economic Records</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="/secure-abia">
 <span className="material-symbols-outlined">security</span>
 <span className="font-label-md text-label-md">Public Trust Data</span>
 </a>
@@ -194,13 +194,13 @@ export default function Page() {
 <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
 <div className="flex flex-col gap-2">
 <span className="font-label-md text-label-md uppercase text-outline mb-2">Ecosystem</span>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a>
 </div>
 <div className="flex flex-col gap-2">
 <span className="font-label-md text-label-md uppercase text-outline mb-2">Resources</span>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
 </div>

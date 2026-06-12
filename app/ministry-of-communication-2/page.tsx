@@ -16,10 +16,10 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 </div>
 <nav className="hidden md:flex gap-8">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </nav>
 <div className="flex items-center gap-4">
 <button className="bg-primary text-white px-4 py-2 rounded-lg font-label-md text-label-md hover:opacity-90 transition-all">Citizen Portal</button>
@@ -206,13 +206,13 @@ export default function Page() {
 <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
 <div className="flex flex-col gap-3">
 <span className="font-label-caps text-label-caps text-primary font-bold">INITIATIVES</span>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Invest Abia</a>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Serve Abia</a>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Build Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="/invest-in-aba">Invest Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="/serve-abia">Serve Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="/build-abia">Build Abia</a>
 </div>
 <div className="flex flex-col gap-3">
 <span className="font-label-caps text-label-caps text-primary font-bold">GOVERNANCE</span>
-<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Open Abia</a>
+<a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="/open-abia">Open Abia</a>
 <a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Privacy Policy</a>
 <a className="text-on-surface-variant hover:text-brass-accent transition-colors underline decoration-brass-accent" href="#">Contact Us</a>
 </div>

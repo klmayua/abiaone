@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-4">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <div className="hidden md:flex gap-6 ml-8">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-3">
@@ -40,20 +40,20 @@ export default function Page() {
 </div>
 </div>
 <nav className="flex-grow space-y-1">
-<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="#">
+<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="/economic-transformation">
 <span className="material-symbols-outlined" data-icon="payments">payments</span> Economic Transformation
             </a>
-<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="#">
+<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="/serve-abia">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span> Digital Government
             </a>
-<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="#">
+<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="/local-governance">
 <span className="material-symbols-outlined" data-icon="vptree">mitre</span> Transparent Governance
             </a>
-<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="#">
+<a className="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all font-label-sm text-label-sm" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span> Public Trust
             </a>
 <div className="h-px bg-outline-variant mx-4 my-4"></div>
-<a className="flex items-center gap-3 py-3 px-4 mx-2 bg-secondary-container text-on-secondary-container rounded-lg font-label-sm text-label-sm translate-x-1" href="#">
+<a className="flex items-center gap-3 py-3 px-4 mx-2 bg-secondary-container text-on-secondary-container rounded-lg font-label-sm text-label-sm translate-x-1" href="/women-gender-affairs">
 <span className="material-symbols-outlined" data-icon="female">female</span> Women &amp; Gender Affairs
             </a>
 </nav>
@@ -222,15 +222,15 @@ export default function Page() {
 <div>
 <h4 className="font-label-caps text-label-caps font-bold mb-4">Platforms</h4>
 <ul className="space-y-2">
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Invest Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Serve Abia</a></li>
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Build Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
 <h4 className="font-label-caps text-label-caps font-bold mb-4">Resources</h4>
 <ul className="space-y-2">
-<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Open Abia</a></li>
+<li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="/open-abia">Open Abia</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Privacy Policy</a></li>
 <li><a className="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Contact Us</a></li>
 </ul>

@@ -16,10 +16,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-md text-headline-md text-forest-green font-semibold">ABIA ONE</span>
 <div className="hidden md:flex gap-6 items-center">
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Serve Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Jobs Abia</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">AI Academy</a>
-<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="#">Connect Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/serve-abia">Serve Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/jobs-abia">Jobs Abia</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="/ai-academy">AI Academy</a>
+<a className="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer" href="/connect-abia">Connect Abia</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -275,15 +275,15 @@ export default function Page() {
 <h5 className="font-bold text-forest-green mb-4">Portals</h5>
 <ul className="space-y-2">
 <li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Transparency Portals</a></li>
-<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Institutional News</a></li>
-<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Investment Gateway</a></li>
+<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="/news-press-center">Institutional News</a></li>
+<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="/invest-in-aba">Investment Gateway</a></li>
 </ul>
 </div>
 <div className="col-span-1">
 <h5 className="font-bold text-forest-green mb-4">Support</h5>
 <ul className="space-y-2">
 <li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Contact Support</a></li>
-<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Trade Inquiries</a></li>
+<li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="/economic-transformation">Trade Inquiries</a></li>
 <li><a className="text-on-surface-variant font-caption text-caption hover:text-brass-gold transition-colors" href="#">Technical Helpdesk</a></li>
 </ul>
 </div>

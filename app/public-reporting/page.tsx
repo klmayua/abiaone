@@ -18,10 +18,10 @@ export default function Page() {
 <span className="font-label-md text-caption bg-secondary-container px-2 py-0.5 rounded text-on-secondary-container">PUBLIC PORTAL</span>
 </div>
 <nav className="hidden md:flex items-center gap-8">
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Economy</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="text-primary font-semibold border-b-2 border-brass-gold pb-1" href="#">Governance</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="#">Security</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="text-primary font-semibold border-b-2 border-brass-gold pb-1" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 <div className="flex items-center gap-4">
 <div className="relative group">
@@ -149,7 +149,7 @@ export default function Page() {
 <div>
 <h4 className="font-label-md text-primary mb-4">Resources</h4>
 <ul className="space-y-2 font-caption text-on-surface-variant">
-<li><a className="hover:text-primary transition-colors" href="#">Digital Gov Docs</a></li>
+<li><a className="hover:text-primary transition-colors" href="/serve-abia">Digital Gov Docs</a></li>
 <li><a className="hover:text-primary transition-colors" href="#">Service Level Agreements</a></li>
 <li><a className="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
 </ul>

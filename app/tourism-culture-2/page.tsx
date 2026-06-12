@@ -15,11 +15,11 @@ export default function Page() {
 <nav className="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-16">
 <div className="font-headline-md text-headline-md font-bold text-forest-green">ABIA ONE</div>
 <div className="hidden md:flex items-center space-y-0 space-x-8">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1 transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1 transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/local-governance">Governance</a>
 </div>
 <div className="flex items-center gap-6">
 <div className="flex items-center gap-4">
@@ -230,9 +230,9 @@ export default function Page() {
 <div className="grid grid-cols-2 sm:grid-cols-4 gap-12 flex-1">
 <div className="flex flex-col gap-4">
 <h5 className="font-headline-md text-forest-green text-[18px]">Sectors</h5>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Agriculture</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/ministry-of-agriculture">Agriculture</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Tech Hub</a>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Commerce</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/economic-transformation">Commerce</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Tourism</a>
 </div>
 <div className="flex flex-col gap-4">
@@ -240,14 +240,14 @@ export default function Page() {
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">The Governor</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">State MDAs</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Gazettes</a>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Budget</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Budget</a>
 </div>
 <div className="flex flex-col gap-4">
 <h5 className="font-headline-md text-forest-green text-[18px]">Quick Links</h5>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Verify IDs</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Pay Taxes</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Job Portal</a>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">News Room</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">News Room</a>
 </div>
 <div className="flex flex-col gap-4">
 <h5 className="font-headline-md text-forest-green text-[18px]">Connect</h5>
@@ -268,7 +268,7 @@ export default function Page() {
 <div className="flex gap-6 mt-4 md:mt-0">
 <a className="font-caption text-on-surface-variant hover:text-forest-green underline" href="#">Privacy Policy</a>
 <a className="font-caption text-on-surface-variant hover:text-forest-green underline" href="#">Terms of Service</a>
-<a className="font-caption text-on-surface-variant hover:text-forest-green underline" href="#">Press Office</a>
+<a className="font-caption text-on-surface-variant hover:text-forest-green underline" href="/news-press-center">Press Office</a>
 </div>
 </div>
 </footer>

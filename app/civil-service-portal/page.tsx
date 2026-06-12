@@ -17,7 +17,7 @@ export default function Page() {
 <p className="text-[10px] uppercase tracking-widest text-on-surface-variant font-label-md">Civil Service Portal</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg font-label-md transition-transform scale-95" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg font-label-md transition-transform scale-95" href="/">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>dashboard</span>
 <span>Dashboard</span>
 </a>
@@ -29,7 +29,7 @@ export default function Page() {
 <span className="material-symbols-outlined">calendar_today</span>
 <span>Leave Manager</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg font-label-md" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg font-label-md" href="/ai-academy">
 <span className="material-symbols-outlined">school</span>
 <span>AI Academy</span>
 </a>
@@ -298,7 +298,7 @@ export default function Page() {
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors font-body-md" href="#">Privacy Policy</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors font-body-md" href="#">Terms of Service</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors font-body-md" href="#">Contact Us</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors font-body-md" href="#">Press Office</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors font-body-md" href="/news-press-center">Press Office</a>
 </div>
 </div>
 </footer>

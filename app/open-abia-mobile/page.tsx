@@ -18,9 +18,9 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-green tracking-tight">ABIA ONE</span>
 </div>
 <div className="hidden md:flex items-center gap-8">
-<a className="font-label-md text-label-md text-forest-green font-bold" href="#">Dashboard</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">MDA Budgets</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Procurement</a>
+<a className="font-label-md text-label-md text-forest-green font-bold" href="/home-mobile">Dashboard</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="/open-abia-mobile">MDA Budgets</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="/open-abia-mobile">Procurement</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Inquiries</a>
 </div>
 <div className="flex items-center gap-4">
@@ -210,7 +210,7 @@ export default function Page() {
 </main>
 {/*  Bottom Navigation Shell (Mobile)  */}
 <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest border-t border-outline-variant shadow-sm px-base pb-safe h-20 flex justify-around items-center">
-<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform" href="/home-mobile">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md">Dashboard</span>
 </a>

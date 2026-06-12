@@ -16,10 +16,10 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 </div>
 <div className="hidden md:flex gap-8 items-center">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1 transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1 transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </div>
 <div className="flex items-center gap-4">
 <button className="bg-forest-green text-state-white px-6 py-2 rounded-lg font-label-md hover:opacity-90 transition-all active:scale-95">Citizen Portal</button>
@@ -191,7 +191,7 @@ export default function Page() {
 <span className="text-label-md text-brass-gold font-label-md block mb-2 uppercase">Umuahia South Cluster</span>
 <h4 className="font-headline-md text-headline-md mb-3">Chidinma's Cassava Processing Leap</h4>
 <p className="text-body-md text-on-surface-variant mb-4">How a ₦2M state grant helped Chidinma automate her garri processing, increasing output by 300%.</p>
-<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="#">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="/open-abia">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
 </div>
 </div>
 {/*  Story 2  */}
@@ -203,7 +203,7 @@ export default function Page() {
 <span className="text-label-md text-brass-gold font-label-md block mb-2 uppercase">Aba North Industrial Zone</span>
 <h4 className="font-headline-md text-headline-md mb-3">Reviving the Golden Oil Heritage</h4>
 <p className="text-body-md text-on-surface-variant mb-4">The Obinna Cooperative revamped their communal palm plantation with state-certified seedlings and modern milling tools.</p>
-<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="#">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="/open-abia">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
 </div>
 </div>
 {/*  Story 3  */}
@@ -215,7 +215,7 @@ export default function Page() {
 <span className="text-label-md text-brass-gold font-label-md block mb-2 uppercase">Bende LGA Rice Hub</span>
 <h4 className="font-headline-md text-headline-md mb-3">Bende Rice: Scaling to National Markets</h4>
 <p className="text-body-md text-on-surface-variant mb-4">Through the state's market-link program, Bende rice farmers now supply 15% of the region's top retail outlets.</p>
-<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="#">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-forest-green font-label-md flex items-center gap-1 group-hover:underline" href="/open-abia">Read Story <span className="material-symbols-outlined text-[16px]" data-icon="open_in_new">open_in_new</span></a>
 </div>
 </div>
 </div>
@@ -236,15 +236,15 @@ export default function Page() {
 <div>
 <h5 className="font-label-md text-label-md text-forest-green mb-4 uppercase tracking-wider">Government</h5>
 <ul className="space-y-2">
-<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Invest Abia</a></li>
-<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Serve Abia</a></li>
-<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Build Abia</a></li>
+<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="/invest-in-aba">Invest Abia</a></li>
+<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="/serve-abia">Serve Abia</a></li>
+<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
 <h5 className="font-label-md text-label-md text-forest-green mb-4 uppercase tracking-wider">Resources</h5>
 <ul className="space-y-2">
-<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Open Abia</a></li>
+<li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="/open-abia">Open Abia</a></li>
 <li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Privacy Policy</a></li>
 <li className=""><a className="text-body-md text-on-surface-variant hover:text-brass-gold hover:underline transition-colors decoration-brass-gold" href="#">Contact Us</a></li>
 </ul>

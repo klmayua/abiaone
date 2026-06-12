@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-4">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
 <div className="hidden md:flex gap-6 ml-8">
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -36,7 +36,7 @@ export default function Page() {
 <p className="font-body-md text-body-md text-on-surface-variant opacity-70">ABIA Care Health OS</p>
 </div>
 <nav className="flex-1 space-y-2">
-<a className="flex items-center gap-4 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all translate-x-1" href="#">
+<a className="flex items-center gap-4 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all translate-x-1" href="/ministry-of-health">
 <span className="material-symbols-outlined">health_and_safety</span>
 <span className="font-label-sm text-label-sm">Health Metrics</span>
 </a>
@@ -282,9 +282,9 @@ export default function Page() {
 <div>
 <h4 className="font-label-caps text-label-caps text-primary font-bold mb-4">ECOSYSTEM</h4>
 <ul className="space-y-2">
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Invest Abia</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Serve Abia</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Build Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="/serve-abia">Serve Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
@@ -292,14 +292,14 @@ export default function Page() {
 <ul className="space-y-2">
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Privacy Policy</a></li>
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Terms of Use</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Open Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 <div>
 <h4 className="font-label-caps text-label-caps text-primary font-bold mb-4">SUPPORT</h4>
 <ul className="space-y-2">
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Contact Us</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="#">Emergency Lines</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent transition-colors hover:underline decoration-brass-accent" href="/secure-abia">Emergency Lines</a></li>
 </ul>
 </div>
 </div>

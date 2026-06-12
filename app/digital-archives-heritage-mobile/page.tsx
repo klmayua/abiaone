@@ -154,7 +154,7 @@ export default function Page() {
 {/*  Bottom Navigation Bar  */}
 <nav className="fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest dark:bg-on-background border-t border-outline-variant dark:border-slate-gray shadow-sm">
 <div className="flex justify-around items-center h-20 w-full px-base pb-safe max-w-max-width mx-auto">
-<a className="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 duration-200" href="#">
+<a className="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 duration-200" href="/home-mobile">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md text-label-md mt-1">Dashboard</span>
 </a>

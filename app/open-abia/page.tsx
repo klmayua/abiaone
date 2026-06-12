@@ -16,10 +16,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-display-lg text-[32px] font-bold text-primary">ABIA ONE</span>
 <nav className="hidden md:flex items-center gap-6">
-<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Economy</a>
-<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Digital Gov</a>
-<a className="font-semibold text-primary border-b-2 border-brass-gold pb-1 cursor-pointer" href="#">Governance</a>
-<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Security</a>
+<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
+<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Digital Gov</a>
+<a className="font-semibold text-primary border-b-2 border-brass-gold pb-1 cursor-pointer" href="/local-governance">Governance</a>
+<a className="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -35,15 +35,15 @@ export default function Page() {
 </div>
 <nav className="flex-1 overflow-y-auto custom-scrollbar">
 <div className="flex flex-col">
-<a className="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="/economic-transformation">
 <span className="material-symbols-outlined">payments</span>
 <span className="font-body-md">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 transition-all" href="#">
+<a className="flex items-center gap-3 text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 transition-all" href="/serve-abia">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>account_balance</span>
 <span className="font-body-md">Digital Government</span>
 </a>
-<a className="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="/local-governance">
 <span className="material-symbols-outlined">gavel</span>
 <span className="font-body-md">Transparent Governance</span>
 </a>

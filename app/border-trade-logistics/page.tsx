@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <nav className="hidden md:flex gap-6">
-<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-md text-primary border-b-2 border-brass-gold pb-1" href="#">Governance</a>
-<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-primary border-b-2 border-brass-gold pb-1" href="/local-governance">Governance</a>
+<a className="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -349,14 +349,14 @@ export default function Page() {
 <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
 <div className="flex flex-col gap-3">
 <span className="font-label-md text-on-surface uppercase text-xs">Ecosystem</span>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Invest Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Serve Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Build Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/invest-in-aba">Invest Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/serve-abia">Serve Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/build-abia">Build Abia</a>
 </div>
 <div className="flex flex-col gap-3">
 <span className="font-label-md text-on-surface uppercase text-xs">Legal</span>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Privacy Policy</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Open Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="/open-abia">Open Abia</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors text-sm" href="#">Contact Us</a>
 </div>
 </div>

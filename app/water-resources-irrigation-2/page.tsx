@@ -18,7 +18,7 @@ export default function Page() {
 <p className="font-caption text-caption text-outline">State Operating System</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg active-nav-item transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg active-nav-item transition-all" href="/">
 <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
 <span className="font-label-md">Dashboard</span>
 </a>
@@ -42,7 +42,7 @@ export default function Page() {
 <span className="material-symbols-outlined" data-icon="badge">badge</span>
 <span className="font-label-md">Personnel</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-label-md">Security</span>
 </a>
@@ -321,7 +321,7 @@ export default function Page() {
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
 <a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
-<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+<a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a>
 </nav>
 <div className="flex items-center gap-4">
 <div className="w-10 h-10 bg-surface flex items-center justify-center rounded border border-outline-variant cursor-pointer hover:border-forest-green transition-colors">

@@ -200,7 +200,7 @@ export default function Page() {
 </main>
 {/*  Bottom Navigation  */}
 <nav className="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-2 bg-surface border-t border-outline-variant shadow-sm rounded-t-full">
-<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-all duration-200 ease-in-out" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-all duration-200 ease-in-out" href="/home-mobile">
 <span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>dashboard</span>
 <span className="font-label-md text-[10px] mt-0.5">Dashboard</span>
 </a>

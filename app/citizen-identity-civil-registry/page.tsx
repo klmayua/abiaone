@@ -17,19 +17,19 @@ export default function Page() {
 <p className="font-label-md text-label-md text-on-surface-variant/70 mt-1 uppercase tracking-widest">Modern Governance OS</p>
 </div>
 <nav className="flex-1 mt-4 px-2 space-y-1">
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="/economic-transformation">
 <span className="material-symbols-outlined" data-icon="payments">payments</span>
 <span className="font-body-md text-body-md">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 translate-x-1 duration-150" href="#">
+<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 translate-x-1 duration-150" href="/serve-abia">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
 <span className="font-body-md text-body-md">Digital Government</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="/local-governance">
 <span className="material-symbols-outlined" data-icon="vptree">mitre</span>
 <span className="font-body-md text-body-md">Transparent Governance</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-body-md text-body-md">Public Trust</span>
 </a>
@@ -55,10 +55,10 @@ export default function Page() {
 <div className="flex items-center gap-4">
 <span className="material-symbols-outlined lg:hidden" data-icon="menu">menu</span>
 <nav className="hidden md:flex gap-6 items-center">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
-<a className="font-label-md text-label-md text-primary border-b-2 border-brass-accent pb-1" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-primary border-b-2 border-brass-accent pb-1" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -252,9 +252,9 @@ export default function Page() {
 <div className="space-y-3">
 <p className="font-label-caps text-label-caps text-on-surface font-bold">Services</p>
 <ul className="space-y-2">
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Invest Abia</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Serve Abia</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Build Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div className="space-y-3">
@@ -262,7 +262,7 @@ export default function Page() {
 <ul className="space-y-2">
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Privacy Policy</a></li>
 <li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Contact Us</a></li>
-<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Open Abia</a></li>
+<li><a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 </div>
@@ -279,11 +279,11 @@ export default function Page() {
 </main>
 {/*  Mobile Bottom Navigation (Platform & Layout Anchor)  */}
 <nav className="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-md border-t border-outline-variant flex justify-around py-3 px-2 z-50">
-<a className="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface-variant" href="/">
 <span className="material-symbols-outlined" data-icon="home">home</span>
 <span className="text-[10px] font-bold">Home</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-primary" href="#">
+<a className="flex flex-col items-center gap-1 text-primary" href="/citizen-identity-civil-registry">
 <span className="material-symbols-outlined" data-icon="badge" style={{"fontVariationSettings":"'FILL' 1"}}>badge</span>
 <span className="text-[10px] font-bold">Identity</span>
 </a>

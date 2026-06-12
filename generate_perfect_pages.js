@@ -105,7 +105,7 @@ function convertStyleAttr(styleStr) {
 }
 
 // Convert HTML to React JSX tags
-function htmlToJsx(html) {
+function htmlToJsx(html, deviceType) {
   // Extract style tags from head
   const styles = [];
   const styleRegex = /<style[^>]*>([\s\S]*?)<\/style>/gi;
@@ -199,6 +199,70 @@ function htmlToJsx(html) {
     });
   });
 
+  // 10. Resolve links to local Next.js routes
+  const routeKeywords = [
+    { keywords: ['serve abia', 'serve', 'digital services', 'digital government services', 'digital gov'], route: '/serve-abia', mobileRoute: '/serve-abia-mobile' },
+    { keywords: ['jobs abia', 'jobs', 'career portal', 'employer portal', 'employment & talent marketplace', 'career'], route: '/jobs-abia', mobileRoute: '/jobs-abia-mobile' },
+    { keywords: ['ai academy', 'academy', 'learning hub', 'future-ready digital skills'], route: '/ai-academy', mobileRoute: '/ai-academy-mobile' },
+    { keywords: ['connect abia', 'connect', 'citizen engagement', 'engagement hub'], route: '/connect-abia', mobileRoute: '/connect-abia-mobile' },
+    { keywords: ['secure abia', 'security', 'secure', 'citizen safety portal', 'intelligence & public safety', 'intelligence command', 'safety portal', 'emergency & crisis response', 'emergency response', 'public reporting', 'incident', 'emergency'], route: '/secure-abia', mobileRoute: '/secure-abia-mobile' },
+    { keywords: ['open abia', 'open', 'budget transparency', 'budget', 'procurement', 'transparency monitor', 'tenders', 'tenders registry'], route: '/open-abia', mobileRoute: '/open-abia-mobile' },
+    { keywords: ['build abia', 'build', 'progress tracker', 'infrastructure progress map', 'progress map'], route: '/build-abia', mobileRoute: '/build-abia-mobile' },
+    { keywords: ['gada', 'greater aba development authority', 'field operations hub'], route: '/greater-aba-development-authority', mobileRoute: '/gada-mobile' },
+    { keywords: ['local governance', 'transparent governance', 'governance'], route: '/local-governance', mobileRoute: '/local-governance' },
+    { keywords: ['economic transformation', 'economy', 'commerce & trade', 'trade & logistics', 'commerce', 'trade'], route: '/economic-transformation', mobileRoute: '/trade-logistics-mobile' },
+    { keywords: ['digital ID', 'citizen identity', 'identity', 'civil registry'], route: '/citizen-identity-civil-registry', mobileRoute: '/citizen-identity-mobile' },
+    { keywords: ['civil service', 'admin portal', 'civil service portal'], route: '/civil-service-portal', mobileRoute: '/civil-service-mobile' },
+    { keywords: ['ministry of health', 'health & wellness', 'health', 'wellness'], route: '/ministry-of-health', mobileRoute: '/ministry-of-health-mobile' },
+    { keywords: ['ministry of agriculture', 'agri-transformation', 'agriculture', 'agri'], route: '/ministry-of-agriculture', mobileRoute: '/ministry-of-agriculture-mobile' },
+    { keywords: ['ministry of communication', 'communication'], route: '/ministry-of-communication', mobileRoute: '/ministry-of-communication-2' },
+    { keywords: ['ministry of education', 'education', 'learning'], route: '/education-learning', mobileRoute: '/ministry-of-education-mobile' },
+    { keywords: ['housing & urban development', 'housing', 'aba 2.0', 'urban renewal hub', 'urban renewal', 'aba renewal'], route: '/aba-20', mobileRoute: '/aba-20-mobile' },
+    { keywords: ['cooperatives', 'micro-credit', 'cooperatives & micro-credit'], route: '/cooperatives-micro-credit', mobileRoute: '/cooperatives-micro-credit-mobile' },
+    { keywords: ['digital archives', 'heritage', 'state archives', 'archives'], route: '/digital-archives-heritage', mobileRoute: '/digital-archives-heritage-mobile' },
+    { keywords: ['border trade & logistics', 'border trade'], route: '/border-trade-logistics', mobileRoute: '/border-trade-logistics' },
+    { keywords: ['science & technology', 'science', 'technology'], route: '/science-technology', mobileRoute: '/science-technology' },
+    { keywords: ['sme growth', 'sme support', 'sme'], route: '/sme-growth-support', mobileRoute: '/sme-growth-support' },
+    { keywords: ['women & gender affairs', 'women', 'gender'], route: '/women-gender-affairs', mobileRoute: '/women-gender-affairs-mobile' },
+    { keywords: ['youth & sports', 'youth', 'sports'], route: '/youth-sports', mobileRoute: '/youth-sports' },
+    { keywords: ['land & property', 'land property', 'land', 'property'], route: '/land-property', mobileRoute: '/land-property' },
+    { keywords: ['diaspora gateway', 'diaspora'], route: '/diaspora-gateway', mobileRoute: '/diaspora-gateway' },
+    { keywords: ['industrial hubs', 'manufacturing', 'industrial'], route: '/industrial-hubs', mobileRoute: '/industrial-hubs' },
+    { keywords: ['water resources', 'irrigation', 'water'], route: '/water-resources-irrigation', mobileRoute: '/water-resources-irrigation-mobile' },
+    { keywords: ['citizen consultations', 'town hall', 'consultations'], route: '/citizen-consultations', mobileRoute: '/citizen-consultations' },
+    { keywords: ['invest abia', 'invest in aba', 'global gateway', 'global investment gateway', 'invest'], route: '/invest-in-aba', mobileRoute: '/invest-abia-mobile' },
+    { keywords: ['news', 'newsroom', 'press center', 'press'], route: '/news-press-center', mobileRoute: '/news-press-center' },
+    { keywords: ['home', 'dashboard', 'unified transformation dashboard', 'operational dashboard', 'citizen dashboard', 'operating system', 'abia one', 'abiaone'], route: '/', mobileRoute: '/home-mobile' }
+  ];
+
+  function resolveLinkHref(hrefValue, linkText) {
+    if (hrefValue && hrefValue !== '#' && hrefValue !== '' && !hrefValue.includes('.html')) {
+      return hrefValue;
+    }
+
+    const cleanText = (linkText + ' ' + (linkText.match(/alt=["']([^"']+)["']/i)?.[1] || '') + ' ' + (linkText.match(/data-alt=["']([^"']+)["']/i)?.[1] || '')).replace(/<[^>]*>/g, '').trim().toLowerCase();
+    if (!cleanText) {
+      if (linkText.toLowerCase().includes('logo') || linkText.toLowerCase().includes('abiaone') || linkText.toLowerCase().includes('abia one')) {
+        return deviceType === 'MOBILE' ? '/home-mobile' : '/';
+      }
+      return '#';
+    }
+
+    for (const item of routeKeywords) {
+      for (const keyword of item.keywords) {
+        if (cleanText === keyword || cleanText.includes(keyword)) {
+          return deviceType === 'MOBILE' ? (item.mobileRoute || item.route) : item.route;
+        }
+      }
+    }
+    return '#';
+  }
+
+  content = content.replace(/<a\b([^>]*?)href=(["'])(.*?)\2([^>]*?)>([\s\S]*?)<\/a>/gi, (match, beforeHref, quote, hrefVal, afterHref, innerContent) => {
+    const resolvedHref = resolveLinkHref(hrefVal, innerContent);
+    return `<a${beforeHref}href="${resolvedHref}"${afterHref}>${innerContent}</a>`;
+  });
+
   return {
     bodyClass,
     bodyContent: content,
@@ -218,7 +282,7 @@ metadata.forEach((screen) => {
   
   // Read file content and pass it to htmlToJsx
   const htmlContent = fs.readFileSync(filepath, 'utf-8');
-  const parsed = htmlToJsx(htmlContent);
+  const parsed = htmlToJsx(htmlContent, screen.deviceType || 'DESKTOP');
 
   // Determine target directory
   let routeDir = appDir;

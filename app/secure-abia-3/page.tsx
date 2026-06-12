@@ -17,11 +17,11 @@ export default function Page() {
 <span className="font-headline-md text-headline-md font-bold text-forest-green">ABIA ONE</span>
 </div>
 <div className="hidden md:flex items-center space-x-8">
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Invest</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/invest-in-aba">Invest</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/jobs-abia">Jobs</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="/serve-abia">Serve</a>
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
-<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="#">Governance</a>
+<a className="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="/local-governance">Governance</a>
 </div>
 <div className="flex items-center gap-6">
 <div className="flex gap-4">
@@ -73,7 +73,7 @@ export default function Page() {
 </div>
 <h3 className="font-headline-md text-headline-md mb-4">Station Finder</h3>
 <p className="font-body-md text-body-md text-on-surface-variant mb-6">Locate your nearest police command, fire station, or emergency medical service point in seconds.</p>
-<a className="text-forest-green font-label-md flex items-center gap-2 hover:underline" href="#">
+<a className="text-forest-green font-label-md flex items-center gap-2 hover:underline" href="/open-abia">
                             Open Map <span className="material-symbols-outlined text-sm">arrow_forward</span>
 </a>
 </div>
@@ -215,7 +215,7 @@ export default function Page() {
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
 <a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
-<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+<a className="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/news-press-center">Press Office</a>
 </div>
 </div>
 </footer>

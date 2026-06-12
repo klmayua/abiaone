@@ -170,7 +170,7 @@ export default function Page() {
 <nav className="fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest border-t border-outline-variant shadow-sm glass-nav">
 <div className="flex justify-around items-center h-20 w-full px-base pb-safe">
 {/*  Active Tab: Dashboard (Mapping to 'Hub' for Mobility)  */}
-<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200" href="#">
+<a className="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200" href="/home-mobile">
 <span className="material-symbols-outlined" data-icon="dashboard" style={{"fontVariationSettings":"'FILL' 1"}}>dashboard</span>
 <span className="font-label-md text-[10px] uppercase tracking-tighter font-bold">Dashboard</span>
 </a>

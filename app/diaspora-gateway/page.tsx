@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <h1 className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</h1>
 <nav className="hidden md:flex gap-6">
-<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-gold pb-1" href="#">Economy</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+<a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-gold pb-1" href="/economic-transformation">Economy</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/serve-abia">Digital Gov</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/local-governance">Governance</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/secure-abia">Security</a>
 </nav>
 </div>
 <div className="flex items-center gap-4">
@@ -40,7 +40,7 @@ export default function Page() {
 </div>
 </div>
 <nav className="flex-grow">
-<a className="flex items-center gap-4 py-3 px-6 bg-secondary-container text-on-secondary-container mx-2 rounded-lg mb-1" href="#">
+<a className="flex items-center gap-4 py-3 px-6 bg-secondary-container text-on-secondary-container mx-2 rounded-lg mb-1" href="/">
 <span className="material-symbols-outlined">dashboard</span>
 <span className="font-label-md">Overview</span>
 </a>
@@ -52,7 +52,7 @@ export default function Page() {
 <span className="material-symbols-outlined">mitre</span>
 <span className="font-label-md">Business Concierge</span>
 </a>
-<a className="flex items-center gap-4 py-3 px-6 text-on-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg mb-1 transition-all" href="#">
+<a className="flex items-center gap-4 py-3 px-6 text-on-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg mb-1 transition-all" href="/secure-abia">
 <span className="material-symbols-outlined">security</span>
 <span className="font-label-md">Security Trust</span>
 </a>
@@ -164,7 +164,7 @@ export default function Page() {
 </div>
 <h5 className="font-headline-md text-[18px] mb-2">Abia Specialist Hospital Network</h5>
 <p className="text-on-surface-variant text-sm mb-4">Expansion of diagnostic centers through Diaspora-led Private Public Partnerships.</p>
-<a className="text-primary font-bold text-sm flex items-center gap-1" href="#">Invest <span className="material-symbols-outlined text-sm">chevron_right</span></a>
+<a className="text-primary font-bold text-sm flex items-center gap-1" href="/invest-in-aba">Invest <span className="material-symbols-outlined text-sm">chevron_right</span></a>
 </div>
 <div className="flex-1 bg-surface-container-high border border-outline-variant rounded-xl p-6 bento-item">
 <div className="flex justify-between items-start mb-4">
@@ -173,7 +173,7 @@ export default function Page() {
 </div>
 <h5 className="font-headline-md text-[18px] mb-2">Rural Electrification Mini-Grids</h5>
 <p className="text-on-surface-variant text-sm mb-4">Powering over 100 rural communities via solar micro-grids. High social impact yield.</p>
-<a className="text-primary font-bold text-sm flex items-center gap-1" href="#">Invest <span className="material-symbols-outlined text-sm">chevron_right</span></a>
+<a className="text-primary font-bold text-sm flex items-center gap-1" href="/invest-in-aba">Invest <span className="material-symbols-outlined text-sm">chevron_right</span></a>
 </div>
 </div>
 </div>
@@ -284,10 +284,10 @@ export default function Page() {
 <div>
 <h6 className="font-label-caps text-label-caps text-primary mb-6">ECOSYSTEM</h6>
 <ul className="space-y-4">
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a></li>
 </ul>
 </div>
 <div>

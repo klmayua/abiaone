@@ -16,7 +16,7 @@ export default function Page() {
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <div className="hidden md:flex gap-6 items-center">
 <a className="font-label-caps text-label-caps text-primary border-b-2 border-brass-gold pb-1 transition-all" href="#">Empowerment</a>
-<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Healthcare</a>
+<a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/ministry-of-health">Healthcare</a>
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Leadership</a>
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Protection</a>
 </div>
@@ -43,11 +43,11 @@ export default function Page() {
 </div>
 </div>
 <div className="flex-grow space-y-1 px-2">
-<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all" href="/women-gender-affairs">
 <span className="material-symbols-outlined" data-icon="payments">payments</span>
 <span className="font-label-sm text-label-sm">Abia Women Business</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg mx-2 transition-all" href="/ministry-of-health">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
 <span className="font-label-sm text-label-sm">Maternal Health</span>
 </a>
@@ -55,7 +55,7 @@ export default function Page() {
 <span className="material-symbols-outlined" data-icon="vptree">mitre</span>
 <span className="font-label-sm text-label-sm">Leadership Circle</span>
 </a>
-<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg mx-2 transition-all" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-label-sm text-label-sm">GBV Support Center</span>
 </a>
@@ -203,15 +203,15 @@ export default function Page() {
 <div>
 <h4 className="font-label-caps text-label-caps text-primary mb-4">Initiatives</h4>
 <ul className="space-y-2">
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/serve-abia">Serve Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
 <h4 className="font-label-caps text-label-caps text-primary mb-4">Resources</h4>
 <ul className="space-y-2">
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="/open-abia">Open Abia</a></li>
 <li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
 <li><a className="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a></li>
 </ul>
@@ -237,7 +237,7 @@ export default function Page() {
 </footer>
 {/*  Bottom Navigation Bar (Mobile only)  */}
 <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-surface border-t border-outline-variant flex justify-around py-3 z-50">
-<a className="flex flex-col items-center text-primary" href="#">
+<a className="flex flex-col items-center text-primary" href="/">
 <span className="material-symbols-outlined" data-weight="fill">home</span>
 <span className="text-[10px] font-label-md">Home</span>
 </a>
@@ -245,11 +245,11 @@ export default function Page() {
 <span className="material-symbols-outlined">payments</span>
 <span className="text-[10px] font-label-md">Grants</span>
 </a>
-<a className="flex flex-col items-center text-on-surface-variant" href="#">
+<a className="flex flex-col items-center text-on-surface-variant" href="/ministry-of-health">
 <span className="material-symbols-outlined">medical_services</span>
 <span className="text-[10px] font-label-md">Health</span>
 </a>
-<a className="flex flex-col items-center text-on-surface-variant" href="#">
+<a className="flex flex-col items-center text-on-surface-variant" href="/secure-abia">
 <span className="material-symbols-outlined">security</span>
 <span className="text-[10px] font-label-md">Safety</span>
 </a>

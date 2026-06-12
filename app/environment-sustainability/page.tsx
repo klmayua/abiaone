@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
 <div className="hidden md:flex gap-6">
-<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1 hover:text-primary transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+<a className="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1 hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -41,19 +41,19 @@ export default function Page() {
 </div>
 </div>
 <nav className="flex-1 py-4 space-y-1">
-<a className="flex items-center gap-3 px-6 py-3 bg-secondary-container text-on-secondary-container mx-2 rounded-lg transition-all translate-x-1" href="#">
+<a className="flex items-center gap-3 px-6 py-3 bg-secondary-container text-on-secondary-container mx-2 rounded-lg transition-all translate-x-1" href="/economic-transformation">
 <span className="material-symbols-outlined" data-icon="payments">payments</span>
 <span className="font-label-md text-sm">Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="/serve-abia">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
 <span className="font-label-md text-sm">Digital Government</span>
 </a>
-<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="/local-governance">
 <span className="material-symbols-outlined" data-icon="vptree">mitre</span>
 <span className="font-label-md text-sm">Transparent Governance</span>
 </a>
-<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<a className="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="/secure-abia">
 <span className="material-symbols-outlined" data-icon="security">security</span>
 <span className="font-label-md text-sm">Public Trust</span>
 </a>
@@ -240,7 +240,7 @@ export default function Page() {
 </div>
 <h4 className="font-headline-md text-xl text-forest-deep mb-3">Waste Pickup Request</h4>
 <p className="font-body-md text-on-surface-variant mb-6">Schedule on-demand evacuation for bulk industrial or residential waste.</p>
-<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="#">Request Now <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="/open-abia">Request Now <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
 </div>
 {/*  Service 2  */}
 <div className="p-8 border border-outline-variant hover:border-brass-gold group transition-all rounded-lg bg-surface">
@@ -249,7 +249,7 @@ export default function Page() {
 </div>
 <h4 className="font-headline-md text-xl text-forest-deep mb-3">Report Pollution</h4>
 <p className="font-body-md text-on-surface-variant mb-6">Submit geofenced reports of illegal dumping or environmental hazards.</p>
-<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="#">Submit Report <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="/open-abia">Submit Report <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
 </div>
 {/*  Service 3  */}
 <div className="p-8 border border-outline-variant hover:border-brass-gold group transition-all rounded-lg bg-surface">
@@ -258,7 +258,7 @@ export default function Page() {
 </div>
 <h4 className="font-headline-md text-xl text-forest-deep mb-3">Carbon Credits</h4>
 <p className="font-body-md text-on-surface-variant mb-6">Explore the Abia Green Bonds and carbon offsetting for local businesses.</p>
-<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="#">Learn More <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
+<a className="text-primary font-label-md hover:underline inline-flex items-center gap-1" href="/open-abia">Learn More <span className="material-symbols-outlined text-sm" data-icon="open_in_new">open_in_new</span></a>
 </div>
 </div>
 </section>
@@ -274,15 +274,15 @@ export default function Page() {
 <div>
 <h5 className="font-label-md text-forest-deep mb-4 uppercase">Initiatives</h5>
 <ul className="space-y-2">
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Invest Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Serve Abia</a></li>
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Build Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="/invest-in-aba">Invest Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="/serve-abia">Serve Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="/build-abia">Build Abia</a></li>
 </ul>
 </div>
 <div>
 <h5 className="font-label-md text-forest-deep mb-4 uppercase">Governance</h5>
 <ul className="space-y-2">
-<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Open Abia</a></li>
+<li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="/open-abia">Open Abia</a></li>
 <li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Privacy Policy</a></li>
 <li><a className="font-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent" href="#">Contact Us</a></li>
 </ul>

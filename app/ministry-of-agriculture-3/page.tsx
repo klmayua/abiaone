@@ -23,19 +23,19 @@ export default function Page() {
 </div>
 <nav className="flex-1 space-y-1 overflow-y-auto custom-scrollbar">
 {/*  Navigation Items Mapping  */}
-<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="#">
+<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="/">
 <span className="material-symbols-outlined">dashboard</span> Command Center
             </a>
-<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="#">
+<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="/ministry-of-communication">
 <span className="material-symbols-outlined">campaign</span> Communications
             </a>
-<a className="flex items-center gap-3 px-3 py-2 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="#">
+<a className="flex items-center gap-3 px-3 py-2 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="/ministry-of-agriculture">
 <span className="material-symbols-outlined">agriculture</span> Agriculture
             </a>
-<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="#">
+<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="/ministry-of-health">
 <span className="material-symbols-outlined">medical_services</span> Health
             </a>
-<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="#">
+<a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="/greater-aba-development-authority">
 <span className="material-symbols-outlined">location_city</span> GADA
             </a>
 <a className="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg font-label-md text-label-md" href="#">
@@ -414,7 +414,7 @@ export default function Page() {
 <div className="flex gap-8 text-on-surface-variant font-caption text-caption">
 <a className="hover:text-forest-green transition-colors" href="#">Privacy Policy</a>
 <a className="hover:text-forest-green transition-colors" href="#">Terms of Service</a>
-<a className="hover:text-forest-green transition-colors" href="#">Security Audit</a>
+<a className="hover:text-forest-green transition-colors" href="/secure-abia">Security Audit</a>
 </div>
 </div>
 </footer>

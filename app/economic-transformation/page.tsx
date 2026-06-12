@@ -16,10 +16,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed">ABIA ONE</span>
 <div className="hidden md:flex gap-6">
-<a className="text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer transition-all duration-200 active:opacity-80" href="#">Economy</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="#">Digital Gov</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="#">Governance</a>
-<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="#">Security</a>
+<a className="text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer transition-all duration-200 active:opacity-80" href="/economic-transformation">Economy</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="/serve-abia">Digital Gov</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="/local-governance">Governance</a>
+<a className="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors cursor-pointer transition-all duration-200 active:opacity-80" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -34,15 +34,15 @@ export default function Page() {
 <p className="text-on-surface-variant font-caption text-caption uppercase tracking-wider">State Operating System</p>
 </div>
 <nav className="flex-1 space-y-1">
-<a className="flex items-center gap-3 text-forest-green dark:text-primary-fixed font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3 transition-all duration-200 ease-in-out" href="#">
+<a className="flex items-center gap-3 text-forest-green dark:text-primary-fixed font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3 transition-all duration-200 ease-in-out" href="/economic-transformation">
 <span className="material-symbols-outlined" data-icon="payments">payments</span>
 <span>Economic Transformation</span>
 </a>
-<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-all duration-200 ease-in-out" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-all duration-200 ease-in-out" href="/serve-abia">
 <span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
 <span>Digital Government</span>
 </a>
-<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-all duration-200 ease-in-out" href="#">
+<a className="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-all duration-200 ease-in-out" href="/local-governance">
 <span className="material-symbols-outlined" data-icon="gavel">gavel</span>
 <span>Transparent Governance</span>
 </a>

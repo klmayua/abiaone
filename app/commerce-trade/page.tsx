@@ -15,10 +15,10 @@ export default function Page() {
 <div className="flex items-center gap-8">
 <span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
 <div className="hidden md:flex gap-6">
-<a className="font-label-md text-label-md text-primary dark:text-primary-fixed-dim border-b-2 border-brass-accent pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Economy</a>
-<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Digital Gov</a>
-<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Governance</a>
-<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Security</a>
+<a className="font-label-md text-label-md text-primary dark:text-primary-fixed-dim border-b-2 border-brass-accent pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/economic-transformation">Economy</a>
+<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/serve-abia">Digital Gov</a>
+<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/local-governance">Governance</a>
+<a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/secure-abia">Security</a>
 </div>
 </div>
 <div className="flex items-center gap-4">
@@ -266,13 +266,13 @@ export default function Page() {
 <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
 <div className="flex flex-col gap-3">
 <span className="font-label-caps text-label-caps text-forest-green font-bold">ECOSYSTEM</span>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Invest Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Serve Abia</a>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Build Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="/invest-in-aba">Invest Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="/serve-abia">Serve Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="/build-abia">Build Abia</a>
 </div>
 <div className="flex flex-col gap-3">
 <span className="font-label-caps text-label-caps text-forest-green font-bold">RESOURCES</span>
-<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Open Abia</a>
+<a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="/open-abia">Open Abia</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Privacy Policy</a>
 <a className="text-on-surface-variant hover:text-brass-gold transition-colors hover:underline decoration-brass-accent" href="#">Contact Us</a>
 </div>
