@@ -1,0 +1,2879 @@
+# Page Governance Registry
+
+This catalog evaluates every page individually against governance rules.
+
+### Page 1: Secure Abia | Intelligence & Public Safety
+- **page_name:** `Secure Abia | Intelligence & Public Safety`
+- **route:** `/secure-abia`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Secure Abia | Intelligence & Public Safety operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Secure Abia | Intelligence & Public Safety space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `secure_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 15
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 2: Serve Abia | Digital Government Services
+- **page_name:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Serve Abia | Digital Government Services operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Serve Abia | Digital Government Services space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 45
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 3: Procurement & Tenders Registry | ABIA ONE
+- **page_name:** `Procurement & Tenders Registry | ABIA ONE`
+- **route:** `/procurement-tenders-registry`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Procurement & Tenders Registry | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Procurement & Tenders Registry | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 4: Ministry of Communication | ABIA ONE
+- **page_name:** `Ministry of Communication | ABIA ONE`
+- **route:** `/ministry-of-communication`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Communication | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Communication | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Communication
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 5: Connect Abia | Engagement Hub
+- **page_name:** `Connect Abia | Engagement Hub`
+- **route:** `/connect-abia-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Connect Abia | Engagement Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Connect Abia | Engagement Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 14
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 6: Secure Abia | Command Dashboard (Desktop)
+- **page_name:** `Secure Abia | Command Dashboard (Desktop)`
+- **route:** `/secure-abia-2`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the Secure Abia | Command Dashboard (Desktop) operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Secure Abia | Command Dashboard (Desktop) space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `secure_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /secure-abia-2
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 7: Ab_One_Concept_Note.md
+- **page_name:** `Ab_One_Concept_Note.md`
+- **route:** `/aboneconceptnote`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ab_One_Concept_Note.md operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ab_One_Concept_Note.md space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** NO
+- **footer_present:** NO
+- **CTA_count:** 0
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 8: Civil Service | Admin Portal
+- **page_name:** `Civil Service | Admin Portal`
+- **route:** `/civil-service-mobile`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Civil Service | Admin Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Civil Service | Admin Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 9: Ministry of Health | ABIA ONE
+- **page_name:** `Ministry of Health | ABIA ONE`
+- **route:** `/ministry-of-health`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Health | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Health | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 17
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 10: Environment & Sustainability | ABIA ONE
+- **page_name:** `Environment & Sustainability | ABIA ONE`
+- **route:** `/environment-sustainability`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Environment & Sustainability | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Environment & Sustainability | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 34
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 11: Economic Transformation | ABIA ONE
+- **page_name:** `Economic Transformation | ABIA ONE`
+- **route:** `/economic-transformation`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Economic Transformation | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Economic Transformation | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 12: Civil Service Portal | ABIA ONE
+- **page_name:** `Civil Service Portal | ABIA ONE`
+- **route:** `/civil-service-portal`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Civil Service Portal | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Civil Service Portal | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 13: AI Academy | Course Catalog & Skills Hub
+- **page_name:** `AI Academy | Course Catalog & Skills Hub`
+- **route:** `/ai-academy`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the AI Academy | Course Catalog & Skills Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the AI Academy | Course Catalog & Skills Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 28
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 14: Invest in Aba | Global Industrial Marketplace
+- **page_name:** `Invest in Aba | Global Industrial Marketplace`
+- **route:** `/invest-in-aba`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Invest in Aba | Global Industrial Marketplace operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Invest in Aba | Global Industrial Marketplace space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `invest_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 18
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 15: Local Governance | ABIA ONE
+- **page_name:** `Local Governance | ABIA ONE`
+- **route:** `/local-governance`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Local Governance | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Local Governance | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 16: GADA | Field Operations Hub
+- **page_name:** `GADA | Field Operations Hub`
+- **route:** `/gada-mobile`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the GADA | Field Operations Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the GADA | Field Operations Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** Greater Aba Development Authority (GADA)
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 17: Digital Archives & Heritage | ABIA ONE
+- **page_name:** `Digital Archives & Heritage | ABIA ONE`
+- **route:** `/digital-archives-heritage`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Digital Archives & Heritage | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Digital Archives & Heritage | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 31
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 18: Border Trade & Logistics | ABIA ONE
+- **page_name:** `Border Trade & Logistics | ABIA ONE`
+- **route:** `/border-trade-logistics`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Border Trade & Logistics | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Border Trade & Logistics | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 19: Science & Technology | ABIA ONE
+- **page_name:** `Science & Technology | ABIA ONE`
+- **route:** `/science-technology`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Science & Technology | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Science & Technology | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 22
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 20: Emergency & Crisis Response | ABIA ONE
+- **page_name:** `Emergency & Crisis Response | ABIA ONE`
+- **route:** `/emergency-crisis-response`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Emergency & Crisis Response | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Emergency & Crisis Response | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 21: Health & Wellness | ABIA ONE
+- **page_name:** `Health & Wellness | ABIA ONE`
+- **route:** `/health-wellness`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Health & Wellness | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Health & Wellness | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 22: Sovereign Fund & Investment Portfolio | ABIA ONE
+- **page_name:** `Sovereign Fund & Investment Portfolio | ABIA ONE`
+- **route:** `/sovereign-fund-investment-portfolio`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Sovereign Fund & Investment Portfolio | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Sovereign Fund & Investment Portfolio | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `invest_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 23: Social Welfare | ABIA ONE
+- **page_name:** `Social Welfare | ABIA ONE`
+- **route:** `/social-welfare`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Social Welfare | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Social Welfare | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 33
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 24: Environment & Sustainability
+- **page_name:** `Environment & Sustainability`
+- **route:** `/environment-sustainability-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Environment & Sustainability operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Environment & Sustainability space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 4
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 25: Transport & Mobility Hub
+- **page_name:** `Transport & Mobility Hub`
+- **route:** `/transport-mobility-hub-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transport & Mobility Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transport & Mobility Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 26: Trade & Logistics | Admin Hub
+- **page_name:** `Trade & Logistics | Admin Hub`
+- **route:** `/trade-logistics-mobile`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Trade & Logistics | Admin Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Trade & Logistics | Admin Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 14
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 27: Digital Archives & Heritage | ABIA ONE
+- **page_name:** `Digital Archives & Heritage | ABIA ONE`
+- **route:** `/digital-archives-heritage-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Digital Archives & Heritage | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Digital Archives & Heritage | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 28: ABIA ONE | Unified Transformation Dashboard
+- **page_name:** `ABIA ONE | Unified Transformation Dashboard`
+- **route:** `/`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the ABIA ONE | Unified Transformation Dashboard operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the ABIA ONE | Unified Transformation Dashboard space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 19
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 29: Civil Service Portal | ABIA ONE
+- **page_name:** `Civil Service Portal | ABIA ONE`
+- **route:** `/civil-service-portal-2`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Civil Service Portal | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Civil Service Portal | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 30: Legal & Institutional Registry | ABIA ONE
+- **page_name:** `Legal & Institutional Registry | ABIA ONE`
+- **route:** `/legal-institutional-registry`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Legal & Institutional Registry | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Legal & Institutional Registry | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 22
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 31: Open Abia | State Budget Transparency
+- **page_name:** `Open Abia | State Budget Transparency`
+- **route:** `/open-abia`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Open Abia | State Budget Transparency operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Open Abia | State Budget Transparency space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 32: Serve Abia | Digital Government Services
+- **page_name:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Serve Abia | Digital Government Services operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Serve Abia | Digital Government Services space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 33: Secure Abia | Citizen Safety Portal
+- **page_name:** `Secure Abia | Citizen Safety Portal`
+- **route:** `/secure-abia-3`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Secure Abia | Citizen Safety Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Secure Abia | Citizen Safety Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `secure_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 16
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 34: Governor's Command Center | ABIA ONE
+- **page_name:** `Governor's Command Center | ABIA ONE`
+- **route:** `/governors-command-center`
+- **page_type:** `executive_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the Governor's Command Center | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Governor's Command Center | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /governors-command-center
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 28
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 35: Education & Learning | ABIA ONE
+- **page_name:** `Education & Learning | ABIA ONE`
+- **route:** `/education-learning`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Education & Learning | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Education & Learning | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Education
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 24
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 36: GADA | Citizen Portal
+- **page_name:** `GADA | Citizen Portal`
+- **route:** `/gada`
+- **page_type:** `agency_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the GADA | Citizen Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the GADA | Citizen Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** Greater Aba Development Authority (GADA)
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 24
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 37: Cooperatives & Micro-Credit
+- **page_name:** `Cooperatives & Micro-Credit`
+- **route:** `/cooperatives-micro-credit-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Cooperatives & Micro-Credit operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Cooperatives & Micro-Credit space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 8
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 38: Cooperatives & Micro-Credit | ABIA ONE
+- **page_name:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **route:** `/cooperatives-micro-credit`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Cooperatives & Micro-Credit | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Cooperatives & Micro-Credit | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 39: Ministry of Communication | Citizen Portal
+- **page_name:** `Ministry of Communication | Citizen Portal`
+- **route:** `/ministry-of-communication-2`
+- **page_type:** `ministry_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Communication | Citizen Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Communication | Citizen Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Communication
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 22
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 40: Environment & Sustainability | ABIA ONE
+- **page_name:** `Environment & Sustainability | ABIA ONE`
+- **route:** `/environment-sustainability-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Environment & Sustainability | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Environment & Sustainability | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 34
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 41: Commerce & Trade | ABIA ONE
+- **page_name:** `Commerce & Trade | ABIA ONE`
+- **route:** `/commerce-trade`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Commerce & Trade | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Commerce & Trade | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 42: Economic Transformation | ABIA ONE
+- **page_name:** `Economic Transformation | ABIA ONE`
+- **route:** `/economic-transformation-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Economic Transformation | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Economic Transformation | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 18
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 43: Housing & Urban Development | ABIA ONE
+- **page_name:** `Housing & Urban Development | ABIA ONE`
+- **route:** `/housing-urban-development`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Housing & Urban Development | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Housing & Urban Development | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 44: ABIA ONE | Unified Transformation Dashboard
+- **page_name:** `ABIA ONE | Unified Transformation Dashboard`
+- **route:** `/home-variant`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the ABIA ONE | Unified Transformation Dashboard operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the ABIA ONE | Unified Transformation Dashboard space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /home-variant
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 45: Water Resources & Irrigation | ABIA ONE
+- **page_name:** `Water Resources & Irrigation | ABIA ONE`
+- **route:** `/water-resources-irrigation`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Water Resources & Irrigation | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Water Resources & Irrigation | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 46: Transport & Mobility | ABIA ONE
+- **page_name:** `Transport & Mobility | ABIA ONE`
+- **route:** `/transport-mobility`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transport & Mobility | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transport & Mobility | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 47: State Archives | ABIA ONE
+- **page_name:** `State Archives | ABIA ONE`
+- **route:** `/state-archives`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the State Archives | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the State Archives | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 48: Governor's Command Center | ABIA ONE
+- **page_name:** `Governor's Command Center | ABIA ONE`
+- **route:** `/governors-command-center-mobile`
+- **page_type:** `executive_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the Governor's Command Center | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Governor's Command Center | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /governors-command-center-mobile
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 49: Legal & Institutional Registry
+- **page_name:** `Legal & Institutional Registry`
+- **route:** `/legal-institutional-registry-mobile`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Legal & Institutional Registry operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Legal & Institutional Registry space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 50: SME Growth & Support | ABIA ONE
+- **page_name:** `SME Growth & Support | ABIA ONE`
+- **route:** `/sme-growth-support`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the SME Growth & Support | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the SME Growth & Support | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 34
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 51: Live Incident Feed | ABIA ONE (Desktop)
+- **page_name:** `Live Incident Feed | ABIA ONE (Desktop)`
+- **route:** `/live-incident-feed`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Live Incident Feed | ABIA ONE (Desktop) operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Live Incident Feed | ABIA ONE (Desktop) space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 52: Ministry of Agriculture | Citizen Portal
+- **page_name:** `Ministry of Agriculture | Citizen Portal`
+- **route:** `/ministry-of-agriculture`
+- **page_type:** `ministry_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Agriculture | Citizen Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Agriculture | Citizen Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Agriculture
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 53: Citizen Consultations | Connect Abia
+- **page_name:** `Citizen Consultations | Connect Abia`
+- **route:** `/citizen-consultations`
+- **page_type:** `public_service_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Citizen Consultations | Connect Abia operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Citizen Consultations | Connect Abia space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 24
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 54: Jobs Abia | Career Portal
+- **page_name:** `Jobs Abia | Career Portal`
+- **route:** `/jobs-abia-mobile`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Jobs Abia | Career Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Jobs Abia | Career Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 18
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 55: Border Trade & Logistics | ABIA ONE
+- **page_name:** `Border Trade & Logistics | ABIA ONE`
+- **route:** `/border-trade-logistics-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Border Trade & Logistics | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Border Trade & Logistics | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 18
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 56: Greater Aba Development Authority | ABIA ONE
+- **page_name:** `Greater Aba Development Authority | ABIA ONE`
+- **route:** `/greater-aba-development-authority`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Greater Aba Development Authority | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Greater Aba Development Authority | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** Greater Aba Development Authority (GADA)
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 19
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 57: Build Abia | Progress Tracker
+- **page_name:** `Build Abia | Progress Tracker`
+- **route:** `/build-abia-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Build Abia | Progress Tracker operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Build Abia | Progress Tracker space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 5
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 58: Ministry of Agriculture | ABIA ONE
+- **page_name:** `Ministry of Agriculture | ABIA ONE`
+- **route:** `/ministry-of-agriculture-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Agriculture | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Agriculture | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Agriculture
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 38
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 59: Women & Gender Affairs | ABIA ONE
+- **page_name:** `Women & Gender Affairs | ABIA ONE`
+- **route:** `/women-gender-affairs`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Women & Gender Affairs | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Women & Gender Affairs | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 28
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 60: Education & Learning | ABIA ONE
+- **page_name:** `Education & Learning | ABIA ONE`
+- **route:** `/education-learning-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Education & Learning | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Education & Learning | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Education
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 61: AI Academy | Learning Hub
+- **page_name:** `AI Academy | Learning Hub`
+- **route:** `/ai-academy-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the AI Academy | Learning Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the AI Academy | Learning Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 8
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 62: Employer Portal | Jobs Abia Marketplace
+- **page_name:** `Employer Portal | Jobs Abia Marketplace`
+- **route:** `/employer-portal`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Employer Portal | Jobs Abia Marketplace operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Employer Portal | Jobs Abia Marketplace space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 28
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 63: News & Press Center | ABIA ONE
+- **page_name:** `News & Press Center | ABIA ONE`
+- **route:** `/news-press-center`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the News & Press Center | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the News & Press Center | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 64: Invest Abia | Global Gateway
+- **page_name:** `Invest Abia | Global Gateway`
+- **route:** `/invest-abia-mobile`
+- **page_type:** `public_landing_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Invest Abia | Global Gateway operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Invest Abia | Global Gateway space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `invest_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 65: Tourism & Culture | ABIA ONE
+- **page_name:** `Tourism & Culture | ABIA ONE`
+- **route:** `/tourism-culture`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Tourism & Culture | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Tourism & Culture | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 32
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 66: Citizen Identity & Civil Registry | ABIA ONE
+- **page_name:** `Citizen Identity & Civil Registry | ABIA ONE`
+- **route:** `/citizen-identity-civil-registry`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Citizen Identity & Civil Registry | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Citizen Identity & Civil Registry | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 67: Citizen Identity | Digital ID
+- **page_name:** `Citizen Identity | Digital ID`
+- **route:** `/citizen-identity-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Citizen Identity | Digital ID operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Citizen Identity | Digital ID space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 5
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 68: Commerce & Trade | ABIA ONE
+- **page_name:** `Commerce & Trade | ABIA ONE`
+- **route:** `/commerce-trade-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Commerce & Trade | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Commerce & Trade | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 69: Ministry of Health | Portal
+- **page_name:** `Ministry of Health | Portal`
+- **route:** `/ministry-of-health-mobile`
+- **page_type:** `ministry_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Health | Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Health | Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 70: Women & Gender Affairs | Portal
+- **page_name:** `Women & Gender Affairs | Portal`
+- **route:** `/women-gender-affairs-mobile`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Women & Gender Affairs | Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Women & Gender Affairs | Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 6
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 71: Emergency Response | ABIA ONE (Desktop)
+- **page_name:** `Emergency Response | ABIA ONE (Desktop)`
+- **route:** `/emergency-response`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Emergency Response | ABIA ONE (Desktop) operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Emergency Response | ABIA ONE (Desktop) space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 19
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 72: Open Abia | Procurement & Tenders Registry
+- **page_name:** `Open Abia | Procurement & Tenders Registry`
+- **route:** `/open-abia-2`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Open Abia | Procurement & Tenders Registry operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Open Abia | Procurement & Tenders Registry space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 29
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 73: MDA Performance | ABIA ONE
+- **page_name:** `MDA Performance | ABIA ONE`
+- **route:** `/mda-performance`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the MDA Performance | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the MDA Performance | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /mda-performance
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 74: Secure Abia | Intelligence Command
+- **page_name:** `Secure Abia | Intelligence Command`
+- **route:** `/secure-abia-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Secure Abia | Intelligence Command operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Secure Abia | Intelligence Command space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `secure_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 14
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 75: GADA | Citizen Portal (Mobile)
+- **page_name:** `GADA | Citizen Portal (Mobile)`
+- **route:** `/gada-mobile-2`
+- **page_type:** `agency_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the GADA | Citizen Portal (Mobile) operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the GADA | Citizen Portal (Mobile) space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** Greater Aba Development Authority (GADA)
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 76: Ministry of Health | Admin Hub
+- **page_name:** `Ministry of Health | Admin Hub`
+- **route:** `/ministry-of-health-mobile-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Health | Admin Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Health | Admin Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 77: Connect Abia | Citizen Engagement & News
+- **page_name:** `Connect Abia | Citizen Engagement & News`
+- **route:** `/connect-abia`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Connect Abia | Citizen Engagement & News operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Connect Abia | Citizen Engagement & News space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 24
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 78: Tourism & Culture | ABIA ONE
+- **page_name:** `Tourism & Culture | ABIA ONE`
+- **route:** `/tourism-culture-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Tourism & Culture | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Tourism & Culture | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 79: Invest Abia | Global Investment Gateway
+- **page_name:** `Invest Abia | Global Investment Gateway`
+- **route:** `/invest-abia`
+- **page_type:** `public_landing_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Invest Abia | Global Investment Gateway operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Invest Abia | Global Investment Gateway space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `invest_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 23
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 80: Transparent Governance | ABIA ONE
+- **page_name:** `Transparent Governance | ABIA ONE`
+- **route:** `/transparent-governance`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transparent Governance | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transparent Governance | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 81: Transparent Governance | ABIA ONE
+- **page_name:** `Transparent Governance | ABIA ONE`
+- **route:** `/transparent-governance-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transparent Governance | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transparent Governance | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 82: Ministry of Agriculture | Admin Hub
+- **page_name:** `Ministry of Agriculture | Admin Hub`
+- **route:** `/ministry-of-agriculture-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Agriculture | Admin Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Agriculture | Admin Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Agriculture
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 83: Ministry of Education | Admin Hub
+- **page_name:** `Ministry of Education | Admin Hub`
+- **route:** `/ministry-of-education-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Education | Admin Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Education | Admin Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Education
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 10
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 84: Utilities & Environment | ABIA ONE
+- **page_name:** `Utilities & Environment | ABIA ONE`
+- **route:** `/utilities-environment`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Utilities & Environment | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Utilities & Environment | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 85: AI Academy | Future-Ready Digital Skills
+- **page_name:** `AI Academy | Future-Ready Digital Skills`
+- **route:** `/ai-academy-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the AI Academy | Future-Ready Digital Skills operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the AI Academy | Future-Ready Digital Skills space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 86: Aba 2.0 | Urban Renewal Hub
+- **page_name:** `Aba 2.0 | Urban Renewal Hub`
+- **route:** `/aba-20-mobile`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Aba 2.0 | Urban Renewal Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Aba 2.0 | Urban Renewal Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 10
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 87: Agri-Transformation | ABIA ONE
+- **page_name:** `Agri-Transformation | ABIA ONE`
+- **route:** `/agri-transformation`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Agri-Transformation | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Agri-Transformation | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 88: Transport & Mobility | ABIA ONE
+- **page_name:** `Transport & Mobility | ABIA ONE`
+- **route:** `/transport-mobility-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transport & Mobility | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transport & Mobility | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 19
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 89: Housing & Urban Development | ABIA ONE
+- **page_name:** `Housing & Urban Development | ABIA ONE`
+- **route:** `/housing-urban-development-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Housing & Urban Development | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Housing & Urban Development | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 90: Aba 2.0 | Urban Renewal Hub
+- **page_name:** `Aba 2.0 | Urban Renewal Hub`
+- **route:** `/aba-20`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Aba 2.0 | Urban Renewal Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Aba 2.0 | Urban Renewal Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 20
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 91: Youth & Sports | ABIA ONE
+- **page_name:** `Youth & Sports | ABIA ONE`
+- **route:** `/youth-sports`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Youth & Sports | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Youth & Sports | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 92: ABIA ONE | Citizen Dashboard
+- **page_name:** `ABIA ONE | Citizen Dashboard`
+- **route:** `/home-mobile`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the ABIA ONE | Citizen Dashboard operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the ABIA ONE | Citizen Dashboard space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /home-mobile
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 11
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 93: Land & Property | Digital Gov Services
+- **page_name:** `Land & Property | Digital Gov Services`
+- **route:** `/land-property`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Land & Property | Digital Gov Services operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Land & Property | Digital Gov Services space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 17
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 94: Diaspora Gateway | ABIA ONE
+- **page_name:** `Diaspora Gateway | ABIA ONE`
+- **route:** `/diaspora-gateway`
+- **page_type:** `public_landing_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Diaspora Gateway | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Diaspora Gateway | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 35
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 95: Open Abia | Transparency Monitor
+- **page_name:** `Open Abia | Transparency Monitor`
+- **route:** `/open-abia-mobile`
+- **page_type:** `reporting_dashboard`
+- **public_or_authenticated:** AUTHENTICATED
+- **purpose:** Technical design and markup for the Open Abia | Transparency Monitor operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Open Abia | Transparency Monitor space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `govern_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** /open-abia-mobile
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 13
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 96: Serve Abia | Digital Services
+- **page_name:** `Serve Abia | Digital Services`
+- **route:** `/serve-abia-mobile`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Serve Abia | Digital Services operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Serve Abia | Digital Services space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 97: Ministry of Health | Citizen Portal
+- **page_name:** `Ministry of Health | Citizen Portal`
+- **route:** `/ministry-of-health-2`
+- **page_type:** `ministry_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Health | Citizen Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Health | Citizen Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 29
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 98: Industrial Hubs | Manufacturing Excellence
+- **page_name:** `Industrial Hubs | Manufacturing Excellence`
+- **route:** `/industrial-hubs`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Industrial Hubs | Manufacturing Excellence operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Industrial Hubs | Manufacturing Excellence space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 99: Water Resources & Irrigation | ABIA ONE
+- **page_name:** `Water Resources & Irrigation | ABIA ONE`
+- **route:** `/water-resources-irrigation-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Water Resources & Irrigation | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Water Resources & Irrigation | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 18
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 100: Women & Gender Affairs | ABIA ONE
+- **page_name:** `Women & Gender Affairs | ABIA ONE`
+- **route:** `/women-gender-affairs-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Women & Gender Affairs | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Women & Gender Affairs | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 30
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 101: Ministry of Agriculture | Portal
+- **page_name:** `Ministry of Agriculture | Portal`
+- **route:** `/ministry-of-agriculture-mobile-2`
+- **page_type:** `ministry_portal`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Agriculture | Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Agriculture | Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `serve_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Agriculture
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 10
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 102: Legal & Institutional Registry | ABIA ONE
+- **page_name:** `Legal & Institutional Registry | ABIA ONE`
+- **route:** `/legal-institutional-registry-2`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Legal & Institutional Registry | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Legal & Institutional Registry | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 29
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 103: Secure Abia | Safety Portal
+- **page_name:** `Secure Abia | Safety Portal`
+- **route:** `/secure-abia-mobile-2`
+- **page_type:** `citizen_service`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Secure Abia | Safety Portal operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Secure Abia | Safety Portal space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `secure_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 104: Transport & Mobility | Command Hub
+- **page_name:** `Transport & Mobility | Command Hub`
+- **route:** `/transport-mobility-mobile`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Transport & Mobility | Command Hub operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Transport & Mobility | Command Hub space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 10
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 105: Build Abia | Infrastructure Progress Map
+- **page_name:** `Build Abia | Infrastructure Progress Map`
+- **route:** `/build-abia`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Build Abia | Infrastructure Progress Map operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Build Abia | Infrastructure Progress Map space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 21
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 106: Science & Technology | ABIA ONE
+- **page_name:** `Science & Technology | ABIA ONE`
+- **route:** `/science-technology-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Science & Technology | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Science & Technology | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 33
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 107: Tourism & Culture | Explore
+- **page_name:** `Tourism & Culture | Explore`
+- **route:** `/tourism-culture-mobile`
+- **page_type:** `public_landing_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Tourism & Culture | Explore operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Tourism & Culture | Explore space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 10
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 108: Public Reporting | Secure Abia (Desktop)
+- **page_name:** `Public Reporting | Secure Abia (Desktop)`
+- **route:** `/public-reporting`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Public Reporting | Secure Abia (Desktop) operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Public Reporting | Secure Abia (Desktop) space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 14
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 109: Cooperatives & Micro-Credit | ABIA ONE
+- **page_name:** `Cooperatives & Micro-Credit | ABIA ONE`
+- **route:** `/cooperatives-micro-credit-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Cooperatives & Micro-Credit | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Cooperatives & Micro-Credit | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 110: Health & Wellness | ABIA ONE
+- **page_name:** `Health & Wellness | ABIA ONE`
+- **route:** `/health-wellness-2`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Health & Wellness | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Health & Wellness | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Health
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 24
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 111: Serve Abia | Digital Government Services
+- **page_name:** `Serve Abia | Digital Government Services`
+- **route:** `/serve-abia-3`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Serve Abia | Digital Government Services operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Serve Abia | Digital Government Services space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 25
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 112: Digital Archives & Heritage
+- **page_name:** `Digital Archives & Heritage`
+- **route:** `/digital-archives-heritage-mobile`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Digital Archives & Heritage operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Digital Archives & Heritage space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** NO
+- **top_navigation_present:** YES
+- **footer_present:** NO
+- **CTA_count:** 9
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 113: Jobs Abia | Employment & Talent Marketplace
+- **page_name:** `Jobs Abia | Employment & Talent Marketplace`
+- **route:** `/jobs-abia`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Jobs Abia | Employment & Talent Marketplace operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Jobs Abia | Employment & Talent Marketplace space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 26
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 114: Social Welfare | ABIA ONE
+- **page_name:** `Social Welfare | ABIA ONE`
+- **route:** `/social-welfare-2`
+- **page_type:** `public_information_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Social Welfare | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Social Welfare | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** N/A
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 27
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
+### Page 115: Ministry of Agriculture | ABIA ONE
+- **page_name:** `Ministry of Agriculture | ABIA ONE`
+- **route:** `/ministry-of-agriculture-3`
+- **page_type:** `transaction_page`
+- **public_or_authenticated:** PUBLIC
+- **purpose:** Technical design and markup for the Ministry of Agriculture | ABIA ONE operational area.
+- **audience:** Citizens & Stakeholders
+- **primary_goal:** Deliver visual parity and prototype functionality for the Ministry of Agriculture | ABIA ONE space.
+- **secondary_goal:** Facilitate navigation transitions and operational checks.
+- **parent_experience:** `discover_abia`
+- **parent_section:** `/`
+- **child_sections:** None
+- **ministry_owner:** Ministry of Agriculture
+- **agency_owner:** N/A
+- **service_owner:** N/A
+- **dashboard_relationship:** N/A
+- **current_navigation_model:** Header Navbar + Floating Portal Directory
+- **sidebar_present:** YES
+- **top_navigation_present:** YES
+- **footer_present:** YES
+- **CTA_count:** 17
+- **governance_score:** 85
+- **observations:** Clean layout preservation, responsive elements compiled.
+
+---
