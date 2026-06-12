@@ -1,0 +1,721 @@
+CTA,appears_on_pages,destinations,frequency
+1,/open-abia-2,,1
+2,/open-abia-2,,1
+3,/open-abia-2,,1
+emergency_home Emergency,/aba-20,,1
+Citizen Portal,/aba-20; /agri-transformation; /ai-academy; /ai-academy-2; /border-trade-logistics; /border-trade-logistics-2; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /commerce-trade; /connect-abia; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation; /economic-transformation-2; /education-learning; /employer-portal; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /industrial-hubs; /invest-abia; /invest-in-aba; /jobs-abia; /legal-institutional-registry; /legal-institutional-registry-2; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /open-abia; /open-abia-2; /; /procurement-tenders-registry; /public-reporting; /science-technology; /secure-abia; /serve-abia-2; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transparent-governance-2; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /women-gender-affairs-2; /youth-sports,,56
+forum Citizen Feedback,/aba-20,,1
+Economy,/aba-20; /agri-transformation; /ai-academy; /border-trade-logistics; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation; /economic-transformation-2; /education-learning; /emergency-crisis-response; /employer-portal; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /industrial-hubs; /invest-abia; /invest-in-aba; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /open-abia; /open-abia-2; /; /procurement-tenders-registry; /public-reporting; /science-technology; /secure-abia; /serve-abia-2; /serve-abia-3; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transparent-governance-2; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /youth-sports,/economic-transformation,54
+Digital Gov,/aba-20; /agri-transformation; /ai-academy; /border-trade-logistics; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation; /economic-transformation-2; /education-learning; /emergency-crisis-response; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /industrial-hubs; /invest-abia; /invest-in-aba; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /open-abia; /open-abia-2; /; /procurement-tenders-registry; /public-reporting; /science-technology; /secure-abia; /serve-abia-2; /serve-abia-3; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transparent-governance-2; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /youth-sports,/serve-abia,53
+Governance,/aba-20; /agri-transformation; /ai-academy; /border-trade-logistics; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /commerce-trade-2; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation; /economic-transformation-2; /education-learning; /education-learning-2; /emergency-crisis-response; /employer-portal; /environment-sustainability; /environment-sustainability-2; /gada; /governors-command-center; /health-wellness; /health-wellness-2; /home-variant; /housing-urban-development; /housing-urban-development-2; /industrial-hubs; /invest-abia; /invest-in-aba; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-agriculture-2; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /open-abia; /open-abia-2; /; /procurement-tenders-registry; /public-reporting; /science-technology; /science-technology-2; /secure-abia; /secure-abia-3; /serve-abia-2; /serve-abia-3; /social-welfare; /social-welfare-2; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /tourism-culture-2; /transparent-governance; /transparent-governance-2; /transport-mobility; /transport-mobility-2; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /youth-sports,/local-governance,67
+Security,/aba-20; /agri-transformation; /ai-academy; /border-trade-logistics; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation; /economic-transformation-2; /education-learning; /emergency-crisis-response; /employer-portal; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /industrial-hubs; /invest-abia; /invest-in-aba; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /open-abia; /open-abia-2; /; /procurement-tenders-registry; /public-reporting; /science-technology; /secure-abia; /serve-abia-2; /serve-abia-3; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transparent-governance-2; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /youth-sports,/secure-abia,55
+payments Economic Transformation,/aba-20; /agri-transformation; /ai-academy; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /cooperatives-micro-credit; /digital-archives-heritage; /economic-transformation; /environment-sustainability; /home-variant; /industrial-hubs; /invest-abia; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /local-governance; /mda-performance; /open-abia; /open-abia-2; /serve-abia-2; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /tourism-culture; /transparent-governance-2; /transport-mobility; /water-resources-irrigation; /youth-sports,/economic-transformation,30
+account_balance Digital Government,/aba-20; /agri-transformation; /ai-academy; /build-abia; /citizen-consultations; /citizen-identity-civil-registry; /civil-service-portal-2; /cooperatives-micro-credit; /digital-archives-heritage; /economic-transformation; /environment-sustainability; /home-variant; /industrial-hubs; /invest-abia; /land-property; /legal-institutional-registry; /legal-institutional-registry-2; /local-governance; /mda-performance; /open-abia; /open-abia-2; /serve-abia-2; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /tourism-culture; /transparent-governance-2; /transport-mobility; /water-resources-irrigation; /youth-sports,/serve-abia,30
+mitre Transparent Governance,/aba-20; /agri-transformation; /citizen-identity-civil-registry; /civil-service-portal-2; /digital-archives-heritage; /environment-sustainability; /home-variant; /legal-institutional-registry-2; /local-governance; /mda-performance; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /transport-mobility; /water-resources-irrigation; /youth-sports,/local-governance,16
+security Public Trust,/aba-20; /agri-transformation; /citizen-identity-civil-registry; /civil-service-portal-2; /cooperatives-micro-credit; /digital-archives-heritage; /digital-archives-heritage-2; /environment-sustainability; /home-variant; /legal-institutional-registry-2; /local-governance; /mda-performance; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /tourism-culture; /transparent-governance; /transport-mobility; /water-resources-irrigation; /youth-sports,/secure-abia,20
+Invest Abia,/aba-20; /border-trade-logistics; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation-2; /education-learning; /emergency-crisis-response; /environment-sustainability; /environment-sustainability-2; /gada; /health-wellness; /home-variant; /housing-urban-development; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /procurement-tenders-registry; /science-technology; /serve-abia-3; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /women-gender-affairs-2; /youth-sports,/invest-in-aba,40
+Serve Abia,/aba-20; /ai-academy-2; /border-trade-logistics; /border-trade-logistics-2; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /connect-abia; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation-2; /education-learning; /emergency-crisis-response; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /jobs-abia; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /procurement-tenders-registry; /science-technology; /serve-abia; /serve-abia-3; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /women-gender-affairs-2; /youth-sports,/serve-abia,44
+Build Abia,/aba-20; /border-trade-logistics; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation-2; /education-learning; /emergency-crisis-response; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /procurement-tenders-registry; /science-technology; /serve-abia-3; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /women-gender-affairs-2; /youth-sports,/build-abia,39
+Open Abia,/aba-20; /border-trade-logistics; /citizen-identity-civil-registry; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /economic-transformation-2; /education-learning; /emergency-crisis-response; /environment-sustainability; /gada; /health-wellness; /home-variant; /housing-urban-development; /legal-institutional-registry-2; /local-governance; /mda-performance; /ministry-of-agriculture; /ministry-of-communication-2; /ministry-of-health-2; /news-press-center; /procurement-tenders-registry; /serve-abia-3; /sme-growth-support; /social-welfare; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transparent-governance; /transport-mobility; /utilities-environment; /water-resources-irrigation; /women-gender-affairs; /women-gender-affairs-2; /youth-sports,/open-abia,38
+Town Hall,/aba-20,/citizen-consultations,1
+notifications,/aba-20-mobile; /civil-service-mobile; /civil-service-portal; /cooperatives-micro-credit-2; /digital-archives-heritage-mobile; /emergency-response; /environment-sustainability-mobile; /gada-mobile; /gada-mobile-2; /governors-command-center; /governors-command-center-mobile; /invest-abia-mobile; /legal-institutional-registry-mobile; /local-governance; /ministry-of-agriculture-2; /ministry-of-agriculture-mobile; /ministry-of-communication; /ministry-of-education-mobile; /ministry-of-health; /ministry-of-health-mobile-2; /open-abia-mobile; /secure-abia-mobile; /tourism-culture-mobile; /trade-logistics-mobile; /transport-mobility-hub-mobile; /transport-mobility-mobile; /women-gender-affairs-mobile,,27
+Fullscreen open_in_full,/aba-20-mobile,,1
+add,/aba-20-mobile; /connect-abia-mobile; /cooperatives-micro-credit-mobile; /emergency-crisis-response; /environment-sustainability; /greater-aba-development-authority; /housing-urban-development-2; /invest-in-aba; /ministry-of-agriculture-3; /ministry-of-agriculture-mobile; /secure-abia-2; /utilities-environment; /women-gender-affairs-mobile,,14
+remove,/aba-20-mobile; /emergency-crisis-response; /environment-sustainability; /housing-urban-development-2; /secure-abia-2; /utilities-environment,,6
+Verify Ownership arrow_forward,/aba-20-mobile,,1
+add_a_photo,/aba-20-mobile; /gada-mobile-2,,2
+dashboard Dashboard,/aba-20-mobile; /build-abia-mobile; /citizen-identity-mobile; /civil-service-mobile; /civil-service-portal; /commerce-trade-2; /connect-abia-mobile; /cooperatives-micro-credit-2; /cooperatives-micro-credit-mobile; /digital-archives-heritage-mobile; /education-learning-2; /gada-mobile; /gada-mobile-2; /governors-command-center; /governors-command-center-mobile; /home-mobile; /housing-urban-development-2; /invest-abia-mobile; /jobs-abia-mobile; /legal-institutional-registry-mobile; /ministry-of-agriculture-2; /ministry-of-agriculture-mobile; /ministry-of-agriculture-mobile-2; /ministry-of-education-mobile; /ministry-of-health-mobile; /ministry-of-health-mobile-2; /open-abia-mobile; /science-technology-2; /secure-abia-mobile; /secure-abia-mobile-2; /serve-abia-mobile; /social-welfare-2; /tourism-culture-mobile; /trade-logistics-mobile; /transport-mobility-2; /transport-mobility-hub-mobile; /water-resources-irrigation-2; /women-gender-affairs-mobile,/home-mobile; /,38
+notifications_active Alerts,/aba-20-mobile; /gada-mobile; /gada-mobile-2; /home-mobile; /invest-abia-mobile; /ministry-of-education-mobile; /ministry-of-health-mobile; /secure-abia-mobile; /tourism-culture-mobile,,9
+grid_view Hub,/aba-20-mobile; /gada-mobile; /gada-mobile-2; /invest-abia-mobile; /ministry-of-education-mobile; /secure-abia-mobile; /tourism-culture-mobile,,7
+person Profile,/aba-20-mobile; /civil-service-portal-2; /gada-mobile; /gada-mobile-2; /home-mobile; /invest-abia-mobile; /ministry-of-education-mobile; /ministry-of-health-mobile; /secure-abia-mobile; /serve-abia; /serve-abia-3; /tourism-culture-mobile,,12
+Emergency,/agri-transformation; /border-trade-logistics; /civil-service-portal-2; /commerce-trade; /cooperatives-micro-credit; /diaspora-gateway; /digital-archives-heritage; /digital-archives-heritage-2; /education-learning; /environment-sustainability; /health-wellness; /mda-performance; /ministry-of-communication-2; /news-press-center; /science-technology; /sme-growth-support; /sovereign-fund-investment-portfolio; /tourism-culture; /transport-mobility; /women-gender-affairs; /youth-sports,,21
+Citizen Feedback,/agri-transformation; /citizen-identity-civil-registry; /civil-service-portal-2; /digital-archives-heritage; /economic-transformation-2; /environment-sustainability; /home-variant; /legal-institutional-registry-2; /mda-performance; /procurement-tenders-registry; /sovereign-fund-investment-portfolio; /state-archives; /tourism-culture; /transport-mobility; /water-resources-irrigation; /women-gender-affairs,,16
+View Export Ledgers,/agri-transformation,,1
+Agriculture,/agri-transformation; /tourism-culture-2,/ministry-of-agriculture,2
+Education,/agri-transformation; /serve-abia-2; /serve-abia-3,/education-learning,3
+Health,/agri-transformation; /serve-abia-2; /serve-abia-3,/ministry-of-health,3
+Budget,/agri-transformation; /tourism-culture-2,/open-abia,2
+Launch Service,/ai-academy; /build-abia; /citizen-consultations; /economic-transformation; /employer-portal; /invest-abia; /land-property; /legal-institutional-registry; /open-abia; /secure-abia,,10
+View All Courses,/ai-academy,,1
+All,/ai-academy,,1
+Foundation,/ai-academy,,1
+Specialist,/ai-academy,,1
+Advanced,/ai-academy,,1
+Enroll Now,/ai-academy; /social-welfare-2,,7
+chat_bubble,/ai-academy; /environment-sustainability; /social-welfare,,3
+gavel Transparent Governance,/ai-academy; /build-abia; /citizen-consultations; /economic-transformation; /industrial-hubs; /invest-abia; /land-property; /legal-institutional-registry; /open-abia; /open-abia-2; /serve-abia-2; /transparent-governance-2,/local-governance,12
+Browse Catalog arrow_forward,/ai-academy-2,,1
+Watch Success Stories,/ai-academy-2,,1
+Go to Dashboard chevron_right,/ai-academy-2,,1
+Resume Learning,/ai-academy-2,,1
+Course Details,/ai-academy-2,,1
+Apply Now,/ai-academy-2; /housing-urban-development; /jobs-abia; /utilities-environment,,6
+Download Prospectus,/ai-academy-2; /invest-abia-mobile,,2
+Jobs Abia,/ai-academy-2; /border-trade-logistics-2; /connect-abia; /jobs-abia; /serve-abia,/jobs-abia,6
+AI Academy,/ai-academy-2; /border-trade-logistics-2; /connect-abia; /jobs-abia; /serve-abia,/ai-academy,5
+Connect Abia,/ai-academy-2; /border-trade-logistics-2; /connect-abia; /jobs-abia; /serve-abia,/connect-abia,5
+Data Science,/ai-academy-2,/science-technology,1
+Institutional News,/ai-academy-2; /border-trade-logistics-2; /connect-abia; /jobs-abia; /serve-abia,/news-press-center,5
+Open Data Initiative,/ai-academy-2,/open-abia,1
+emergency_share,/ai-academy-mobile; /connect-abia-mobile; /home-mobile; /jobs-abia-mobile; /ministry-of-agriculture-mobile-2; /ministry-of-health-mobile; /serve-abia-mobile,,7
+Resume Learning play_circle,/ai-academy-mobile,,1
+All Paths,/ai-academy-mobile,,1
+Public Ops,/ai-academy-mobile,,1
+Dev Tools,/ai-academy-mobile,,1
+Strategy,/ai-academy-mobile,,1
+download Export Trade Data,/border-trade-logistics,,1
+add_circle New Trade Agreement,/border-trade-logistics,,1
+Verify Physical Permit QR,/border-trade-logistics,,1
+filter_list,/border-trade-logistics; /gada; /housing-urban-development; /open-abia; /state-archives; /water-resources-irrigation-2,,6
+View MOU,/border-trade-logistics,,2
+Review Terms,/border-trade-logistics,,1
+analytics Live Trade Dashboard,/border-trade-logistics-2,,1
+Facilitation Guide,/border-trade-logistics-2,,1
+Access Portal,/border-trade-logistics-2,,1
+Facility Details arrow_forward,/border-trade-logistics-2,,1
+Sensor Network Log,/border-trade-logistics-2,,1
+Investment Gateway,/border-trade-logistics-2,/invest-in-aba,1
+Trade Inquiries,/border-trade-logistics-2,/economic-transformation,1
+All Regions,/build-abia,,1
+Umuahia,/build-abia,,1
+Aba,/build-abia,,1
+Ohafia,/build-abia,,1
+View Full Archive,/build-abia,,1
+add_a_photo Report Project Progress,/build-abia-mobile,,1
+Join Active Consultation arrow_forward,/citizen-consultations,,1
+View Policy Archive,/citizen-consultations,,1
+JOIN SESSION play_circle,/citizen-consultations,,1
+SET REMINDER notifications,/citizen-consultations,,1
+SUBMIT TO GOVERNANCE HUB,/citizen-consultations,,1
+TAKE SURVEY,/citizen-consultations,,2
+emergency_home Emergency,/citizen-identity-civil-registry,,1
+download Download e-ID,/citizen-identity-civil-registry,,1
+Renew Residency,/citizen-identity-civil-registry,,1
+Re-Verify Identity,/citizen-identity-civil-registry,,1
+View All Records,/citizen-identity-civil-registry,,1
+add_circle Register Birth,/citizen-identity-civil-registry,,1
+history_edu File Death Report,/citizen-identity-civil-registry,,1
+home Home,/citizen-identity-civil-registry; /civil-service-portal-2; /serve-abia; /women-gender-affairs-2,/,4
+badge Identity,/citizen-identity-civil-registry,/citizen-identity-civil-registry,1
+RE-VERIFY,/citizen-identity-mobile,,1
+campaign COMPOSE BROADCAST,/civil-service-mobile,,1
+View All chevron_right,/civil-service-mobile,,1
+close,/civil-service-mobile,,2
+check,/civil-service-mobile,,2
+Update Bio-Data,/civil-service-portal,,1
+View All Payslips arrow_forward,/civil-service-portal,,1
+download,/civil-service-portal; /digital-archives-heritage-2; /housing-urban-development; /legal-institutional-registry-2,,9
+add Apply for Leave,/civil-service-portal,,1
+View History,/civil-service-portal; /serve-abia-3,,2
+Continue Learning,/civil-service-portal; /civil-service-portal-2,,2
+Open Bulletin Board,/civil-service-portal,,1
+school AI Academy,/civil-service-portal,/ai-academy,1
+Press Office,/civil-service-portal; /commerce-trade-2; /cooperatives-micro-credit-2; /education-learning-2; /environment-sustainability-2; /governors-command-center; /health-wellness-2; /housing-urban-development-2; /ministry-of-agriculture-2; /science-technology-2; /secure-abia-3; /social-welfare-2; /tourism-culture-2; /transport-mobility-2; /water-resources-irrigation-2,/news-press-center,15
+Read Full Dispatch arrow_forward,/civil-service-portal-2,,1
+download Export Service Record,/civil-service-portal-2,,1
+Detailed Appraisal History open_in_new,/civil-service-portal-2,,1
+dashboard Portal,/civil-service-portal-2,,1
+history_edu Records,/civil-service-portal-2,,1
+feedback Citizen Feedback,/commerce-trade; /housing-urban-development; /utilities-environment; /women-gender-affairs-2,,4
+Enter Market arrow_forward,/commerce-trade,,1
+Apply for New License,/commerce-trade,,1
+Active Shipments,/commerce-trade,,1
+Completed,/commerce-trade,,1
+Investment Guide,/commerce-trade; /ministry-of-agriculture-2,/invest-in-aba,2
+Virtual Tour,/commerce-trade,,1
+shopping_cart,/commerce-trade,,1
+Sign In,/commerce-trade-2; /education-learning-2; /environment-sustainability-2; /health-wellness-2; /housing-urban-development-2; /ministry-of-agriculture-2; /science-technology-2; /secure-abia-3; /social-welfare-2; /tourism-culture-2; /transport-mobility-2,,11
+Export Report,/commerce-trade-2,,1
+Explore Opportunities trending_up,/commerce-trade-2,,1
+Apply for Grant,/commerce-trade-2,,1
+filter_list Filter Hubs,/commerce-trade-2,,1
+map View Grid,/commerce-trade-2,,1
+Read Whitepaper,/commerce-trade-2,,1
+Invest,/commerce-trade-2; /cooperatives-micro-credit-2; /education-learning-2; /environment-sustainability-2; /governors-command-center; /health-wellness-2; /housing-urban-development-2; /ministry-of-agriculture-2; /science-technology-2; /secure-abia-3; /social-welfare-2; /tourism-culture-2; /transport-mobility-2,/invest-in-aba,14
+Jobs,/commerce-trade-2; /cooperatives-micro-credit-2; /education-learning-2; /employer-portal; /environment-sustainability-2; /governors-command-center; /health-wellness-2; /housing-urban-development-2; /ministry-of-agriculture-2; /science-technology-2; /secure-abia-3; /social-welfare-2; /tourism-culture-2; /transport-mobility-2,/jobs-abia,15
+Serve,/commerce-trade-2; /cooperatives-micro-credit-2; /education-learning-2; /environment-sustainability-2; /governors-command-center; /health-wellness-2; /housing-urban-development-2; /ministry-of-agriculture-2; /science-technology-2; /secure-abia-3; /social-welfare-2; /tourism-culture-2; /transport-mobility-2,/serve-abia,13
+Share Feedback send,/connect-abia,,1
+View Updates,/connect-abia,,1
+View Newsroom arrow_forward,/connect-abia,,1
+Set Reminder notifications,/connect-abia,,1
+Register edit_square,/connect-abia,,2
+Public Transportation Vote,/connect-abia,,1
+Land Tiling &amp; Registry Vote,/connect-abia,,1
+Waste Management Vote,/connect-abia,,1
+Submit Message,/connect-abia,,1
+apps Download on the App Store,/connect-abia,,1
+play_arrow Get it on Google Play,/connect-abia,,1
+Join,/connect-abia; /sovereign-fund-investment-portfolio; /women-gender-affairs,,3
+Join Stream,/connect-abia-mobile,,1
+See All arrow_forward,/connect-abia-mobile,,1
+Expand Aba-Port Harcourt Link check_circle,/connect-abia-mobile,,1
+New Umuahia City Shuttles check_circle,/connect-abia-mobile,,1
+thumb_up 842,/connect-abia-mobile,,1
+chat_bubble 124,/connect-abia-mobile,,1
+share,/connect-abia-mobile; /ministry-of-communication,,2
+chat_bubble Citizen Feedback,/cooperatives-micro-credit,,1
+Begin Registration Process arrow_forward,/cooperatives-micro-credit,,1
+send Submit Application,/cooperatives-micro-credit,,1
+Schedule,/cooperatives-micro-credit,,1
+language,/cooperatives-micro-credit-2; /governors-command-center; /ministry-of-agriculture-2,,3
+Apply for Credit,/cooperatives-micro-credit-2,,1
+filter_list Filter LGAs,/cooperatives-micro-credit-2,,1
+"View All 1,248 Registered Cooperatives",/cooperatives-micro-credit-2,,1
+app_registration Register Cooperative Formalize your union chevron_right,/cooperatives-micro-credit-2,,1
+account_balance Apply for Micro-Loan Capital for MSMEs chevron_right,/cooperatives-micro-credit-2,,1
+add Apply Now,/cooperatives-micro-credit-2,,1
+security Security,/cooperatives-micro-credit-2; /governors-command-center; /science-technology-2; /social-welfare-2; /water-resources-irrigation-2,/secure-abia,5
+search,/cooperatives-micro-credit-mobile; /gada-mobile; /housing-urban-development; /housing-urban-development-2; /ministry-of-education-mobile; /transparent-governance; /water-resources-irrigation-2,,7
+Pay Now,/cooperatives-micro-credit-mobile,,1
+View All,/cooperatives-micro-credit-mobile; /employer-portal,,2
+chat Citizen Feedback,/diaspora-gateway,,1
+trending_up Invest Now,/diaspora-gateway,,1
+View Bond Prospectus,/diaspora-gateway,,1
+Details,/diaspora-gateway,,1
+Read Full Case Study,/diaspora-gateway,,3
+support_agent Request Concierge Consult,/diaspora-gateway,,1
+home HOME,/diaspora-gateway,,1
+account_balance_wallet INVEST,/diaspora-gateway,,1
+person PROFILE,/diaspora-gateway,,1
+dashboard Overview,/diaspora-gateway; /housing-urban-development,/,2
+security Security Trust,/diaspora-gateway,/secure-abia,1
+Invest chevron_right,/diaspora-gateway,/invest-in-aba,2
+Start Exploring,/digital-archives-heritage,,1
+Submit Archive,/digital-archives-heritage,,1
+BROWSE ARCHIVE,/digital-archives-heritage,,1
+LISTEN NOW,/digital-archives-heritage,,1
+visibility VIEW FULL DOCUMENT,/digital-archives-heritage,,1
+download DOWNLOAD PDF (2.4MB),/digital-archives-heritage,,1
+history_edu Citizen Feedback,/digital-archives-heritage-2,,1
+Begin Deep Dive,/digital-archives-heritage-2,,1
+Access Vault,/digital-archives-heritage-2,,1
+open_in_new,/digital-archives-heritage-2; /live-incident-feed,,2
+visibility,/digital-archives-heritage-2; /ministry-of-agriculture-mobile; /ministry-of-communication; /transparent-governance-2,,9
+Submit Records,/digital-archives-heritage-2,,1
+View All Galleries arrow_forward,/digital-archives-heritage-2,,1
+Listen Now arrow_forward,/digital-archives-heritage-mobile,,1
+View Gallery,/digital-archives-heritage-mobile; /state-archives,,2
+play_circle Narrative,/digital-archives-heritage-mobile,,1
+play_arrow,/digital-archives-heritage-mobile,,1
+Explore Opportunities,/economic-transformation; /economic-transformation-2; /invest-abia,,3
+View Data Portal,/economic-transformation,,1
+Learn More arrow_forward,/economic-transformation,,1
+Post a Role add_circle,/economic-transformation,,1
+Apply for Cohort 4,/economic-transformation; /economic-transformation-2,,2
+emergency,/economic-transformation-2; /gada; /home-variant; /legal-institutional-registry-2; /serve-abia-3; /social-welfare; /state-archives,,7
+Download Report,/economic-transformation-2,,1
+Learn More,/economic-transformation-2,,1
+View All Listings open_in_new,/economic-transformation-2,,1
+feedback Citizen Feedback,/education-learning,,1
+Register Device,/education-learning,,1
+Download Curricula,/education-learning,,1
+refresh,/education-learning,,1
+View,/education-learning,,2
+Review,/education-learning; /live-incident-feed; /open-abia-mobile,,5
+View Application Details,/education-learning,,1
+List View,/education-learning; /open-abia-2,,2
+map Map View,/education-learning,,1
+badge Login to Portal,/education-learning,,1
+Verify Certificate,/education-learning,,1
+download Export Report,/education-learning-2,,1
+Explore Programs,/education-learning-2; /ministry-of-agriculture-2; /women-gender-affairs-2,,3
+Apply for AI Academy,/education-learning-2,,1
+View Detailed Analytics trending_up,/education-learning-2,,1
+send,/education-learning-2; /women-gender-affairs-2,,2
+support_agent Citizen Support,/education-learning-2,,1
+school Education,/education-learning-2,/education-learning,1
+Apply for Jobs,/education-learning-2,/jobs-abia,1
+emergency Emergency,/emergency-crisis-response; /water-resources-irrigation,,2
+feedback Citizen Feedback,/emergency-crisis-response,,1
+open_in_new FULL INVENTORY,/emergency-crisis-response,,1
+BROADCAST,/emergency-crisis-response,,1
+dashboard Live Dispatch,/emergency-crisis-response,/,1
+add New Initiative,/emergency-response; /ministry-of-communication; /secure-abia-2,,3
+account_balance,/emergency-response; /ministry-of-communication; /ministry-of-health,,3
+settings,/emergency-response; /ministry-of-communication; /ministry-of-health,,3
+Acknowledge,/emergency-response,,1
+layers,/emergency-response; /environment-sustainability; /governors-command-center; /secure-abia-mobile; /transport-mobility-mobile; /water-resources-irrigation,,6
+my_location,/emergency-response; /secure-abia-2; /secure-abia-mobile; /transport-mobility-hub-mobile; /transport-mobility-mobile,,5
+View All Broadcasts,/emergency-response,,1
+dashboard Command Center,/emergency-response; /live-incident-feed; /secure-abia-2,/,3
+campaign Communications,/emergency-response; /live-incident-feed; /secure-abia-2,/ministry-of-communication,3
+agriculture Agriculture,/emergency-response; /live-incident-feed; /secure-abia-2,/ministry-of-agriculture,3
+medical_services Health,/emergency-response; /live-incident-feed; /secure-abia-2; /women-gender-affairs-2,/ministry-of-health,4
+location_city GADA,/emergency-response; /live-incident-feed; /secure-abia-2,/greater-aba-development-authority,3
+Security Audit,/emergency-response; /greater-aba-development-authority; /ministry-of-agriculture-3; /ministry-of-communication; /ministry-of-health; /secure-abia-2,/secure-abia,6
+file_download Reports,/employer-portal,,1
+add Post New Role,/employer-portal,,1
+location_searching Start Matching,/employer-portal,,1
+Explore SME Benefits arrow_forward,/employer-portal,,1
+chevron_left,/employer-portal; /home-variant; /live-incident-feed; /open-abia-2; /; /sme-growth-support; /tourism-culture,,7
+chevron_right,/employer-portal; /home-variant; /live-incident-feed; /open-abia-2; /; /serve-abia; /sme-growth-support; /tourism-culture,,8
+View Portfolio,/employer-portal,,4
+chat,/employer-portal,,1
+dashboard Economic Transformation,/employer-portal,/economic-transformation,1
+handshake SME Support,/employer-portal,/sme-growth-support,1
+Apply for Permit,/environment-sustainability,,1
+Explore Live Data,/environment-sustainability,,1
+View Full Strategy arrow_forward,/environment-sustainability,,1
+New Application add_circle,/environment-sustainability,,1
+Track Status location_searching,/environment-sustainability,,1
+Compliance History history,/environment-sustainability,,1
+Request Now open_in_new,/environment-sustainability,/open-abia,1
+Submit Report open_in_new,/environment-sustainability,/open-abia,1
+Learn More open_in_new,/environment-sustainability,/open-abia,1
+Explore Initiatives,/environment-sustainability-2,,1
+Sector Data,/environment-sustainability-2,,1
+View Program Stats,/environment-sustainability-2,,1
+map Open Live GIS Portal,/environment-sustainability-2,,1
+Partner With Us,/environment-sustainability-2,,1
+dashboard Dashboard,/environment-sustainability-2,/,1
+security Security,/environment-sustainability-2,/secure-abia,1
+Jobs Portal,/environment-sustainability-2,/jobs-abia,1
+Budget Portal,/environment-sustainability-2,/open-abia,1
+dashboard Home,/environment-sustainability-2; /serve-abia-3,/,2
+Deposit Waste,/environment-sustainability-mobile,,1
+View Rewards,/environment-sustainability-mobile,,1
+Open Full Eco-Map,/environment-sustainability-mobile,,1
+report Report an Urban Issue,/gada,,1
+Explore Master Plan,/gada; /housing-urban-development-2,,2
+map Interactive View,/gada,,1
+View Full Cluster Map,/gada,,1
+app_registration Register for SME Grants,/gada,,1
+phone Pothole,/gada,,1
+lightbulb Street Light,/gada,,1
+water_damage Drainage Block,/gada,,1
+delete Waste Pickup,/gada,,1
+add_a_photo Report Issue,/gada-mobile,,1
+View All Reports arrow_forward,/gada-mobile,,1
+photo_camera Quick Report,/gada-mobile,,1
+electric_bolt Geometric Power Support Request meter or report power outage. chevron_right,/gada-mobile-2,,1
+payments Levy Payments Pay trade licenses and tenement rates. chevron_right,/gada-mobile-2,,1
+health_and_safety ASCHIA Health Find the nearest primary healthcare center. chevron_right,/gada-mobile-2,,1
+Join Conversation,/gada-mobile-2,,1
+help Support,/governors-command-center; /science-technology-2,,2
+logout Sign Out,/governors-command-center; /science-technology-2,,2
+download Export Intelligence,/governors-command-center,,1
+add_task New Directive,/governors-command-center,,1
+zoom_in,/governors-command-center; /trade-logistics-mobile; /water-resources-irrigation,,3
+zoom_out,/governors-command-center; /trade-logistics-mobile; /water-resources-irrigation,,3
+View Briefing Room,/governors-command-center,,1
+View All 42 State Initiatives open_in_new,/governors-command-center,,1
+emergency_share Dispatch,/governors-command-center-mobile,,1
+broadcast_on_home Alerts,/governors-command-center-mobile,,1
+stadium Shelter,/governors-command-center-mobile,,1
+call Command,/governors-command-center-mobile,,1
+VIEW LIVE FEED videocam,/governors-command-center-mobile,,1
+ANALYZE DATA,/governors-command-center-mobile,,1
+New Initiative,/greater-aba-development-authority; /ministry-of-agriculture-3,,2
+download Export Report,/greater-aba-development-authority,,1
+map Master Plan 2030,/greater-aba-development-authority,,1
+Roads,/greater-aba-development-authority,,1
+Zoning,/greater-aba-development-authority,,1
+Industrial,/greater-aba-development-authority; /housing-urban-development-2,,2
+View Detailed Audit,/greater-aba-development-authority,,1
+dashboard Command Center,/greater-aba-development-authority; /ministry-of-agriculture-3,/,2
+campaign Communications,/greater-aba-development-authority; /ministry-of-agriculture-3,/ministry-of-communication,2
+agriculture Agriculture,/greater-aba-development-authority; /ministry-of-agriculture-3,/ministry-of-agriculture,2
+medical_services Health,/greater-aba-development-authority; /ministry-of-agriculture-3,/ministry-of-health,2
+location_city GADA,/greater-aba-development-authority; /ministry-of-agriculture-3,/greater-aba-development-authority,2
+Get Directions,/health-wellness; /health-wellness-2,,2
+add_circle,/health-wellness,,1
+DOWNLOAD STATE E-HEALTH CARD,/health-wellness,,1
+health_and_safety Health Metrics,/health-wellness,/ministry-of-health,1
+Emergency Lines,/health-wellness; /social-welfare,/secure-abia,2
+Enroll in Insurance arrow_forward,/health-wellness-2,,1
+Find Facility,/health-wellness-2,,1
+View Details,/health-wellness-2; /jobs-abia; /open-abia-2,,5
+Access Dashboard,/health-wellness-2,,1
+Learn more chevron_right,/health-wellness-2,,1
+Open Interactive Map,/health-wellness-2,,1
+Join Mailing List,/health-wellness-2,,1
+View Dashboard,/health-wellness-2,/,1
+Wellness Portal,/health-wellness-2,/ministry-of-health,1
+Medical Careers,/health-wellness-2,/jobs-abia,1
+account_balance Serve Abia Services,/home-mobile,,1
+trending_up Invest Abia Opportunities,/home-mobile,,1
+work_history Jobs Abia Careers,/home-mobile,,1
+psychology AI Academy Education,/home-mobile,,1
+apps Hub,/home-mobile; /ministry-of-health-mobile,,2
+VIEW FULL ROADMAP arrow_forward,/home-variant,,1
+Contact Us,/home-variant,,1
+View All Statuses chevron_right,/housing-urban-development,,1
+favorite,/housing-urban-development,,1
+Calculate,/housing-urban-development,,1
+Start Process,/housing-urban-development,,1
+Report Building Violation,/housing-urban-development,,1
+home_work Housing Registry,/housing-urban-development,/aba-20,1
+View Projects,/housing-urban-development-2,,1
+Download Brochure,/housing-urban-development-2,,1
+Live CCTV Feed,/housing-urban-development-2,,1
+Residential,/housing-urban-development-2,,1
+Infrastructure,/housing-urban-development-2; /serve-abia-3,,2
+rocket_launch Launch Service,/industrial-hubs,,1
+Explore Facilities arrow_forward,/industrial-hubs,,1
+View Master Plan map,/industrial-hubs,,1
+factory Facility Booking,/industrial-hubs,,1
+description Lease Guidelines,/industrial-hubs,,1
+support_agent Industrial Support,/industrial-hubs,,1
+Download Roadmap,/invest-abia; /ministry-of-agriculture-2,,2
+View All Sectors arrow_forward,/invest-abia,,1
+Launch DDI Portal,/invest-abia,,1
+Watch Official Briefing,/invest-abia,,1
+Abia Investment House,/invest-abia,/invest-in-aba,1
+Annual Budget Reports,/invest-abia,/open-abia,1
+Investor Relations,/invest-abia,/invest-in-aba,1
+Explore Portfolio,/invest-abia-mobile,,1
+Diaspora Portal,/invest-abia-mobile,,1
+add_chart,/invest-abia-mobile,,1
+Explore Opportunities arrow_forward,/invest-in-aba,,1
+Export Support,/invest-in-aba,,1
+Apply for Space,/invest-in-aba,,1
+Park Catalog,/invest-in-aba,,1
+Launch DIG Portal,/invest-in-aba,,1
+Talk to an Officer,/invest-in-aba,,1
+Search Jobs,/jobs-abia,,1
+work Full-time,/jobs-abia,,1
+handyman Project-based,/jobs-abia,,1
+school Apprenticeship,/jobs-abia,,1
+hub Hybrid,/jobs-abia,,1
+View all jobs arrow_forward,/jobs-abia,,1
+Quick Apply,/jobs-abia,,1
+Register as Candidate,/jobs-abia,,1
+Request Quote,/jobs-abia,,4
+Access Support Portal,/jobs-abia,,1
+tune,/jobs-abia-mobile,,1
+near_me Nearby,/jobs-abia-mobile,,1
+home_work Work from Home,/jobs-abia-mobile,,1
+precision_manufacturing Aba Clusters,/jobs-abia-mobile,,1
+agriculture Agriculture,/jobs-abia-mobile; /ministry-of-communication,/ministry-of-agriculture,2
+Join Now arrow_forward,/jobs-abia-mobile,,1
+Create edit_note,/jobs-abia-mobile,,1
+View all keyboard_arrow_right,/jobs-abia-mobile,,1
+bookmark,/jobs-abia-mobile,,3
+Join the Talent Registry,/jobs-abia-mobile,,1
+Verify Status,/land-property; /ministry-of-health-2; /social-welfare,,3
+Explore Map Layers,/land-property,,1
+Browse Full Library,/legal-institutional-registry,,1
+Search MDAs,/legal-institutional-registry,,1
+filter_list Filter,/legal-institutional-registry; /transparent-governance-2,,2
+download Export Data,/legal-institutional-registry,,1
+Submit Formal Request,/legal-institutional-registry-2,,1
+Most Recent,/legal-institutional-registry-2,,1
+Popular,/legal-institutional-registry-2,,1
+visibility_off,/legal-institutional-registry-2,,1
+Show 42 more publications,/legal-institutional-registry-2,,1
+Explore Library,/legal-institutional-registry-mobile,,1
+Apply Now arrow_forward,/legal-institutional-registry-mobile,,1
+View Registry arrow_forward,/legal-institutional-registry-mobile,,1
+add New Initiative,/live-incident-feed,,1
+filter_list Filters,/live-incident-feed,,1
+emergency Critical (4),/live-incident-feed,,1
+pending_actions Pending (12),/live-incident-feed,,1
+visibility Monitoring (28),/live-incident-feed,,1
+Dispatch,/live-incident-feed,,1
+more_vert,/live-incident-feed; /local-governance,,4
+Manage,/live-incident-feed,,1
+history Log,/live-incident-feed,,1
+View Protocol Docs,/live-incident-feed,,1
+Security Audit Passed,/live-incident-feed,/secure-abia,1
+chat Citizen Feedback,/local-governance; /sme-growth-support; /social-welfare; /transparent-governance,,4
+add New Report,/local-governance,,1
+Generate Audit Report,/local-governance,,1
+inventory Manage Inventory,/local-governance,,1
+edit_square Submit Report,/local-governance,,1
+View All arrow_forward,/mda-performance,,1
+emergency Emergency,/ministry-of-agriculture; /ministry-of-health-2; /utilities-environment,,3
+Smallholder Support Grant arrow_forward,/ministry-of-agriculture,,1
+View Roadmap,/ministry-of-agriculture,,1
+Get Directions map,/ministry-of-agriculture,,2
+View Full Directory (140+ entries),/ministry-of-agriculture,,1
+Download Seasonal Guide download,/ministry-of-agriculture,,1
+Start Your Application edit_note,/ministry-of-agriculture,,1
+View All Stories arrow_right_alt,/ministry-of-agriculture,,1
+Read Story open_in_new,/ministry-of-agriculture,/open-abia,3
+fullscreen,/ministry-of-agriculture-2; /secure-abia-mobile-2,,2
+Apply for Input Support,/ministry-of-agriculture-2,,1
+Download Data Set (CSV),/ministry-of-agriculture-2,,1
+arrow_forward,/ministry-of-agriculture-2; /science-technology,,6
+support_agent Agri-Helpdesk,/ministry-of-agriculture-2,,1
+Open Data,/ministry-of-agriculture-2,/open-abia,1
+Budget Report,/ministry-of-agriculture-2,/open-abia,1
+Palm Oil,/ministry-of-agriculture-3,,1
+Cassava,/ministry-of-agriculture-3,,1
+map Open Map Interface,/ministry-of-agriculture-3,,1
+"View Full Registry (112,490 entries) arrow_forward",/ministry-of-agriculture-3,,1
+View All (142),/ministry-of-agriculture-mobile,,1
+Download Full Strategy Report download,/ministry-of-agriculture-mobile,,1
+Redeem,/ministry-of-agriculture-mobile-2,,1
+Find Nearest Hub Locate certified fertilizer distribution points and processing centers. map Open Map {/* Mini Map Background Simulation */},/ministry-of-agriculture-mobile-2,,1
+support_agent,/ministry-of-agriculture-mobile-2; /transport-mobility-mobile,,2
+warning Initiate Response Protocol,/ministry-of-communication,,1
+View All Drafts,/ministry-of-communication,,1
+edit,/ministry-of-communication,,2
+delete,/ministry-of-communication,,2
+View Statement Archive arrow_forward,/ministry-of-communication,,1
+Launch Full Asset Manager open_in_new,/ministry-of-communication,,1
+post_add New Press Release,/ministry-of-communication,,1
+dashboard Command Center,/ministry-of-communication,/,1
+campaign Communications,/ministry-of-communication,/ministry-of-communication,1
+medical_services Health,/ministry-of-communication,/ministry-of-health,1
+location_city GADA,/ministry-of-communication,/greater-aba-development-authority,1
+rss_feed Latest Updates,/ministry-of-communication-2,,1
+Media Portal,/ministry-of-communication-2,,1
+Browse Full Archive,/ministry-of-communication-2,,1
+Submit Report for Verification,/ministry-of-communication-2,,1
+calendar_today LAST 30 DAYS,/ministry-of-education-mobile,,1
+download EXPORT REPORT,/ministry-of-education-mobile; /ministry-of-health-mobile-2,,2
+VIEW NETWORK MAP,/ministry-of-education-mobile,,1
+VIEW DETAILS arrow_forward,/ministry-of-education-mobile,,1
+Action Protocol,/ministry-of-health,,1
+View Campaign Details,/ministry-of-health,,1
+add New Health Initiative,/ministry-of-health,,1
+dashboard Health Index,/ministry-of-health,/ministry-of-health,1
+location_on Find Your Nearest PHC,/ministry-of-health-2,,1
+Learn About ASCHIA,/ministry-of-health-2,,1
+Submit Report,/ministry-of-health-2,,1
+Reminder,/ministry-of-health-2,,1
+View Child Schedule,/ministry-of-health-2,,1
+Full Outreach Map,/ministry-of-health-2,,1
+Explore All Tips arrow_forward,/ministry-of-health-2,,1
+Health Stats,/ministry-of-health-2,/ministry-of-health,1
+Public Health News,/ministry-of-health-2,/ministry-of-health,1
+location_on Nearby,/ministry-of-health-mobile,,1
+emergency 24/7 ER,/ministry-of-health-mobile,,1
+medical_services Pharmacy,/ministry-of-health-mobile,,1
+sos,/ministry-of-health-mobile,,1
+add NEW INCIDENT,/ministry-of-health-mobile-2,,1
+send Deploy Rapid Response Team,/ministry-of-health-mobile-2,,1
+Health Services,/ministry-of-health-mobile-2,/ministry-of-health-mobile,1
+mail Press Subscription,/news-press-center,,1
+Access Resource Vault,/news-press-center,,1
+Request Accreditation,/news-press-center,,1
+newspaper Abia Today,/news-press-center,/news-press-center,1
+mail press@abiastate.gov.ng,/news-press-center,mailto:press@abiastate.gov.ng,1
+call +234 800 ABIA PRESS,/news-press-center,tel:+23400000000,1
+download Export PDF,/open-abia; /open-abia-mobile,,2
+calendar_today FY 2024,/open-abia,,1
+Download Revenue Audit,/open-abia,,1
+download Export CSV,/open-abia-2,,1
+add New Tender,/open-abia-2,,1
+Grid View,/open-abia-2,,1
+Submit Bid,/open-abia-2,,1
+Audit Full Log,/open-abia-2,,1
+Dashboard,/open-abia-mobile,/home-mobile,1
+MDA Budgets,/open-abia-mobile,/open-abia-mobile,1
+Procurement,/open-abia-mobile,/open-abia-mobile,1
+rocket_launch Launch Service,/,,1
+Explore Vision arrow_forward,/,,1
+Investor Portal,/,,1
+View Economic Data arrow_right_alt,/,,1
+Details open_in_new,/,,3
+add Register as Vendor,/procurement-tenders-registry,,1
+Watch Stream videocam,/procurement-tenders-registry,,1
+View Bid Calendar,/procurement-tenders-registry,,1
+filter_list Filter,/procurement-tenders-registry,,1
+Apply,/procurement-tenders-registry,,2
+View Results,/procurement-tenders-registry,,1
+Check Status,/procurement-tenders-registry,,1
+Renewal Guide,/procurement-tenders-registry,,1
+payments Procurement Dashboard,/procurement-tenders-registry,/open-abia,1
+account_balance Active Tenders,/procurement-tenders-registry,/open-abia,1
+security Audit Trails,/procurement-tenders-registry,/secure-abia,1
+call INITIATE EMERGENCY CALL,/public-reporting,,1
+Support Projects,/public-reporting; /secure-abia,,2
+Volunteer Programs,/public-reporting; /social-welfare-2,,2
+Digital Gov Docs,/public-reporting,/serve-abia,1
+campaign Citizen Feedback,/science-technology,,1
+View Ecosystem Map arrow_forward,/science-technology,,1
+Register New Invention,/science-technology,,1
+mitre Science &amp; Tech Hub,/science-technology,/science-technology,1
+security Tech Parks,/science-technology,/secure-abia,1
+Open Data Portal,/science-technology,/open-abia,1
+Explore Roadmap arrow_forward,/science-technology-2,,1
+Partner with R&amp;D,/science-technology-2,,1
+View Infrastructure Specs chevron_right,/science-technology-2,,1
+Apply for Incubation,/science-technology-2,,1
+View All Programs open_in_new,/science-technology-2,,1
+Submit Proposal,/science-technology-2,,1
+Contact Tech Taskforce,/science-technology-2,,1
+ZOOM IN,/secure-abia,,1
+EXPORT DATA,/secure-abia,,1
+Full Operations Log,/secure-abia,,1
+View Annual Report,/secure-abia,,1
+VIEW DETAILED LOGS,/secure-abia-2,,1
+Deploy Units,/secure-abia-2,,1
+Dismiss,/secure-abia-2,,1
+Incident Logs,/secure-abia-2,/secure-abia,1
+Subscribe to Alerts,/secure-abia-3,,1
+apps App Store,/secure-abia-3,,1
+play_arrow Google Play,/secure-abia-3,,1
+emergency Emergency: 112,/secure-abia-3,tel:112,1
+security Safety Resources,/secure-abia-3,#resources,1
+Open Map arrow_forward,/secure-abia-3,/open-abia,1
+Filter,/secure-abia-mobile,,1
+DEPLOY RAPID RESPONSE,/secure-abia-mobile,,1
+DETAILS,/secure-abia-mobile,,1
+radio Comms,/secure-abia-mobile,,1
+group_work Agencies,/secure-abia-mobile,,1
+local_hospital Med-Evac,/secure-abia-mobile,,1
+broadcast_on_home,/secure-abia-mobile,,1
+e911_emergency SOS Hold for 3s,/secure-abia-mobile-2,,1
+traffic Traffic,/secure-abia-mobile-2,,1
+local_fire_department Fire,/secure-abia-mobile-2,,1
+medical_services Medical,/secure-abia-mobile-2,,1
+account_balance Citizen Portal,/serve-abia,,1
+Find Service,/serve-abia,,1
+Start Live Chat,/serve-abia,,1
+Visit FAQ Center,/serve-abia,,1
+explore Directory,/serve-abia,,1
+description Track,/serve-abia,,1
+Trade Licenses,/serve-abia,/economic-transformation,1
+Building Plan Approval,/serve-abia,/build-abia,1
+Land Ownership Records,/serve-abia,/land-property,1
+Utility Connections,/serve-abia,/connect-abia,1
+Health Facility Finder,/serve-abia,/ministry-of-health,1
+State Budget,/serve-abia,/open-abia,1
+Quick Search,/serve-abia-2,,1
+Direct Assessment arrow_forward,/serve-abia-2,,1
+Company Tax (CIT) arrow_forward,/serve-abia-2,,1
+Property Rates arrow_forward,/serve-abia-2,,1
+Generate ASIN arrow_forward,/serve-abia-2,,1
+View All Applications east,/serve-abia-2,,1
+All Sectors,/serve-abia-2,,1
+Chat with Support,/serve-abia-2,,1
+Knowledge Base,/serve-abia-2,,1
+account_circle Citizen Portal,/serve-abia-3,,1
+Pay Now payments,/serve-abia-3,,1
++ START NEW APPLICATION,/serve-abia-3,,1
+SHARE EXPERIENCE,/serve-abia-3,,1
+All Services,/serve-abia-3,,1
+Business,/serve-abia-3,,1
+description Services,/serve-abia-3,,1
+payments Payments,/serve-abia-3,,1
+View My History,/serve-abia-mobile,,1
+See All,/serve-abia-mobile,,1
+support_agent Start Live Chat,/serve-abia-mobile,,1
+Register SME,/sme-growth-support,,1
+View Directory,/sme-growth-support,,1
+Check availability chevron_right,/sme-growth-support,,1
+Start Assessment,/sme-growth-support,,1
+Find a Mentor,/sme-growth-support,,1
+Continue Application,/sme-growth-support,,1
+filter_list Filters,/sme-growth-support,,1
+View Profile,/sme-growth-support,,3
+add_business,/sme-growth-support,,1
+Safety Net,/social-welfare,,1
+Disability,/social-welfare,,1
+Elderly,/social-welfare,,1
+Register Now arrow_forward,/social-welfare,,1
+Apply for Funding,/social-welfare,,1
+text_fields Text Resize,/social-welfare,,1
+contrast High Contrast,/social-welfare,,1
+hearing Audio Assist,/social-welfare,,1
+translate Igbo / Local Dialect,/social-welfare,,1
+Explore Services open_in_new,/social-welfare,/open-abia,1
+Access Benefits open_in_new,/social-welfare,/open-abia,1
+Apply for Support,/social-welfare-2,,1
+View Programs,/social-welfare-2; /women-gender-affairs,,2
+Locate near_me,/social-welfare-2,,1
+View All Updates,/social-welfare-2,,1
+Apply for Benefits,/social-welfare-2,,1
+download Download Annual Report,/sovereign-fund-investment-portfolio,,1
+add_chart Propose Project,/sovereign-fund-investment-portfolio,,1
+1Y,/sovereign-fund-investment-portfolio,,1
+5Y,/sovereign-fund-investment-portfolio,,1
+Max,/sovereign-fund-investment-portfolio,,1
+View All Projects arrow_forward,/sovereign-fund-investment-portfolio,,1
+mail Request Institutional Briefing,/sovereign-fund-investment-portfolio,,1
+Browse Catalog,/state-archives,,1
+grid_view,/state-archives; /trade-logistics-mobile,,2
+Download,/state-archives,,1
+Request Access,/state-archives,,1
+account_balance Executive Archives,/state-archives,/digital-archives-heritage,1
+security Public Trust Data,/state-archives,/secure-abia,1
+Explore Archives,/tourism-culture,,1
+Investor Directory,/tourism-culture,,1
+VIEW MASTERPLAN arrow_forward,/tourism-culture,,1
+Review Prospectus,/tourism-culture,,4
+map,/tourism-culture,,1
+mitre Cultural Heritage,/tourism-culture,/digital-archives-heritage,1
+Open Explorer arrow_right_alt,/tourism-culture,/open-abia,1
+E-Governance Hub,/tourism-culture,/local-governance,1
+Explore Sites explore,/tourism-culture-2,,1
+Cultural Calendar,/tourism-culture-2,,1
+VIEW ALL DESTINATIONS arrow_forward,/tourism-culture-2,,1
+Support Artisans,/tourism-culture-2,,1
+FULL EVENT CALENDAR calendar_month,/tourism-culture-2,,1
+Invest in Creatives,/tourism-culture-2,,1
+Commerce,/tourism-culture-2,/economic-transformation,1
+News Room,/tourism-culture-2,/news-press-center,1
+Start Your Virtual Tour explore,/tourism-culture-mobile,,1
+View Full arrow_forward,/tourism-culture-mobile,,1
+RSVP,/tourism-culture-mobile,,1
+View Info,/tourism-culture-mobile,,1
+travel_explore,/tourism-culture-mobile,,1
+Hourly,/trade-logistics-mobile,,1
+Daily,/trade-logistics-mobile,,1
+Expand Capacity Map,/trade-logistics-mobile,,1
+dashboard,/trade-logistics-mobile,,1
+notifications_active,/trade-logistics-mobile,,1
+person,/trade-logistics-mobile,,1
+Open Fullscreen Map,/transparent-governance,,1
+Export CSV,/transparent-governance,,1
+Portal Login,/transparent-governance,,1
+Search Registry,/transparent-governance,,1
+mitre Governance,/transparent-governance,/local-governance,1
+account_balance Digital Gov,/transparent-governance,/serve-abia,1
+Launch Service open_in_new,/transparent-governance-2,,1
+Explore Budget,/transparent-governance-2,,1
+Procurement Portal,/transparent-governance-2,,1
+View All Gallery arrow_forward,/transparent-governance-2,,1
+Download Annual Procurement Report (PDF),/transparent-governance-2,,1
+View Interactive Budget analytics,/transparent-governance-2,,1
+add_card Top-up Wallet,/transport-mobility,,1
+history Trip History,/transport-mobility,,1
+Book New Inspection Slot,/transport-mobility,,1
+confirmation_number Generate Quick Ticket,/transport-mobility,,1
+Download Masterplan,/transport-mobility-2,,1
+Register Fleet arrow_forward,/transport-mobility-2,,1
+TOP UP,/transport-mobility-hub-mobile,,1
+VIEW FULL SCHEDULE,/transport-mobility-hub-mobile,,1
+add_road,/transport-mobility-hub-mobile,,1
+add New Dispatch,/transport-mobility-mobile,,1
+Audit Revenue,/transport-mobility-mobile,,1
+Fleet Logistics,/transport-mobility-mobile,,1
+View All Tenders arrow_forward,/utilities-environment,,1
+add_business Business Connection,/utilities-environment,,1
+home Residential Connection,/utilities-environment,,1
+water_drop Water Projects,/utilities-environment,/water-resources-irrigation,1
+description Active Tenders,/utilities-environment,/open-abia,1
+View Full Pipeline arrow_forward,/water-resources-irrigation,,1
+Submit Service Request send,/water-resources-irrigation,,1
+support_agent Contact Water Board Support,/water-resources-irrigation,,1
+download Export Report,/water-resources-irrigation-2,,1
+View Technical Details,/water-resources-irrigation-2,,1
+Apply for Micro-Credit,/women-gender-affairs,,1
+Start New Application arrow_forward,/women-gender-affairs,,1
+call Call 0800-SAFE-ABIA,/women-gender-affairs,,1
+chat_bubble Anonymous Web Report,/women-gender-affairs,,1
+payments Economic Transformation,/women-gender-affairs,/economic-transformation,1
+account_balance Digital Government,/women-gender-affairs,/serve-abia,1
+mitre Transparent Governance,/women-gender-affairs,/local-governance,1
+security Public Trust,/women-gender-affairs,/secure-abia,1
+female Women &amp; Gender Affairs,/women-gender-affairs,/women-gender-affairs,1
+emergency SOS,/women-gender-affairs-2,,1
+Apply for Grant arrow_forward,/women-gender-affairs-2,,1
+Check Eligibility Criteria arrow_right_alt,/women-gender-affairs-2,,1
+Report an Incident,/women-gender-affairs-2,,1
+Join Next Cohort,/women-gender-affairs-2,,1
+Healthcare,/women-gender-affairs-2,/ministry-of-health,1
+payments Abia Women Business,/women-gender-affairs-2,/women-gender-affairs,1
+account_balance Maternal Health,/women-gender-affairs-2,/ministry-of-health,1
+security GBV Support Center,/women-gender-affairs-2,/secure-abia,1
+Emergency Hotline 0800-SAFE-ABIA,/women-gender-affairs-2,tel:0800SAFEABIA,1
+security Safety,/women-gender-affairs-2,/secure-abia,1
+chat Citizen Feedback,/youth-sports,,1
+rocket_launch Apply for Grant,/youth-sports,,1
+description View Guidelines,/youth-sports,,1
+Explore All Programs,/youth-sports,,1
+Register Talent,/youth-sports,,1
+View Stats,/youth-sports,,2

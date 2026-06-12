@@ -1,0 +1,4 @@
+dashboard,widget,metric,chart,table,action
+/governors-command-center,Telemetry Alert Widget,State Progress Rate,Interactive Chart overlay,YES,Details view redirect link
+/governors-command-center-mobile,Telemetry Alert Widget,3 ACTIVE,Interactive Chart overlay,YES,Details view redirect link
+/,Telemetry Alert Widget,State Progress Rate,Interactive Chart overlay,YES,Details view redirect link

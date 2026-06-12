@@ -1,0 +1,515 @@
+page,sidebar_name,sidebar_item,destination
+/aba-20,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/aba-20,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/aba-20,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/aba-20,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/aba-20,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/aba-20,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/aba-20,Dashboard Navigation Panel,Build Abia,/build-abia
+/aba-20,Dashboard Navigation Panel,Open Abia,/open-abia
+/aba-20,Dashboard Navigation Panel,Town Hall,/town-hall
+/agri-transformation,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/agri-transformation,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/agri-transformation,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/agri-transformation,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/agri-transformation,Dashboard Navigation Panel,Agriculture,/agriculture
+/agri-transformation,Dashboard Navigation Panel,Education,/education
+/agri-transformation,Dashboard Navigation Panel,Health,/health
+/agri-transformation,Dashboard Navigation Panel,Budget,/budget
+/ai-academy,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/ai-academy,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/ai-academy,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/ai-academy-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/ai-academy-2,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/ai-academy-2,Dashboard Navigation Panel,AI Academy,/ai-academy
+/ai-academy-2,Dashboard Navigation Panel,Connect Abia,/connect-abia
+/ai-academy-2,Dashboard Navigation Panel,Data Science,/data-science
+/ai-academy-2,Dashboard Navigation Panel,Institutional News,/institutional-news
+/ai-academy-2,Dashboard Navigation Panel,Open Data Initiative,/open-data-initiative
+/border-trade-logistics,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/border-trade-logistics,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/border-trade-logistics,Dashboard Navigation Panel,Build Abia,/build-abia
+/border-trade-logistics,Dashboard Navigation Panel,Open Abia,/open-abia
+/border-trade-logistics-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/border-trade-logistics-2,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/border-trade-logistics-2,Dashboard Navigation Panel,AI Academy,/ai-academy
+/border-trade-logistics-2,Dashboard Navigation Panel,Connect Abia,/connect-abia
+/border-trade-logistics-2,Dashboard Navigation Panel,Institutional News,/institutional-news
+/border-trade-logistics-2,Dashboard Navigation Panel,Investment Gateway,/investment-gateway
+/border-trade-logistics-2,Dashboard Navigation Panel,Trade Inquiries,/trade-inquiries
+/build-abia,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/build-abia,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/build-abia,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/build-abia-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/citizen-consultations,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/citizen-consultations,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/citizen-consultations,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/citizen-identity-civil-registry,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/citizen-identity-civil-registry,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/citizen-identity-civil-registry,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/citizen-identity-civil-registry,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/citizen-identity-civil-registry,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/citizen-identity-civil-registry,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/citizen-identity-civil-registry,Dashboard Navigation Panel,Build Abia,/build-abia
+/citizen-identity-civil-registry,Dashboard Navigation Panel,Open Abia,/open-abia
+/citizen-identity-civil-registry,Dashboard Navigation Panel,home Home,/home-home
+/citizen-identity-civil-registry,Dashboard Navigation Panel,badge Identity,/badge-identity
+/citizen-identity-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/civil-service-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/civil-service-portal,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/civil-service-portal,Dashboard Navigation Panel,school AI Academy,/school-ai-academy
+/civil-service-portal,Dashboard Navigation Panel,Press Office,/press-office
+/civil-service-portal-2,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/civil-service-portal-2,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/civil-service-portal-2,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/civil-service-portal-2,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/civil-service-portal-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/civil-service-portal-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/civil-service-portal-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/civil-service-portal-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/commerce-trade,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/commerce-trade,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/commerce-trade,Dashboard Navigation Panel,Build Abia,/build-abia
+/commerce-trade,Dashboard Navigation Panel,Open Abia,/open-abia
+/commerce-trade-2,Dashboard Navigation Panel,Invest,/invest
+/commerce-trade-2,Dashboard Navigation Panel,Jobs,/jobs
+/commerce-trade-2,Dashboard Navigation Panel,Serve,/serve
+/commerce-trade-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/commerce-trade-2,Dashboard Navigation Panel,Press Office,/press-office
+/connect-abia,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/connect-abia,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/connect-abia,Dashboard Navigation Panel,AI Academy,/ai-academy
+/connect-abia,Dashboard Navigation Panel,Connect Abia,/connect-abia
+/connect-abia,Dashboard Navigation Panel,Institutional News,/institutional-news
+/connect-abia-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/cooperatives-micro-credit,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/cooperatives-micro-credit,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/cooperatives-micro-credit,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/cooperatives-micro-credit,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/cooperatives-micro-credit,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/cooperatives-micro-credit,Dashboard Navigation Panel,Build Abia,/build-abia
+/cooperatives-micro-credit,Dashboard Navigation Panel,Open Abia,/open-abia
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,security Security,/security-security
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,Invest,/invest
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,Jobs,/jobs
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,Serve,/serve
+/cooperatives-micro-credit-2,Dashboard Navigation Panel,Press Office,/press-office
+/cooperatives-micro-credit-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/diaspora-gateway,Dashboard Navigation Panel,dashboard Overview,/dashboard-overview
+/diaspora-gateway,Dashboard Navigation Panel,security Security Trust,/security-security-trust
+/diaspora-gateway,Dashboard Navigation Panel,Invest chevron_right,/invest-chevron_right
+/diaspora-gateway,Dashboard Navigation Panel,Invest chevron_right,/invest-chevron_right
+/diaspora-gateway,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/diaspora-gateway,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/diaspora-gateway,Dashboard Navigation Panel,Build Abia,/build-abia
+/diaspora-gateway,Dashboard Navigation Panel,Open Abia,/open-abia
+/digital-archives-heritage,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/digital-archives-heritage,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/digital-archives-heritage,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/digital-archives-heritage,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/digital-archives-heritage,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/digital-archives-heritage,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/digital-archives-heritage,Dashboard Navigation Panel,Build Abia,/build-abia
+/digital-archives-heritage,Dashboard Navigation Panel,Open Abia,/open-abia
+/digital-archives-heritage-2,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/digital-archives-heritage-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/digital-archives-heritage-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/digital-archives-heritage-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/digital-archives-heritage-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/digital-archives-heritage-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/economic-transformation,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/economic-transformation,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/economic-transformation,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/economic-transformation-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/economic-transformation-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/economic-transformation-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/economic-transformation-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/education-learning,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/education-learning,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/education-learning,Dashboard Navigation Panel,Build Abia,/build-abia
+/education-learning,Dashboard Navigation Panel,Open Abia,/open-abia
+/education-learning-2,Dashboard Navigation Panel,Invest,/invest
+/education-learning-2,Dashboard Navigation Panel,Jobs,/jobs
+/education-learning-2,Dashboard Navigation Panel,Serve,/serve
+/education-learning-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/education-learning-2,Dashboard Navigation Panel,school Education,/school-education
+/education-learning-2,Dashboard Navigation Panel,Apply for Jobs,/apply-for-jobs
+/education-learning-2,Dashboard Navigation Panel,Press Office,/press-office
+/emergency-crisis-response,Dashboard Navigation Panel,dashboard Live Dispatch,/dashboard-live-dispatch
+/emergency-crisis-response,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/emergency-crisis-response,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/emergency-crisis-response,Dashboard Navigation Panel,Build Abia,/build-abia
+/emergency-crisis-response,Dashboard Navigation Panel,Open Abia,/open-abia
+/emergency-response,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/emergency-response,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/emergency-response,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/emergency-response,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/emergency-response,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/emergency-response,Dashboard Navigation Panel,Security Audit,/security-audit
+/employer-portal,Dashboard Navigation Panel,Jobs,/jobs
+/employer-portal,Dashboard Navigation Panel,dashboard Economic Transformation,/dashboard-economic-transformation
+/employer-portal,Dashboard Navigation Panel,handshake SME Support,/handshake-sme-support
+/environment-sustainability,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/environment-sustainability,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/environment-sustainability,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/environment-sustainability,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/environment-sustainability,Dashboard Navigation Panel,Request Now open_in_new,/request-now-open_in_new
+/environment-sustainability,Dashboard Navigation Panel,Submit Report open_in_new,/submit-report-open_in_new
+/environment-sustainability,Dashboard Navigation Panel,Learn More open_in_new,/learn-more-open_in_new
+/environment-sustainability,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/environment-sustainability,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/environment-sustainability,Dashboard Navigation Panel,Build Abia,/build-abia
+/environment-sustainability,Dashboard Navigation Panel,Open Abia,/open-abia
+/environment-sustainability-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/environment-sustainability-2,Dashboard Navigation Panel,security Security,/security-security
+/environment-sustainability-2,Dashboard Navigation Panel,Invest,/invest
+/environment-sustainability-2,Dashboard Navigation Panel,Jobs,/jobs
+/environment-sustainability-2,Dashboard Navigation Panel,Serve,/serve
+/environment-sustainability-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/environment-sustainability-2,Dashboard Navigation Panel,Jobs Portal,/jobs-portal
+/environment-sustainability-2,Dashboard Navigation Panel,Budget Portal,/budget-portal
+/environment-sustainability-2,Dashboard Navigation Panel,Press Office,/press-office
+/environment-sustainability-2,Dashboard Navigation Panel,dashboard Home,/dashboard-home
+/gada,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/gada,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/gada,Dashboard Navigation Panel,Build Abia,/build-abia
+/gada,Dashboard Navigation Panel,Open Abia,/open-abia
+/governors-command-center,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/governors-command-center,Dashboard Navigation Panel,security Security,/security-security
+/governors-command-center,Dashboard Navigation Panel,Invest,/invest
+/governors-command-center,Dashboard Navigation Panel,Jobs,/jobs
+/governors-command-center,Dashboard Navigation Panel,Serve,/serve
+/governors-command-center,Dashboard Navigation Panel,Press Office,/press-office
+/governors-command-center-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/greater-aba-development-authority,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/greater-aba-development-authority,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/greater-aba-development-authority,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/greater-aba-development-authority,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/greater-aba-development-authority,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/greater-aba-development-authority,Dashboard Navigation Panel,Security Audit,/security-audit
+/health-wellness,Dashboard Navigation Panel,health_and_safety Health Metrics,/health_and_safety-health-metrics
+/health-wellness,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/health-wellness,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/health-wellness,Dashboard Navigation Panel,Build Abia,/build-abia
+/health-wellness,Dashboard Navigation Panel,Open Abia,/open-abia
+/health-wellness,Dashboard Navigation Panel,Emergency Lines,/emergency-lines
+/health-wellness-2,Dashboard Navigation Panel,Invest,/invest
+/health-wellness-2,Dashboard Navigation Panel,Jobs,/jobs
+/health-wellness-2,Dashboard Navigation Panel,Serve,/serve
+/health-wellness-2,Dashboard Navigation Panel,View Dashboard,/view-dashboard
+/health-wellness-2,Dashboard Navigation Panel,Wellness Portal,/wellness-portal
+/health-wellness-2,Dashboard Navigation Panel,Medical Careers,/medical-careers
+/health-wellness-2,Dashboard Navigation Panel,Press Office,/press-office
+/home-variant,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/home-variant,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/home-variant,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/home-variant,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/home-variant,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/home-variant,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/home-variant,Dashboard Navigation Panel,Build Abia,/build-abia
+/home-variant,Dashboard Navigation Panel,Open Abia,/open-abia
+/housing-urban-development,Dashboard Navigation Panel,dashboard Overview,/dashboard-overview
+/housing-urban-development,Dashboard Navigation Panel,home_work Housing Registry,/home_work-housing-registry
+/housing-urban-development,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/housing-urban-development,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/housing-urban-development,Dashboard Navigation Panel,Build Abia,/build-abia
+/housing-urban-development,Dashboard Navigation Panel,Open Abia,/open-abia
+/housing-urban-development-2,Dashboard Navigation Panel,Invest,/invest
+/housing-urban-development-2,Dashboard Navigation Panel,Jobs,/jobs
+/housing-urban-development-2,Dashboard Navigation Panel,Serve,/serve
+/housing-urban-development-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/housing-urban-development-2,Dashboard Navigation Panel,Press Office,/press-office
+/industrial-hubs,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/industrial-hubs,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/industrial-hubs,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/invest-abia,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/invest-abia,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/invest-abia,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/invest-abia,Dashboard Navigation Panel,Abia Investment House,/abia-investment-house
+/invest-abia,Dashboard Navigation Panel,Annual Budget Reports,/annual-budget-reports
+/invest-abia,Dashboard Navigation Panel,Investor Relations,/investor-relations
+/jobs-abia,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/jobs-abia,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/jobs-abia,Dashboard Navigation Panel,AI Academy,/ai-academy
+/jobs-abia,Dashboard Navigation Panel,Connect Abia,/connect-abia
+/jobs-abia,Dashboard Navigation Panel,Institutional News,/institutional-news
+/jobs-abia,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/jobs-abia-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/land-property,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/land-property,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/land-property,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/legal-institutional-registry,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/legal-institutional-registry,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/legal-institutional-registry,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/legal-institutional-registry-2,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/legal-institutional-registry-2,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/legal-institutional-registry-2,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/legal-institutional-registry-2,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/legal-institutional-registry-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/legal-institutional-registry-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/legal-institutional-registry-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/legal-institutional-registry-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/legal-institutional-registry-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/live-incident-feed,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/live-incident-feed,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/live-incident-feed,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/live-incident-feed,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/live-incident-feed,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/live-incident-feed,Dashboard Navigation Panel,Security Audit Passed,/security-audit-passed
+/local-governance,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/local-governance,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/local-governance,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/local-governance,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/local-governance,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/local-governance,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/local-governance,Dashboard Navigation Panel,Build Abia,/build-abia
+/local-governance,Dashboard Navigation Panel,Open Abia,/open-abia
+/mda-performance,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/mda-performance,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/mda-performance,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/mda-performance,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/mda-performance,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/mda-performance,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/mda-performance,Dashboard Navigation Panel,Build Abia,/build-abia
+/mda-performance,Dashboard Navigation Panel,Open Abia,/open-abia
+/ministry-of-agriculture,Dashboard Navigation Panel,Read Story open_in_new,/read-story-open_in_new
+/ministry-of-agriculture,Dashboard Navigation Panel,Read Story open_in_new,/read-story-open_in_new
+/ministry-of-agriculture,Dashboard Navigation Panel,Read Story open_in_new,/read-story-open_in_new
+/ministry-of-agriculture,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/ministry-of-agriculture,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/ministry-of-agriculture,Dashboard Navigation Panel,Build Abia,/build-abia
+/ministry-of-agriculture,Dashboard Navigation Panel,Open Abia,/open-abia
+/ministry-of-agriculture-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Invest,/invest
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Jobs,/jobs
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Serve,/serve
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Open Data,/open-data
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Budget Report,/budget-report
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Investment Guide,/investment-guide
+/ministry-of-agriculture-2,Dashboard Navigation Panel,Press Office,/press-office
+/ministry-of-agriculture-3,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/ministry-of-agriculture-3,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/ministry-of-agriculture-3,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/ministry-of-agriculture-3,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/ministry-of-agriculture-3,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/ministry-of-agriculture-3,Dashboard Navigation Panel,Security Audit,/security-audit
+/ministry-of-agriculture-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/ministry-of-agriculture-mobile-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/ministry-of-communication,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/ministry-of-communication,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/ministry-of-communication,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/ministry-of-communication,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/ministry-of-communication,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/ministry-of-communication,Dashboard Navigation Panel,Security Audit,/security-audit
+/ministry-of-communication-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/ministry-of-communication-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/ministry-of-communication-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/ministry-of-communication-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/ministry-of-health,Dashboard Navigation Panel,dashboard Health Index,/dashboard-health-index
+/ministry-of-health,Dashboard Navigation Panel,Security Audit,/security-audit
+/ministry-of-health-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/ministry-of-health-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/ministry-of-health-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/ministry-of-health-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/ministry-of-health-2,Dashboard Navigation Panel,Health Stats,/health-stats
+/ministry-of-health-2,Dashboard Navigation Panel,Public Health News,/public-health-news
+/ministry-of-health-mobile-2,Dashboard Navigation Panel,Health Services,/health-services
+/ministry-of-health-mobile-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/news-press-center,Dashboard Navigation Panel,newspaper Abia Today,/newspaper-abia-today
+/news-press-center,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/news-press-center,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/news-press-center,Dashboard Navigation Panel,Build Abia,/build-abia
+/news-press-center,Dashboard Navigation Panel,Open Abia,/open-abia
+/open-abia,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/open-abia,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/open-abia,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/open-abia-2,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/open-abia-2,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/open-abia-2,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/open-abia-mobile,Dashboard Navigation Panel,Dashboard,/dashboard
+/open-abia-mobile,Dashboard Navigation Panel,MDA Budgets,/mda-budgets
+/open-abia-mobile,Dashboard Navigation Panel,Procurement,/procurement
+/open-abia-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/procurement-tenders-registry,Dashboard Navigation Panel,payments Procurement Dashboard,/payments-procurement-dashboard
+/procurement-tenders-registry,Dashboard Navigation Panel,account_balance Active Tenders,/account_balance-active-tenders
+/procurement-tenders-registry,Dashboard Navigation Panel,security Audit Trails,/security-audit-trails
+/procurement-tenders-registry,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/procurement-tenders-registry,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/procurement-tenders-registry,Dashboard Navigation Panel,Build Abia,/build-abia
+/procurement-tenders-registry,Dashboard Navigation Panel,Open Abia,/open-abia
+/public-reporting,Dashboard Navigation Panel,Digital Gov Docs,/digital-gov-docs
+/science-technology,Dashboard Navigation Panel,mitre Science &amp; Tech Hub,/mitre-science-&amp;-tech-hub
+/science-technology,Dashboard Navigation Panel,security Tech Parks,/security-tech-parks
+/science-technology,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/science-technology,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/science-technology,Dashboard Navigation Panel,Build Abia,/build-abia
+/science-technology,Dashboard Navigation Panel,Open Data Portal,/open-data-portal
+/science-technology-2,Dashboard Navigation Panel,Invest,/invest
+/science-technology-2,Dashboard Navigation Panel,Jobs,/jobs
+/science-technology-2,Dashboard Navigation Panel,Serve,/serve
+/science-technology-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/science-technology-2,Dashboard Navigation Panel,security Security,/security-security
+/science-technology-2,Dashboard Navigation Panel,Invest,/invest
+/science-technology-2,Dashboard Navigation Panel,Jobs,/jobs
+/science-technology-2,Dashboard Navigation Panel,Press Office,/press-office
+/secure-abia-2,Dashboard Navigation Panel,dashboard Command Center,/dashboard-command-center
+/secure-abia-2,Dashboard Navigation Panel,campaign Communications,/campaign-communications
+/secure-abia-2,Dashboard Navigation Panel,agriculture Agriculture,/agriculture-agriculture
+/secure-abia-2,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/secure-abia-2,Dashboard Navigation Panel,location_city GADA,/location_city-gada
+/secure-abia-2,Dashboard Navigation Panel,Incident Logs,/incident-logs
+/secure-abia-2,Dashboard Navigation Panel,Security Audit,/security-audit
+/secure-abia-3,Dashboard Navigation Panel,Invest,/invest
+/secure-abia-3,Dashboard Navigation Panel,Jobs,/jobs
+/secure-abia-3,Dashboard Navigation Panel,Serve,/serve
+/secure-abia-3,Dashboard Navigation Panel,Open Map arrow_forward,/open-map-arrow_forward
+/secure-abia-3,Dashboard Navigation Panel,Press Office,/press-office
+/secure-abia-mobile-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/serve-abia,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/serve-abia,Dashboard Navigation Panel,Jobs Abia,/jobs-abia
+/serve-abia,Dashboard Navigation Panel,AI Academy,/ai-academy
+/serve-abia,Dashboard Navigation Panel,Connect Abia,/connect-abia
+/serve-abia,Dashboard Navigation Panel,Trade Licenses,/trade-licenses
+/serve-abia,Dashboard Navigation Panel,Building Plan Approval,/building-plan-approval
+/serve-abia,Dashboard Navigation Panel,Land Ownership Records,/land-ownership-records
+/serve-abia,Dashboard Navigation Panel,Utility Connections,/utility-connections
+/serve-abia,Dashboard Navigation Panel,Health Facility Finder,/health-facility-finder
+/serve-abia,Dashboard Navigation Panel,Institutional News,/institutional-news
+/serve-abia,Dashboard Navigation Panel,State Budget,/state-budget
+/serve-abia-2,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/serve-abia-2,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/serve-abia-2,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/serve-abia-3,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/serve-abia-3,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/serve-abia-3,Dashboard Navigation Panel,Build Abia,/build-abia
+/serve-abia-3,Dashboard Navigation Panel,Open Abia,/open-abia
+/serve-abia-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/sme-growth-support,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/sme-growth-support,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/sme-growth-support,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/sme-growth-support,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/sme-growth-support,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/sme-growth-support,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/sme-growth-support,Dashboard Navigation Panel,Build Abia,/build-abia
+/sme-growth-support,Dashboard Navigation Panel,Open Abia,/open-abia
+/social-welfare,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/social-welfare,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/social-welfare,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/social-welfare,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/social-welfare,Dashboard Navigation Panel,Explore Services open_in_new,/explore-services-open_in_new
+/social-welfare,Dashboard Navigation Panel,Access Benefits open_in_new,/access-benefits-open_in_new
+/social-welfare,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/social-welfare,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/social-welfare,Dashboard Navigation Panel,Build Abia,/build-abia
+/social-welfare,Dashboard Navigation Panel,Open Abia,/open-abia
+/social-welfare,Dashboard Navigation Panel,Emergency Lines,/emergency-lines
+/social-welfare-2,Dashboard Navigation Panel,Invest,/invest
+/social-welfare-2,Dashboard Navigation Panel,Jobs,/jobs
+/social-welfare-2,Dashboard Navigation Panel,Serve,/serve
+/social-welfare-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/social-welfare-2,Dashboard Navigation Panel,security Security,/security-security
+/social-welfare-2,Dashboard Navigation Panel,Press Office,/press-office
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,Build Abia,/build-abia
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,Open Abia,/open-abia
+/sovereign-fund-investment-portfolio,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/state-archives,Dashboard Navigation Panel,account_balance Executive Archives,/account_balance-executive-archives
+/state-archives,Dashboard Navigation Panel,security Public Trust Data,/security-public-trust-data
+/state-archives,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/state-archives,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/state-archives,Dashboard Navigation Panel,Build Abia,/build-abia
+/state-archives,Dashboard Navigation Panel,Open Abia,/open-abia
+/tourism-culture,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/tourism-culture,Dashboard Navigation Panel,mitre Cultural Heritage,/mitre-cultural-heritage
+/tourism-culture,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/tourism-culture,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/tourism-culture,Dashboard Navigation Panel,Open Explorer arrow_right_alt,/open-explorer-arrow_right_alt
+/tourism-culture,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/tourism-culture,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/tourism-culture,Dashboard Navigation Panel,Build Abia,/build-abia
+/tourism-culture,Dashboard Navigation Panel,Open Abia,/open-abia
+/tourism-culture,Dashboard Navigation Panel,E-Governance Hub,/e-governance-hub
+/tourism-culture-2,Dashboard Navigation Panel,Invest,/invest
+/tourism-culture-2,Dashboard Navigation Panel,Jobs,/jobs
+/tourism-culture-2,Dashboard Navigation Panel,Serve,/serve
+/tourism-culture-2,Dashboard Navigation Panel,Agriculture,/agriculture
+/tourism-culture-2,Dashboard Navigation Panel,Commerce,/commerce
+/tourism-culture-2,Dashboard Navigation Panel,Budget,/budget
+/tourism-culture-2,Dashboard Navigation Panel,News Room,/news-room
+/tourism-culture-2,Dashboard Navigation Panel,Press Office,/press-office
+/trade-logistics-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/transparent-governance,Dashboard Navigation Panel,mitre Governance,/mitre-governance
+/transparent-governance,Dashboard Navigation Panel,account_balance Digital Gov,/account_balance-digital-gov
+/transparent-governance,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/transparent-governance,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/transparent-governance,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/transparent-governance,Dashboard Navigation Panel,Build Abia,/build-abia
+/transparent-governance,Dashboard Navigation Panel,Open Abia,/open-abia
+/transparent-governance-2,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/transparent-governance-2,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/transparent-governance-2,Dashboard Navigation Panel,gavel Transparent Governance,/gavel-transparent-governance
+/transport-mobility,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/transport-mobility,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/transport-mobility,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/transport-mobility,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/transport-mobility,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/transport-mobility,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/transport-mobility,Dashboard Navigation Panel,Build Abia,/build-abia
+/transport-mobility,Dashboard Navigation Panel,Open Abia,/open-abia
+/transport-mobility-2,Dashboard Navigation Panel,Invest,/invest
+/transport-mobility-2,Dashboard Navigation Panel,Jobs,/jobs
+/transport-mobility-2,Dashboard Navigation Panel,Serve,/serve
+/transport-mobility-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/transport-mobility-2,Dashboard Navigation Panel,Press Office,/press-office
+/transport-mobility-hub-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/utilities-environment,Dashboard Navigation Panel,water_drop Water Projects,/water_drop-water-projects
+/utilities-environment,Dashboard Navigation Panel,description Active Tenders,/description-active-tenders
+/utilities-environment,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/utilities-environment,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/utilities-environment,Dashboard Navigation Panel,Build Abia,/build-abia
+/utilities-environment,Dashboard Navigation Panel,Open Abia,/open-abia
+/water-resources-irrigation,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/water-resources-irrigation,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/water-resources-irrigation,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/water-resources-irrigation,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/water-resources-irrigation,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/water-resources-irrigation,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/water-resources-irrigation,Dashboard Navigation Panel,Build Abia,/build-abia
+/water-resources-irrigation,Dashboard Navigation Panel,Open Abia,/open-abia
+/water-resources-irrigation-2,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/water-resources-irrigation-2,Dashboard Navigation Panel,security Security,/security-security
+/water-resources-irrigation-2,Dashboard Navigation Panel,Press Office,/press-office
+/women-gender-affairs,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/women-gender-affairs,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/women-gender-affairs,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/women-gender-affairs,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/women-gender-affairs,Dashboard Navigation Panel,female Women &amp; Gender Affairs,/female-women-&amp;-gender-affairs
+/women-gender-affairs,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/women-gender-affairs,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/women-gender-affairs,Dashboard Navigation Panel,Build Abia,/build-abia
+/women-gender-affairs,Dashboard Navigation Panel,Open Abia,/open-abia
+/women-gender-affairs-2,Dashboard Navigation Panel,Healthcare,/healthcare
+/women-gender-affairs-2,Dashboard Navigation Panel,payments Abia Women Business,/payments-abia-women-business
+/women-gender-affairs-2,Dashboard Navigation Panel,account_balance Maternal Health,/account_balance-maternal-health
+/women-gender-affairs-2,Dashboard Navigation Panel,security GBV Support Center,/security-gbv-support-center
+/women-gender-affairs-2,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/women-gender-affairs-2,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/women-gender-affairs-2,Dashboard Navigation Panel,Build Abia,/build-abia
+/women-gender-affairs-2,Dashboard Navigation Panel,Open Abia,/open-abia
+/women-gender-affairs-2,Dashboard Navigation Panel,home Home,/home-home
+/women-gender-affairs-2,Dashboard Navigation Panel,medical_services Health,/medical_services-health
+/women-gender-affairs-2,Dashboard Navigation Panel,security Safety,/security-safety
+/women-gender-affairs-mobile,Dashboard Navigation Panel,dashboard Dashboard,/dashboard-dashboard
+/youth-sports,Dashboard Navigation Panel,payments Economic Transformation,/payments-economic-transformation
+/youth-sports,Dashboard Navigation Panel,account_balance Digital Government,/account_balance-digital-government
+/youth-sports,Dashboard Navigation Panel,mitre Transparent Governance,/mitre-transparent-governance
+/youth-sports,Dashboard Navigation Panel,security Public Trust,/security-public-trust
+/youth-sports,Dashboard Navigation Panel,Invest Abia,/invest-abia
+/youth-sports,Dashboard Navigation Panel,Serve Abia,/serve-abia
+/youth-sports,Dashboard Navigation Panel,Build Abia,/build-abia
+/youth-sports,Dashboard Navigation Panel,Open Abia,/open-abia

@@ -1,0 +1,1709 @@
+page,CTA_text,CTA_location,CTA_destination,CTA_type
+/aba-20,emergency_home Emergency,Main Body Grid,Form action,BUTTON
+/aba-20,Citizen Portal,Main Body Grid,Form action,BUTTON
+/aba-20,forum Citizen Feedback,Main Body Grid,Form action,BUTTON
+/aba-20,Economy,Link Group,/economic-transformation,LINK
+/aba-20,Digital Gov,Link Group,/serve-abia,LINK
+/aba-20,Governance,Link Group,/local-governance,LINK
+/aba-20,Security,Link Group,/secure-abia,LINK
+/aba-20,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/aba-20,account_balance Digital Government,Link Group,/serve-abia,LINK
+/aba-20,mitre Transparent Governance,Link Group,/local-governance,LINK
+/aba-20,security Public Trust,Link Group,/secure-abia,LINK
+/aba-20,Invest Abia,Link Group,/invest-in-aba,LINK
+/aba-20,Serve Abia,Link Group,/serve-abia,LINK
+/aba-20,Build Abia,Link Group,/build-abia,LINK
+/aba-20,Open Abia,Link Group,/open-abia,LINK
+/aba-20,Town Hall,Link Group,/citizen-consultations,LINK
+/aba-20-mobile,notifications,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,Fullscreen open_in_full,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,add,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,remove,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,Verify Ownership arrow_forward,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,add_a_photo,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/aba-20-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/agri-transformation,Emergency,Main Body Grid,Form action,BUTTON
+/agri-transformation,Citizen Portal,Main Body Grid,Form action,BUTTON
+/agri-transformation,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/agri-transformation,View Export Ledgers,Main Body Grid,Form action,BUTTON
+/agri-transformation,Economy,Link Group,/economic-transformation,LINK
+/agri-transformation,Digital Gov,Link Group,/serve-abia,LINK
+/agri-transformation,Governance,Link Group,/local-governance,LINK
+/agri-transformation,Security,Link Group,/secure-abia,LINK
+/agri-transformation,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/agri-transformation,account_balance Digital Government,Link Group,/serve-abia,LINK
+/agri-transformation,mitre Transparent Governance,Link Group,/local-governance,LINK
+/agri-transformation,security Public Trust,Link Group,/secure-abia,LINK
+/agri-transformation,Agriculture,Link Group,/ministry-of-agriculture,LINK
+/agri-transformation,Education,Link Group,/education-learning,LINK
+/agri-transformation,Health,Link Group,/ministry-of-health,LINK
+/agri-transformation,Budget,Link Group,/open-abia,LINK
+/ai-academy,Citizen Portal,Main Body Grid,Form action,BUTTON
+/ai-academy,Launch Service,Main Body Grid,Form action,BUTTON
+/ai-academy,View All Courses,Main Body Grid,Form action,BUTTON
+/ai-academy,All,Main Body Grid,Form action,BUTTON
+/ai-academy,Foundation,Main Body Grid,Form action,BUTTON
+/ai-academy,Specialist,Main Body Grid,Form action,BUTTON
+/ai-academy,Advanced,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,Enroll Now,Main Body Grid,Form action,BUTTON
+/ai-academy,chat_bubble,Main Body Grid,Form action,BUTTON
+/ai-academy,Economy,Link Group,/economic-transformation,LINK
+/ai-academy,Digital Gov,Link Group,/serve-abia,LINK
+/ai-academy,Governance,Link Group,/local-governance,LINK
+/ai-academy,Security,Link Group,/secure-abia,LINK
+/ai-academy,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/ai-academy,account_balance Digital Government,Link Group,/serve-abia,LINK
+/ai-academy,gavel Transparent Governance,Link Group,/local-governance,LINK
+/ai-academy-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Browse Catalog arrow_forward,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Watch Success Stories,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Go to Dashboard chevron_right,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Resume Learning,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Course Details,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Apply Now,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Download Prospectus,Main Body Grid,Form action,BUTTON
+/ai-academy-2,Serve Abia,Link Group,/serve-abia,LINK
+/ai-academy-2,Jobs Abia,Link Group,/jobs-abia,LINK
+/ai-academy-2,AI Academy,Link Group,/ai-academy,LINK
+/ai-academy-2,Connect Abia,Link Group,/connect-abia,LINK
+/ai-academy-2,Data Science,Link Group,/science-technology,LINK
+/ai-academy-2,Institutional News,Link Group,/news-press-center,LINK
+/ai-academy-2,Open Data Initiative,Link Group,/open-abia,LINK
+/ai-academy-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/ai-academy-mobile,Resume Learning play_circle,Main Body Grid,Form action,BUTTON
+/ai-academy-mobile,All Paths,Main Body Grid,Form action,BUTTON
+/ai-academy-mobile,Public Ops,Main Body Grid,Form action,BUTTON
+/ai-academy-mobile,Dev Tools,Main Body Grid,Form action,BUTTON
+/ai-academy-mobile,Strategy,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,Emergency,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,Citizen Portal,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,download Export Trade Data,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,add_circle New Trade Agreement,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,Verify Physical Permit QR,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,filter_list,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,View MOU,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,View MOU,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,Review Terms,Main Body Grid,Form action,BUTTON
+/border-trade-logistics,Economy,Link Group,/economic-transformation,LINK
+/border-trade-logistics,Digital Gov,Link Group,/serve-abia,LINK
+/border-trade-logistics,Governance,Link Group,/local-governance,LINK
+/border-trade-logistics,Security,Link Group,/secure-abia,LINK
+/border-trade-logistics,Invest Abia,Link Group,/invest-in-aba,LINK
+/border-trade-logistics,Serve Abia,Link Group,/serve-abia,LINK
+/border-trade-logistics,Build Abia,Link Group,/build-abia,LINK
+/border-trade-logistics,Open Abia,Link Group,/open-abia,LINK
+/border-trade-logistics-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,analytics Live Trade Dashboard,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,Facilitation Guide,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,Access Portal,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,Facility Details arrow_forward,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,Sensor Network Log,Main Body Grid,Form action,BUTTON
+/border-trade-logistics-2,Serve Abia,Link Group,/serve-abia,LINK
+/border-trade-logistics-2,Jobs Abia,Link Group,/jobs-abia,LINK
+/border-trade-logistics-2,AI Academy,Link Group,/ai-academy,LINK
+/border-trade-logistics-2,Connect Abia,Link Group,/connect-abia,LINK
+/border-trade-logistics-2,Institutional News,Link Group,/news-press-center,LINK
+/border-trade-logistics-2,Investment Gateway,Link Group,/invest-in-aba,LINK
+/border-trade-logistics-2,Trade Inquiries,Link Group,/economic-transformation,LINK
+/build-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/build-abia,Launch Service,Main Body Grid,Form action,BUTTON
+/build-abia,All Regions,Main Body Grid,Form action,BUTTON
+/build-abia,Umuahia,Main Body Grid,Form action,BUTTON
+/build-abia,Aba,Main Body Grid,Form action,BUTTON
+/build-abia,Ohafia,Main Body Grid,Form action,BUTTON
+/build-abia,View Full Archive,Main Body Grid,Form action,BUTTON
+/build-abia,Economy,Link Group,/economic-transformation,LINK
+/build-abia,Digital Gov,Link Group,/serve-abia,LINK
+/build-abia,Governance,Link Group,/local-governance,LINK
+/build-abia,Security,Link Group,/secure-abia,LINK
+/build-abia,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/build-abia,account_balance Digital Government,Link Group,/serve-abia,LINK
+/build-abia,gavel Transparent Governance,Link Group,/local-governance,LINK
+/build-abia-mobile,add_a_photo Report Project Progress,Main Body Grid,Form action,BUTTON
+/build-abia-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/citizen-consultations,Citizen Portal,Main Body Grid,Form action,BUTTON
+/citizen-consultations,Launch Service,Main Body Grid,Form action,BUTTON
+/citizen-consultations,Join Active Consultation arrow_forward,Main Body Grid,Form action,BUTTON
+/citizen-consultations,View Policy Archive,Main Body Grid,Form action,BUTTON
+/citizen-consultations,JOIN SESSION play_circle,Main Body Grid,Form action,BUTTON
+/citizen-consultations,SET REMINDER notifications,Main Body Grid,Form action,BUTTON
+/citizen-consultations,SUBMIT TO GOVERNANCE HUB,Main Body Grid,Form action,BUTTON
+/citizen-consultations,TAKE SURVEY,Main Body Grid,Form action,BUTTON
+/citizen-consultations,TAKE SURVEY,Main Body Grid,Form action,BUTTON
+/citizen-consultations,Governance,Link Group,/local-governance,LINK
+/citizen-consultations,Economy,Link Group,/economic-transformation,LINK
+/citizen-consultations,Digital Gov,Link Group,/serve-abia,LINK
+/citizen-consultations,Security,Link Group,/secure-abia,LINK
+/citizen-consultations,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/citizen-consultations,account_balance Digital Government,Link Group,/serve-abia,LINK
+/citizen-consultations,gavel Transparent Governance,Link Group,/local-governance,LINK
+/citizen-identity-civil-registry,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,emergency_home Emergency,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,Citizen Portal,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,download Download e-ID,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,Renew Residency,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,Re-Verify Identity,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,View All Records,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,add_circle Register Birth,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,history_edu File Death Report,Main Body Grid,Form action,BUTTON
+/citizen-identity-civil-registry,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/citizen-identity-civil-registry,account_balance Digital Government,Link Group,/serve-abia,LINK
+/citizen-identity-civil-registry,mitre Transparent Governance,Link Group,/local-governance,LINK
+/citizen-identity-civil-registry,security Public Trust,Link Group,/secure-abia,LINK
+/citizen-identity-civil-registry,Economy,Link Group,/economic-transformation,LINK
+/citizen-identity-civil-registry,Digital Gov,Link Group,/serve-abia,LINK
+/citizen-identity-civil-registry,Governance,Link Group,/local-governance,LINK
+/citizen-identity-civil-registry,Security,Link Group,/secure-abia,LINK
+/citizen-identity-civil-registry,Invest Abia,Link Group,/invest-in-aba,LINK
+/citizen-identity-civil-registry,Serve Abia,Link Group,/serve-abia,LINK
+/citizen-identity-civil-registry,Build Abia,Link Group,/build-abia,LINK
+/citizen-identity-civil-registry,Open Abia,Link Group,/open-abia,LINK
+/citizen-identity-civil-registry,home Home,Link Group,/,LINK
+/citizen-identity-civil-registry,badge Identity,Link Group,/citizen-identity-civil-registry,LINK
+/citizen-identity-mobile,RE-VERIFY,Main Body Grid,Form action,BUTTON
+/citizen-identity-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/civil-service-mobile,notifications,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,campaign COMPOSE BROADCAST,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,View All chevron_right,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,close,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,check,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,close,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,check,Main Body Grid,Form action,BUTTON
+/civil-service-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/civil-service-portal,notifications,Main Body Grid,Form action,BUTTON
+/civil-service-portal,Update Bio-Data,Main Body Grid,Form action,BUTTON
+/civil-service-portal,View All Payslips arrow_forward,Main Body Grid,Form action,BUTTON
+/civil-service-portal,download,Main Body Grid,Form action,BUTTON
+/civil-service-portal,download,Main Body Grid,Form action,BUTTON
+/civil-service-portal,add Apply for Leave,Main Body Grid,Form action,BUTTON
+/civil-service-portal,View History,Main Body Grid,Form action,BUTTON
+/civil-service-portal,Continue Learning,Main Body Grid,Form action,BUTTON
+/civil-service-portal,Open Bulletin Board,Main Body Grid,Form action,BUTTON
+/civil-service-portal,dashboard Dashboard,Link Group,/,LINK
+/civil-service-portal,school AI Academy,Link Group,/ai-academy,LINK
+/civil-service-portal,Press Office,Link Group,/news-press-center,LINK
+/civil-service-portal-2,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,Emergency,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,Read Full Dispatch arrow_forward,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,download Export Service Record,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,Continue Learning,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,Detailed Appraisal History open_in_new,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,home Home,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,dashboard Portal,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,history_edu Records,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,person Profile,Main Body Grid,Form action,BUTTON
+/civil-service-portal-2,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/civil-service-portal-2,account_balance Digital Government,Link Group,/serve-abia,LINK
+/civil-service-portal-2,mitre Transparent Governance,Link Group,/local-governance,LINK
+/civil-service-portal-2,security Public Trust,Link Group,/secure-abia,LINK
+/civil-service-portal-2,Governance,Link Group,/local-governance,LINK
+/civil-service-portal-2,Digital Gov,Link Group,/serve-abia,LINK
+/civil-service-portal-2,Economy,Link Group,/economic-transformation,LINK
+/civil-service-portal-2,Security,Link Group,/secure-abia,LINK
+/civil-service-portal-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/civil-service-portal-2,Serve Abia,Link Group,/serve-abia,LINK
+/civil-service-portal-2,Build Abia,Link Group,/build-abia,LINK
+/civil-service-portal-2,Open Abia,Link Group,/open-abia,LINK
+/commerce-trade,Citizen Portal,Main Body Grid,Form action,BUTTON
+/commerce-trade,Emergency,Main Body Grid,Form action,BUTTON
+/commerce-trade,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/commerce-trade,Enter Market arrow_forward,Main Body Grid,Form action,BUTTON
+/commerce-trade,Apply for New License,Main Body Grid,Form action,BUTTON
+/commerce-trade,Active Shipments,Main Body Grid,Form action,BUTTON
+/commerce-trade,Completed,Main Body Grid,Form action,BUTTON
+/commerce-trade,Investment Guide,Main Body Grid,Form action,BUTTON
+/commerce-trade,Virtual Tour,Main Body Grid,Form action,BUTTON
+/commerce-trade,shopping_cart,Main Body Grid,Form action,BUTTON
+/commerce-trade,Economy,Link Group,/economic-transformation,LINK
+/commerce-trade,Digital Gov,Link Group,/serve-abia,LINK
+/commerce-trade,Governance,Link Group,/local-governance,LINK
+/commerce-trade,Security,Link Group,/secure-abia,LINK
+/commerce-trade,Invest Abia,Link Group,/invest-in-aba,LINK
+/commerce-trade,Serve Abia,Link Group,/serve-abia,LINK
+/commerce-trade,Build Abia,Link Group,/build-abia,LINK
+/commerce-trade,Open Abia,Link Group,/open-abia,LINK
+/commerce-trade-2,Sign In,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,Export Report,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,Explore Opportunities trending_up,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,Apply for Grant,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,filter_list Filter Hubs,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,map View Grid,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,Read Whitepaper,Main Body Grid,Form action,BUTTON
+/commerce-trade-2,Invest,Link Group,/invest-in-aba,LINK
+/commerce-trade-2,Jobs,Link Group,/jobs-abia,LINK
+/commerce-trade-2,Serve,Link Group,/serve-abia,LINK
+/commerce-trade-2,Governance,Link Group,/local-governance,LINK
+/commerce-trade-2,dashboard Dashboard,Link Group,/,LINK
+/commerce-trade-2,Press Office,Link Group,/news-press-center,LINK
+/connect-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/connect-abia,Share Feedback send,Main Body Grid,Form action,BUTTON
+/connect-abia,View Updates,Main Body Grid,Form action,BUTTON
+/connect-abia,View Newsroom arrow_forward,Main Body Grid,Form action,BUTTON
+/connect-abia,Set Reminder notifications,Main Body Grid,Form action,BUTTON
+/connect-abia,Register edit_square,Main Body Grid,Form action,BUTTON
+/connect-abia,Register edit_square,Main Body Grid,Form action,BUTTON
+/connect-abia,Public Transportation Vote,Main Body Grid,Form action,BUTTON
+/connect-abia,Land Tiling &amp; Registry Vote,Main Body Grid,Form action,BUTTON
+/connect-abia,Waste Management Vote,Main Body Grid,Form action,BUTTON
+/connect-abia,Submit Message,Main Body Grid,Form action,BUTTON
+/connect-abia,apps Download on the App Store,Main Body Grid,Form action,BUTTON
+/connect-abia,play_arrow Get it on Google Play,Main Body Grid,Form action,BUTTON
+/connect-abia,Join,Main Body Grid,Form action,BUTTON
+/connect-abia,Serve Abia,Link Group,/serve-abia,LINK
+/connect-abia,Jobs Abia,Link Group,/jobs-abia,LINK
+/connect-abia,AI Academy,Link Group,/ai-academy,LINK
+/connect-abia,Connect Abia,Link Group,/connect-abia,LINK
+/connect-abia,Institutional News,Link Group,/news-press-center,LINK
+/connect-abia-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,Join Stream,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,See All arrow_forward,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,Expand Aba-Port Harcourt Link check_circle,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,New Umuahia City Shuttles check_circle,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,thumb_up 842,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,chat_bubble 124,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,share,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,add,Main Body Grid,Form action,BUTTON
+/connect-abia-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/cooperatives-micro-credit,Citizen Portal,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,Emergency,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,chat_bubble Citizen Feedback,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,Begin Registration Process arrow_forward,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,send Submit Application,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,Schedule,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit,Economy,Link Group,/economic-transformation,LINK
+/cooperatives-micro-credit,Digital Gov,Link Group,/serve-abia,LINK
+/cooperatives-micro-credit,Governance,Link Group,/local-governance,LINK
+/cooperatives-micro-credit,Security,Link Group,/secure-abia,LINK
+/cooperatives-micro-credit,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/cooperatives-micro-credit,account_balance Digital Government,Link Group,/serve-abia,LINK
+/cooperatives-micro-credit,security Public Trust,Link Group,/secure-abia,LINK
+/cooperatives-micro-credit,Invest Abia,Link Group,/invest-in-aba,LINK
+/cooperatives-micro-credit,Serve Abia,Link Group,/serve-abia,LINK
+/cooperatives-micro-credit,Build Abia,Link Group,/build-abia,LINK
+/cooperatives-micro-credit,Open Abia,Link Group,/open-abia,LINK
+/cooperatives-micro-credit-2,language,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,notifications,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,Apply for Credit,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,filter_list Filter LGAs,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,"View All 1,248 Registered Cooperatives",Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,app_registration Register Cooperative Formalize your union chevron_right,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,account_balance Apply for Micro-Loan Capital for MSMEs chevron_right,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,add Apply Now,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-2,dashboard Dashboard,Link Group,/,LINK
+/cooperatives-micro-credit-2,security Security,Link Group,/secure-abia,LINK
+/cooperatives-micro-credit-2,Invest,Link Group,/invest-in-aba,LINK
+/cooperatives-micro-credit-2,Jobs,Link Group,/jobs-abia,LINK
+/cooperatives-micro-credit-2,Serve,Link Group,/serve-abia,LINK
+/cooperatives-micro-credit-2,Press Office,Link Group,/news-press-center,LINK
+/cooperatives-micro-credit-mobile,search,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-mobile,Pay Now,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-mobile,View All,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-mobile,add,Main Body Grid,Form action,BUTTON
+/cooperatives-micro-credit-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/diaspora-gateway,Emergency,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Citizen Portal,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,trending_up Invest Now,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,View Bond Prospectus,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Details,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Read Full Case Study,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Read Full Case Study,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Read Full Case Study,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,support_agent Request Concierge Consult,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,home HOME,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,account_balance_wallet INVEST,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,person PROFILE,Main Body Grid,Form action,BUTTON
+/diaspora-gateway,Economy,Link Group,/economic-transformation,LINK
+/diaspora-gateway,Digital Gov,Link Group,/serve-abia,LINK
+/diaspora-gateway,Governance,Link Group,/local-governance,LINK
+/diaspora-gateway,Security,Link Group,/secure-abia,LINK
+/diaspora-gateway,dashboard Overview,Link Group,/,LINK
+/diaspora-gateway,security Security Trust,Link Group,/secure-abia,LINK
+/diaspora-gateway,Invest chevron_right,Link Group,/invest-in-aba,LINK
+/diaspora-gateway,Invest chevron_right,Link Group,/invest-in-aba,LINK
+/diaspora-gateway,Invest Abia,Link Group,/invest-in-aba,LINK
+/diaspora-gateway,Serve Abia,Link Group,/serve-abia,LINK
+/diaspora-gateway,Build Abia,Link Group,/build-abia,LINK
+/diaspora-gateway,Open Abia,Link Group,/open-abia,LINK
+/digital-archives-heritage,Emergency,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,Citizen Portal,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,Start Exploring,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,Submit Archive,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,BROWSE ARCHIVE,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,LISTEN NOW,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,visibility VIEW FULL DOCUMENT,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,download DOWNLOAD PDF (2.4MB),Main Body Grid,Form action,BUTTON
+/digital-archives-heritage,Economy,Link Group,/economic-transformation,LINK
+/digital-archives-heritage,Digital Gov,Link Group,/serve-abia,LINK
+/digital-archives-heritage,Governance,Link Group,/local-governance,LINK
+/digital-archives-heritage,Security,Link Group,/secure-abia,LINK
+/digital-archives-heritage,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/digital-archives-heritage,account_balance Digital Government,Link Group,/serve-abia,LINK
+/digital-archives-heritage,mitre Transparent Governance,Link Group,/local-governance,LINK
+/digital-archives-heritage,security Public Trust,Link Group,/secure-abia,LINK
+/digital-archives-heritage,Invest Abia,Link Group,/invest-in-aba,LINK
+/digital-archives-heritage,Serve Abia,Link Group,/serve-abia,LINK
+/digital-archives-heritage,Build Abia,Link Group,/build-abia,LINK
+/digital-archives-heritage,Open Abia,Link Group,/open-abia,LINK
+/digital-archives-heritage-2,Emergency,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,history_edu Citizen Feedback,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,Begin Deep Dive,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,Access Vault,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,download,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,open_in_new,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,visibility,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,Submit Records,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,View All Galleries arrow_forward,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-2,Economy,Link Group,/economic-transformation,LINK
+/digital-archives-heritage-2,Digital Gov,Link Group,/serve-abia,LINK
+/digital-archives-heritage-2,Governance,Link Group,/local-governance,LINK
+/digital-archives-heritage-2,Security,Link Group,/secure-abia,LINK
+/digital-archives-heritage-2,security Public Trust,Link Group,/secure-abia,LINK
+/digital-archives-heritage-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/digital-archives-heritage-2,Serve Abia,Link Group,/serve-abia,LINK
+/digital-archives-heritage-2,Build Abia,Link Group,/build-abia,LINK
+/digital-archives-heritage-2,Open Abia,Link Group,/open-abia,LINK
+/digital-archives-heritage-mobile,notifications,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-mobile,Listen Now arrow_forward,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-mobile,View Gallery,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-mobile,play_circle Narrative,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-mobile,play_arrow,Main Body Grid,Form action,BUTTON
+/digital-archives-heritage-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/economic-transformation,Citizen Portal,Main Body Grid,Form action,BUTTON
+/economic-transformation,Launch Service,Main Body Grid,Form action,BUTTON
+/economic-transformation,Explore Opportunities,Main Body Grid,Form action,BUTTON
+/economic-transformation,View Data Portal,Main Body Grid,Form action,BUTTON
+/economic-transformation,Learn More arrow_forward,Main Body Grid,Form action,BUTTON
+/economic-transformation,Post a Role add_circle,Main Body Grid,Form action,BUTTON
+/economic-transformation,Apply for Cohort 4,Main Body Grid,Form action,BUTTON
+/economic-transformation,Economy,Link Group,/economic-transformation,LINK
+/economic-transformation,Digital Gov,Link Group,/serve-abia,LINK
+/economic-transformation,Governance,Link Group,/local-governance,LINK
+/economic-transformation,Security,Link Group,/secure-abia,LINK
+/economic-transformation,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/economic-transformation,account_balance Digital Government,Link Group,/serve-abia,LINK
+/economic-transformation,gavel Transparent Governance,Link Group,/local-governance,LINK
+/economic-transformation-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,emergency,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Explore Opportunities,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Download Report,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Learn More,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,View All Listings open_in_new,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Apply for Cohort 4,Main Body Grid,Form action,BUTTON
+/economic-transformation-2,Economy,Link Group,/economic-transformation,LINK
+/economic-transformation-2,Digital Gov,Link Group,/serve-abia,LINK
+/economic-transformation-2,Governance,Link Group,/local-governance,LINK
+/economic-transformation-2,Security,Link Group,/secure-abia,LINK
+/economic-transformation-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/economic-transformation-2,Serve Abia,Link Group,/serve-abia,LINK
+/economic-transformation-2,Build Abia,Link Group,/build-abia,LINK
+/economic-transformation-2,Open Abia,Link Group,/open-abia,LINK
+/education-learning,Emergency,Main Body Grid,Form action,BUTTON
+/education-learning,Citizen Portal,Main Body Grid,Form action,BUTTON
+/education-learning,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/education-learning,Register Device,Main Body Grid,Form action,BUTTON
+/education-learning,Download Curricula,Main Body Grid,Form action,BUTTON
+/education-learning,refresh,Main Body Grid,Form action,BUTTON
+/education-learning,View,Main Body Grid,Form action,BUTTON
+/education-learning,View,Main Body Grid,Form action,BUTTON
+/education-learning,Review,Main Body Grid,Form action,BUTTON
+/education-learning,View Application Details,Main Body Grid,Form action,BUTTON
+/education-learning,List View,Main Body Grid,Form action,BUTTON
+/education-learning,map Map View,Main Body Grid,Form action,BUTTON
+/education-learning,badge Login to Portal,Main Body Grid,Form action,BUTTON
+/education-learning,Verify Certificate,Main Body Grid,Form action,BUTTON
+/education-learning,Economy,Link Group,/economic-transformation,LINK
+/education-learning,Digital Gov,Link Group,/serve-abia,LINK
+/education-learning,Governance,Link Group,/local-governance,LINK
+/education-learning,Security,Link Group,/secure-abia,LINK
+/education-learning,Invest Abia,Link Group,/invest-in-aba,LINK
+/education-learning,Serve Abia,Link Group,/serve-abia,LINK
+/education-learning,Build Abia,Link Group,/build-abia,LINK
+/education-learning,Open Abia,Link Group,/open-abia,LINK
+/education-learning-2,Sign In,Main Body Grid,Form action,BUTTON
+/education-learning-2,download Export Report,Main Body Grid,Form action,BUTTON
+/education-learning-2,Explore Programs,Main Body Grid,Form action,BUTTON
+/education-learning-2,Apply for AI Academy,Main Body Grid,Form action,BUTTON
+/education-learning-2,View Detailed Analytics trending_up,Main Body Grid,Form action,BUTTON
+/education-learning-2,send,Main Body Grid,Form action,BUTTON
+/education-learning-2,support_agent Citizen Support,Main Body Grid,Form action,BUTTON
+/education-learning-2,Invest,Link Group,/invest-in-aba,LINK
+/education-learning-2,Jobs,Link Group,/jobs-abia,LINK
+/education-learning-2,Serve,Link Group,/serve-abia,LINK
+/education-learning-2,Governance,Link Group,/local-governance,LINK
+/education-learning-2,dashboard Dashboard,Link Group,/,LINK
+/education-learning-2,school Education,Link Group,/education-learning,LINK
+/education-learning-2,Apply for Jobs,Link Group,/jobs-abia,LINK
+/education-learning-2,Press Office,Link Group,/news-press-center,LINK
+/emergency-crisis-response,emergency Emergency,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,add,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,remove,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,open_in_new FULL INVENTORY,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,BROADCAST,Main Body Grid,Form action,BUTTON
+/emergency-crisis-response,Economy,Link Group,/economic-transformation,LINK
+/emergency-crisis-response,Digital Gov,Link Group,/serve-abia,LINK
+/emergency-crisis-response,Governance,Link Group,/local-governance,LINK
+/emergency-crisis-response,Security,Link Group,/secure-abia,LINK
+/emergency-crisis-response,dashboard Live Dispatch,Link Group,/,LINK
+/emergency-crisis-response,Invest Abia,Link Group,/invest-in-aba,LINK
+/emergency-crisis-response,Serve Abia,Link Group,/serve-abia,LINK
+/emergency-crisis-response,Build Abia,Link Group,/build-abia,LINK
+/emergency-crisis-response,Open Abia,Link Group,/open-abia,LINK
+/emergency-response,add New Initiative,Main Body Grid,Form action,BUTTON
+/emergency-response,notifications,Main Body Grid,Form action,BUTTON
+/emergency-response,account_balance,Main Body Grid,Form action,BUTTON
+/emergency-response,settings,Main Body Grid,Form action,BUTTON
+/emergency-response,Acknowledge,Main Body Grid,Form action,BUTTON
+/emergency-response,layers,Main Body Grid,Form action,BUTTON
+/emergency-response,my_location,Main Body Grid,Form action,BUTTON
+/emergency-response,View All Broadcasts,Main Body Grid,Form action,BUTTON
+/emergency-response,dashboard Command Center,Link Group,/,LINK
+/emergency-response,campaign Communications,Link Group,/ministry-of-communication,LINK
+/emergency-response,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/emergency-response,medical_services Health,Link Group,/ministry-of-health,LINK
+/emergency-response,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/emergency-response,Security Audit,Link Group,/secure-abia,LINK
+/employer-portal,Citizen Portal,Main Body Grid,Form action,BUTTON
+/employer-portal,Launch Service,Main Body Grid,Form action,BUTTON
+/employer-portal,file_download Reports,Main Body Grid,Form action,BUTTON
+/employer-portal,add Post New Role,Main Body Grid,Form action,BUTTON
+/employer-portal,View All,Main Body Grid,Form action,BUTTON
+/employer-portal,location_searching Start Matching,Main Body Grid,Form action,BUTTON
+/employer-portal,Explore SME Benefits arrow_forward,Main Body Grid,Form action,BUTTON
+/employer-portal,chevron_left,Main Body Grid,Form action,BUTTON
+/employer-portal,chevron_right,Main Body Grid,Form action,BUTTON
+/employer-portal,View Portfolio,Main Body Grid,Form action,BUTTON
+/employer-portal,View Portfolio,Main Body Grid,Form action,BUTTON
+/employer-portal,View Portfolio,Main Body Grid,Form action,BUTTON
+/employer-portal,View Portfolio,Main Body Grid,Form action,BUTTON
+/employer-portal,chat,Main Body Grid,Form action,BUTTON
+/employer-portal,Economy,Link Group,/economic-transformation,LINK
+/employer-portal,Jobs,Link Group,/jobs-abia,LINK
+/employer-portal,Governance,Link Group,/local-governance,LINK
+/employer-portal,Security,Link Group,/secure-abia,LINK
+/employer-portal,dashboard Economic Transformation,Link Group,/economic-transformation,LINK
+/employer-portal,handshake SME Support,Link Group,/sme-growth-support,LINK
+/environment-sustainability,Emergency,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Citizen Portal,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Apply for Permit,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Explore Live Data,Main Body Grid,Form action,BUTTON
+/environment-sustainability,View Full Strategy arrow_forward,Main Body Grid,Form action,BUTTON
+/environment-sustainability,New Application add_circle,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Track Status location_searching,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Compliance History history,Main Body Grid,Form action,BUTTON
+/environment-sustainability,add,Main Body Grid,Form action,BUTTON
+/environment-sustainability,remove,Main Body Grid,Form action,BUTTON
+/environment-sustainability,layers,Main Body Grid,Form action,BUTTON
+/environment-sustainability,chat_bubble,Main Body Grid,Form action,BUTTON
+/environment-sustainability,Economy,Link Group,/economic-transformation,LINK
+/environment-sustainability,Digital Gov,Link Group,/serve-abia,LINK
+/environment-sustainability,Governance,Link Group,/local-governance,LINK
+/environment-sustainability,Security,Link Group,/secure-abia,LINK
+/environment-sustainability,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/environment-sustainability,account_balance Digital Government,Link Group,/serve-abia,LINK
+/environment-sustainability,mitre Transparent Governance,Link Group,/local-governance,LINK
+/environment-sustainability,security Public Trust,Link Group,/secure-abia,LINK
+/environment-sustainability,Request Now open_in_new,Link Group,/open-abia,LINK
+/environment-sustainability,Submit Report open_in_new,Link Group,/open-abia,LINK
+/environment-sustainability,Learn More open_in_new,Link Group,/open-abia,LINK
+/environment-sustainability,Invest Abia,Link Group,/invest-in-aba,LINK
+/environment-sustainability,Serve Abia,Link Group,/serve-abia,LINK
+/environment-sustainability,Build Abia,Link Group,/build-abia,LINK
+/environment-sustainability,Open Abia,Link Group,/open-abia,LINK
+/environment-sustainability-2,Sign In,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,Explore Initiatives,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,Sector Data,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,View Program Stats,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,map Open Live GIS Portal,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,Partner With Us,Main Body Grid,Form action,BUTTON
+/environment-sustainability-2,dashboard Dashboard,Link Group,/,LINK
+/environment-sustainability-2,security Security,Link Group,/secure-abia,LINK
+/environment-sustainability-2,Invest,Link Group,/invest-in-aba,LINK
+/environment-sustainability-2,Jobs,Link Group,/jobs-abia,LINK
+/environment-sustainability-2,Serve,Link Group,/serve-abia,LINK
+/environment-sustainability-2,Governance,Link Group,/local-governance,LINK
+/environment-sustainability-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/environment-sustainability-2,Jobs Portal,Link Group,/jobs-abia,LINK
+/environment-sustainability-2,Budget Portal,Link Group,/open-abia,LINK
+/environment-sustainability-2,Press Office,Link Group,/news-press-center,LINK
+/environment-sustainability-2,dashboard Home,Link Group,/,LINK
+/environment-sustainability-mobile,notifications,Main Body Grid,Form action,BUTTON
+/environment-sustainability-mobile,Deposit Waste,Main Body Grid,Form action,BUTTON
+/environment-sustainability-mobile,View Rewards,Main Body Grid,Form action,BUTTON
+/environment-sustainability-mobile,Open Full Eco-Map,Main Body Grid,Form action,BUTTON
+/gada,Citizen Portal,Main Body Grid,Form action,BUTTON
+/gada,emergency,Main Body Grid,Form action,BUTTON
+/gada,report Report an Urban Issue,Main Body Grid,Form action,BUTTON
+/gada,Explore Master Plan,Main Body Grid,Form action,BUTTON
+/gada,filter_list,Main Body Grid,Form action,BUTTON
+/gada,map Interactive View,Main Body Grid,Form action,BUTTON
+/gada,View Full Cluster Map,Main Body Grid,Form action,BUTTON
+/gada,app_registration Register for SME Grants,Main Body Grid,Form action,BUTTON
+/gada,phone Pothole,Main Body Grid,Form action,BUTTON
+/gada,lightbulb Street Light,Main Body Grid,Form action,BUTTON
+/gada,water_damage Drainage Block,Main Body Grid,Form action,BUTTON
+/gada,delete Waste Pickup,Main Body Grid,Form action,BUTTON
+/gada,Economy,Link Group,/economic-transformation,LINK
+/gada,Digital Gov,Link Group,/serve-abia,LINK
+/gada,Governance,Link Group,/local-governance,LINK
+/gada,Security,Link Group,/secure-abia,LINK
+/gada,Invest Abia,Link Group,/invest-in-aba,LINK
+/gada,Serve Abia,Link Group,/serve-abia,LINK
+/gada,Build Abia,Link Group,/build-abia,LINK
+/gada,Open Abia,Link Group,/open-abia,LINK
+/gada-mobile,search,Main Body Grid,Form action,BUTTON
+/gada-mobile,notifications,Main Body Grid,Form action,BUTTON
+/gada-mobile,add_a_photo Report Issue,Main Body Grid,Form action,BUTTON
+/gada-mobile,View All Reports arrow_forward,Main Body Grid,Form action,BUTTON
+/gada-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/gada-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/gada-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/gada-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/gada-mobile,photo_camera Quick Report,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,notifications,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,electric_bolt Geometric Power Support Request meter or report power outage. chevron_right,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,payments Levy Payments Pay trade licenses and tenement rates. chevron_right,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,health_and_safety ASCHIA Health Find the nearest primary healthcare center. chevron_right,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,Join Conversation,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,grid_view Hub,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,person Profile,Main Body Grid,Form action,BUTTON
+/gada-mobile-2,add_a_photo,Main Body Grid,Form action,BUTTON
+/governors-command-center,help Support,Main Body Grid,Form action,BUTTON
+/governors-command-center,logout Sign Out,Main Body Grid,Form action,BUTTON
+/governors-command-center,language,Main Body Grid,Form action,BUTTON
+/governors-command-center,notifications,Main Body Grid,Form action,BUTTON
+/governors-command-center,download Export Intelligence,Main Body Grid,Form action,BUTTON
+/governors-command-center,add_task New Directive,Main Body Grid,Form action,BUTTON
+/governors-command-center,zoom_in,Main Body Grid,Form action,BUTTON
+/governors-command-center,zoom_out,Main Body Grid,Form action,BUTTON
+/governors-command-center,layers,Main Body Grid,Form action,BUTTON
+/governors-command-center,View Briefing Room,Main Body Grid,Form action,BUTTON
+/governors-command-center,View All 42 State Initiatives open_in_new,Main Body Grid,Form action,BUTTON
+/governors-command-center,dashboard Dashboard,Link Group,/,LINK
+/governors-command-center,security Security,Link Group,/secure-abia,LINK
+/governors-command-center,Invest,Link Group,/invest-in-aba,LINK
+/governors-command-center,Jobs,Link Group,/jobs-abia,LINK
+/governors-command-center,Serve,Link Group,/serve-abia,LINK
+/governors-command-center,Governance,Link Group,/local-governance,LINK
+/governors-command-center,Press Office,Link Group,/news-press-center,LINK
+/governors-command-center-mobile,notifications,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,emergency_share Dispatch,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,broadcast_on_home Alerts,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,stadium Shelter,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,call Command,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,VIEW LIVE FEED videocam,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,ANALYZE DATA,Main Body Grid,Form action,BUTTON
+/governors-command-center-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/greater-aba-development-authority,New Initiative,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,download Export Report,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,map Master Plan 2030,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,Roads,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,Zoning,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,Industrial,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,View Detailed Audit,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,add,Main Body Grid,Form action,BUTTON
+/greater-aba-development-authority,dashboard Command Center,Link Group,/,LINK
+/greater-aba-development-authority,campaign Communications,Link Group,/ministry-of-communication,LINK
+/greater-aba-development-authority,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/greater-aba-development-authority,medical_services Health,Link Group,/ministry-of-health,LINK
+/greater-aba-development-authority,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/greater-aba-development-authority,Security Audit,Link Group,/secure-abia,LINK
+/health-wellness,Emergency,Main Body Grid,Form action,BUTTON
+/health-wellness,Citizen Portal,Main Body Grid,Form action,BUTTON
+/health-wellness,Get Directions,Main Body Grid,Form action,BUTTON
+/health-wellness,add_circle,Main Body Grid,Form action,BUTTON
+/health-wellness,DOWNLOAD STATE E-HEALTH CARD,Main Body Grid,Form action,BUTTON
+/health-wellness,Economy,Link Group,/economic-transformation,LINK
+/health-wellness,Digital Gov,Link Group,/serve-abia,LINK
+/health-wellness,Governance,Link Group,/local-governance,LINK
+/health-wellness,Security,Link Group,/secure-abia,LINK
+/health-wellness,health_and_safety Health Metrics,Link Group,/ministry-of-health,LINK
+/health-wellness,Invest Abia,Link Group,/invest-in-aba,LINK
+/health-wellness,Serve Abia,Link Group,/serve-abia,LINK
+/health-wellness,Build Abia,Link Group,/build-abia,LINK
+/health-wellness,Open Abia,Link Group,/open-abia,LINK
+/health-wellness,Emergency Lines,Link Group,/secure-abia,LINK
+/health-wellness-2,Sign In,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Enroll in Insurance arrow_forward,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Find Facility,Main Body Grid,Form action,BUTTON
+/health-wellness-2,View Details,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Access Dashboard,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Learn more chevron_right,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Open Interactive Map,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Get Directions,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Join Mailing List,Main Body Grid,Form action,BUTTON
+/health-wellness-2,Invest,Link Group,/invest-in-aba,LINK
+/health-wellness-2,Jobs,Link Group,/jobs-abia,LINK
+/health-wellness-2,Serve,Link Group,/serve-abia,LINK
+/health-wellness-2,Governance,Link Group,/local-governance,LINK
+/health-wellness-2,View Dashboard,Link Group,/,LINK
+/health-wellness-2,Wellness Portal,Link Group,/ministry-of-health,LINK
+/health-wellness-2,Medical Careers,Link Group,/jobs-abia,LINK
+/health-wellness-2,Press Office,Link Group,/news-press-center,LINK
+/home-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/home-mobile,account_balance Serve Abia Services,Main Body Grid,Form action,BUTTON
+/home-mobile,trending_up Invest Abia Opportunities,Main Body Grid,Form action,BUTTON
+/home-mobile,work_history Jobs Abia Careers,Main Body Grid,Form action,BUTTON
+/home-mobile,psychology AI Academy Education,Main Body Grid,Form action,BUTTON
+/home-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/home-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/home-mobile,apps Hub,Main Body Grid,Form action,BUTTON
+/home-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/home-variant,Citizen Portal,Main Body Grid,Form action,BUTTON
+/home-variant,emergency,Main Body Grid,Form action,BUTTON
+/home-variant,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/home-variant,VIEW FULL ROADMAP arrow_forward,Main Body Grid,Form action,BUTTON
+/home-variant,chevron_left,Main Body Grid,Form action,BUTTON
+/home-variant,chevron_right,Main Body Grid,Form action,BUTTON
+/home-variant,Contact Us,Main Body Grid,Form action,BUTTON
+/home-variant,Economy,Link Group,/economic-transformation,LINK
+/home-variant,Digital Gov,Link Group,/serve-abia,LINK
+/home-variant,Governance,Link Group,/local-governance,LINK
+/home-variant,Security,Link Group,/secure-abia,LINK
+/home-variant,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/home-variant,account_balance Digital Government,Link Group,/serve-abia,LINK
+/home-variant,mitre Transparent Governance,Link Group,/local-governance,LINK
+/home-variant,security Public Trust,Link Group,/secure-abia,LINK
+/home-variant,Invest Abia,Link Group,/invest-in-aba,LINK
+/home-variant,Serve Abia,Link Group,/serve-abia,LINK
+/home-variant,Build Abia,Link Group,/build-abia,LINK
+/home-variant,Open Abia,Link Group,/open-abia,LINK
+/housing-urban-development,Citizen Portal,Main Body Grid,Form action,BUTTON
+/housing-urban-development,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/housing-urban-development,View All Statuses chevron_right,Main Body Grid,Form action,BUTTON
+/housing-urban-development,Apply Now,Main Body Grid,Form action,BUTTON
+/housing-urban-development,favorite,Main Body Grid,Form action,BUTTON
+/housing-urban-development,Calculate,Main Body Grid,Form action,BUTTON
+/housing-urban-development,Start Process,Main Body Grid,Form action,BUTTON
+/housing-urban-development,filter_list,Main Body Grid,Form action,BUTTON
+/housing-urban-development,search,Main Body Grid,Form action,BUTTON
+/housing-urban-development,download,Main Body Grid,Form action,BUTTON
+/housing-urban-development,download,Main Body Grid,Form action,BUTTON
+/housing-urban-development,download,Main Body Grid,Form action,BUTTON
+/housing-urban-development,download,Main Body Grid,Form action,BUTTON
+/housing-urban-development,Report Building Violation,Main Body Grid,Form action,BUTTON
+/housing-urban-development,Economy,Link Group,/economic-transformation,LINK
+/housing-urban-development,Digital Gov,Link Group,/serve-abia,LINK
+/housing-urban-development,Governance,Link Group,/local-governance,LINK
+/housing-urban-development,Security,Link Group,/secure-abia,LINK
+/housing-urban-development,dashboard Overview,Link Group,/,LINK
+/housing-urban-development,home_work Housing Registry,Link Group,/aba-20,LINK
+/housing-urban-development,Invest Abia,Link Group,/invest-in-aba,LINK
+/housing-urban-development,Serve Abia,Link Group,/serve-abia,LINK
+/housing-urban-development,Build Abia,Link Group,/build-abia,LINK
+/housing-urban-development,Open Abia,Link Group,/open-abia,LINK
+/housing-urban-development-2,Sign In,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Explore Master Plan,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,View Projects,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Download Brochure,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,search,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Live CCTV Feed,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Industrial,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Residential,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Infrastructure,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,add,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,remove,Main Body Grid,Form action,BUTTON
+/housing-urban-development-2,Invest,Link Group,/invest-in-aba,LINK
+/housing-urban-development-2,Jobs,Link Group,/jobs-abia,LINK
+/housing-urban-development-2,Serve,Link Group,/serve-abia,LINK
+/housing-urban-development-2,Governance,Link Group,/local-governance,LINK
+/housing-urban-development-2,dashboard Dashboard,Link Group,/,LINK
+/housing-urban-development-2,Press Office,Link Group,/news-press-center,LINK
+/industrial-hubs,Citizen Portal,Main Body Grid,Form action,BUTTON
+/industrial-hubs,rocket_launch Launch Service,Main Body Grid,Form action,BUTTON
+/industrial-hubs,Explore Facilities arrow_forward,Main Body Grid,Form action,BUTTON
+/industrial-hubs,View Master Plan map,Main Body Grid,Form action,BUTTON
+/industrial-hubs,factory Facility Booking,Main Body Grid,Form action,BUTTON
+/industrial-hubs,description Lease Guidelines,Main Body Grid,Form action,BUTTON
+/industrial-hubs,support_agent Industrial Support,Main Body Grid,Form action,BUTTON
+/industrial-hubs,Economy,Link Group,/economic-transformation,LINK
+/industrial-hubs,Digital Gov,Link Group,/serve-abia,LINK
+/industrial-hubs,Governance,Link Group,/local-governance,LINK
+/industrial-hubs,Security,Link Group,/secure-abia,LINK
+/industrial-hubs,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/industrial-hubs,account_balance Digital Government,Link Group,/serve-abia,LINK
+/industrial-hubs,gavel Transparent Governance,Link Group,/local-governance,LINK
+/invest-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/invest-abia,Launch Service,Main Body Grid,Form action,BUTTON
+/invest-abia,Explore Opportunities,Main Body Grid,Form action,BUTTON
+/invest-abia,Download Roadmap,Main Body Grid,Form action,BUTTON
+/invest-abia,View All Sectors arrow_forward,Main Body Grid,Form action,BUTTON
+/invest-abia,Launch DDI Portal,Main Body Grid,Form action,BUTTON
+/invest-abia,Watch Official Briefing,Main Body Grid,Form action,BUTTON
+/invest-abia,Economy,Link Group,/economic-transformation,LINK
+/invest-abia,Digital Gov,Link Group,/serve-abia,LINK
+/invest-abia,Governance,Link Group,/local-governance,LINK
+/invest-abia,Security,Link Group,/secure-abia,LINK
+/invest-abia,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/invest-abia,account_balance Digital Government,Link Group,/serve-abia,LINK
+/invest-abia,gavel Transparent Governance,Link Group,/local-governance,LINK
+/invest-abia,Abia Investment House,Link Group,/invest-in-aba,LINK
+/invest-abia,Annual Budget Reports,Link Group,/open-abia,LINK
+/invest-abia,Investor Relations,Link Group,/invest-in-aba,LINK
+/invest-abia-mobile,notifications,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,Explore Portfolio,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,Diaspora Portal,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,Download Prospectus,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/invest-abia-mobile,add_chart,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Citizen Portal,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Explore Opportunities arrow_forward,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Export Support,Main Body Grid,Form action,BUTTON
+/invest-in-aba,add,Main Body Grid,Form action,BUTTON
+/invest-in-aba,add,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Apply for Space,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Park Catalog,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Launch DIG Portal,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Talk to an Officer,Main Body Grid,Form action,BUTTON
+/invest-in-aba,Economy,Link Group,/economic-transformation,LINK
+/invest-in-aba,Digital Gov,Link Group,/serve-abia,LINK
+/invest-in-aba,Governance,Link Group,/local-governance,LINK
+/invest-in-aba,Security,Link Group,/secure-abia,LINK
+/jobs-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/jobs-abia,Search Jobs,Main Body Grid,Form action,BUTTON
+/jobs-abia,work Full-time,Main Body Grid,Form action,BUTTON
+/jobs-abia,handyman Project-based,Main Body Grid,Form action,BUTTON
+/jobs-abia,school Apprenticeship,Main Body Grid,Form action,BUTTON
+/jobs-abia,hub Hybrid,Main Body Grid,Form action,BUTTON
+/jobs-abia,View all jobs arrow_forward,Main Body Grid,Form action,BUTTON
+/jobs-abia,Apply Now,Main Body Grid,Form action,BUTTON
+/jobs-abia,Quick Apply,Main Body Grid,Form action,BUTTON
+/jobs-abia,View Details,Main Body Grid,Form action,BUTTON
+/jobs-abia,Register as Candidate,Main Body Grid,Form action,BUTTON
+/jobs-abia,Request Quote,Main Body Grid,Form action,BUTTON
+/jobs-abia,Request Quote,Main Body Grid,Form action,BUTTON
+/jobs-abia,Request Quote,Main Body Grid,Form action,BUTTON
+/jobs-abia,Request Quote,Main Body Grid,Form action,BUTTON
+/jobs-abia,Access Support Portal,Main Body Grid,Form action,BUTTON
+/jobs-abia,Serve Abia,Link Group,/serve-abia,LINK
+/jobs-abia,Jobs Abia,Link Group,/jobs-abia,LINK
+/jobs-abia,AI Academy,Link Group,/ai-academy,LINK
+/jobs-abia,Connect Abia,Link Group,/connect-abia,LINK
+/jobs-abia,Institutional News,Link Group,/news-press-center,LINK
+/jobs-abia,Jobs Abia,Link Group,/jobs-abia,LINK
+/jobs-abia-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,tune,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,near_me Nearby,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,home_work Work from Home,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,precision_manufacturing Aba Clusters,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,agriculture Agriculture,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,Join Now arrow_forward,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,Create edit_note,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,View all keyboard_arrow_right,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,bookmark,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,bookmark,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,bookmark,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,Join the Talent Registry,Main Body Grid,Form action,BUTTON
+/jobs-abia-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/land-property,Launch Service,Main Body Grid,Form action,BUTTON
+/land-property,Verify Status,Main Body Grid,Form action,BUTTON
+/land-property,Explore Map Layers,Main Body Grid,Form action,BUTTON
+/land-property,Economy,Link Group,/economic-transformation,LINK
+/land-property,Digital Gov,Link Group,/serve-abia,LINK
+/land-property,Governance,Link Group,/local-governance,LINK
+/land-property,Security,Link Group,/secure-abia,LINK
+/land-property,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/land-property,account_balance Digital Government,Link Group,/serve-abia,LINK
+/land-property,gavel Transparent Governance,Link Group,/local-governance,LINK
+/legal-institutional-registry,Citizen Portal,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,Launch Service,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,Browse Full Library,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,Search MDAs,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,filter_list Filter,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,download Export Data,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry,Economy,Link Group,/economic-transformation,LINK
+/legal-institutional-registry,Digital Gov,Link Group,/serve-abia,LINK
+/legal-institutional-registry,Governance,Link Group,/local-governance,LINK
+/legal-institutional-registry,Security,Link Group,/secure-abia,LINK
+/legal-institutional-registry,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/legal-institutional-registry,account_balance Digital Government,Link Group,/serve-abia,LINK
+/legal-institutional-registry,gavel Transparent Governance,Link Group,/local-governance,LINK
+/legal-institutional-registry-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,emergency,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Submit Formal Request,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Most Recent,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Popular,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,download,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,download,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,visibility_off,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Show 42 more publications,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-2,Economy,Link Group,/economic-transformation,LINK
+/legal-institutional-registry-2,Digital Gov,Link Group,/serve-abia,LINK
+/legal-institutional-registry-2,Governance,Link Group,/local-governance,LINK
+/legal-institutional-registry-2,Security,Link Group,/secure-abia,LINK
+/legal-institutional-registry-2,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/legal-institutional-registry-2,account_balance Digital Government,Link Group,/serve-abia,LINK
+/legal-institutional-registry-2,mitre Transparent Governance,Link Group,/local-governance,LINK
+/legal-institutional-registry-2,security Public Trust,Link Group,/secure-abia,LINK
+/legal-institutional-registry-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/legal-institutional-registry-2,Serve Abia,Link Group,/serve-abia,LINK
+/legal-institutional-registry-2,Build Abia,Link Group,/build-abia,LINK
+/legal-institutional-registry-2,Open Abia,Link Group,/open-abia,LINK
+/legal-institutional-registry-mobile,notifications,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-mobile,Explore Library,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-mobile,Apply Now arrow_forward,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-mobile,View Registry arrow_forward,Main Body Grid,Form action,BUTTON
+/legal-institutional-registry-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/live-incident-feed,add New Initiative,Main Body Grid,Form action,BUTTON
+/live-incident-feed,filter_list Filters,Main Body Grid,Form action,BUTTON
+/live-incident-feed,emergency Critical (4),Main Body Grid,Form action,BUTTON
+/live-incident-feed,pending_actions Pending (12),Main Body Grid,Form action,BUTTON
+/live-incident-feed,visibility Monitoring (28),Main Body Grid,Form action,BUTTON
+/live-incident-feed,open_in_new,Main Body Grid,Form action,BUTTON
+/live-incident-feed,Dispatch,Main Body Grid,Form action,BUTTON
+/live-incident-feed,more_vert,Main Body Grid,Form action,BUTTON
+/live-incident-feed,Review,Main Body Grid,Form action,BUTTON
+/live-incident-feed,Manage,Main Body Grid,Form action,BUTTON
+/live-incident-feed,history Log,Main Body Grid,Form action,BUTTON
+/live-incident-feed,chevron_left,Main Body Grid,Form action,BUTTON
+/live-incident-feed,chevron_right,Main Body Grid,Form action,BUTTON
+/live-incident-feed,View Protocol Docs,Main Body Grid,Form action,BUTTON
+/live-incident-feed,dashboard Command Center,Link Group,/,LINK
+/live-incident-feed,campaign Communications,Link Group,/ministry-of-communication,LINK
+/live-incident-feed,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/live-incident-feed,medical_services Health,Link Group,/ministry-of-health,LINK
+/live-incident-feed,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/live-incident-feed,Security Audit Passed,Link Group,/secure-abia,LINK
+/local-governance,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/local-governance,notifications,Main Body Grid,Form action,BUTTON
+/local-governance,add New Report,Main Body Grid,Form action,BUTTON
+/local-governance,more_vert,Main Body Grid,Form action,BUTTON
+/local-governance,more_vert,Main Body Grid,Form action,BUTTON
+/local-governance,more_vert,Main Body Grid,Form action,BUTTON
+/local-governance,Generate Audit Report,Main Body Grid,Form action,BUTTON
+/local-governance,inventory Manage Inventory,Main Body Grid,Form action,BUTTON
+/local-governance,edit_square Submit Report,Main Body Grid,Form action,BUTTON
+/local-governance,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/local-governance,account_balance Digital Government,Link Group,/serve-abia,LINK
+/local-governance,mitre Transparent Governance,Link Group,/local-governance,LINK
+/local-governance,security Public Trust,Link Group,/secure-abia,LINK
+/local-governance,Governance,Link Group,/local-governance,LINK
+/local-governance,Security,Link Group,/secure-abia,LINK
+/local-governance,Invest Abia,Link Group,/invest-in-aba,LINK
+/local-governance,Serve Abia,Link Group,/serve-abia,LINK
+/local-governance,Build Abia,Link Group,/build-abia,LINK
+/local-governance,Open Abia,Link Group,/open-abia,LINK
+/mda-performance,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/mda-performance,Citizen Portal,Main Body Grid,Form action,BUTTON
+/mda-performance,Emergency,Main Body Grid,Form action,BUTTON
+/mda-performance,View All arrow_forward,Main Body Grid,Form action,BUTTON
+/mda-performance,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/mda-performance,account_balance Digital Government,Link Group,/serve-abia,LINK
+/mda-performance,mitre Transparent Governance,Link Group,/local-governance,LINK
+/mda-performance,security Public Trust,Link Group,/secure-abia,LINK
+/mda-performance,Economy,Link Group,/economic-transformation,LINK
+/mda-performance,Digital Gov,Link Group,/serve-abia,LINK
+/mda-performance,Governance,Link Group,/local-governance,LINK
+/mda-performance,Security,Link Group,/secure-abia,LINK
+/mda-performance,Invest Abia,Link Group,/invest-in-aba,LINK
+/mda-performance,Serve Abia,Link Group,/serve-abia,LINK
+/mda-performance,Build Abia,Link Group,/build-abia,LINK
+/mda-performance,Open Abia,Link Group,/open-abia,LINK
+/ministry-of-agriculture,Citizen Portal,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,emergency Emergency,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Smallholder Support Grant arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,View Roadmap,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Get Directions map,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Get Directions map,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,View Full Directory (140+ entries),Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Download Seasonal Guide download,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Start Your Application edit_note,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,View All Stories arrow_right_alt,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture,Economy,Link Group,/economic-transformation,LINK
+/ministry-of-agriculture,Digital Gov,Link Group,/serve-abia,LINK
+/ministry-of-agriculture,Governance,Link Group,/local-governance,LINK
+/ministry-of-agriculture,Security,Link Group,/secure-abia,LINK
+/ministry-of-agriculture,Read Story open_in_new,Link Group,/open-abia,LINK
+/ministry-of-agriculture,Read Story open_in_new,Link Group,/open-abia,LINK
+/ministry-of-agriculture,Read Story open_in_new,Link Group,/open-abia,LINK
+/ministry-of-agriculture,Invest Abia,Link Group,/invest-in-aba,LINK
+/ministry-of-agriculture,Serve Abia,Link Group,/serve-abia,LINK
+/ministry-of-agriculture,Build Abia,Link Group,/build-abia,LINK
+/ministry-of-agriculture,Open Abia,Link Group,/open-abia,LINK
+/ministry-of-agriculture-2,language,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,Sign In,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,Explore Programs,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,Download Roadmap,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,fullscreen,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,Apply for Input Support,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,Download Data Set (CSV),Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,support_agent Agri-Helpdesk,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-2,dashboard Dashboard,Link Group,/,LINK
+/ministry-of-agriculture-2,Invest,Link Group,/invest-in-aba,LINK
+/ministry-of-agriculture-2,Jobs,Link Group,/jobs-abia,LINK
+/ministry-of-agriculture-2,Serve,Link Group,/serve-abia,LINK
+/ministry-of-agriculture-2,Governance,Link Group,/local-governance,LINK
+/ministry-of-agriculture-2,Open Data,Link Group,/open-abia,LINK
+/ministry-of-agriculture-2,Budget Report,Link Group,/open-abia,LINK
+/ministry-of-agriculture-2,Investment Guide,Link Group,/invest-in-aba,LINK
+/ministry-of-agriculture-2,Press Office,Link Group,/news-press-center,LINK
+/ministry-of-agriculture-3,New Initiative,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,Palm Oil,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,Cassava,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,map Open Map Interface,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,"View Full Registry (112,490 entries) arrow_forward",Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,add,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-3,dashboard Command Center,Link Group,/,LINK
+/ministry-of-agriculture-3,campaign Communications,Link Group,/ministry-of-communication,LINK
+/ministry-of-agriculture-3,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/ministry-of-agriculture-3,medical_services Health,Link Group,/ministry-of-health,LINK
+/ministry-of-agriculture-3,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/ministry-of-agriculture-3,Security Audit,Link Group,/secure-abia,LINK
+/ministry-of-agriculture-mobile,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,View All (142),Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,visibility,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,visibility,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,visibility,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,Download Full Strategy Report download,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,add,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/ministry-of-agriculture-mobile-2,emergency_share,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile-2,Redeem,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile-2,Find Nearest Hub Locate certified fertilizer distribution points and processing centers. map Open Map {/* Mini Map Background Simulation */},Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile-2,support_agent,Main Body Grid,Form action,BUTTON
+/ministry-of-agriculture-mobile-2,dashboard Dashboard,Link Group,/home-mobile,LINK
+/ministry-of-communication,add New Initiative,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,account_balance,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,settings,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,warning Initiate Response Protocol,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,View All Drafts,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,edit,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,delete,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,visibility,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,share,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,edit,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,delete,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,View Statement Archive arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,Launch Full Asset Manager open_in_new,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,post_add New Press Release,Main Body Grid,Form action,BUTTON
+/ministry-of-communication,dashboard Command Center,Link Group,/,LINK
+/ministry-of-communication,campaign Communications,Link Group,/ministry-of-communication,LINK
+/ministry-of-communication,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/ministry-of-communication,medical_services Health,Link Group,/ministry-of-health,LINK
+/ministry-of-communication,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/ministry-of-communication,Security Audit,Link Group,/secure-abia,LINK
+/ministry-of-communication-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,Emergency,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,rss_feed Latest Updates,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,Media Portal,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,Browse Full Archive,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,Submit Report for Verification,Main Body Grid,Form action,BUTTON
+/ministry-of-communication-2,Economy,Link Group,/economic-transformation,LINK
+/ministry-of-communication-2,Digital Gov,Link Group,/serve-abia,LINK
+/ministry-of-communication-2,Governance,Link Group,/local-governance,LINK
+/ministry-of-communication-2,Security,Link Group,/secure-abia,LINK
+/ministry-of-communication-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/ministry-of-communication-2,Serve Abia,Link Group,/serve-abia,LINK
+/ministry-of-communication-2,Build Abia,Link Group,/build-abia,LINK
+/ministry-of-communication-2,Open Abia,Link Group,/open-abia,LINK
+/ministry-of-education-mobile,search,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,calendar_today LAST 30 DAYS,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,download EXPORT REPORT,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,VIEW NETWORK MAP,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,VIEW DETAILS arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/ministry-of-education-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/ministry-of-health,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-health,account_balance,Main Body Grid,Form action,BUTTON
+/ministry-of-health,settings,Main Body Grid,Form action,BUTTON
+/ministry-of-health,Action Protocol,Main Body Grid,Form action,BUTTON
+/ministry-of-health,View Campaign Details,Main Body Grid,Form action,BUTTON
+/ministry-of-health,add New Health Initiative,Main Body Grid,Form action,BUTTON
+/ministry-of-health,dashboard Health Index,Link Group,/ministry-of-health,LINK
+/ministry-of-health,Security Audit,Link Group,/secure-abia,LINK
+/ministry-of-health-2,emergency Emergency,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,location_on Find Your Nearest PHC,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Learn About ASCHIA,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Verify Status,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Submit Report,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Reminder,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,View Child Schedule,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Full Outreach Map,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Explore All Tips arrow_forward,Main Body Grid,Form action,BUTTON
+/ministry-of-health-2,Economy,Link Group,/economic-transformation,LINK
+/ministry-of-health-2,Digital Gov,Link Group,/serve-abia,LINK
+/ministry-of-health-2,Governance,Link Group,/local-governance,LINK
+/ministry-of-health-2,Security,Link Group,/secure-abia,LINK
+/ministry-of-health-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/ministry-of-health-2,Serve Abia,Link Group,/serve-abia,LINK
+/ministry-of-health-2,Build Abia,Link Group,/build-abia,LINK
+/ministry-of-health-2,Open Abia,Link Group,/open-abia,LINK
+/ministry-of-health-2,Health Stats,Link Group,/ministry-of-health,LINK
+/ministry-of-health-2,Public Health News,Link Group,/ministry-of-health,LINK
+/ministry-of-health-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,location_on Nearby,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,emergency 24/7 ER,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,medical_services Pharmacy,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,apps Hub,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile,sos,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile-2,notifications,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile-2,download EXPORT REPORT,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile-2,add NEW INCIDENT,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile-2,send Deploy Rapid Response Team,Main Body Grid,Form action,BUTTON
+/ministry-of-health-mobile-2,Health Services,Link Group,/ministry-of-health-mobile,LINK
+/ministry-of-health-mobile-2,dashboard Dashboard,Link Group,/home-mobile,LINK
+/news-press-center,Citizen Portal,Main Body Grid,Form action,BUTTON
+/news-press-center,Emergency,Main Body Grid,Form action,BUTTON
+/news-press-center,mail Press Subscription,Main Body Grid,Form action,BUTTON
+/news-press-center,Access Resource Vault,Main Body Grid,Form action,BUTTON
+/news-press-center,Request Accreditation,Main Body Grid,Form action,BUTTON
+/news-press-center,Economy,Link Group,/economic-transformation,LINK
+/news-press-center,Digital Gov,Link Group,/serve-abia,LINK
+/news-press-center,Governance,Link Group,/local-governance,LINK
+/news-press-center,Security,Link Group,/secure-abia,LINK
+/news-press-center,newspaper Abia Today,Link Group,/news-press-center,LINK
+/news-press-center,mail press@abiastate.gov.ng,Link Group,mailto:press@abiastate.gov.ng,LINK
+/news-press-center,call +234 800 ABIA PRESS,Link Group,tel:+23400000000,LINK
+/news-press-center,Invest Abia,Link Group,/invest-in-aba,LINK
+/news-press-center,Serve Abia,Link Group,/serve-abia,LINK
+/news-press-center,Build Abia,Link Group,/build-abia,LINK
+/news-press-center,Open Abia,Link Group,/open-abia,LINK
+/open-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/open-abia,Launch Service,Main Body Grid,Form action,BUTTON
+/open-abia,download Export PDF,Main Body Grid,Form action,BUTTON
+/open-abia,calendar_today FY 2024,Main Body Grid,Form action,BUTTON
+/open-abia,Download Revenue Audit,Main Body Grid,Form action,BUTTON
+/open-abia,filter_list,Main Body Grid,Form action,BUTTON
+/open-abia,Economy,Link Group,/economic-transformation,LINK
+/open-abia,Digital Gov,Link Group,/serve-abia,LINK
+/open-abia,Governance,Link Group,/local-governance,LINK
+/open-abia,Security,Link Group,/secure-abia,LINK
+/open-abia,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/open-abia,account_balance Digital Government,Link Group,/serve-abia,LINK
+/open-abia,gavel Transparent Governance,Link Group,/local-governance,LINK
+/open-abia-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/open-abia-2,download Export CSV,Main Body Grid,Form action,BUTTON
+/open-abia-2,add New Tender,Main Body Grid,Form action,BUTTON
+/open-abia-2,List View,Main Body Grid,Form action,BUTTON
+/open-abia-2,Grid View,Main Body Grid,Form action,BUTTON
+/open-abia-2,View Details,Main Body Grid,Form action,BUTTON
+/open-abia-2,Submit Bid,Main Body Grid,Form action,BUTTON
+/open-abia-2,View Details,Main Body Grid,Form action,BUTTON
+/open-abia-2,View Details,Main Body Grid,Form action,BUTTON
+/open-abia-2,chevron_left,Main Body Grid,Form action,BUTTON
+/open-abia-2,1,Main Body Grid,Form action,BUTTON
+/open-abia-2,2,Main Body Grid,Form action,BUTTON
+/open-abia-2,3,Main Body Grid,Form action,BUTTON
+/open-abia-2,chevron_right,Main Body Grid,Form action,BUTTON
+/open-abia-2,Audit Full Log,Main Body Grid,Form action,BUTTON
+/open-abia-2,Economy,Link Group,/economic-transformation,LINK
+/open-abia-2,Digital Gov,Link Group,/serve-abia,LINK
+/open-abia-2,Governance,Link Group,/local-governance,LINK
+/open-abia-2,Security,Link Group,/secure-abia,LINK
+/open-abia-2,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/open-abia-2,account_balance Digital Government,Link Group,/serve-abia,LINK
+/open-abia-2,gavel Transparent Governance,Link Group,/local-governance,LINK
+/open-abia-mobile,notifications,Main Body Grid,Form action,BUTTON
+/open-abia-mobile,download Export PDF,Main Body Grid,Form action,BUTTON
+/open-abia-mobile,Review,Main Body Grid,Form action,BUTTON
+/open-abia-mobile,Review,Main Body Grid,Form action,BUTTON
+/open-abia-mobile,Review,Main Body Grid,Form action,BUTTON
+/open-abia-mobile,Dashboard,Link Group,/home-mobile,LINK
+/open-abia-mobile,MDA Budgets,Link Group,/open-abia-mobile,LINK
+/open-abia-mobile,Procurement,Link Group,/open-abia-mobile,LINK
+/open-abia-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/,Citizen Portal,Main Body Grid,Form action,BUTTON
+/,rocket_launch Launch Service,Main Body Grid,Form action,BUTTON
+/,Explore Vision arrow_forward,Main Body Grid,Form action,BUTTON
+/,Investor Portal,Main Body Grid,Form action,BUTTON
+/,View Economic Data arrow_right_alt,Main Body Grid,Form action,BUTTON
+/,chevron_left,Main Body Grid,Form action,BUTTON
+/,chevron_right,Main Body Grid,Form action,BUTTON
+/,Details open_in_new,Main Body Grid,Form action,BUTTON
+/,Details open_in_new,Main Body Grid,Form action,BUTTON
+/,Details open_in_new,Main Body Grid,Form action,BUTTON
+/,Economy,Link Group,/economic-transformation,LINK
+/,Digital Gov,Link Group,/serve-abia,LINK
+/,Governance,Link Group,/local-governance,LINK
+/,Security,Link Group,/secure-abia,LINK
+/procurement-tenders-registry,Citizen Portal,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,add Register as Vendor,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Watch Stream videocam,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,View Bid Calendar,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,filter_list Filter,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Apply,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,View Results,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Apply,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Check Status,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Renewal Guide,Main Body Grid,Form action,BUTTON
+/procurement-tenders-registry,Economy,Link Group,/economic-transformation,LINK
+/procurement-tenders-registry,Digital Gov,Link Group,/serve-abia,LINK
+/procurement-tenders-registry,Governance,Link Group,/local-governance,LINK
+/procurement-tenders-registry,Security,Link Group,/secure-abia,LINK
+/procurement-tenders-registry,payments Procurement Dashboard,Link Group,/open-abia,LINK
+/procurement-tenders-registry,account_balance Active Tenders,Link Group,/open-abia,LINK
+/procurement-tenders-registry,security Audit Trails,Link Group,/secure-abia,LINK
+/procurement-tenders-registry,Invest Abia,Link Group,/invest-in-aba,LINK
+/procurement-tenders-registry,Serve Abia,Link Group,/serve-abia,LINK
+/procurement-tenders-registry,Build Abia,Link Group,/build-abia,LINK
+/procurement-tenders-registry,Open Abia,Link Group,/open-abia,LINK
+/public-reporting,Citizen Portal,Main Body Grid,Form action,BUTTON
+/public-reporting,call INITIATE EMERGENCY CALL,Main Body Grid,Form action,BUTTON
+/public-reporting,Support Projects,Main Body Grid,Form action,BUTTON
+/public-reporting,Volunteer Programs,Main Body Grid,Form action,BUTTON
+/public-reporting,Economy,Link Group,/economic-transformation,LINK
+/public-reporting,Digital Gov,Link Group,/serve-abia,LINK
+/public-reporting,Governance,Link Group,/local-governance,LINK
+/public-reporting,Security,Link Group,/secure-abia,LINK
+/public-reporting,Digital Gov Docs,Link Group,/serve-abia,LINK
+/science-technology,Emergency,Main Body Grid,Form action,BUTTON
+/science-technology,Citizen Portal,Main Body Grid,Form action,BUTTON
+/science-technology,campaign Citizen Feedback,Main Body Grid,Form action,BUTTON
+/science-technology,View Ecosystem Map arrow_forward,Main Body Grid,Form action,BUTTON
+/science-technology,Register New Invention,Main Body Grid,Form action,BUTTON
+/science-technology,arrow_forward,Main Body Grid,Form action,BUTTON
+/science-technology,arrow_forward,Main Body Grid,Form action,BUTTON
+/science-technology,arrow_forward,Main Body Grid,Form action,BUTTON
+/science-technology,Economy,Link Group,/economic-transformation,LINK
+/science-technology,Digital Gov,Link Group,/serve-abia,LINK
+/science-technology,Governance,Link Group,/local-governance,LINK
+/science-technology,Security,Link Group,/secure-abia,LINK
+/science-technology,mitre Science &amp; Tech Hub,Link Group,/science-technology,LINK
+/science-technology,security Tech Parks,Link Group,/secure-abia,LINK
+/science-technology,Invest Abia,Link Group,/invest-in-aba,LINK
+/science-technology,Serve Abia,Link Group,/serve-abia,LINK
+/science-technology,Build Abia,Link Group,/build-abia,LINK
+/science-technology,Open Data Portal,Link Group,/open-abia,LINK
+/science-technology-2,Sign In,Main Body Grid,Form action,BUTTON
+/science-technology-2,help Support,Main Body Grid,Form action,BUTTON
+/science-technology-2,logout Sign Out,Main Body Grid,Form action,BUTTON
+/science-technology-2,Explore Roadmap arrow_forward,Main Body Grid,Form action,BUTTON
+/science-technology-2,Partner with R&amp;D,Main Body Grid,Form action,BUTTON
+/science-technology-2,View Infrastructure Specs chevron_right,Main Body Grid,Form action,BUTTON
+/science-technology-2,Apply for Incubation,Main Body Grid,Form action,BUTTON
+/science-technology-2,View All Programs open_in_new,Main Body Grid,Form action,BUTTON
+/science-technology-2,Submit Proposal,Main Body Grid,Form action,BUTTON
+/science-technology-2,Contact Tech Taskforce,Main Body Grid,Form action,BUTTON
+/science-technology-2,Invest,Link Group,/invest-in-aba,LINK
+/science-technology-2,Jobs,Link Group,/jobs-abia,LINK
+/science-technology-2,Serve,Link Group,/serve-abia,LINK
+/science-technology-2,Governance,Link Group,/local-governance,LINK
+/science-technology-2,dashboard Dashboard,Link Group,/,LINK
+/science-technology-2,security Security,Link Group,/secure-abia,LINK
+/science-technology-2,Invest,Link Group,/invest-in-aba,LINK
+/science-technology-2,Jobs,Link Group,/jobs-abia,LINK
+/science-technology-2,Press Office,Link Group,/news-press-center,LINK
+/secure-abia,Citizen Portal,Main Body Grid,Form action,BUTTON
+/secure-abia,Launch Service,Main Body Grid,Form action,BUTTON
+/secure-abia,ZOOM IN,Main Body Grid,Form action,BUTTON
+/secure-abia,EXPORT DATA,Main Body Grid,Form action,BUTTON
+/secure-abia,Full Operations Log,Main Body Grid,Form action,BUTTON
+/secure-abia,Support Projects,Main Body Grid,Form action,BUTTON
+/secure-abia,View Annual Report,Main Body Grid,Form action,BUTTON
+/secure-abia,Economy,Link Group,/economic-transformation,LINK
+/secure-abia,Digital Gov,Link Group,/serve-abia,LINK
+/secure-abia,Governance,Link Group,/local-governance,LINK
+/secure-abia,Security,Link Group,/secure-abia,LINK
+/secure-abia-2,add New Initiative,Main Body Grid,Form action,BUTTON
+/secure-abia-2,VIEW DETAILED LOGS,Main Body Grid,Form action,BUTTON
+/secure-abia-2,add,Main Body Grid,Form action,BUTTON
+/secure-abia-2,remove,Main Body Grid,Form action,BUTTON
+/secure-abia-2,my_location,Main Body Grid,Form action,BUTTON
+/secure-abia-2,Deploy Units,Main Body Grid,Form action,BUTTON
+/secure-abia-2,Dismiss,Main Body Grid,Form action,BUTTON
+/secure-abia-2,dashboard Command Center,Link Group,/,LINK
+/secure-abia-2,campaign Communications,Link Group,/ministry-of-communication,LINK
+/secure-abia-2,agriculture Agriculture,Link Group,/ministry-of-agriculture,LINK
+/secure-abia-2,medical_services Health,Link Group,/ministry-of-health,LINK
+/secure-abia-2,location_city GADA,Link Group,/greater-aba-development-authority,LINK
+/secure-abia-2,Incident Logs,Link Group,/secure-abia,LINK
+/secure-abia-2,Security Audit,Link Group,/secure-abia,LINK
+/secure-abia-3,Sign In,Main Body Grid,Form action,BUTTON
+/secure-abia-3,Subscribe to Alerts,Main Body Grid,Form action,BUTTON
+/secure-abia-3,apps App Store,Main Body Grid,Form action,BUTTON
+/secure-abia-3,play_arrow Google Play,Main Body Grid,Form action,BUTTON
+/secure-abia-3,Invest,Link Group,/invest-in-aba,LINK
+/secure-abia-3,Jobs,Link Group,/jobs-abia,LINK
+/secure-abia-3,Serve,Link Group,/serve-abia,LINK
+/secure-abia-3,Governance,Link Group,/local-governance,LINK
+/secure-abia-3,emergency Emergency: 112,Link Group,tel:112,LINK
+/secure-abia-3,security Safety Resources,Link Group,#resources,LINK
+/secure-abia-3,Open Map arrow_forward,Link Group,/open-abia,LINK
+/secure-abia-3,Press Office,Link Group,/news-press-center,LINK
+/secure-abia-mobile,notifications,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,my_location,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,layers,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,Filter,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,DEPLOY RAPID RESPONSE,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,DETAILS,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,radio Comms,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,group_work Agencies,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,local_hospital Med-Evac,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile,broadcast_on_home,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,e911_emergency SOS Hold for 3s,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,traffic Traffic,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,local_fire_department Fire,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,medical_services Medical,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,fullscreen,Main Body Grid,Form action,BUTTON
+/secure-abia-mobile-2,dashboard Dashboard,Link Group,/home-mobile,LINK
+/serve-abia,account_balance Citizen Portal,Main Body Grid,Form action,BUTTON
+/serve-abia,Find Service,Main Body Grid,Form action,BUTTON
+/serve-abia,chevron_right,Main Body Grid,Form action,BUTTON
+/serve-abia,Start Live Chat,Main Body Grid,Form action,BUTTON
+/serve-abia,Visit FAQ Center,Main Body Grid,Form action,BUTTON
+/serve-abia,home Home,Main Body Grid,Form action,BUTTON
+/serve-abia,explore Directory,Main Body Grid,Form action,BUTTON
+/serve-abia,description Track,Main Body Grid,Form action,BUTTON
+/serve-abia,person Profile,Main Body Grid,Form action,BUTTON
+/serve-abia,Serve Abia,Link Group,/serve-abia,LINK
+/serve-abia,Jobs Abia,Link Group,/jobs-abia,LINK
+/serve-abia,AI Academy,Link Group,/ai-academy,LINK
+/serve-abia,Connect Abia,Link Group,/connect-abia,LINK
+/serve-abia,Trade Licenses,Link Group,/economic-transformation,LINK
+/serve-abia,Building Plan Approval,Link Group,/build-abia,LINK
+/serve-abia,Land Ownership Records,Link Group,/land-property,LINK
+/serve-abia,Utility Connections,Link Group,/connect-abia,LINK
+/serve-abia,Health Facility Finder,Link Group,/ministry-of-health,LINK
+/serve-abia,Institutional News,Link Group,/news-press-center,LINK
+/serve-abia,State Budget,Link Group,/open-abia,LINK
+/serve-abia-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Quick Search,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Direct Assessment arrow_forward,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Company Tax (CIT) arrow_forward,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Property Rates arrow_forward,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Generate ASIN arrow_forward,Main Body Grid,Form action,BUTTON
+/serve-abia-2,View All Applications east,Main Body Grid,Form action,BUTTON
+/serve-abia-2,All Sectors,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Health,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Education,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Chat with Support,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Knowledge Base,Main Body Grid,Form action,BUTTON
+/serve-abia-2,Economy,Link Group,/economic-transformation,LINK
+/serve-abia-2,Digital Gov,Link Group,/serve-abia,LINK
+/serve-abia-2,Governance,Link Group,/local-governance,LINK
+/serve-abia-2,Security,Link Group,/secure-abia,LINK
+/serve-abia-2,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/serve-abia-2,account_balance Digital Government,Link Group,/serve-abia,LINK
+/serve-abia-2,gavel Transparent Governance,Link Group,/local-governance,LINK
+/serve-abia-3,account_circle Citizen Portal,Main Body Grid,Form action,BUTTON
+/serve-abia-3,emergency,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Pay Now payments,Main Body Grid,Form action,BUTTON
+/serve-abia-3,View History,Main Body Grid,Form action,BUTTON
+/serve-abia-3,+ START NEW APPLICATION,Main Body Grid,Form action,BUTTON
+/serve-abia-3,SHARE EXPERIENCE,Main Body Grid,Form action,BUTTON
+/serve-abia-3,All Services,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Business,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Infrastructure,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Education,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Health,Main Body Grid,Form action,BUTTON
+/serve-abia-3,dashboard Home,Main Body Grid,Form action,BUTTON
+/serve-abia-3,description Services,Main Body Grid,Form action,BUTTON
+/serve-abia-3,payments Payments,Main Body Grid,Form action,BUTTON
+/serve-abia-3,person Profile,Main Body Grid,Form action,BUTTON
+/serve-abia-3,Economy,Link Group,/economic-transformation,LINK
+/serve-abia-3,Digital Gov,Link Group,/serve-abia,LINK
+/serve-abia-3,Governance,Link Group,/local-governance,LINK
+/serve-abia-3,Security,Link Group,/secure-abia,LINK
+/serve-abia-3,Invest Abia,Link Group,/invest-in-aba,LINK
+/serve-abia-3,Serve Abia,Link Group,/serve-abia,LINK
+/serve-abia-3,Build Abia,Link Group,/build-abia,LINK
+/serve-abia-3,Open Abia,Link Group,/open-abia,LINK
+/serve-abia-mobile,emergency_share,Main Body Grid,Form action,BUTTON
+/serve-abia-mobile,View My History,Main Body Grid,Form action,BUTTON
+/serve-abia-mobile,See All,Main Body Grid,Form action,BUTTON
+/serve-abia-mobile,support_agent Start Live Chat,Main Body Grid,Form action,BUTTON
+/serve-abia-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/sme-growth-support,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Emergency,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Citizen Portal,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Register SME,Main Body Grid,Form action,BUTTON
+/sme-growth-support,View Directory,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Check availability chevron_right,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Start Assessment,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Find a Mentor,Main Body Grid,Form action,BUTTON
+/sme-growth-support,Continue Application,Main Body Grid,Form action,BUTTON
+/sme-growth-support,filter_list Filters,Main Body Grid,Form action,BUTTON
+/sme-growth-support,View Profile,Main Body Grid,Form action,BUTTON
+/sme-growth-support,View Profile,Main Body Grid,Form action,BUTTON
+/sme-growth-support,View Profile,Main Body Grid,Form action,BUTTON
+/sme-growth-support,chevron_left,Main Body Grid,Form action,BUTTON
+/sme-growth-support,chevron_right,Main Body Grid,Form action,BUTTON
+/sme-growth-support,add_business,Main Body Grid,Form action,BUTTON
+/sme-growth-support,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/sme-growth-support,account_balance Digital Government,Link Group,/serve-abia,LINK
+/sme-growth-support,mitre Transparent Governance,Link Group,/local-governance,LINK
+/sme-growth-support,security Public Trust,Link Group,/secure-abia,LINK
+/sme-growth-support,Invest Abia,Link Group,/invest-in-aba,LINK
+/sme-growth-support,Serve Abia,Link Group,/serve-abia,LINK
+/sme-growth-support,Build Abia,Link Group,/build-abia,LINK
+/sme-growth-support,Open Abia,Link Group,/open-abia,LINK
+/social-welfare,Citizen Portal,Main Body Grid,Form action,BUTTON
+/social-welfare,emergency,Main Body Grid,Form action,BUTTON
+/social-welfare,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/social-welfare,Safety Net,Main Body Grid,Form action,BUTTON
+/social-welfare,Disability,Main Body Grid,Form action,BUTTON
+/social-welfare,Elderly,Main Body Grid,Form action,BUTTON
+/social-welfare,Register Now arrow_forward,Main Body Grid,Form action,BUTTON
+/social-welfare,Verify Status,Main Body Grid,Form action,BUTTON
+/social-welfare,Apply for Funding,Main Body Grid,Form action,BUTTON
+/social-welfare,text_fields Text Resize,Main Body Grid,Form action,BUTTON
+/social-welfare,contrast High Contrast,Main Body Grid,Form action,BUTTON
+/social-welfare,hearing Audio Assist,Main Body Grid,Form action,BUTTON
+/social-welfare,translate Igbo / Local Dialect,Main Body Grid,Form action,BUTTON
+/social-welfare,chat_bubble,Main Body Grid,Form action,BUTTON
+/social-welfare,Economy,Link Group,/economic-transformation,LINK
+/social-welfare,Digital Gov,Link Group,/serve-abia,LINK
+/social-welfare,Governance,Link Group,/local-governance,LINK
+/social-welfare,Security,Link Group,/secure-abia,LINK
+/social-welfare,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/social-welfare,account_balance Digital Government,Link Group,/serve-abia,LINK
+/social-welfare,mitre Transparent Governance,Link Group,/local-governance,LINK
+/social-welfare,security Public Trust,Link Group,/secure-abia,LINK
+/social-welfare,Explore Services open_in_new,Link Group,/open-abia,LINK
+/social-welfare,Access Benefits open_in_new,Link Group,/open-abia,LINK
+/social-welfare,Invest Abia,Link Group,/invest-in-aba,LINK
+/social-welfare,Serve Abia,Link Group,/serve-abia,LINK
+/social-welfare,Build Abia,Link Group,/build-abia,LINK
+/social-welfare,Open Abia,Link Group,/open-abia,LINK
+/social-welfare,Emergency Lines,Link Group,/secure-abia,LINK
+/social-welfare-2,Sign In,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Apply for Support,Main Body Grid,Form action,BUTTON
+/social-welfare-2,View Programs,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Enroll Now,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Locate near_me,Main Body Grid,Form action,BUTTON
+/social-welfare-2,View All Updates,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Apply for Benefits,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Volunteer Programs,Main Body Grid,Form action,BUTTON
+/social-welfare-2,Invest,Link Group,/invest-in-aba,LINK
+/social-welfare-2,Jobs,Link Group,/jobs-abia,LINK
+/social-welfare-2,Serve,Link Group,/serve-abia,LINK
+/social-welfare-2,Governance,Link Group,/local-governance,LINK
+/social-welfare-2,dashboard Dashboard,Link Group,/,LINK
+/social-welfare-2,security Security,Link Group,/secure-abia,LINK
+/social-welfare-2,Press Office,Link Group,/news-press-center,LINK
+/sovereign-fund-investment-portfolio,Emergency,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,Citizen Portal,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,download Download Annual Report,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,add_chart Propose Project,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,1Y,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,5Y,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,Max,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,View All Projects arrow_forward,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,mail Request Institutional Briefing,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,Join,Main Body Grid,Form action,BUTTON
+/sovereign-fund-investment-portfolio,Economy,Link Group,/economic-transformation,LINK
+/sovereign-fund-investment-portfolio,Digital Gov,Link Group,/serve-abia,LINK
+/sovereign-fund-investment-portfolio,Governance,Link Group,/local-governance,LINK
+/sovereign-fund-investment-portfolio,Security,Link Group,/secure-abia,LINK
+/sovereign-fund-investment-portfolio,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/sovereign-fund-investment-portfolio,account_balance Digital Government,Link Group,/serve-abia,LINK
+/sovereign-fund-investment-portfolio,mitre Transparent Governance,Link Group,/local-governance,LINK
+/sovereign-fund-investment-portfolio,security Public Trust,Link Group,/secure-abia,LINK
+/sovereign-fund-investment-portfolio,Invest Abia,Link Group,/invest-in-aba,LINK
+/sovereign-fund-investment-portfolio,Build Abia,Link Group,/build-abia,LINK
+/sovereign-fund-investment-portfolio,Open Abia,Link Group,/open-abia,LINK
+/sovereign-fund-investment-portfolio,Serve Abia,Link Group,/serve-abia,LINK
+/state-archives,Citizen Portal,Main Body Grid,Form action,BUTTON
+/state-archives,emergency,Main Body Grid,Form action,BUTTON
+/state-archives,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/state-archives,Browse Catalog,Main Body Grid,Form action,BUTTON
+/state-archives,filter_list,Main Body Grid,Form action,BUTTON
+/state-archives,grid_view,Main Body Grid,Form action,BUTTON
+/state-archives,Download,Main Body Grid,Form action,BUTTON
+/state-archives,Request Access,Main Body Grid,Form action,BUTTON
+/state-archives,View Gallery,Main Body Grid,Form action,BUTTON
+/state-archives,Economy,Link Group,/economic-transformation,LINK
+/state-archives,Digital Gov,Link Group,/serve-abia,LINK
+/state-archives,Governance,Link Group,/local-governance,LINK
+/state-archives,Security,Link Group,/secure-abia,LINK
+/state-archives,account_balance Executive Archives,Link Group,/digital-archives-heritage,LINK
+/state-archives,security Public Trust Data,Link Group,/secure-abia,LINK
+/state-archives,Invest Abia,Link Group,/invest-in-aba,LINK
+/state-archives,Serve Abia,Link Group,/serve-abia,LINK
+/state-archives,Build Abia,Link Group,/build-abia,LINK
+/state-archives,Open Abia,Link Group,/open-abia,LINK
+/tourism-culture,Emergency,Main Body Grid,Form action,BUTTON
+/tourism-culture,Citizen Portal,Main Body Grid,Form action,BUTTON
+/tourism-culture,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/tourism-culture,Explore Archives,Main Body Grid,Form action,BUTTON
+/tourism-culture,Investor Directory,Main Body Grid,Form action,BUTTON
+/tourism-culture,chevron_left,Main Body Grid,Form action,BUTTON
+/tourism-culture,chevron_right,Main Body Grid,Form action,BUTTON
+/tourism-culture,VIEW MASTERPLAN arrow_forward,Main Body Grid,Form action,BUTTON
+/tourism-culture,Review Prospectus,Main Body Grid,Form action,BUTTON
+/tourism-culture,Review Prospectus,Main Body Grid,Form action,BUTTON
+/tourism-culture,Review Prospectus,Main Body Grid,Form action,BUTTON
+/tourism-culture,Review Prospectus,Main Body Grid,Form action,BUTTON
+/tourism-culture,map,Main Body Grid,Form action,BUTTON
+/tourism-culture,Economy,Link Group,/economic-transformation,LINK
+/tourism-culture,Digital Gov,Link Group,/serve-abia,LINK
+/tourism-culture,Governance,Link Group,/local-governance,LINK
+/tourism-culture,Security,Link Group,/secure-abia,LINK
+/tourism-culture,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/tourism-culture,mitre Cultural Heritage,Link Group,/digital-archives-heritage,LINK
+/tourism-culture,account_balance Digital Government,Link Group,/serve-abia,LINK
+/tourism-culture,security Public Trust,Link Group,/secure-abia,LINK
+/tourism-culture,Open Explorer arrow_right_alt,Link Group,/open-abia,LINK
+/tourism-culture,Invest Abia,Link Group,/invest-in-aba,LINK
+/tourism-culture,Serve Abia,Link Group,/serve-abia,LINK
+/tourism-culture,Build Abia,Link Group,/build-abia,LINK
+/tourism-culture,Open Abia,Link Group,/open-abia,LINK
+/tourism-culture,E-Governance Hub,Link Group,/local-governance,LINK
+/tourism-culture-2,Sign In,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,Explore Sites explore,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,Cultural Calendar,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,VIEW ALL DESTINATIONS arrow_forward,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,Support Artisans,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,FULL EVENT CALENDAR calendar_month,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,Invest in Creatives,Main Body Grid,Form action,BUTTON
+/tourism-culture-2,Invest,Link Group,/invest-in-aba,LINK
+/tourism-culture-2,Jobs,Link Group,/jobs-abia,LINK
+/tourism-culture-2,Serve,Link Group,/serve-abia,LINK
+/tourism-culture-2,Governance,Link Group,/local-governance,LINK
+/tourism-culture-2,Agriculture,Link Group,/ministry-of-agriculture,LINK
+/tourism-culture-2,Commerce,Link Group,/economic-transformation,LINK
+/tourism-culture-2,Budget,Link Group,/open-abia,LINK
+/tourism-culture-2,News Room,Link Group,/news-press-center,LINK
+/tourism-culture-2,Press Office,Link Group,/news-press-center,LINK
+/tourism-culture-mobile,notifications,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,Start Your Virtual Tour explore,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,View Full arrow_forward,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,RSVP,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,View Info,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,dashboard Dashboard,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,notifications_active Alerts,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,grid_view Hub,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,person Profile,Main Body Grid,Form action,BUTTON
+/tourism-culture-mobile,travel_explore,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,notifications,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,Hourly,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,Daily,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,Expand Capacity Map,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,zoom_in,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,zoom_out,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,dashboard,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,notifications_active,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,grid_view,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,person,Main Body Grid,Form action,BUTTON
+/trade-logistics-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/transparent-governance,Citizen Portal,Main Body Grid,Form action,BUTTON
+/transparent-governance,search,Main Body Grid,Form action,BUTTON
+/transparent-governance,Open Fullscreen Map,Main Body Grid,Form action,BUTTON
+/transparent-governance,Export CSV,Main Body Grid,Form action,BUTTON
+/transparent-governance,Portal Login,Main Body Grid,Form action,BUTTON
+/transparent-governance,Search Registry,Main Body Grid,Form action,BUTTON
+/transparent-governance,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/transparent-governance,Economy,Link Group,/economic-transformation,LINK
+/transparent-governance,Digital Gov,Link Group,/serve-abia,LINK
+/transparent-governance,Governance,Link Group,/local-governance,LINK
+/transparent-governance,Security,Link Group,/secure-abia,LINK
+/transparent-governance,mitre Governance,Link Group,/local-governance,LINK
+/transparent-governance,account_balance Digital Gov,Link Group,/serve-abia,LINK
+/transparent-governance,security Public Trust,Link Group,/secure-abia,LINK
+/transparent-governance,Invest Abia,Link Group,/invest-in-aba,LINK
+/transparent-governance,Serve Abia,Link Group,/serve-abia,LINK
+/transparent-governance,Build Abia,Link Group,/build-abia,LINK
+/transparent-governance,Open Abia,Link Group,/open-abia,LINK
+/transparent-governance-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,Launch Service open_in_new,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,Explore Budget,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,Procurement Portal,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,View All Gallery arrow_forward,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,filter_list Filter,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,visibility,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,visibility,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,visibility,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,visibility,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,Download Annual Procurement Report (PDF),Main Body Grid,Form action,BUTTON
+/transparent-governance-2,View Interactive Budget analytics,Main Body Grid,Form action,BUTTON
+/transparent-governance-2,Economy,Link Group,/economic-transformation,LINK
+/transparent-governance-2,Digital Gov,Link Group,/serve-abia,LINK
+/transparent-governance-2,Governance,Link Group,/local-governance,LINK
+/transparent-governance-2,Security,Link Group,/secure-abia,LINK
+/transparent-governance-2,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/transparent-governance-2,account_balance Digital Government,Link Group,/serve-abia,LINK
+/transparent-governance-2,gavel Transparent Governance,Link Group,/local-governance,LINK
+/transport-mobility,Citizen Portal,Main Body Grid,Form action,BUTTON
+/transport-mobility,Emergency,Main Body Grid,Form action,BUTTON
+/transport-mobility,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/transport-mobility,add_card Top-up Wallet,Main Body Grid,Form action,BUTTON
+/transport-mobility,history Trip History,Main Body Grid,Form action,BUTTON
+/transport-mobility,Book New Inspection Slot,Main Body Grid,Form action,BUTTON
+/transport-mobility,confirmation_number Generate Quick Ticket,Main Body Grid,Form action,BUTTON
+/transport-mobility,Economy,Link Group,/economic-transformation,LINK
+/transport-mobility,Digital Gov,Link Group,/serve-abia,LINK
+/transport-mobility,Governance,Link Group,/local-governance,LINK
+/transport-mobility,Security,Link Group,/secure-abia,LINK
+/transport-mobility,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/transport-mobility,account_balance Digital Government,Link Group,/serve-abia,LINK
+/transport-mobility,mitre Transparent Governance,Link Group,/local-governance,LINK
+/transport-mobility,security Public Trust,Link Group,/secure-abia,LINK
+/transport-mobility,Invest Abia,Link Group,/invest-in-aba,LINK
+/transport-mobility,Serve Abia,Link Group,/serve-abia,LINK
+/transport-mobility,Build Abia,Link Group,/build-abia,LINK
+/transport-mobility,Open Abia,Link Group,/open-abia,LINK
+/transport-mobility-2,Sign In,Main Body Grid,Form action,BUTTON
+/transport-mobility-2,Download Masterplan,Main Body Grid,Form action,BUTTON
+/transport-mobility-2,Register Fleet arrow_forward,Main Body Grid,Form action,BUTTON
+/transport-mobility-2,Invest,Link Group,/invest-in-aba,LINK
+/transport-mobility-2,Jobs,Link Group,/jobs-abia,LINK
+/transport-mobility-2,Serve,Link Group,/serve-abia,LINK
+/transport-mobility-2,Governance,Link Group,/local-governance,LINK
+/transport-mobility-2,dashboard Dashboard,Link Group,/,LINK
+/transport-mobility-2,Press Office,Link Group,/news-press-center,LINK
+/transport-mobility-hub-mobile,notifications,Main Body Grid,Form action,BUTTON
+/transport-mobility-hub-mobile,TOP UP,Main Body Grid,Form action,BUTTON
+/transport-mobility-hub-mobile,VIEW FULL SCHEDULE,Main Body Grid,Form action,BUTTON
+/transport-mobility-hub-mobile,my_location,Main Body Grid,Form action,BUTTON
+/transport-mobility-hub-mobile,add_road,Main Body Grid,Form action,BUTTON
+/transport-mobility-hub-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/transport-mobility-mobile,notifications,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,add New Dispatch,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,my_location,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,layers,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,Audit Revenue,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,Fleet Logistics,Main Body Grid,Form action,BUTTON
+/transport-mobility-mobile,support_agent,Main Body Grid,Form action,BUTTON
+/utilities-environment,emergency Emergency,Main Body Grid,Form action,BUTTON
+/utilities-environment,Citizen Portal,Main Body Grid,Form action,BUTTON
+/utilities-environment,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/utilities-environment,add,Main Body Grid,Form action,BUTTON
+/utilities-environment,remove,Main Body Grid,Form action,BUTTON
+/utilities-environment,View All Tenders arrow_forward,Main Body Grid,Form action,BUTTON
+/utilities-environment,Apply Now,Main Body Grid,Form action,BUTTON
+/utilities-environment,Apply Now,Main Body Grid,Form action,BUTTON
+/utilities-environment,Apply Now,Main Body Grid,Form action,BUTTON
+/utilities-environment,add_business Business Connection,Main Body Grid,Form action,BUTTON
+/utilities-environment,home Residential Connection,Main Body Grid,Form action,BUTTON
+/utilities-environment,Economy,Link Group,/economic-transformation,LINK
+/utilities-environment,Digital Gov,Link Group,/serve-abia,LINK
+/utilities-environment,Governance,Link Group,/local-governance,LINK
+/utilities-environment,Security,Link Group,/secure-abia,LINK
+/utilities-environment,water_drop Water Projects,Link Group,/water-resources-irrigation,LINK
+/utilities-environment,description Active Tenders,Link Group,/open-abia,LINK
+/utilities-environment,Invest Abia,Link Group,/invest-in-aba,LINK
+/utilities-environment,Serve Abia,Link Group,/serve-abia,LINK
+/utilities-environment,Build Abia,Link Group,/build-abia,LINK
+/utilities-environment,Open Abia,Link Group,/open-abia,LINK
+/water-resources-irrigation,emergency Emergency,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,Citizen Portal,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,zoom_in,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,zoom_out,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,layers,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,View Full Pipeline arrow_forward,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,Submit Service Request send,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,support_agent Contact Water Board Support,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation,Economy,Link Group,/economic-transformation,LINK
+/water-resources-irrigation,Digital Gov,Link Group,/serve-abia,LINK
+/water-resources-irrigation,Governance,Link Group,/local-governance,LINK
+/water-resources-irrigation,Security,Link Group,/secure-abia,LINK
+/water-resources-irrigation,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/water-resources-irrigation,account_balance Digital Government,Link Group,/serve-abia,LINK
+/water-resources-irrigation,mitre Transparent Governance,Link Group,/local-governance,LINK
+/water-resources-irrigation,security Public Trust,Link Group,/secure-abia,LINK
+/water-resources-irrigation,Invest Abia,Link Group,/invest-in-aba,LINK
+/water-resources-irrigation,Serve Abia,Link Group,/serve-abia,LINK
+/water-resources-irrigation,Build Abia,Link Group,/build-abia,LINK
+/water-resources-irrigation,Open Abia,Link Group,/open-abia,LINK
+/water-resources-irrigation-2,download Export Report,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation-2,View Technical Details,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation-2,filter_list,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation-2,search,Main Body Grid,Form action,BUTTON
+/water-resources-irrigation-2,dashboard Dashboard,Link Group,/,LINK
+/water-resources-irrigation-2,security Security,Link Group,/secure-abia,LINK
+/water-resources-irrigation-2,Press Office,Link Group,/news-press-center,LINK
+/women-gender-affairs,Citizen Portal,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Emergency,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Citizen Feedback,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Apply for Micro-Credit,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,View Programs,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Start New Application arrow_forward,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,call Call 0800-SAFE-ABIA,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,chat_bubble Anonymous Web Report,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Join,Main Body Grid,Form action,BUTTON
+/women-gender-affairs,Economy,Link Group,/economic-transformation,LINK
+/women-gender-affairs,Digital Gov,Link Group,/serve-abia,LINK
+/women-gender-affairs,Governance,Link Group,/local-governance,LINK
+/women-gender-affairs,Security,Link Group,/secure-abia,LINK
+/women-gender-affairs,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/women-gender-affairs,account_balance Digital Government,Link Group,/serve-abia,LINK
+/women-gender-affairs,mitre Transparent Governance,Link Group,/local-governance,LINK
+/women-gender-affairs,security Public Trust,Link Group,/secure-abia,LINK
+/women-gender-affairs,female Women &amp; Gender Affairs,Link Group,/women-gender-affairs,LINK
+/women-gender-affairs,Invest Abia,Link Group,/invest-in-aba,LINK
+/women-gender-affairs,Serve Abia,Link Group,/serve-abia,LINK
+/women-gender-affairs,Build Abia,Link Group,/build-abia,LINK
+/women-gender-affairs,Open Abia,Link Group,/open-abia,LINK
+/women-gender-affairs-2,Citizen Portal,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,emergency SOS,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,feedback Citizen Feedback,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Apply for Grant arrow_forward,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Explore Programs,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Check Eligibility Criteria arrow_right_alt,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Report an Incident,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Join Next Cohort,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,send,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-2,Healthcare,Link Group,/ministry-of-health,LINK
+/women-gender-affairs-2,payments Abia Women Business,Link Group,/women-gender-affairs,LINK
+/women-gender-affairs-2,account_balance Maternal Health,Link Group,/ministry-of-health,LINK
+/women-gender-affairs-2,security GBV Support Center,Link Group,/secure-abia,LINK
+/women-gender-affairs-2,Emergency Hotline 0800-SAFE-ABIA,Link Group,tel:0800SAFEABIA,LINK
+/women-gender-affairs-2,Invest Abia,Link Group,/invest-in-aba,LINK
+/women-gender-affairs-2,Serve Abia,Link Group,/serve-abia,LINK
+/women-gender-affairs-2,Build Abia,Link Group,/build-abia,LINK
+/women-gender-affairs-2,Open Abia,Link Group,/open-abia,LINK
+/women-gender-affairs-2,home Home,Link Group,/,LINK
+/women-gender-affairs-2,medical_services Health,Link Group,/ministry-of-health,LINK
+/women-gender-affairs-2,security Safety,Link Group,/secure-abia,LINK
+/women-gender-affairs-mobile,notifications,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-mobile,add,Main Body Grid,Form action,BUTTON
+/women-gender-affairs-mobile,dashboard Dashboard,Link Group,/home-mobile,LINK
+/youth-sports,Emergency,Main Body Grid,Form action,BUTTON
+/youth-sports,Citizen Portal,Main Body Grid,Form action,BUTTON
+/youth-sports,chat Citizen Feedback,Main Body Grid,Form action,BUTTON
+/youth-sports,rocket_launch Apply for Grant,Main Body Grid,Form action,BUTTON
+/youth-sports,description View Guidelines,Main Body Grid,Form action,BUTTON
+/youth-sports,Explore All Programs,Main Body Grid,Form action,BUTTON
+/youth-sports,Register Talent,Main Body Grid,Form action,BUTTON
+/youth-sports,View Stats,Main Body Grid,Form action,BUTTON
+/youth-sports,View Stats,Main Body Grid,Form action,BUTTON
+/youth-sports,Economy,Link Group,/economic-transformation,LINK
+/youth-sports,Digital Gov,Link Group,/serve-abia,LINK
+/youth-sports,Governance,Link Group,/local-governance,LINK
+/youth-sports,Security,Link Group,/secure-abia,LINK
+/youth-sports,payments Economic Transformation,Link Group,/economic-transformation,LINK
+/youth-sports,account_balance Digital Government,Link Group,/serve-abia,LINK
+/youth-sports,mitre Transparent Governance,Link Group,/local-governance,LINK
+/youth-sports,security Public Trust,Link Group,/secure-abia,LINK
+/youth-sports,Invest Abia,Link Group,/invest-in-aba,LINK
+/youth-sports,Serve Abia,Link Group,/serve-abia,LINK
+/youth-sports,Build Abia,Link Group,/build-abia,LINK
+/youth-sports,Open Abia,Link Group,/open-abia,LINK

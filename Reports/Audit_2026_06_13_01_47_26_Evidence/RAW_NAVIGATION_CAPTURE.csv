@@ -1,0 +1,286 @@
+page,menu_type,menu_label,destination,destination_route,destination_page
+/aba-20,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/aba-20,Header Menu,Economy,/economy,/economy,Economy
+/aba-20,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/aba-20,Header Menu,Governance,/governance,/governance,Governance
+/aba-20,Header Menu,Security,/security,/security,Security
+/agri-transformation,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/agri-transformation,Header Menu,Economy,/economy,/economy,Economy
+/agri-transformation,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/agri-transformation,Header Menu,Governance,/governance,/governance,Governance
+/agri-transformation,Header Menu,Security,/security,/security,Security
+/ai-academy,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/ai-academy,Header Menu,Economy,/economy,/economy,Economy
+/ai-academy,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/ai-academy,Header Menu,Governance,/governance,/governance,Governance
+/ai-academy,Header Menu,Security,/security,/security,Security
+/ai-academy-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/border-trade-logistics,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/border-trade-logistics,Header Menu,Economy,/economy,/economy,Economy
+/border-trade-logistics,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/border-trade-logistics,Header Menu,Governance,/governance,/governance,Governance
+/border-trade-logistics,Header Menu,Security,/security,/security,Security
+/border-trade-logistics-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/build-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/build-abia,Header Menu,Economy,/economy,/economy,Economy
+/build-abia,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/build-abia,Header Menu,Governance,/governance,/governance,Governance
+/build-abia,Header Menu,Security,/security,/security,Security
+/citizen-consultations,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/citizen-consultations,Header Menu,Governance,/governance,/governance,Governance
+/citizen-consultations,Header Menu,Economy,/economy,/economy,Economy
+/citizen-consultations,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/citizen-consultations,Header Menu,Security,/security,/security,Security
+/citizen-identity-civil-registry,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/citizen-identity-civil-registry,Header Menu,Economy,/economy,/economy,Economy
+/citizen-identity-civil-registry,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/citizen-identity-civil-registry,Header Menu,Governance,/governance,/governance,Governance
+/citizen-identity-civil-registry,Header Menu,Security,/security,/security,Security
+/civil-service-portal-2,Header Menu,Governance,/governance,/governance,Governance
+/civil-service-portal-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/civil-service-portal-2,Header Menu,Economy,/economy,/economy,Economy
+/civil-service-portal-2,Header Menu,Security,/security,/security,Security
+/commerce-trade,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/commerce-trade,Header Menu,Economy,/economy,/economy,Economy
+/commerce-trade,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/commerce-trade,Header Menu,Governance,/governance,/governance,Governance
+/commerce-trade,Header Menu,Security,/security,/security,Security
+/commerce-trade-2,Header Menu,Governance,/governance,/governance,Governance
+/connect-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/cooperatives-micro-credit,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/cooperatives-micro-credit,Header Menu,Economy,/economy,/economy,Economy
+/cooperatives-micro-credit,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/cooperatives-micro-credit,Header Menu,Governance,/governance,/governance,Governance
+/cooperatives-micro-credit,Header Menu,Security,/security,/security,Security
+/diaspora-gateway,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/diaspora-gateway,Header Menu,Economy,/economy,/economy,Economy
+/diaspora-gateway,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/diaspora-gateway,Header Menu,Governance,/governance,/governance,Governance
+/diaspora-gateway,Header Menu,Security,/security,/security,Security
+/digital-archives-heritage,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/digital-archives-heritage,Header Menu,Economy,/economy,/economy,Economy
+/digital-archives-heritage,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/digital-archives-heritage,Header Menu,Governance,/governance,/governance,Governance
+/digital-archives-heritage,Header Menu,Security,/security,/security,Security
+/digital-archives-heritage-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/digital-archives-heritage-2,Header Menu,Economy,/economy,/economy,Economy
+/digital-archives-heritage-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/digital-archives-heritage-2,Header Menu,Governance,/governance,/governance,Governance
+/digital-archives-heritage-2,Header Menu,Security,/security,/security,Security
+/economic-transformation,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/economic-transformation,Header Menu,Economy,/economy,/economy,Economy
+/economic-transformation,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/economic-transformation,Header Menu,Governance,/governance,/governance,Governance
+/economic-transformation,Header Menu,Security,/security,/security,Security
+/economic-transformation-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/economic-transformation-2,Header Menu,Economy,/economy,/economy,Economy
+/economic-transformation-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/economic-transformation-2,Header Menu,Governance,/governance,/governance,Governance
+/economic-transformation-2,Header Menu,Security,/security,/security,Security
+/education-learning,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/education-learning,Header Menu,Economy,/economy,/economy,Economy
+/education-learning,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/education-learning,Header Menu,Governance,/governance,/governance,Governance
+/education-learning,Header Menu,Security,/security,/security,Security
+/education-learning-2,Header Menu,Governance,/governance,/governance,Governance
+/emergency-crisis-response,Header Menu,Economy,/economy,/economy,Economy
+/emergency-crisis-response,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/emergency-crisis-response,Header Menu,Governance,/governance,/governance,Governance
+/emergency-crisis-response,Header Menu,Security,/security,/security,Security
+/employer-portal,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/employer-portal,Header Menu,Economy,/economy,/economy,Economy
+/employer-portal,Header Menu,Governance,/governance,/governance,Governance
+/employer-portal,Header Menu,Security,/security,/security,Security
+/environment-sustainability,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/environment-sustainability,Header Menu,Economy,/economy,/economy,Economy
+/environment-sustainability,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/environment-sustainability,Header Menu,Governance,/governance,/governance,Governance
+/environment-sustainability,Header Menu,Security,/security,/security,Security
+/environment-sustainability-2,Header Menu,Governance,/governance,/governance,Governance
+/gada,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/gada,Header Menu,Economy,/economy,/economy,Economy
+/gada,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/gada,Header Menu,Governance,/governance,/governance,Governance
+/gada,Header Menu,Security,/security,/security,Security
+/governors-command-center,Header Menu,Governance,/governance,/governance,Governance
+/health-wellness,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/health-wellness,Header Menu,Economy,/economy,/economy,Economy
+/health-wellness,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/health-wellness,Header Menu,Governance,/governance,/governance,Governance
+/health-wellness,Header Menu,Security,/security,/security,Security
+/health-wellness-2,Header Menu,Governance,/governance,/governance,Governance
+/home-variant,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/home-variant,Header Menu,Economy,/economy,/economy,Economy
+/home-variant,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/home-variant,Header Menu,Governance,/governance,/governance,Governance
+/home-variant,Header Menu,Security,/security,/security,Security
+/housing-urban-development,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/housing-urban-development,Header Menu,Economy,/economy,/economy,Economy
+/housing-urban-development,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/housing-urban-development,Header Menu,Governance,/governance,/governance,Governance
+/housing-urban-development,Header Menu,Security,/security,/security,Security
+/housing-urban-development-2,Header Menu,Governance,/governance,/governance,Governance
+/industrial-hubs,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/industrial-hubs,Header Menu,Economy,/economy,/economy,Economy
+/industrial-hubs,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/industrial-hubs,Header Menu,Governance,/governance,/governance,Governance
+/industrial-hubs,Header Menu,Security,/security,/security,Security
+/invest-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/invest-abia,Header Menu,Economy,/economy,/economy,Economy
+/invest-abia,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/invest-abia,Header Menu,Governance,/governance,/governance,Governance
+/invest-abia,Header Menu,Security,/security,/security,Security
+/invest-in-aba,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/invest-in-aba,Header Menu,Economy,/economy,/economy,Economy
+/invest-in-aba,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/invest-in-aba,Header Menu,Governance,/governance,/governance,Governance
+/invest-in-aba,Header Menu,Security,/security,/security,Security
+/jobs-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/land-property,Header Menu,Economy,/economy,/economy,Economy
+/land-property,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/land-property,Header Menu,Governance,/governance,/governance,Governance
+/land-property,Header Menu,Security,/security,/security,Security
+/legal-institutional-registry,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/legal-institutional-registry,Header Menu,Economy,/economy,/economy,Economy
+/legal-institutional-registry,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/legal-institutional-registry,Header Menu,Governance,/governance,/governance,Governance
+/legal-institutional-registry,Header Menu,Security,/security,/security,Security
+/legal-institutional-registry-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/legal-institutional-registry-2,Header Menu,Economy,/economy,/economy,Economy
+/legal-institutional-registry-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/legal-institutional-registry-2,Header Menu,Governance,/governance,/governance,Governance
+/legal-institutional-registry-2,Header Menu,Security,/security,/security,Security
+/local-governance,Header Menu,Governance,/governance,/governance,Governance
+/local-governance,Header Menu,Security,/security,/security,Security
+/mda-performance,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/mda-performance,Header Menu,Economy,/economy,/economy,Economy
+/mda-performance,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/mda-performance,Header Menu,Governance,/governance,/governance,Governance
+/mda-performance,Header Menu,Security,/security,/security,Security
+/ministry-of-agriculture,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/ministry-of-agriculture,Header Menu,Economy,/economy,/economy,Economy
+/ministry-of-agriculture,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/ministry-of-agriculture,Header Menu,Governance,/governance,/governance,Governance
+/ministry-of-agriculture,Header Menu,Security,/security,/security,Security
+/ministry-of-agriculture-2,Header Menu,Governance,/governance,/governance,Governance
+/ministry-of-communication-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/ministry-of-communication-2,Header Menu,Economy,/economy,/economy,Economy
+/ministry-of-communication-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/ministry-of-communication-2,Header Menu,Governance,/governance,/governance,Governance
+/ministry-of-communication-2,Header Menu,Security,/security,/security,Security
+/ministry-of-health-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/ministry-of-health-2,Header Menu,Economy,/economy,/economy,Economy
+/ministry-of-health-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/ministry-of-health-2,Header Menu,Governance,/governance,/governance,Governance
+/ministry-of-health-2,Header Menu,Security,/security,/security,Security
+/news-press-center,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/news-press-center,Header Menu,Economy,/economy,/economy,Economy
+/news-press-center,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/news-press-center,Header Menu,Governance,/governance,/governance,Governance
+/news-press-center,Header Menu,Security,/security,/security,Security
+/open-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/open-abia,Header Menu,Economy,/economy,/economy,Economy
+/open-abia,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/open-abia,Header Menu,Governance,/governance,/governance,Governance
+/open-abia,Header Menu,Security,/security,/security,Security
+/open-abia-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/open-abia-2,Header Menu,Economy,/economy,/economy,Economy
+/open-abia-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/open-abia-2,Header Menu,Governance,/governance,/governance,Governance
+/open-abia-2,Header Menu,Security,/security,/security,Security
+/,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/,Header Menu,Economy,/economy,/economy,Economy
+/,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/,Header Menu,Governance,/governance,/governance,Governance
+/,Header Menu,Security,/security,/security,Security
+/procurement-tenders-registry,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/procurement-tenders-registry,Header Menu,Economy,/economy,/economy,Economy
+/procurement-tenders-registry,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/procurement-tenders-registry,Header Menu,Governance,/governance,/governance,Governance
+/procurement-tenders-registry,Header Menu,Security,/security,/security,Security
+/public-reporting,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/public-reporting,Header Menu,Economy,/economy,/economy,Economy
+/public-reporting,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/public-reporting,Header Menu,Governance,/governance,/governance,Governance
+/public-reporting,Header Menu,Security,/security,/security,Security
+/science-technology,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/science-technology,Header Menu,Economy,/economy,/economy,Economy
+/science-technology,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/science-technology,Header Menu,Governance,/governance,/governance,Governance
+/science-technology,Header Menu,Security,/security,/security,Security
+/science-technology-2,Header Menu,Governance,/governance,/governance,Governance
+/secure-abia,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/secure-abia,Header Menu,Economy,/economy,/economy,Economy
+/secure-abia,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/secure-abia,Header Menu,Governance,/governance,/governance,Governance
+/secure-abia,Header Menu,Security,/security,/security,Security
+/secure-abia-3,Header Menu,Governance,/governance,/governance,Governance
+/serve-abia-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/serve-abia-2,Header Menu,Economy,/economy,/economy,Economy
+/serve-abia-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/serve-abia-2,Header Menu,Governance,/governance,/governance,Governance
+/serve-abia-2,Header Menu,Security,/security,/security,Security
+/serve-abia-3,Header Menu,Economy,/economy,/economy,Economy
+/serve-abia-3,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/serve-abia-3,Header Menu,Governance,/governance,/governance,Governance
+/serve-abia-3,Header Menu,Security,/security,/security,Security
+/sme-growth-support,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/social-welfare,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/social-welfare,Header Menu,Economy,/economy,/economy,Economy
+/social-welfare,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/social-welfare,Header Menu,Governance,/governance,/governance,Governance
+/social-welfare,Header Menu,Security,/security,/security,Security
+/social-welfare-2,Header Menu,Governance,/governance,/governance,Governance
+/sovereign-fund-investment-portfolio,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/sovereign-fund-investment-portfolio,Header Menu,Economy,/economy,/economy,Economy
+/sovereign-fund-investment-portfolio,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/sovereign-fund-investment-portfolio,Header Menu,Governance,/governance,/governance,Governance
+/sovereign-fund-investment-portfolio,Header Menu,Security,/security,/security,Security
+/state-archives,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/state-archives,Header Menu,Economy,/economy,/economy,Economy
+/state-archives,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/state-archives,Header Menu,Governance,/governance,/governance,Governance
+/state-archives,Header Menu,Security,/security,/security,Security
+/tourism-culture,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/tourism-culture,Header Menu,Economy,/economy,/economy,Economy
+/tourism-culture,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/tourism-culture,Header Menu,Governance,/governance,/governance,Governance
+/tourism-culture,Header Menu,Security,/security,/security,Security
+/tourism-culture-2,Header Menu,Governance,/governance,/governance,Governance
+/transparent-governance,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/transparent-governance,Header Menu,Economy,/economy,/economy,Economy
+/transparent-governance,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/transparent-governance,Header Menu,Governance,/governance,/governance,Governance
+/transparent-governance,Header Menu,Security,/security,/security,Security
+/transparent-governance-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/transparent-governance-2,Header Menu,Economy,/economy,/economy,Economy
+/transparent-governance-2,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/transparent-governance-2,Header Menu,Governance,/governance,/governance,Governance
+/transparent-governance-2,Header Menu,Security,/security,/security,Security
+/transport-mobility,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/transport-mobility,Header Menu,Economy,/economy,/economy,Economy
+/transport-mobility,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/transport-mobility,Header Menu,Governance,/governance,/governance,Governance
+/transport-mobility,Header Menu,Security,/security,/security,Security
+/transport-mobility-2,Header Menu,Governance,/governance,/governance,Governance
+/utilities-environment,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/utilities-environment,Header Menu,Economy,/economy,/economy,Economy
+/utilities-environment,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/utilities-environment,Header Menu,Governance,/governance,/governance,Governance
+/utilities-environment,Header Menu,Security,/security,/security,Security
+/water-resources-irrigation,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/water-resources-irrigation,Header Menu,Economy,/economy,/economy,Economy
+/water-resources-irrigation,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/water-resources-irrigation,Header Menu,Governance,/governance,/governance,Governance
+/water-resources-irrigation,Header Menu,Security,/security,/security,Security
+/women-gender-affairs,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/women-gender-affairs,Header Menu,Economy,/economy,/economy,Economy
+/women-gender-affairs,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/women-gender-affairs,Header Menu,Governance,/governance,/governance,Governance
+/women-gender-affairs,Header Menu,Security,/security,/security,Security
+/women-gender-affairs-2,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/youth-sports,Header Menu,Citizen Portal,/gada,/gada,Citizen Portal
+/youth-sports,Header Menu,Economy,/economy,/economy,Economy
+/youth-sports,Header Menu,Digital Gov,/digital-gov,/digital-gov,Digital Gov
+/youth-sports,Header Menu,Governance,/governance,/governance,Governance
+/youth-sports,Header Menu,Security,/security,/security,Security
