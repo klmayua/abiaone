@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -96,7 +98,7 @@ export default function Page() {
 <span className="material-symbols-outlined text-[32px] mb-2" data-icon="cloud_upload">cloud_upload</span>
 <p className="text-label-md font-label-md">Drop photos or tap to browse</p>
 </div>
-<input className="hidden" id="photo-upload" multiple="" type="file"/>
+<input className="hidden" id="photo-upload" multiple={true} type="file"/>
 </label>
 </div>
 {/*  Subtle pattern overlay  */}

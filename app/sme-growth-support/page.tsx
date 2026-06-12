@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -279,7 +281,7 @@ export default function Page() {
 <div className="px-6 py-4 bg-surface-container-low border-t border-outline-variant flex justify-between items-center">
 <p className="font-label-md text-label-md text-on-surface-variant">Showing 3 of 1,284 SMEs</p>
 <div className="flex gap-2">
-<button className="px-3 py-1 border border-outline-variant rounded bg-state-white hover:bg-surface-variant disabled:opacity-50" disabled="">
+<button className="px-3 py-1 border border-outline-variant rounded bg-state-white hover:bg-surface-variant disabled:opacity-50" disabled={true}>
 <span className="material-symbols-outlined text-sm">chevron_left</span>
 </button>
 <button className="px-3 py-1 border border-outline-variant rounded bg-state-white hover:bg-surface-variant">

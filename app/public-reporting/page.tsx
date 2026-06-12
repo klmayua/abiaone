@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -39,7 +41,7 @@ export default function Page() {
 <div className="absolute inset-0 opacity-10 pointer-events-none">
 <svg height="100%" width="100%"><rect fill="url(#pattern-dots)" height="100%" width="100%"></rect></svg>
 <defs>
-<pattern height="20" id="pattern-dots" patternunits="userSpaceOnUse" width="20" x="0" y="0">
+<pattern height="20" id="pattern-dots" patternUnits="userSpaceOnUse" width="20" x="0" y="0">
 <circle cx="2" cy="2" fill="white" r="1"></circle>
 </pattern>
 </defs>

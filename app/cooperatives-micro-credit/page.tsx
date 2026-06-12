@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -194,7 +196,7 @@ export default function Page() {
 </div>
 <div>
 <label className="block text-label-md font-label-md mb-1">Purpose of Loan</label>
-<textarea className="w-full border-slate-400 rounded-lg p-2 focus:ring-primary" placeholder="Briefly describe how funds will be used..." rows="3"></textarea>
+<textarea className="w-full border-slate-400 rounded-lg p-2 focus:ring-primary" placeholder="Briefly describe how funds will be used..." rows={3}></textarea>
 </div>
 <button className="w-full bg-forest-green text-white py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors" type="submit">
 <span className="material-symbols-outlined">send</span>

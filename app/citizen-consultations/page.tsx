@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -193,7 +195,7 @@ export default function Page() {
 </div>
 <div>
 <label className="block text-caption font-bold text-on-surface uppercase tracking-wider mb-2">Your Feedback</label>
-<textarea className="w-full bg-state-white border border-outline-variant rounded p-3 text-body-md focus:border-forest-green focus:ring-1 focus:ring-forest-green transition-all" placeholder="Be specific and constructive..." rows="4"></textarea>
+<textarea className="w-full bg-state-white border border-outline-variant rounded p-3 text-body-md focus:border-forest-green focus:ring-1 focus:ring-forest-green transition-all" placeholder="Be specific and constructive..." rows={4}></textarea>
 </div>
 <div className="flex items-center gap-2 mb-4">
 <input className="rounded border-outline-variant text-forest-green focus:ring-forest-green" id="anon" type="checkbox" />

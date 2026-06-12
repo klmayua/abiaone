@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -207,7 +209,7 @@ export default function Page() {
 </div>
 <div className="space-y-1">
 <label className="text-xs font-label-md text-primary-fixed/60 uppercase">Primary Goal</label>
-<textarea className="w-full bg-state-white/10 border-state-white/20 rounded-lg py-3 px-4 focus:ring-brass-gold focus:border-brass-gold text-state-white placeholder-state-white/40" placeholder="How can GADA support your growth?" rows="3"></textarea>
+<textarea className="w-full bg-state-white/10 border-state-white/20 rounded-lg py-3 px-4 focus:ring-brass-gold focus:border-brass-gold text-state-white placeholder-state-white/40" placeholder="How can GADA support your growth?" rows={3}></textarea>
 </div>
 <button className="w-full py-4 bg-brass-gold text-on-secondary-fixed rounded-lg font-headline-md hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2">
 <span className="material-symbols-outlined">app_registration</span>

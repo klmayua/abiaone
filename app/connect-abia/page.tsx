@@ -1,9 +1,11 @@
+"use client";
+
 export default function Page() {
   return (
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { background-color: #f6fbf3; color: #181d19; overflow-x: hidden; }\n        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }\n        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid #E2E8F0; }\n        .active-nav-link { border-bottom: 2px solid #006838; padding-bottom: 4px; color: #006838; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .custom-scrollbar::-webkit-scrollbar { width: 6px; }\n        .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5ee; }\n        .custom-scrollbar::-webkit-scrollbar-thumb { background: #006838; border-radius: 10px; }\n    \n\n                @keyframes scroll {\n                    0% { transform: translateX(0); }\n                    100% { transform: translateX(-50%); }\n                }\n                .animate-scroll {\n                    display: flex;\n                    width: 200%;\n                    animation: scroll 40s linear infinite;\n                }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { background-color: #f6fbf3; color: #181d19; overflow-x: hidden; }\n        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }\n        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid #E2E8F0; }\n        .active-nav-link { border-bottom: 2px solid #006838; padding-bottom: 4px; color: #006838; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .custom-scrollbar::-webkit-scrollbar { width: 6px; }\n        .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5ee; }\n        .custom-scrollbar::-webkit-scrollbar-thumb { background: #006838; border-radius: 10px; }\n    \n\n                @keyframes scroll {\n                    0% { transform: translateX(0); }\n                    100% { transform: translateX(-50%); }\n                }\n                .animate-scroll {\n                    display: flex;\n                    width: 200%;\n                    animation: scroll 40s linear infinite;\n                }\n            \n\n                @keyframes scroll {\n                    0% { transform: translateX(0); }\n                    100% { transform: translateX(-50%); }\n                }\n                .animate-scroll {\n                    display: flex;\n                    width: 200%;\n                    animation: scroll 40s linear infinite;\n                }" }} />
   
       {/* Screen markup */}
       <div className="font-body-md text-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
@@ -223,7 +225,7 @@ export default function Page() {
 </div>
 <div className="flex flex-col gap-2">
 <label className="font-label-md text-caption uppercase text-on-surface-variant">Your Message</label>
-<textarea className="border border-slate-400 p-3 rounded focus:border-forest-green focus:ring-1 focus:ring-forest-green outline-none" placeholder="How can we improve Abia State?" rows="4"></textarea>
+<textarea className="border border-slate-400 p-3 rounded focus:border-forest-green focus:ring-1 focus:ring-forest-green outline-none" placeholder="How can we improve Abia State?" rows={4}></textarea>
 </div>
 <button className="bg-forest-green text-state-white px-10 py-4 rounded font-body-md font-bold hover:bg-primary transition-all self-start" type="button">
                             Submit Message
@@ -280,17 +282,7 @@ export default function Page() {
                     ABIA AI ACADEMY ADMISSIONS EXTENDED
                 </div>
 </div>
-<style>
-                @keyframes scroll {
-                    0% { transform: translateX(0); }
-                    100% { transform: translateX(-50%); }
-                }
-                .animate-scroll {
-                    display: flex;
-                    width: 200%;
-                    animation: scroll 40s linear infinite;
-                }
-            </style>
+
 </section>
 </main>
 {/*  Footer  */}

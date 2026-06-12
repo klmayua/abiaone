@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -183,7 +185,7 @@ export default function Page() {
 </div>
 <div className="flex flex-col gap-2 md:col-span-2">
 <label className="text-label-md font-label-md text-on-surface">Details / URL</label>
-<textarea className="bg-white border-slate-400 rounded p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" placeholder="Provide more context or a link to the misinformation..." rows="3"></textarea>
+<textarea className="bg-white border-slate-400 rounded p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" placeholder="Provide more context or a link to the misinformation..." rows={3}></textarea>
 </div>
 <div className="md:col-span-2 flex justify-center">
 <button className="bg-primary text-white px-10 py-3 rounded-lg font-label-md hover:opacity-90 transition-all shadow-sm" type="submit">Submit Report for Verification</button>

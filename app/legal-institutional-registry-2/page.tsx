@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -205,7 +207,7 @@ export default function Page() {
 </div>
 <div>
 <label className="block font-label-md text-label-md mb-1">Information Requested</label>
-<textarea className="w-full border-slate-400 rounded-lg p-3 bg-white focus:ring-primary focus:border-primary" placeholder="Describe the records you wish to access..." rows="4"></textarea>
+<textarea className="w-full border-slate-400 rounded-lg p-3 bg-white focus:ring-primary focus:border-primary" placeholder="Describe the records you wish to access..." rows={4}></textarea>
 </div>
 <div className="flex items-center gap-2 mb-4">
 <input className="rounded border-slate-400 text-primary" id="consent" type="checkbox" />

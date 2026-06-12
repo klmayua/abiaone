@@ -106,7 +106,7 @@ function convertStyleAttr(styleStr) {
 
 // Convert HTML to React JSX tags
 function htmlToJsx(html) {
-  // Extract style tags
+  // Extract style tags from head
   const styles = [];
   const styleRegex = /<style[^>]*>([\s\S]*?)<\/style>/gi;
   let match;
@@ -117,6 +117,14 @@ function htmlToJsx(html) {
   // Extract body content
   const bodyContentMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   let content = bodyContentMatch ? bodyContentMatch[1] : html;
+
+  // Extract and remove any style tags that are inside the body content
+  let innerMatch;
+  const innerStyleRegex = /<style[^>]*>([\s\S]*?)<\/style>/gi;
+  while ((innerMatch = innerStyleRegex.exec(content)) !== null) {
+    styles.push(innerMatch[1]);
+  }
+  content = content.replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, '');
 
   // Extract body classes
   const bodyClassMatch = html.match(/<body[^>]+class=["']([^"']+)["']/i);
@@ -153,7 +161,17 @@ function htmlToJsx(html) {
     'stroke-dashoffset=': 'strokeDashoffset=',
     'viewbox=': 'viewBox=',
     'xmlns:xlink=': 'xmlnsXlink=',
-    'xlink:href=': 'xlinkHref='
+    'xlink:href=': 'xlinkHref=',
+    'patternunits=': 'patternUnits=',
+    'patterncontentunits=': 'patternContentUnits=',
+    'gradientunits=': 'gradientUnits=',
+    'gradienttransform=': 'gradientTransform=',
+    'patterntransform=': 'patternTransform=',
+    'preserveaspectratio=': 'preserveAspectRatio=',
+    'spreadmethod=': 'spreadMethod=',
+    'clip-path=': 'clipPath=',
+    'clippath=': 'clipPath=',
+    'text-anchor=': 'textAnchor='
   };
   Object.entries(svgReplacements).forEach(([key, val]) => {
     content = content.split(key).join(val);
@@ -161,6 +179,25 @@ function htmlToJsx(html) {
 
   // 7. Remove/convert inline event handlers
   content = content.replace(/on[a-zA-Z]+="[^"]*"/g, 'onClick={() => {}}');
+
+  // 8. Convert numeric attributes (rows, cols, size, maxLength, minLength, tabIndex, span, start) from string to number expressions
+  const numericProps = ['rows', 'cols', 'size', 'maxLength', 'minLength', 'tabIndex', 'span', 'start'];
+  numericProps.forEach((prop) => {
+    content = content.replace(new RegExp('\\b' + prop + '="(\\d+)"', 'gi'), `${prop}={$1}`);
+    content = content.replace(new RegExp('\\b' + prop + '=\'(\\d+)\'', 'gi'), `${prop}={$1}`);
+  });
+
+  // 9. Convert boolean attributes with values (disabled, multiple, checked, required, readonly, autofocus, selected) to JSX boolean expressions
+  const booleanProps = ['disabled', 'multiple', 'checked', 'required', 'readonly', 'readOnly', 'autofocus', 'autoFocus', 'selected'];
+  booleanProps.forEach((prop) => {
+    const regex = new RegExp('\\b' + prop + '=(["\'])(.*?)\\1', 'gi');
+    content = content.replace(regex, (match, quote, val) => {
+      let jsxProp = prop;
+      if (prop.toLowerCase() === 'readonly') jsxProp = 'readOnly';
+      if (prop.toLowerCase() === 'autofocus') jsxProp = 'autoFocus';
+      return `${jsxProp}={true}`;
+    });
+  });
 
   return {
     bodyClass,
@@ -179,7 +216,7 @@ metadata.forEach((screen) => {
 
   const route = screen.computedRoute;
   
-  // FIX: Read file content and pass it to htmlToJsx!
+  // Read file content and pass it to htmlToJsx
   const htmlContent = fs.readFileSync(filepath, 'utf-8');
   const parsed = htmlToJsx(htmlContent);
 
@@ -202,7 +239,9 @@ metadata.forEach((screen) => {
       <style dangerouslySetInnerHTML={{ __html: ${JSON.stringify(parsed.styles)} }} />
   ` : '';
 
-  const pageCode = `export default function Page() {
+  const pageCode = `"use client";
+
+export default function Page() {
   return (
     <>
       ${styleOverrideBlock}

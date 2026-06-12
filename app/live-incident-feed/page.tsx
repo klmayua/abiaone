@@ -1,3 +1,5 @@
+"use client";
+
 export default function Page() {
   return (
     <>
@@ -228,7 +230,7 @@ export default function Page() {
 <div className="px-6 py-4 bg-surface-container-low border-t border-outline-variant flex justify-between items-center">
 <span className="text-caption text-on-surface-variant">Showing 4 of 128 active events</span>
 <div className="flex items-center gap-1">
-<button className="p-1 text-on-surface-variant disabled:opacity-30" disabled="">
+<button className="p-1 text-on-surface-variant disabled:opacity-30" disabled={true}>
 <span className="material-symbols-outlined">chevron_left</span>
 </button>
 <span className="font-label-md text-label-md px-2">1 / 32</span>
