@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import PortalDirectory from "../components/PortalDirectory";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -43,6 +44,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-body bg-background text-foreground">
         {children}
+        <PortalDirectory />
       </body>
     </html>
   );
