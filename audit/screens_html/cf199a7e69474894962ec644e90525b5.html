@@ -1,0 +1,469 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ABIA ONE | Ministry of Water Resources &amp; Irrigation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary": "#762732",
+                        "on-tertiary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-container": "#ebefe8",
+                        "inverse-primary": "#83d99d",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-container-high": "#e5e9e2",
+                        "state-white": "#FFFFFF",
+                        "surface-container-low": "#f1f5ee",
+                        "tertiary-fixed": "#ffdadb",
+                        "surface-dim": "#d7dbd4",
+                        "on-tertiary-fixed": "#40000e",
+                        "eagle-red": "#C41E3A",
+                        "on-secondary-fixed-variant": "#574500",
+                        "on-primary-fixed-variant": "#00522b",
+                        "inverse-surface": "#2d322d",
+                        "secondary-container": "#fed65b",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "tertiary-container": "#943e48",
+                        "primary-fixed-dim": "#83d99d",
+                        "primary-container": "#006838",
+                        "on-secondary-fixed": "#241a00",
+                        "on-secondary-container": "#745c00",
+                        "brass-gold": "#D4AF37",
+                        "on-primary-fixed": "#00210e",
+                        "on-surface": "#181d19",
+                        "secondary": "#735c00",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-error-container": "#93000a",
+                        "outline-variant": "#bec9be",
+                        "on-error": "#ffffff",
+                        "background": "#f6fbf3",
+                        "on-primary-container": "#8ee4a8",
+                        "surface": "#f6fbf3",
+                        "surface-variant": "#dfe4dd",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#181d19",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "forest-green": "#006838",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary": "#ffffff",
+                        "outline": "#6f7a70",
+                        "surface-container-highest": "#dfe4dd",
+                        "primary-fixed": "#9ef5b8",
+                        "surface-bright": "#f6fbf3",
+                        "on-surface-variant": "#3f4940",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#0b6d3c",
+                        "slate-gray": "#334155",
+                        "primary": "#004d28",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "max-width": "1440px",
+                        "base": "4px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "display-lg": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .active-nav-item {
+            transform: scale(0.95);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #E2E8F0;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Sidebar Navigation -->
+<aside class="flex flex-col fixed left-0 top-0 h-full py-6 px-4 space-y-2 bg-surface-container-low border-r border-outline-variant w-64 z-50">
+<div class="mb-8 px-2">
+<h1 class="font-headline-sm text-headline-sm font-bold text-forest-green">ABIA ONE</h1>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Command Center</p>
+<p class="font-caption text-caption text-outline">State Operating System</p>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-on-primary-container bg-primary-container rounded-lg active-nav-item transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-label-md">Analytics</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="hail">hail</span>
+<span class="font-label-md">Citizen Requests</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-label-md">Revenue Tracking</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="account_tree">account_tree</span>
+<span class="font-label-md">Project Monitoring</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="badge">badge</span>
+<span class="font-label-md">Personnel</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+<span class="font-label-md">Security</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-highest transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-label-md">Settings</span>
+</a>
+</nav>
+<button class="mt-4 w-full bg-forest-green text-state-white py-3 rounded-lg font-label-md flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-[18px]" data-icon="download">download</span>
+            Export Report
+        </button>
+<div class="pt-6 border-t border-outline-variant mt-auto space-y-1">
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-forest-green transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+<span class="font-label-md">Support</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-eagle-red transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span class="font-label-md">Sign Out</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 min-h-screen p-8 max-w-[1440px]">
+<!-- Top App Bar -->
+<header class="flex justify-between items-center mb-10">
+<div class="space-y-1">
+<h2 class="font-headline-lg text-headline-lg text-forest-green tracking-tight">Ministry of Water Resources &amp; Irrigation</h2>
+<nav class="flex items-center gap-4">
+<span class="text-on-surface-variant font-label-md">Governance</span>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right" style="font-size: 16px;">chevron_right</span>
+<span class="text-on-surface-variant font-label-md">Infrastructure</span>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right" style="font-size: 16px;">chevron_right</span>
+<span class="text-forest-green font-label-md font-bold">State Water Security Dashboard</span>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-forest-green" data-icon="language">language</span>
+<div class="relative">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-forest-green" data-icon="notifications">notifications</span>
+<div class="absolute -top-1 -right-1 w-2 h-2 bg-eagle-red rounded-full"></div>
+</div>
+</div>
+<div class="flex items-center gap-3 border-l border-outline-variant pl-6">
+<div class="text-right">
+<p class="font-label-md text-on-surface font-bold">Hon. Commissioner</p>
+<p class="font-caption text-on-surface-variant">Admin Access</p>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-highest flex items-center justify-center overflow-hidden border border-outline-variant">
+<img alt="Abia State Seal" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQHAweaEeSyusX9GPaLuRCAIAObk11TE1OsuFeredjm7Q9kG3QPCMUPVR4gaBJmX6Wi6FpurWcFD7FFqFXY8urduS73sdCDCFPsVG0pfRkcpuWffEIxfo3LxY3v0yVYHgzEaT1pNp878OPvCBNgbc8E-89hzjXJ2yT5kLOp-yNPUtmCTxlCOqZLyvtFm54Bqo5vUiL2J-HhInDaEnVUEYQ2QA9eTaC5HkgodcgbBqXpqUnJLola8AM65U1de7gR27i-5ZTYlmy6PM">
+</div>
+</div>
+</div>
+</header>
+<!-- Dynamic Hero Stats -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+<div class="glass-card p-6 rounded-xl border border-outline-variant shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-md text-on-surface-variant uppercase mb-1">Statewide Supply</p>
+<h3 class="font-headline-md text-headline-md text-forest-green">4.2M</h3>
+<p class="font-caption text-on-surface-variant">Gallons per Day</p>
+</div>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-forest-green">
+<span class="material-symbols-outlined" data-icon="water_drop">water_drop</span>
+</div>
+</div>
+<div class="glass-card p-6 rounded-xl border border-outline-variant shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-md text-on-surface-variant uppercase mb-1">Rehabilitation</p>
+<h3 class="font-headline-md text-headline-md text-forest-green">78%</h3>
+<p class="font-caption text-on-surface-variant">Borehole Progress</p>
+</div>
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined" data-icon="build">build</span>
+</div>
+</div>
+<div class="glass-card p-6 rounded-xl border border-outline-variant shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-md text-on-surface-variant uppercase mb-1">Irrigation Hubs</p>
+<h3 class="font-headline-md text-headline-md text-forest-green">14</h3>
+<p class="font-caption text-on-surface-variant">Active Agricultural Zones</p>
+</div>
+<div class="w-12 h-12 rounded-lg bg-tertiary-fixed flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined" data-icon="agriculture">agriculture</span>
+</div>
+</div>
+<div class="glass-card p-6 rounded-xl border border-outline-variant shadow-sm flex items-center justify-between">
+<div>
+<p class="font-label-md text-on-surface-variant uppercase mb-1">Network Health</p>
+<h3 class="font-headline-md text-headline-md text-eagle-red">Optimal</h3>
+<p class="font-caption text-on-surface-variant">System Reliability Index</p>
+</div>
+<div class="w-12 h-12 rounded-lg bg-error-container flex items-center justify-center text-eagle-red">
+<span class="material-symbols-outlined" data-icon="shield_check">shield_lock</span>
+</div>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="bento-grid">
+<!-- Irrigation Map: Primary Feature -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden shadow-sm relative min-h-[500px]">
+<div class="absolute top-6 left-6 z-10 bg-white/90 backdrop-blur p-4 rounded-lg border border-outline-variant">
+<h4 class="font-headline-sm text-headline-sm text-forest-green border-b-2 border-brass-gold pb-2 inline-block">Irrigation Map</h4>
+<p class="font-body-md text-on-surface-variant mt-2">Agro-Economic Coverage Intensity</p>
+<div class="mt-4 flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-forest-green"></span>
+<span class="font-caption">High Intensity Irrigation</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-brass-gold"></span>
+<span class="font-caption">Proposed Schemes</span>
+</div>
+</div>
+</div>
+<div class="w-full h-full bg-surface-container relative">
+<!-- Map Placeholder with data-location -->
+<img class="w-full h-full object-cover opacity-80" data-alt="A detailed topographic map of Abia State, Nigeria, displaying intricate river systems and newly established irrigation infrastructure in vibrant forest green. The map features modern data overlays with glowing technical indicators showing water flow and agricultural density. The lighting is bright and clear, reflecting a sophisticated administrative dashboard aesthetic with high contrast and professional cartography." data-location="Umuahia, Nigeria" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs7pUrgsXnXmzhnhIuEVZUWx0BFxx6fb0JQP3VIx_UEEkXmkQ-4DyKE8x6nUrqyvxPhwtUlUJFa-vRAzY-lsZxG79OlcNkMuZ3yCN6vaHB2GqafccjViRAvvAsqqwrZbn393ezPPwxb4mcESAfbIfi3ntg8MRLdDEcg0zvKzEXwrxLvApsePjIpSDmRcFgicSxwN39-MDJ10hEWVSBSBlm-oQlKcTi8-tr3E_k2Di2D_0ZAfYXCbpFhb-2utk2pcsrnlOkhJUYRo0">
+<!-- Animated Overlay Mock -->
+<div class="absolute inset-0 pointer-events-none opacity-40">
+
+</div>
+</div>
+</div>
+<!-- Urban Water Utility Monitoring -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm flex flex-col">
+<div class="flex items-center justify-between mb-6">
+<h4 class="font-headline-sm text-headline-sm text-forest-green">Urban Utilities</h4>
+<span class="material-symbols-outlined text-outline" data-icon="sensors">sensors</span>
+</div>
+<div class="space-y-6 flex-1 overflow-y-auto">
+<!-- Utility Card 1 -->
+<div class="p-4 rounded-lg bg-surface-container-low border border-outline-variant">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-md text-on-surface font-bold">Aba Metropolitan</span>
+<span class="px-2 py-1 bg-primary-fixed text-forest-green text-[10px] rounded font-bold uppercase">Online</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full mb-3">
+<div class="bg-forest-green h-full rounded-full w-[92%]"></div>
+</div>
+<div class="flex justify-between font-caption text-on-surface-variant">
+<span>Capacity Usage: 92%</span>
+<span>1.8M GPD</span>
+</div>
+</div>
+<!-- Utility Card 2 -->
+<div class="p-4 rounded-lg bg-surface-container-low border border-outline-variant">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-md text-on-surface font-bold">Umuahia North</span>
+<span class="px-2 py-1 bg-primary-fixed text-forest-green text-[10px] rounded font-bold uppercase">Online</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full mb-3">
+<div class="bg-forest-green h-full rounded-full w-[74%]"></div>
+</div>
+<div class="flex justify-between font-caption text-on-surface-variant">
+<span>Capacity Usage: 74%</span>
+<span>1.2M GPD</span>
+</div>
+</div>
+<!-- Utility Card 3 -->
+<div class="p-4 rounded-lg bg-surface-container-low border border-outline-variant">
+<div class="flex justify-between items-start mb-2">
+<span class="font-label-md text-on-surface font-bold">Ohafia Regional</span>
+<span class="px-2 py-1 bg-secondary-fixed text-secondary text-[10px] rounded font-bold uppercase">Maintenance</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full mb-3">
+<div class="bg-brass-gold h-full rounded-full w-[45%]"></div>
+</div>
+<div class="flex justify-between font-caption text-on-surface-variant">
+<span>Capacity Usage: 45%</span>
+<span>0.6M GPD</span>
+</div>
+</div>
+</div>
+<button class="w-full mt-6 py-2 border border-forest-green text-forest-green rounded-lg font-label-md hover:bg-forest-green hover:text-white transition-all">
+                    View Technical Details
+                </button>
+</div>
+<!-- Rural Water Schemes Monitoring -->
+<div class="col-span-12 lg:col-span-6 bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm">
+<div class="flex items-center justify-between mb-8">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-forest-green">Rural Water Schemes</h4>
+<p class="font-caption text-on-surface-variant">Last mile connectivity for rural communities</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 border border-outline-variant rounded hover:bg-surface-container"><span class="material-symbols-outlined" data-icon="filter_list">filter_list</span></button>
+<button class="p-2 border border-outline-variant rounded hover:bg-surface-container"><span class="material-symbols-outlined" data-icon="search">search</span></button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full border-collapse">
+<thead>
+<tr class="text-left border-b border-outline-variant">
+<th class="pb-3 font-label-md text-on-surface-variant uppercase text-[12px]">LGA Area</th>
+<th class="pb-3 font-label-md text-on-surface-variant uppercase text-[12px]">Scheme Type</th>
+<th class="pb-3 font-label-md text-on-surface-variant uppercase text-[12px]">Status</th>
+<th class="pb-3 font-label-md text-on-surface-variant uppercase text-[12px]">Efficiency</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/30">
+<tr>
+<td class="py-4 font-body-md font-bold">Bende South</td>
+<td class="py-4 font-caption">Solar Borehole</td>
+<td class="py-4"><span class="px-3 py-1 bg-primary-fixed text-forest-green rounded-full text-[10px] font-bold">OPERATIONAL</span></td>
+<td class="py-4 font-label-md">98.1%</td>
+</tr>
+<tr>
+<td class="py-4 font-body-md font-bold">Isuikwuato</td>
+<td class="py-4 font-caption">Gravity Scheme</td>
+<td class="py-4"><span class="px-3 py-1 bg-primary-fixed text-forest-green rounded-full text-[10px] font-bold">OPERATIONAL</span></td>
+<td class="py-4 font-label-md">84.5%</td>
+</tr>
+<tr>
+<td class="py-4 font-body-md font-bold">Ukwa West</td>
+<td class="py-4 font-caption">Direct Extraction</td>
+<td class="py-4"><span class="px-3 py-1 bg-error-container text-eagle-red rounded-full text-[10px] font-bold">OFFLINE</span></td>
+<td class="py-4 font-label-md">-0.1%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Rehabilitation Progress Graph -->
+<div class="col-span-12 lg:col-span-6 bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm overflow-hidden flex flex-col">
+<h4 class="font-headline-sm text-headline-sm text-forest-green mb-6">Borehole Rehabilitation Progress</h4>
+<div class="flex-1 flex flex-col justify-end gap-2 h-64">
+<div class="flex items-end justify-between gap-4 h-full px-4">
+<div class="w-12 bg-outline-variant rounded-t hover:bg-forest-green transition-colors relative group" style="height: 30%;">
+<span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-state-white px-2 py-1 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">14</span>
+</div>
+<div class="w-12 bg-outline-variant rounded-t hover:bg-forest-green transition-colors relative group" style="height: 45%;">
+<span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-state-white px-2 py-1 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">22</span>
+</div>
+<div class="w-12 bg-outline-variant rounded-t hover:bg-forest-green transition-colors relative group" style="height: 60%;">
+<span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-state-white px-2 py-1 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">29</span>
+</div>
+<div class="w-12 bg-outline-variant rounded-t hover:bg-forest-green transition-colors relative group" style="height: 55%;">
+<span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-state-white px-2 py-1 rounded text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">26</span>
+</div>
+<div class="w-12 bg-forest-green rounded-t relative group" style="height: 85%;">
+<span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-on-surface text-state-white px-2 py-1 rounded text-[10px] opacity-100 transition-opacity">42</span>
+</div>
+</div>
+<div class="flex justify-between px-4 font-caption text-on-surface-variant pt-2 border-t border-outline-variant">
+<span>JAN</span>
+<span>FEB</span>
+<span>MAR</span>
+<span>APR</span>
+<span>MAY (Active)</span>
+</div>
+</div>
+<div class="mt-6 flex items-center justify-between">
+<div>
+<span class="text-on-surface-variant font-caption">Current Monthly Target</span>
+<p class="font-headline-md text-headline-md text-forest-green">45 Boreholes</p>
+</div>
+<div class="text-right">
+<span class="text-on-surface-variant font-caption">Success Rate</span>
+<p class="font-headline-md text-headline-md text-brass-gold">93.4%</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Global Footer -->
+<footer class="ml-64 bg-surface-container-highest border-t border-outline-variant py-8 px-margin-desktop mt-12">
+<div class="w-full max-w-max-width mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2">
+<h5 class="font-headline-sm text-headline-sm font-bold text-forest-green">ABIA ONE</h5>
+<p class="font-caption text-on-surface-variant">© 2024 Abia State Government. All Rights Reserved.</p>
+</div>
+<nav class="flex gap-8">
+<a class="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
+<a class="font-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-surface flex items-center justify-center rounded border border-outline-variant cursor-pointer hover:border-forest-green transition-colors">
+<span class="material-symbols-outlined text-forest-green" data-icon="facebook">face_nod</span>
+</div>
+<div class="w-10 h-10 bg-surface flex items-center justify-center rounded border border-outline-variant cursor-pointer hover:border-forest-green transition-colors">
+<span class="material-symbols-outlined text-forest-green" data-icon="share">share</span>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Simple Interaction Logic
+        document.querySelectorAll('nav a').forEach(item => {
+            item.addEventListener('click', function(e) {
+                // In a real app, this would handle routing
+                // e.preventDefault();
+            });
+        });
+
+        // Simulating Live Sensor Data
+        setInterval(() => {
+            const efficiencies = document.querySelectorAll('.font-label-md');
+            efficiencies.forEach(el => {
+                if(el.textContent.includes('%')) {
+                    const currentVal = parseFloat(el.textContent);
+                    const variation = (Math.random() - 0.5) * 0.2;
+                    el.textContent = (currentVal + variation).toFixed(1) + '%';
+                }
+            });
+        }, 3000);
+    </script>
+</body></html>

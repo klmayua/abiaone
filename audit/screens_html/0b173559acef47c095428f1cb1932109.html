@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Abia One | Build Abia Transparency Portal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#181d19",
+                        "secondary-fixed": "#ffe088",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "on-surface": "#181d19",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-primary-container": "#8ee4a8",
+                        "eagle-red": "#C41E3A",
+                        "tertiary": "#762732",
+                        "primary": "#004d28",
+                        "on-secondary-container": "#745c00",
+                        "surface-container": "#ebefe8",
+                        "secondary-container": "#fed65b",
+                        "on-surface-variant": "#3f4940",
+                        "tertiary-container": "#943e48",
+                        "inverse-primary": "#83d99d",
+                        "on-primary-fixed": "#00210e",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#e5e9e2",
+                        "on-tertiary-container": "#ffc3c6",
+                        "surface-tint": "#0b6d3c",
+                        "inverse-surface": "#2d322d",
+                        "on-error": "#ffffff",
+                        "surface-dim": "#d7dbd4",
+                        "outline-variant": "#bec9be",
+                        "surface-container-low": "#f1f5ee",
+                        "primary-fixed": "#9ef5b8",
+                        "surface": "#f6fbf3",
+                        "slate-gray": "#334155",
+                        "secondary": "#735c00",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "on-secondary-fixed-variant": "#574500",
+                        "tertiary-fixed": "#ffdadb",
+                        "primary-container": "#006838",
+                        "background": "#f6fbf3",
+                        "surface-variant": "#dfe4dd",
+                        "on-tertiary-fixed": "#40000e",
+                        "surface-container-highest": "#dfe4dd",
+                        "outline": "#6f7a70",
+                        "on-primary": "#ffffff",
+                        "brass-gold": "#D4AF37",
+                        "primary-fixed-dim": "#83d99d",
+                        "forest-green": "#006838",
+                        "surface-bright": "#f6fbf3",
+                        "state-white": "#FFFFFF",
+                        "inverse-on-surface": "#eef2eb",
+                        "on-secondary-fixed": "#241a00",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "base": "4px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0, 77, 40, 0.1);
+        }
+        .project-map-pin {
+            animation: pulse-pin 2s infinite;
+        }
+        @keyframes pulse-pin {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md min-h-screen pb-24">
+<!-- Top Navigation -->
+<header class="bg-surface dark:bg-surface-dim border-b border-outline-variant dark:border-outline flex justify-between items-center w-full px-margin-mobile h-16 z-50 sticky top-0">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="menu">menu</span>
+<h1 class="font-headline-md text-headline-md-mobile font-bold text-primary dark:text-primary-fixed">Abia One</h1>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="emergency_share">emergency_share</span>
+</div>
+</header>
+<main class="px-margin-mobile pt-6">
+<!-- Dashboard Header -->
+<section class="mb-8">
+<h2 class="font-headline-md text-headline-md-mobile text-primary mb-1">Build Abia</h2>
+<p class="font-body-md text-on-surface-variant">Real-time infrastructure transparency &amp; tracking.</p>
+</section>
+<!-- Interactive Map Section -->
+<section class="mb-8">
+<div class="flex justify-between items-end mb-4">
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Near Your Location</h3>
+<span class="font-label-md text-label-md text-primary underline">Expand Map</span>
+</div>
+<div class="relative w-full h-64 rounded-xl overflow-hidden shadow-sm border border-outline-variant">
+<div class="absolute inset-0 bg-slate-200" data-location="Umuahia, Abia State" style="">
+<img alt="Map view of Umuahia" class="w-full h-full object-cover grayscale opacity-50" data-alt="A clean, professional digital map visualization of Umuahia city streets in Abia State. The map uses a minimalist color palette of soft grays and forest greens, indicating park areas and major infrastructure arteries. Several glowing circular pins in brass gold and forest green represent active construction projects. The lighting is soft and daylight-balanced, giving an informative and transparent government portal feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaqXEu88Sr-BW6CJgbLbcGP7SKc0eFZEn2kwi12VEmEFvplRISF9GWr4_j4NFKgsJCC-g-hdi5gO1AjNu315S2VsDDbeeF8Bxevz-1SkJN1pKZsgoNpul5xNdjvOguLlt0KXzmMimKzVLs5rqUexOC5n2ZC3Lv-qlDsqr_XIe1MSgzEtfgFGburUnF0NOHKC6SW0lt6TLtGcLlFf6GVhzBzExBDOmOZRkx0Cj5zdSxMCy4F3LrIz3Nhhe8Zhbz1uaO_5gxq_cgGi8"/>
+</div>
+<!-- Interactive Pins Overlay -->
+<div class="absolute top-1/3 left-1/4 project-map-pin">
+<div class="bg-forest-green p-1.5 rounded-full shadow-lg border-2 border-white">
+<span class="material-symbols-outlined text-white text-xs block" data-icon="construction" style="font-variation-settings: 'FILL' 1;">construction</span>
+</div>
+</div>
+<div class="absolute bottom-1/4 right-1/3 project-map-pin" style="animation-delay: 0.5s;">
+<div class="bg-brass-gold p-1.5 rounded-full shadow-lg border-2 border-white">
+<span class="material-symbols-outlined text-white text-xs block" data-icon="bolt" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+</div>
+<!-- User Location Indicator -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="w-6 h-6 bg-primary/20 rounded-full flex items-center justify-center border border-primary/40">
+<div class="w-2.5 h-2.5 bg-primary rounded-full shadow-sm"></div>
+</div>
+</div>
+<!-- Float Card -->
+<div class="absolute bottom-4 left-4 right-4 glass-card p-3 rounded-lg flex items-center gap-3">
+<div class="w-12 h-12 rounded bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="road">road</span>
+</div>
+<div class="flex-1">
+<p class="font-label-md text-[12px] text-on-surface-variant uppercase tracking-wider">Closest Project</p>
+<p class="font-headline-md text-[16px] text-on-surface">Aba-Ikot Ekpene Road</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+</section>
+<!-- Open Budget Visualization -->
+<section class="mb-8">
+<div class="p-6 bg-primary-container rounded-xl text-white shadow-sm overflow-hidden relative">
+<div class="relative z-10">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+<h3 class="font-headline-md text-headline-md-mobile">Open Budget 2024</h3>
+</div>
+<div class="flex justify-between items-baseline mb-2">
+<span class="font-body-md opacity-80">Infrastructure Allocated</span>
+<span class="font-headline-md text-headline-md">₦42.5B</span>
+</div>
+<div class="w-full h-3 bg-white/20 rounded-full mb-6 overflow-hidden">
+<div class="h-full bg-secondary-fixed w-[68%] rounded-full shadow-[0_0_12px_rgba(255,224,136,0.5)]"></div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-black/10 p-3 rounded-lg border border-white/5">
+<p class="font-caption opacity-80 mb-1">Spent to Date</p>
+<p class="font-label-md text-lg">₦28.9B</p>
+</div>
+<div class="bg-black/10 p-3 rounded-lg border border-white/5">
+<p class="font-caption opacity-80 mb-1">Efficiency Rate</p>
+<p class="font-label-md text-lg text-secondary-fixed">94.2%</p>
+</div>
+</div>
+</div>
+<!-- Abstract Bg Pattern -->
+<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-48 h-48 bg-secondary/10 rounded-full blur-3xl"></div>
+</div>
+</section>
+<!-- Progress Photos Gallery (Horizontal Scroll) -->
+<section class="mb-8">
+<div class="flex justify-between items-center mb-4">
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface">Progress Photos</h3>
+<span class="font-label-md text-label-md text-primary">Recent</span>
+</div>
+<div class="flex gap-4 overflow-x-auto hide-scrollbar -mx-margin-mobile px-margin-mobile">
+<div class="flex-shrink-0 w-64">
+<div class="h-40 rounded-xl overflow-hidden mb-2 border border-outline-variant relative">
+<img alt="Construction of bridge" class="w-full h-full object-cover" data-alt="A high-quality architectural photograph of a bridge under construction in a tropical, urban setting in Abia State. The image features a massive concrete span supported by heavy-duty steel scaffolding. Workers in high-visibility forest green vests and white hard hats are visible on-site. The lighting is crisp afternoon sun, casting sharp shadows that emphasize the structural complexity and progress of the engineering work." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8-T_iq7Z7ytdkWEjoV3rWkcovQL7Y1uLGgulZM5Ioq_Pj5vvNBrjkzAx9Yjo0SW2tkb3eY5UL2Wkh6IYLE__mdPg2WMzVu2WaiPFBIK1VbP-8TaQKFoPOcPxRFAzrqDGplJ2OZj7o27J678mmv8Hb-UVFZafGW3AZ8FTEx_Vhs03i5P0qaymIBJTX3--Kpiwo0q0a1GuK2EMVYc66ed-s29Vd0j7qsYGVyPIYVv0sfle_dzdXExr-Er0shll7TeA6eOrwz1Dj3M4"/>
+<div class="absolute top-2 right-2 bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-sm">2 Days Ago</div>
+</div>
+<p class="font-label-md text-on-surface truncate">Enyimba Bridge Girders</p>
+<p class="font-caption text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="location_on">location_on</span> Aba Central
+                    </p>
+</div>
+<div class="flex-shrink-0 w-64">
+<div class="h-40 rounded-xl overflow-hidden mb-2 border border-outline-variant relative">
+<img alt="Road paving" class="w-full h-full object-cover" data-alt="A professional drone shot of a newly paved asphalt highway stretching through a lush green landscape in Abia. The black asphalt is perfectly smooth with crisp white and yellow lane markings. Construction machinery, including a steamroller in bright yellow, is parked neatly to the side. The overall mood is one of progress and cleanliness, under a clear blue sky with soft morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0U-bRbA_4jO9NNJpDwZzBEHUc3AJEUNuDK5_YygwQbrVzdmcXRJksQyfVxlS9bQh93JZXP4JtIiY9zWKLPyioc4RfpP5X9KtDc19scuM6BWAFfVLgy8WWvauAFwu_AHAYCknx0boA2a92xkQzGejXGFC8xZaZAYHEln3CVwx2AlYlbv2VI2WqzKi4EX2ta7GKlFjFOGjozPHv-ySFGKVaRK4KW6BoHytaRhE-dEc9XtP7Qb-mFNAPl2aBtq5_AUeGUVs5WFS-HiY"/>
+<div class="absolute top-2 right-2 bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-sm">Today</div>
+</div>
+<p class="font-label-md text-on-surface truncate">Ohafia Ring Road Paving</p>
+<p class="font-caption text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="location_on">location_on</span> Ohafia
+                    </p>
+</div>
+<div class="flex-shrink-0 w-64">
+<div class="h-40 rounded-xl overflow-hidden mb-2 border border-outline-variant relative">
+<img alt="Modern building facade" class="w-full h-full object-cover" data-alt="Close-up of a modern institutional building facade featuring glass panels and sustainable wood accents. The architecture is contemporary, representing a new government hub in Abia. Reflected in the glass is a vibrant garden area with palm trees. The lighting is soft and golden, characteristic of a late afternoon glow, projecting a sense of professional excellence and transparency." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY6w5qDFCwBc2JRF9l6QGhE13oIPQhd4jlJ73GgHUl-2r7F4RF0gdP8fKSX1FMB5CLQF0EeQtryE1grVglSZTj1DLxQVphAyBjBf_v-RL1zv2EuL33hNFM5vGF1tlgR272nuhqhKqA1snfSxHxSH5BHKMSOak_hZUZR_8FfmggsPJp_yKKGsHI9omIs1IMBC_pCUz0KyGAp2EWqD6RldhLDJ00RULyhqAmNmSamGq1RkPyWlO58IqXAZaWPdKfFAjSKJtRLMCqD8s"/>
+<div class="absolute top-2 right-2 bg-black/60 text-white text-[10px] px-2 py-1 rounded-full backdrop-blur-sm">1 Week Ago</div>
+</div>
+<p class="font-label-md text-on-surface truncate">Digital Hub External Glass</p>
+<p class="font-caption text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="location_on">location_on</span> Umuahia
+                    </p>
+</div>
+</div>
+</section>
+<!-- Project Status Grid (Bento Style) -->
+<section class="mb-12">
+<h3 class="font-headline-md text-headline-md-mobile text-on-surface mb-4">Project Insights</h3>
+<div class="bento-grid">
+<div class="col-span-2 bg-surface-container-low border border-outline-variant p-4 rounded-xl">
+<div class="flex justify-between items-start mb-4">
+<div>
+<p class="font-label-md text-on-surface-variant text-[12px] uppercase">Job Creation</p>
+<p class="font-headline-md text-headline-md text-primary">12,480+</p>
+</div>
+<div class="bg-primary/10 p-2 rounded-lg">
+<span class="material-symbols-outlined text-primary" data-icon="group">group</span>
+</div>
+</div>
+<p class="font-caption text-on-surface-variant">Active local laborers and contractors employed across all state infrastructure projects this quarter.</p>
+</div>
+<div class="bg-surface-container-low border border-outline-variant p-4 rounded-xl flex flex-col justify-between">
+<span class="material-symbols-outlined text-secondary text-2xl mb-2" data-icon="schedule">schedule</span>
+<div>
+<p class="font-headline-md text-lg">88%</p>
+<p class="font-caption text-on-surface-variant leading-tight">Projects On Schedule</p>
+</div>
+</div>
+<div class="bg-surface-container-low border border-outline-variant p-4 rounded-xl flex flex-col justify-between">
+<span class="material-symbols-outlined text-eagle-red text-2xl mb-2" data-icon="warning">warning</span>
+<div>
+<p class="font-headline-md text-lg">12</p>
+<p class="font-caption text-on-surface-variant leading-tight">Delayed Items Flagged</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Citizen Report CTA -->
+<section class="mb-6">
+<button class="w-full bg-forest-green text-white py-4 rounded-lg font-headline-md text-[16px] flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined" data-icon="add_a_photo">add_a_photo</span>
+                Report Project Progress
+            </button>
+<p class="text-center font-caption text-on-surface-variant mt-3 px-4">
+                Help us keep data accurate. Upload photos of projects in your neighborhood.
+            </p>
+</section>
+</main>
+<!-- Bottom Navigation Shell -->
+<nav class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-2 bg-surface dark:bg-surface-container-highest border-t border-outline-variant dark:border-outline shadow-sm">
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed transition-all duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-[10px]">Dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed transition-all duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-[10px]">Alerts</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-full px-4 py-1 transition-all duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="apps" style="font-variation-settings: 'FILL' 1;">apps</span>
+<span class="font-label-md text-[10px]">Hub</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline p-2 hover:text-primary dark:hover:text-primary-fixed transition-all duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-[10px]">Profile</span>
+</a>
+</nav>
+<script>
+        // Micro-interaction for horizontal scrolling reveal
+        const scrollContainer = document.querySelector('.overflow-x-auto');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        scrollContainer.addEventListener('mousedown', (e) => {
+            isDown = true;
+            startX = e.pageX - scrollContainer.offsetLeft;
+            scrollLeft = scrollContainer.scrollLeft;
+        });
+        scrollContainer.addEventListener('mouseleave', () => {
+            isDown = false;
+        });
+        scrollContainer.addEventListener('mouseup', () => {
+            isDown = false;
+        });
+        scrollContainer.addEventListener('mousemove', (e) => {
+            if(!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - scrollContainer.offsetLeft;
+            const walk = (x - startX) * 2;
+            scrollContainer.scrollLeft = scrollLeft - walk;
+        });
+
+        // Simple Fade-in animation on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section, index) => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(10px)';
+                section.style.transition = `all 0.5s ease-out ${index * 0.1}s`;
+                
+                setTimeout(() => {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }, 50);
+            });
+        });
+    </script>
+</body></html>

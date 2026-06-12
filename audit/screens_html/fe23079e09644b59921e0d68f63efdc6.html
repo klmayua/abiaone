@@ -1,0 +1,415 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Abia One | Digital Archives &amp; Historical Records</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#943e48",
+                        "inverse-surface": "#2d322d",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary-container": "#745c00",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-variant": "#dfe4dd",
+                        "on-surface": "#181d19",
+                        "primary": "#004d28",
+                        "on-tertiary-fixed": "#40000e",
+                        "background": "#f6fbf3",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "outline": "#6f7a70",
+                        "secondary-container": "#fed65b",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary": "#762732",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container-high": "#e5e9e2",
+                        "primary-fixed-dim": "#83d99d",
+                        "surface-dim": "#d7dbd4",
+                        "on-secondary-fixed-variant": "#574500",
+                        "outline-variant": "#bec9be",
+                        "brass-gold": "#D4AF37",
+                        "on-background": "#181d19",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-primary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "slate-gray": "#334155",
+                        "surface-container-low": "#f1f5ee",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface": "#f6fbf3",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "on-primary-container": "#8ee4a8",
+                        "secondary-fixed": "#ffe088",
+                        "forest-deep": "#00210e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "base": "4px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "label-caps": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .archive-grid {
+            background-image: radial-gradient(circle at 1px 1px, #bec9be 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        .glass-card {
+            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.7);
+        }
+        .brass-accent-line {
+            height: 2px;
+            background: #D4AF37;
+            width: 40px;
+        }
+    </style>
+</head>
+<body class="bg-background font-body-md text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
+<div class="hidden md:flex gap-6 ml-8">
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Economy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Digital Gov</a>
+<a class="font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1" href="#">Governance</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Security</a>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="hidden md:block px-4 py-2 border border-primary text-primary font-label-md rounded-lg hover:bg-primary/5 transition-all">Emergency</button>
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg font-label-md hover:opacity-90 transition-all">Citizen Portal</button>
+</div>
+</nav>
+<!-- SideNavBar (Desktop Only) -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 pt-20 bg-surface-container-low dark:bg-forest-deep border-r border-outline-variant z-40">
+<div class="px-4 mb-8">
+<h2 class="font-label-caps text-label-caps text-outline uppercase tracking-widest mb-4">Archives Ecosystem</h2>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 p-3 bg-secondary-container dark:bg-primary-container text-on-secondary-container dark:text-on-primary-container rounded-lg mx-2 transition-all translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span class="font-label-md text-label-md">Historical Records</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant dark:text-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="vptree">mitre</span>
+<span class="font-label-md text-label-md">Genealogy</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant dark:text-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-label-md text-label-md">Economic History</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-on-surface-variant dark:text-surface-variant hover:bg-surface-variant/50 mx-2 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+<span class="font-label-md text-label-md">Public Trust</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto px-4 pb-8 border-t border-outline-variant pt-4">
+<button class="w-full py-3 bg-brass-gold text-on-primary rounded font-label-md flex items-center justify-center gap-2 mb-4">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+                Citizen Feedback
+            </button>
+<div class="space-y-2">
+<a class="flex items-center gap-3 text-on-surface-variant text-label-md" href="#"><span class="material-symbols-outlined" data-icon="settings">settings</span> Settings</a>
+<a class="flex items-center gap-3 text-on-surface-variant text-label-md" href="#"><span class="material-symbols-outlined" data-icon="help">help</span> Support</a>
+</div>
+</div>
+</aside>
+<main class="lg:ml-64 pt-24 pb-20 px-margin-mobile md:px-margin-desktop min-h-screen archive-grid">
+<div class="max-w-6xl mx-auto">
+<!-- Hero Section -->
+<section class="mb-12">
+<div class="relative overflow-hidden rounded-xl bg-forest-deep h-[400px] flex items-center">
+<div class="absolute inset-0 opacity-40">
+<img class="w-full h-full object-cover" data-alt="A macro photograph of aged, yellowed parchment documents with elegant cursive calligraphy and official red wax seals from the colonial era. The lighting is dramatic and moody, casting long shadows across the textured paper. The composition feels academic and institutional, representing the depth of Abia's sovereign history within a modern governance framework." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLNWZFyXxPC31zF6R6aU_eDxc9mjbr8VMCTpgXsZlGskGEscC4joXs8V6dXaz-pH9P0ngjcJlVfGaKKJOeKAzJ0IXVvWjzA4EjhD9s4MWpHEQXVU-Pu4mGJo8tiKAz4muZu9B49UDCzLcom_xuVe9-WOwqBV9WzpRxrGwE8qrp9wm43mi78gXVOxqXBqZq1gzpaHhL-NA4RIFI-fC8uEl7VkwEswOyQRbJUOetYYYE69NDxm3qyWnIX1ds3eXPLt-NQjfVM25q3FA">
+</div>
+<div class="relative z-10 p-8 md:p-12 max-w-2xl">
+<div class="inline-flex items-center gap-2 bg-brass-gold/20 text-brass-gold border border-brass-gold/30 px-3 py-1 rounded-full mb-6">
+<span class="material-symbols-outlined text-[18px]" data-icon="auto_awesome">auto_awesome</span>
+<span class="font-label-caps text-[10px] tracking-widest uppercase">Digital Sovereignty</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-state-white mb-4">Digital Archives &amp; Historical Records</h1>
+<p class="font-body-lg text-body-lg text-surface-variant/80">The definitive repository of Abia’s journey. From the ancient lineages of our traditional rulers to the structural colonial blueprints that shaped our statehood.</p>
+<div class="mt-8 flex gap-4">
+<button class="bg-brass-gold text-on-primary px-8 py-4 rounded font-label-md font-bold uppercase tracking-wider hover:opacity-90 transition-all">Begin Deep Dive</button>
+<button class="border border-state-white text-state-white px-8 py-4 rounded font-label-md font-bold uppercase tracking-wider hover:bg-state-white/10 transition-all">Access Vault</button>
+</div>
+</div>
+<!-- Ambient Shader Effect -->
+
+</div>
+</section>
+<!-- Searchable Media Vault -->
+<section class="mb-16">
+<div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
+<div>
+<div class="brass-accent-line mb-4"></div>
+<h2 class="font-headline-lg text-headline-lg text-forest-deep uppercase tracking-tight">Searchable Media Vault</h2>
+<p class="text-on-surface-variant mt-1">High-fidelity digitization of maps, photography, and scrolls.</p>
+</div>
+<div class="w-full md:w-96">
+<div class="relative">
+<input class="w-full bg-surface-container border-slate-gray/30 rounded-lg pl-10 pr-4 py-3 focus:ring-primary focus:border-primary" placeholder="Search lineage, events, or artifacts..." type="text">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-gray" data-icon="search">search</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Media Card 1 -->
+<div class="group relative overflow-hidden rounded-lg border border-outline-variant bg-white p-4 hover:border-brass-gold transition-all duration-300">
+<div class="relative h-48 mb-4 overflow-hidden rounded">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A vintage sepia-toned black and white photograph of an early 20th-century government building in Nigeria, featuring colonial architecture with wide verandas and white pillars. The image is crisp yet carries the authentic grain of historical film, evoking a sense of institutional nostalgia and preserved heritage in a clean, professional gallery setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsKpMZED1kchLLQrJUQtSfN9jDlI3Cx2hCxSjGKjwBOzRXzaDsQJkjCBdDQ7LjGr1HGOSTltZBzEuFyBlPWWjjnsMBGkaVMZR5GQfvP4143wXVFCAeNINXf7a64DEjFiuDbCv7vzjCl_WlbVS7ABoH0GhsmU6__4jCf1IzUs59sXReO7Zsz9cS0Ic4ch3fcpVBzN_nYq0VlB2KT_s9I-GZQV9B_G93Sol6bfF4lHfwAuEufBwG1VEPfPPP4-ql3xV0FGgvNzubEyU">
+<div class="absolute top-2 right-2 px-2 py-1 bg-forest-deep/80 text-state-white rounded text-[10px] font-label-caps">1924 Records</div>
+</div>
+<h3 class="font-headline-md text-[18px] text-forest-deep mb-2">The Ohafia Declarations</h3>
+<p class="text-body-md text-on-surface-variant line-clamp-2">Original administrative scrolls detailing the local governance frameworks during the pre-independence era.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-label-md font-bold text-brass-gold">PDF / 84MB</span>
+<button class="material-symbols-outlined text-primary hover:scale-110 transition-transform" data-icon="download">download</button>
+</div>
+</div>
+<!-- Media Card 2 -->
+<div class="group relative overflow-hidden rounded-lg border border-outline-variant bg-white p-4 hover:border-brass-gold transition-all duration-300">
+<div class="relative h-48 mb-4 overflow-hidden rounded">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="An intricate, hand-drawn map from the late 1800s showing the historical boundaries and topography of the Abia region. The map is rendered on weathered vellum with detailed ink topography and ornamental compass roses. The visual style is that of a museum archive, emphasizing historical accuracy and the aesthetic beauty of ancient cartography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJjRSquUSRSPsPcV3JZLhtrbFA5BKKgBL_aqmxnFEi4G9rzNq3ousmv6TIavppEMm5x1iXGSgb8WJM-IkeP7zMZ1sE6sOm18uS51W5c9kchUSkQaOaGTcFKXHZ2ivzluxX_LBVH1brpvhGmtu4L6MoucFo7bMMT70pXXeBraqm6uHE0bHUQ3yjPIFc8cBqzJyhvJnxe-JUc4OCYXcT84kC4UZp5Ih92sMtibNPEgjI27PAF0JZBMkBSgHMEotp3L1DhY2jN1hIL14">
+<div class="absolute top-2 right-2 px-2 py-1 bg-forest-deep/80 text-state-white rounded text-[10px] font-label-caps">Territory Map</div>
+</div>
+<h3 class="font-headline-md text-[18px] text-forest-deep mb-2">Boundary Treaties (1891)</h3>
+<p class="text-body-md text-on-surface-variant line-clamp-2">High-resolution scans of the boundary maps defining the Old Bende Division and its administrative hubs.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-label-md font-bold text-brass-gold">SVG / Interactive</span>
+<button class="material-symbols-outlined text-primary hover:scale-110 transition-transform" data-icon="open_in_new">open_in_new</button>
+</div>
+</div>
+<!-- Media Card 3 -->
+<div class="group relative overflow-hidden rounded-lg border border-outline-variant bg-white p-4 hover:border-brass-gold transition-all duration-300">
+<div class="relative h-48 mb-4 overflow-hidden rounded">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A stack of aged hardcover library books with gilded spines and textured leather covers, arranged in a dimly lit, classical archive library. The atmosphere is quiet and reverent, with soft golden light catching the dust motes and the intricate gold-leaf lettering on the book spines. The style is sophisticated, corporate, and deeply rooted in tradition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5QKxXnrRlPg0sEWtFrnjqcxM6PFnIjNv4OqJXN1GLDU_uYFWcld082iEEVt0Y086sPr3PB5VXGk9hBXnZK4kBUz1h0Qk0N5Bay_pR-HJzZv3dVBOi2-kDTDj-01txa0sF3POmToo6S8upwV7cgEPnwdI8zZAiJx6KKBX9-9TtI_1-1-5sxqsYOFq-ESI5c6yZMHt5PhRPpzTkHPtY1YDDIP_cPP_RiUdMPrRQXpEuidMHNKWNgFe4l3lB4dpApb6EPvJeTT47TDI">
+<div class="absolute top-2 right-2 px-2 py-1 bg-forest-deep/80 text-state-white rounded text-[10px] font-label-caps">Civil Service</div>
+</div>
+<h3 class="font-headline-md text-[18px] text-forest-deep mb-2">Government Gazettes Vol. 1-12</h3>
+<p class="text-body-md text-on-surface-variant line-clamp-2">Digitized collection of the very first official gazettes issued by the state administration upon its creation.</p>
+<div class="mt-4 flex items-center justify-between">
+<span class="text-label-md font-bold text-brass-gold">Database / Online</span>
+<button class="material-symbols-outlined text-primary hover:scale-110 transition-transform" data-icon="visibility">visibility</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Genealogical Registry (Bento Grid Style) -->
+<section class="mb-16">
+<div class="brass-accent-line mb-4"></div>
+<h2 class="font-headline-lg text-headline-lg text-forest-deep uppercase tracking-tight mb-8">Genealogical Registry</h2>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<div class="md:col-span-8 glass-card border border-outline-variant rounded-xl p-8 flex flex-col md:flex-row gap-8">
+<div class="flex-1">
+<h3 class="font-headline-md text-headline-md text-forest-deep mb-4">Royal Lineages Database</h3>
+<p class="text-body-md text-on-surface-variant mb-6">Explore the authenticated history of traditional leadership across Abia's 17 LGAs. Our blockchain-verified registry ensures the integrity of ancestral records for generations to come.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 p-3 bg-surface rounded border border-outline-variant/30">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="account_tree">account_tree</span>
+</div>
+<div>
+<p class="font-label-md">Verified Lineages</p>
+<p class="text-caption text-outline">1,240 Registered Families</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-3 bg-surface rounded border border-outline-variant/30">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="verified_user">verified_user</span>
+</div>
+<div>
+<p class="font-label-md">Traditional Rulers Portal</p>
+<p class="text-caption text-outline">Secure descendant authentication</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-none md:w-64">
+<div class="aspect-square bg-forest-deep rounded-lg relative overflow-hidden shadow-xl">
+<img class="w-full h-full object-cover mix-blend-luminosity" data-alt="A striking portrait-style shot of a traditional Nigerian ceremonial crown, intricately beaded with thousands of tiny multicolored glass beads and tall white feathers. The crown rests on a dark velvet pedestal under a single focused spotlight in a darkened room, creating a powerful image of authority, tradition, and sacred leadership." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX4AyUkItBQlzjXlDDDnnpOW19sv_5sv2uYNA82lUMSmrrrEVTevPLl59g9E7ItaJsQ-e3FR9W1F5zUmMLT6Vt5iotFlmyEujyFa4F6AeE7kpXlvpMfBEPVf1tfLynK6-6fOHCXuzAcemefbk10J6Tyn3oYJVVQzOEA6QPVgrf7myOJgeryOHbOU_vgC1JpvJobQm70yEReuPnC5RfH47xnGoUz9KIA_imp11BIbYRpavlYfJZEbWkBuscwnyrm1sJQLlrCk0dXMA">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep via-transparent to-transparent"></div>
+<p class="absolute bottom-4 left-4 text-state-white font-label-caps text-[10px]">Arochukwu Kingdom Regalia</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 bg-primary text-on-primary rounded-xl p-8 flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-4xl mb-6" data-icon="diversity_3" style="font-variation-settings: 'FILL' 1;">diversity_3</span>
+<h3 class="font-headline-md text-headline-md mb-2">Trace Your Heritage</h3>
+<p class="text-on-primary/80">Connect your family tree to the state's digital registry. Upload documents for verification by the State Historical Commission.</p>
+</div>
+<button class="mt-8 w-full bg-state-white text-primary py-4 rounded font-label-md font-bold uppercase tracking-wider hover:bg-secondary-container transition-all">Submit Records</button>
+</div>
+</div>
+</section>
+<!-- Virtual Museum Exhibits -->
+<section class="mb-16">
+<div class="flex justify-between items-center mb-8">
+<div>
+<div class="brass-accent-line mb-4"></div>
+<h2 class="font-headline-lg text-headline-lg text-forest-deep uppercase tracking-tight">Virtual Museum Exhibits</h2>
+</div>
+<button class="text-primary font-label-md flex items-center gap-2 hover:underline">
+                        View All Galleries <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-[500px]">
+<div class="md:col-span-2 relative group overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A minimalist, modern art gallery interior with white walls, polished grey concrete floors, and track lighting directed at several large canvas paintings of abstract geometric patterns. The space is vast and airy, reflecting a high-end light-mode aesthetic that blends contemporary museum design with historical reverence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMPdKGO64ff1j8RpzYcEo7vk-fms6Wt0OWDFv_PDFhb2Be4McBxNgXeOnCJ4IuH_htJFMy0lefGQ_MrUdhyXIAISIBht2UzkqapNAUV20BgRv2ymxXtomRNNgAc54x7Qb_RaUGub173BYwZs2HTCyBZzwaqfEABLMtsPGYRaBqywYxcZCJHPOkDfUtGqlxReW9hRp1NsFW3z-ma9_KoAKJsqUuHkrPXPlrcrrh6FaUOmKkjnoyLhY4kZUUsKItVFooG7MvCxS5x9w">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep/90 to-transparent flex flex-col justify-end p-6">
+<span class="bg-brass-gold text-on-primary px-2 py-1 rounded text-[10px] w-fit mb-2">ACTIVE EXHIBIT</span>
+<h4 class="text-state-white font-headline-md text-headline-md">Foundations of Aba</h4>
+<p class="text-state-white/70 text-body-md mt-2">A 3D walkthrough of Enyimba City's industrial evolution.</p>
+</div>
+</div>
+<div class="md:col-span-1 relative group overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A collection of traditional Igbo bronze sculptures, including masks and figurines, displayed behind a clean glass case in a modern museum. The lighting is soft and warm, highlighting the intricate textures and patina of the metalwork. The setting is clean, professional, and institutional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAraWtHw1swl0SoYuvykvlC-ll_WhADyAPzH69p3ksDb4e8ZY_x_BW4aYHR8_EKwBP5yxF4-MRQnk8U3xuoTEa12un_nPsyCSK_ajNWmoMlZqfn9gsbqynclDKEdrpxALXZ6Y7rdatc51ez5ud-fGkiQtbjFlayQwSiNKDpSV6XD3dwuu7t6WTnI3lAm-qhgoCONIJ2Aa4h2WkXU6xeYIEFPIhjzVHTmxyJLw1Gdvi-qXlKuFmJLbIFokYqFv9WNvsBDY2zmFZ0r28">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep/90 to-transparent flex flex-col justify-end p-6">
+<h4 class="text-state-white font-headline-md text-[18px]">Art of the Abia Diaspora</h4>
+</div>
+</div>
+<div class="md:col-span-1 relative group overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="An expansive, brightly lit museum hall featuring large-scale architectural models and interactive digital screens. The design is sleek and modern, utilizing a palette of whites and soft greys with subtle forest-green accents. The mood is educational, progressive, and deeply informative." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQURoQWLK7fvtci5m3avQygS5Iy3OLM66alnwfHRGIb0o9gi9ef_7cmnXZTNxIzEQkHwYzUj9xBgFFw_FVLVYhDhxP3Varugs2Nj5hRa-k6B2XbQ9VSXyDmdaoFXalDX5qxVg3DQXAQEt5-TjjAwowePN4yEff7KuNalge2A9254AyLUaPVOb0Z7kbFlA2c-oQLGxcxRmLm6VxB36h17ueFly9N9q_shC5h5XCjf8ZXu9qWMRnrfaehrDpy2pZnjB39ev69VNdvlg">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep/90 to-transparent flex flex-col justify-end p-6">
+<h4 class="text-state-white font-headline-md text-[18px]">Pre-Colonial Metallurgy</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Archive Stats Card -->
+<section class="grid grid-cols-2 md:grid-cols-4 gap-gutter mb-16">
+<div class="p-6 bg-white border border-outline-variant rounded-lg text-center">
+<p class="font-label-caps text-label-caps text-outline mb-2">Digitized Pages</p>
+<p class="font-headline-lg text-headline-lg text-forest-deep">4.2M+</p>
+</div>
+<div class="p-6 bg-white border border-outline-variant rounded-lg text-center">
+<p class="font-label-caps text-label-caps text-outline mb-2">Verified Artifacts</p>
+<p class="font-headline-lg text-headline-lg text-forest-deep">12,500</p>
+</div>
+<div class="p-6 bg-white border border-outline-variant rounded-lg text-center">
+<p class="font-label-caps text-label-caps text-outline mb-2">Genealogies</p>
+<p class="font-headline-lg text-headline-lg text-forest-deep">85,000</p>
+</div>
+<div class="p-6 bg-white border border-outline-variant rounded-lg text-center">
+<p class="font-label-caps text-label-caps text-outline mb-2">Annual Visitors</p>
+<p class="font-headline-lg text-headline-lg text-forest-deep">1.1M</p>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest dark:bg-forest-deep mt-auto border-t border-outline-variant dark:border-outline py-12">
+<div class="max-w-container-max-width mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+<div class="col-span-1 md:col-span-2">
+<span class="font-headline-lg text-headline-lg text-forest-deep dark:text-primary-fixed block mb-6">ABIA ONE</span>
+<p class="text-body-md text-on-surface-variant max-w-md">The unified digital interface for the Government of Abia State. Protecting our past, powering our future.</p>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps text-on-surface mb-6">Resources</h5>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Build Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Open Abia</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps text-on-surface mb-6">Support</h5>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold hover:underline transition-all" href="#">Help Desk</a></li>
+</ul>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-outline-variant/30 gap-4">
+<p class="font-body-md text-body-md text-on-surface-variant text-center md:text-left">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined" data-icon="facebook">face_nod</span></a>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined" data-icon="public">public</span></a>
+<a class="text-on-surface-variant hover:text-primary" href="#"><span class="material-symbols-outlined" data-icon="history">history</span></a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for hover states on cards
+        document.querySelectorAll('.group').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Search Bar Focus Effect
+        const searchInput = document.querySelector('input[type="text"]');
+        searchInput.addEventListener('focus', () => {
+            searchInput.parentElement.classList.add('ring-2', 'ring-primary/20');
+        });
+        searchInput.addEventListener('blur', () => {
+            searchInput.parentElement.classList.remove('ring-2', 'ring-primary/20');
+        });
+    </script>
+</body></html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Abia One | Women &amp; Gender Affairs</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "state-white": "#FFFFFF",
+                    "surface-container-low": "#f1f5ee",
+                    "tertiary": "#762732",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#0b6d3c",
+                    "eagle-red": "#C41E3A",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#dfe4dd",
+                    "on-primary-container": "#8ee4a8",
+                    "surface-container": "#ebefe8",
+                    "inverse-primary": "#83d99d",
+                    "primary-container": "#006838",
+                    "slate-gray": "#334155",
+                    "on-surface-variant": "#3f4940",
+                    "on-tertiary-fixed-variant": "#7b2b36",
+                    "on-primary-fixed-variant": "#00522b",
+                    "background": "#f6fbf3",
+                    "on-background": "#181d19",
+                    "on-secondary": "#ffffff",
+                    "forest-green": "#006838",
+                    "on-tertiary-fixed": "#40000e",
+                    "outline-variant": "#bec9be",
+                    "primary-fixed-dim": "#83d99d",
+                    "on-surface": "#181d19",
+                    "on-tertiary-container": "#ffc3c6",
+                    "secondary-fixed": "#ffe088",
+                    "on-secondary-container": "#745c00",
+                    "on-primary-fixed": "#00210e",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#943e48",
+                    "on-secondary-fixed-variant": "#574500",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff",
+                    "secondary-container": "#fed65b",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2d322d",
+                    "tertiary-fixed": "#ffdadb",
+                    "surface-container-highest": "#dfe4dd",
+                    "surface-bright": "#f6fbf3",
+                    "primary": "#004d28",
+                    "inverse-on-surface": "#eef2eb",
+                    "surface": "#f6fbf3",
+                    "surface-container-high": "#e5e9e2",
+                    "outline": "#6f7a70",
+                    "secondary": "#735c00",
+                    "on-secondary-fixed": "#241a00",
+                    "surface-dim": "#d7dbd4",
+                    "tertiary-fixed-dim": "#ffb2b7",
+                    "primary-fixed": "#9ef5b8",
+                    "secondary-fixed-dim": "#e9c349",
+                    "brass-gold": "#D4AF37"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "gutter": "24px",
+                    "max-width": "1440px",
+                    "margin-desktop": "64px",
+                    "base": "4px"
+            },
+            "fontFamily": {
+                    "label-md": ["JetBrains Mono"],
+                    "caption": ["Hanken Grotesk"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "body-md": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "display-lg": ["Montserrat"]
+            },
+            "fontSize": {
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            -webkit-tap-highlight-color: transparent;
+            overscroll-behavior-y: contain;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .bento-item-large {
+            grid-column: span 2;
+        }
+        .scroll-hide::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md text-body-md overflow-x-hidden pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background border-b border-outline-variant">
+<div class="flex items-center justify-between px-margin-mobile h-16 w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green tracking-tight">ABIA ONE</h1>
+</div>
+<button class="hover:opacity-80 transition-opacity active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-forest-green" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="mt-20 px-margin-mobile">
+<!-- Hero Section / Identity -->
+<section class="mb-8">
+<div class="relative rounded-xl overflow-hidden aspect-[16/9] mb-4">
+<img class="w-full h-full object-cover" data-alt="A professional Nigerian female entrepreneur in a brightly lit modern office setting, smiling confidently. She is dressed in colorful, elegant business attire. The environment is clean and professional with soft natural light, conveying a sense of empowerment, modern governance, and corporate success. The color palette features subtle forest green and brass gold accents to align with the ministry's brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1DTR-s9phwMyPFi8B_3rSeJcyi4nvJB5ReNp8iJ0LmUGW8rGwRhxcOfpEO344x0i2c-WAYfqrHgyxKSo3dJ0JMZWXGZSsoxzoTOhx0YW0pZRihdjO48RLyapb6-sLrG2lsX2znaZFOmdfjyFwIc8x3UEb2FLVKykoCag1a9epjTt7Ixh4pB2X2zDhUPwoORSl-Xt7ybOeiewDYvZrxJG2EhmWrbVmTGD7vINKM2UpU7PxRBj5KAWX5BK_Nxztch_qV4nx5uDWbDs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-forest-green/80 to-transparent flex flex-col justify-end p-6">
+<h2 class="font-headline-md text-headline-md text-state-white mb-1">Women’s Portal</h2>
+<p class="font-body-md text-body-md text-state-white/90">Empowering the pillars of Abia State.</p>
+</div>
+</div>
+</section>
+<!-- Quick Stats -->
+<div class="flex gap-4 overflow-x-auto scroll-hide mb-8 pb-2">
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-lg min-w-[140px] flex-shrink-0">
+<span class="font-caption text-caption text-on-surface-variant block mb-1">Loan Status</span>
+<span class="font-headline-md text-headline-md text-forest-green">₦250k</span>
+<div class="flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-forest-green text-[14px]" data-icon="check_circle">check_circle</span>
+<span class="font-caption text-caption text-forest-green">Approved</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-lg min-w-[140px] flex-shrink-0">
+<span class="font-caption text-caption text-on-surface-variant block mb-1">Skills Level</span>
+<span class="font-headline-md text-headline-md text-forest-green">Lvl 4</span>
+<div class="w-full bg-surface-variant h-1 rounded-full mt-3 overflow-hidden">
+<div class="bg-forest-green h-full w-3/4"></div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-4 rounded-lg min-w-[140px] flex-shrink-0">
+<span class="font-caption text-caption text-on-surface-variant block mb-1">Health Update</span>
+<span class="font-headline-md text-headline-md text-eagle-red">Day 14</span>
+<span class="font-caption text-caption text-on-surface-variant block mt-1">Cycle Tracking</span>
+</div>
+</div>
+<!-- Main Bento Services -->
+<h3 class="font-headline-md text-headline-md mb-4 text-on-surface">Digital Services</h3>
+<div class="bento-grid mb-8">
+<!-- Micro-Credit -->
+<div class="bento-item-large bg-surface-container-lowest border border-outline-variant p-5 rounded-lg flex items-center justify-between group active:scale-[0.98] transition-transform">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-forest-green" data-icon="payments">payments</span>
+<h4 class="font-headline-md text-headline-md text-forest-green">Micro-Credit</h4>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-[200px]">Access soft loans for your business growth.</p>
+</div>
+<div class="bg-secondary-container p-3 rounded-full">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+<!-- Vocational Training -->
+<div class="bg-surface-container-lowest border border-outline-variant p-5 rounded-lg flex flex-col active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-forest-green mb-4" data-icon="school">school</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Skills Hub</h4>
+<p class="font-caption text-caption text-on-surface-variant">Track your vocational progress and certificates.</p>
+</div>
+<!-- Maternal Health -->
+<div class="bg-surface-container-lowest border border-outline-variant p-5 rounded-lg flex flex-col active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-eagle-red mb-4" data-icon="medical_services">medical_services</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-2">Health</h4>
+<p class="font-caption text-caption text-on-surface-variant">Access maternal resources and clinical appointments.</p>
+</div>
+<!-- Community Forums -->
+<div class="bento-item-large bg-forest-green p-5 rounded-lg flex items-center justify-between text-state-white active:scale-[0.98] transition-transform">
+<div class="flex flex-col">
+<h4 class="font-headline-md text-headline-md mb-1">Empowerment Forum</h4>
+<p class="font-body-md text-body-md opacity-90">Connect with fellow female leaders in Abia.</p>
+</div>
+<span class="material-symbols-outlined text-[40px] opacity-20" data-icon="groups">groups</span>
+</div>
+</div>
+<!-- Recent Activity / News -->
+<h3 class="font-headline-md text-headline-md mb-4 text-on-surface">Announcement Box</h3>
+<div class="space-y-3 mb-12">
+<div class="flex gap-4 p-4 bg-surface-container-low rounded-lg border-l-4 border-brass-gold">
+<div class="flex-shrink-0 w-12 h-12 rounded bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green" data-icon="campaign">campaign</span>
+</div>
+<div>
+<h5 class="font-headline-md text-[16px] leading-tight text-on-surface">New Grant for Agro-Entrepreneurs</h5>
+<p class="font-caption text-caption text-on-surface-variant mt-1">Applications open Monday. Eligibility criteria updated in the portal docs.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 bg-surface-container-low rounded-lg">
+<div class="flex-shrink-0 w-12 h-12 rounded bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green" data-icon="event">event</span>
+</div>
+<div>
+<h5 class="font-headline-md text-[16px] leading-tight text-on-surface">Gender Equality Summit 2024</h5>
+<p class="font-caption text-caption text-on-surface-variant mt-1">Umuahia Convention Center. Registration is free for all portal users.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- FAB for quick action -->
+<button class="fixed bottom-24 right-6 w-14 h-14 bg-forest-green text-state-white rounded-full shadow-lg flex items-center justify-center active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined" data-icon="add" style="font-variation-settings: 'FILL' 0, 'wght' 600;">add</span>
+</button>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 bg-surface-container-lowest border-t border-outline-variant shadow-sm rounded-t-full">
+<div class="flex justify-around items-center h-20 w-full px-base pb-safe">
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</a>
+</div>
+</nav>
+<script>
+        // Micro-interaction: Card scale on press
+        document.querySelectorAll('.bento-grid > div').forEach(card => {
+            card.addEventListener('touchstart', () => {
+                card.classList.add('scale-[0.98]');
+            });
+            card.addEventListener('touchend', () => {
+                card.classList.remove('scale-[0.98]');
+            });
+        });
+
+        // Simple visibility observer for lazy-loading logic feel
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section, h3, .bento-grid > div').forEach(el => {
+            el.classList.add('transition-all', 'duration-500', 'ease-out', 'opacity-0', 'translate-y-4');
+            observer.observe(el);
+        });
+    </script>
+</body></html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>ABIA ONE | Tourism &amp; Culture</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "state-white": "#FFFFFF",
+                    "surface-container-low": "#f1f5ee",
+                    "tertiary": "#762732",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#0b6d3c",
+                    "eagle-red": "#C41E3A",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#dfe4dd",
+                    "on-primary-container": "#8ee4a8",
+                    "surface-container": "#ebefe8",
+                    "inverse-primary": "#83d99d",
+                    "primary-container": "#006838",
+                    "slate-gray": "#334155",
+                    "on-surface-variant": "#3f4940",
+                    "on-tertiary-fixed-variant": "#7b2b36",
+                    "on-primary-fixed-variant": "#00522b",
+                    "background": "#f6fbf3",
+                    "on-background": "#181d19",
+                    "on-secondary": "#ffffff",
+                    "forest-green": "#006838",
+                    "on-tertiary-fixed": "#40000e",
+                    "outline-variant": "#bec9be",
+                    "primary-fixed-dim": "#83d99d",
+                    "on-surface": "#181d19",
+                    "on-tertiary-container": "#ffc3c6",
+                    "secondary-fixed": "#ffe088",
+                    "on-secondary-container": "#745c00",
+                    "on-primary-fixed": "#00210e",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#943e48",
+                    "on-secondary-fixed-variant": "#574500",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff",
+                    "secondary-container": "#fed65b",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2d322d",
+                    "tertiary-fixed": "#ffdadb",
+                    "surface-container-highest": "#dfe4dd",
+                    "surface-bright": "#f6fbf3",
+                    "primary": "#004d28",
+                    "inverse-on-surface": "#eef2eb",
+                    "surface": "#f6fbf3",
+                    "surface-container-high": "#e5e9e2",
+                    "outline": "#6f7a70",
+                    "secondary": "#735c00",
+                    "on-secondary-fixed": "#241a00",
+                    "surface-dim": "#d7dbd4",
+                    "tertiary-fixed-dim": "#ffb2b7",
+                    "primary-fixed": "#9ef5b8",
+                    "secondary-fixed-dim": "#e9c349",
+                    "brass-gold": "#D4AF37"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "gutter": "24px",
+                    "max-width": "1440px",
+                    "margin-desktop": "64px",
+                    "base": "4px"
+            },
+            "fontFamily": {
+                    "label-md": ["JetBrains Mono"],
+                    "caption": ["Hanken Grotesk"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "body-md": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "display-lg": ["Montserrat"]
+            },
+            "fontSize": {
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #f6fbf3;
+            color: #181d19;
+            -webkit-tap-highlight-color: transparent;
+            overflow-x: hidden;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .bento-item-large {
+            grid-column: span 2;
+        }
+        @keyframes subtle-zoom {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+        .zoom-bg {
+            animation: subtle-zoom 20s infinite alternate linear;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="font-body-md text-body-md pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background border-b border-outline-variant">
+<div class="flex items-center justify-between px-margin-mobile h-16 w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green tracking-tight">ABIA ONE</h1>
+</div>
+<button class="hover:opacity-80 transition-opacity active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-forest-green" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="mt-16 px-margin-mobile">
+<!-- Hero Storytelling Section -->
+<section class="relative h-[420px] -mx-margin-mobile mb-8 overflow-hidden">
+<div class="absolute inset-0 zoom-bg">
+<img class="w-full h-full object-cover" data-alt="A cinematic, low-angle shot of the lush green landscapes of Abia State, Nigeria, featuring rolling hills and traditional architecture under a soft golden hour sun. The color palette is dominated by deep forest greens and warm brass golds, conveying a sense of institutional pride and natural beauty. The lighting is ethereal and professional, reflecting the modern governance aesthetic of the Abia One platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLzObWmQ0s_AUVEnpdze-WufTnR8SM0SC6ALOhucOzwXe2wJ9BUfcKmPGJaOAxng6xJbRUtus4Vwc3CaurCeLa9gJko9zUdzBf65IK299eZq6dEseZD5yFSn21n9wb2PVqzWo6vhhrIxtER2icIBiRD7i22yl-xjL21rrAYo9aS8TMQU0eas2PVNmPyYVHthmezJ8fr_BnRzOpyNfvSE5dmwYWfmVm0KjMlkJrCsmfRWwvavuP4vn7Fpz2Re1zhu-Ox1FQjbq1-f8"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background via-on-background/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 w-full p-margin-mobile">
+<span class="inline-block bg-brass-gold text-on-secondary px-3 py-1 rounded-lg font-label-md text-label-md mb-3 uppercase tracking-widest">Featured</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-state-white font-bold leading-tight mb-2">Abia Treasures: Journey into the Heartland</h2>
+<p class="text-surface-variant font-body-md line-clamp-2">Discover the soul of God's Own State, from the historic Long Juju Slave Route to the rhythmic celebrations of Iri Ji.</p>
+<button class="mt-4 bg-forest-green text-state-white px-6 py-3 rounded-lg font-headline-md text-sm flex items-center gap-2 active:scale-95 transition-transform">
+                    Start Your Virtual Tour
+                    <span class="material-symbols-outlined" data-icon="explore">explore</span>
+</button>
+</div>
+</section>
+<!-- Virtual Heritage Map Quick Access -->
+<section class="mb-8">
+<div class="flex justify-between items-end mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-forest-green">Heritage Map</h3>
+<p class="text-on-surface-variant text-caption">Explore historical landmarks</p>
+</div>
+<button class="text-forest-green font-label-md text-label-md flex items-center gap-1">
+                    View Full <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="relative w-full h-48 rounded-xl overflow-hidden border border-outline-variant shadow-sm bg-surface-container">
+<div class="absolute inset-0 opacity-40">
+
+</div>
+<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+<div class="bg-state-white/90 backdrop-blur p-4 rounded-full border border-forest-green/20">
+<span class="material-symbols-outlined text-forest-green text-4xl" data-icon="location_on" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+</div>
+<div class="absolute bottom-3 left-3 flex gap-2">
+<span class="bg-forest-green text-state-white px-2 py-1 rounded-md text-[10px] font-bold">LIVE COORDINATES</span>
+<span class="bg-state-white text-forest-green px-2 py-1 rounded-md text-[10px] font-bold">128 SITES</span>
+</div>
+</div>
+</section>
+<!-- Festival Calendar (Iri Ji) -->
+<section class="mb-8">
+<h3 class="font-headline-md text-headline-md text-forest-green mb-4">Cultural Calendar</h3>
+<div class="flex gap-4 overflow-x-auto hide-scrollbar -mx-margin-mobile px-margin-mobile">
+<!-- Card 1 -->
+<div class="min-w-[280px] bg-state-white border border-outline-variant rounded-xl overflow-hidden flex flex-col">
+<div class="h-32 relative">
+<img class="w-full h-full object-cover" data-alt="A vibrant cultural festival scene in Abia State, showing performers in colorful traditional Igbo attire during the New Yam Festival. The lighting is bright and festive, with a deep green and gold color scheme that matches the state brand. The image captures the high energy and authentic atmosphere of Nigerian heritage celebrations." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj9LgkwgZUyihISQRLxB3J0g9hJcWIDsru9t-5YyOodavBWZ2SQvOiOoCJ-gCULZaAlX12it4RC7mhOrfMuEDexjhs9tlyFtcQkndasZVe40MhvlihInf-UGbLrkmHyc-mBfCAkUSlpCZLOBOKnfbqBLQEMz_bYD3qpm_f-HkMgArhk-PURzqC4rFVajTL8ib_TrtGIqFcN3ONw0_ImMbBTndCromYvAnlJ6OjgXVoRWpIk0qvf58FmCqhKA7WOy9BgnZpjLRs3EM"/>
+<div class="absolute top-2 right-2 bg-eagle-red text-state-white px-2 py-1 rounded-md font-label-md text-[10px]">UPCOMING</div>
+</div>
+<div class="p-4">
+<h4 class="font-headline-md text-lg text-on-background mb-1">Iri Ji (New Yam) Festival</h4>
+<div class="flex items-center gap-2 text-on-surface-variant text-caption mb-3">
+<span class="material-symbols-outlined text-[16px]" data-icon="calendar_today">calendar_today</span>
+                            August 24 - 28, 2024
+                        </div>
+<p class="text-on-surface-variant text-sm mb-4 line-clamp-2">The grand celebration of harvest across Abia communities, featuring the King of Crops.</p>
+<div class="flex items-center justify-between">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-surface-container flex items-center justify-center text-[10px] font-bold">5k+</div>
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-slate-gray"></div>
+</div>
+<button class="border border-forest-green text-forest-green px-4 py-1.5 rounded-lg font-label-md text-xs">RSVP</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[280px] bg-state-white border border-outline-variant rounded-xl overflow-hidden flex flex-col">
+<div class="h-32 relative">
+<img class="w-full h-full object-cover" data-alt="Close-up of traditional wooden masks and intricate carvings in an Abia heritage museum. The lighting is dramatic and focused, highlighting the textures of the wood and the artisan craftsmanship. The background is a clean, neutral surface that emphasizes the rich brown and gold tones of the artifacts." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOx86lOVvaqgscAfMnrwyg7bMpNugTEvzq0Src44nxLxd0fzcFb3W4LivzJ41jPPPs26nbpGFS4Xd0Dj098Be8P7SN6f_t-4g-45qfAYbs58uW04oYxiAa0ZOewbk9J1Nl4JBwPzBaBbuDHE4rBU3BVR5PTAaTU3h6JxWS4lSd_UXAkYISegOJW_2090W9s1R6FXnisrTAyG6hHpHyo_w69BV3cI4F-R7Xor5WzXuv7OtUrbQ6rWzSQ4mHACNDIL_N5SbWrHVPQn0"/>
+<div class="absolute top-2 right-2 bg-forest-green text-state-white px-2 py-1 rounded-md font-label-md text-[10px]">CULTURAL</div>
+</div>
+<div class="p-4">
+<h4 class="font-headline-md text-lg text-on-background mb-1">Ekpe Masquerade</h4>
+<div class="flex items-center gap-2 text-on-surface-variant text-caption mb-3">
+<span class="material-symbols-outlined text-[16px]" data-icon="calendar_today">calendar_today</span>
+                            September 12, 2024
+                        </div>
+<p class="text-on-surface-variant text-sm mb-4 line-clamp-2">A secret society ritual turned public spectacle, showcasing ancient lore and dance.</p>
+<div class="flex items-center justify-between">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-surface-container flex items-center justify-center text-[10px] font-bold">2k+</div>
+</div>
+<button class="border border-forest-green text-forest-green px-4 py-1.5 rounded-lg font-label-md text-xs">View Info</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Artisan Market Guide (Bento Grid) -->
+<section class="mb-12">
+<h3 class="font-headline-md text-headline-md text-forest-green mb-4">Artisan Market Guide</h3>
+<div class="bento-grid">
+<!-- Large Item -->
+<div class="bento-item-large relative h-48 rounded-xl overflow-hidden border border-outline-variant">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A high-end artisan leather goods workshop in Aba, Abia State, featuring skilled craftsmen working on premium handmade shoes. The workspace is organized and modern, with tools laid out systematically. The lighting is bright and clean, emphasizing a professional industrial aesthetic consistent with the Abia One brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaYjvYtYN8G8N1m2-FxtP4tuBxKbjw_bptm_B940aLRMvuoJGTfp5KSTUvBoTPtp4-Al8t4cZrWJ4UMiqjYfOpkhHLe46WAL9h-cWZkyD2Iq1xHp5tG3gdnrn_Gy6SAjOZ7AGX-GphSihqHubrZmvVYFs7S3KCyrgD7Mgz8850102GqAOSkBVbCvYoiW1q7r5CsvfxZwY45i3IGAxZRKDiwnQybbPGnaR94BW4mg2sOSiWU1QuBVIdzUtrQ9uodaJvIHOjUZq6wz0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<div class="text-brass-gold font-label-md text-[10px] mb-1">CRAFTSMANSHIP</div>
+<h5 class="text-state-white font-headline-md text-lg leading-tight">Aba Leather Hub: Custom Footwear</h5>
+</div>
+</div>
+<!-- Small Item 1 -->
+<div class="relative h-40 rounded-xl overflow-hidden border border-outline-variant">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Intricately woven Akwete textiles from Abia State, showing geometric patterns and vibrant threads. The photo is a high-resolution close-up that highlights the texture and professional quality of the weaving. The overall feel is one of sophisticated heritage and luxury artistry." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnvNqH_4fRL87xCPhPSLlbTJqDbz1tQIUGk0Oi6RZGMEEW1x-1LtKP9ccpLRKM9MgOg9tpahzBXVVcPLOujhqXnEi2DaVzPwh0yDiel5bMRRAMr5igI7o6vjyA0QznDUZli792TR9JmGtZkNi90FjA2Hpy5NFxq65MO193f9r_thZR28y1GIUE0sSFCQ9-ZvZoGoCd9qZrFFtDt4YadCs0RLY6fPvcH-E-uFJmx7iHv-UHy5LQaV1eGfI-KGC2WZ5-8cJ-5xazjZw"/>
+<div class="absolute inset-0 bg-on-background/40"></div>
+<div class="absolute bottom-3 left-3">
+<h5 class="text-state-white font-headline-md text-sm">Akwete Weaving</h5>
+</div>
+</div>
+<!-- Small Item 2 -->
+<div class="relative h-40 rounded-xl overflow-hidden border border-outline-variant">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A modern display of traditional bronze and metal sculptures in a minimalist Abia gallery. The sculptures are lit with precision spotlights, creating a professional museum atmosphere. The color palette is composed of metallic ochre, deep greens, and neutral grays." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6xrXzB9exE9JI79L6Ck_khSNt5BOosXhcw9B8bfbGu3QXac8RUgf215eK-R2V_otWap0bb3vadxmv_C1QtpbWXruB0RNTzSyYAQBT1RlENkMLWnvmjIbmeqIYh9jRCHbHreSwLBm14tdO4j-F74xaY42inzeMLgLfxP0f9LcBrtc0ET-M1E5aOKfziiQizMkWzbn4K-VHDVLNb15YpaNfzuz3dE9WDGT6sp0X6TRfWwgXadfMcmoGwmfmxdMA09uCJtQresISf_s"/>
+<div class="absolute inset-0 bg-on-background/40"></div>
+<div class="absolute bottom-3 left-3">
+<h5 class="text-state-white font-headline-md text-sm">Bronze Casting</h5>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Counter Section -->
+<section class="bg-primary-container text-on-primary-container p-6 rounded-2xl mb-8 flex justify-around text-center border border-forest-green">
+<div>
+<div class="font-display-lg text-3xl font-bold mb-1">42</div>
+<div class="font-label-md text-[10px] uppercase opacity-80">Heritage Sites</div>
+</div>
+<div class="w-[1px] bg-on-primary-container/20 h-full"></div>
+<div>
+<div class="font-display-lg text-3xl font-bold mb-1">12</div>
+<div class="font-label-md text-[10px] uppercase opacity-80">Festivals / Year</div>
+</div>
+<div class="w-[1px] bg-on-primary-container/20 h-full"></div>
+<div>
+<div class="font-display-lg text-3xl font-bold mb-1">500+</div>
+<div class="font-label-md text-[10px] uppercase opacity-80">Local Artisans</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 rounded-t-full border-t border-outline-variant bg-surface-container-lowest shadow-sm">
+<div class="flex justify-around items-center h-20 w-full px-base pb-safe">
+<!-- Hub is active because this is a core portal destination -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</button>
+<button class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</div>
+</nav>
+<!-- Contextual FAB - Suppression on Scroll/Sub-pages logic usually goes here -->
+<button class="fixed bottom-24 right-6 w-14 h-14 bg-forest-green text-state-white rounded-full shadow-lg flex items-center justify-center active:scale-95 transition-transform z-40 border border-on-primary/20">
+<span class="material-symbols-outlined text-2xl" data-icon="travel_explore">travel_explore</span>
+</button>
+<script>
+        // Simple Micro-interaction for Hub selection
+        const navItems = document.querySelectorAll('nav button');
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navItems.forEach(i => {
+                    i.classList.remove('bg-secondary-container', 'text-on-secondary-container', 'rounded-full');
+                    i.classList.add('text-on-surface-variant');
+                });
+                item.classList.add('bg-secondary-container', 'text-on-secondary-container', 'rounded-full');
+                item.classList.remove('text-on-surface-variant');
+            });
+        });
+
+        // Atmospheric parallax on hero scroll
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroImage = document.querySelector('.zoom-bg');
+            if (heroImage) {
+                heroImage.style.transform = `translateY(${scrolled * 0.3}px) scale(${1 + scrolled * 0.0005})`;
+            }
+        });
+    </script>
+</body></html>

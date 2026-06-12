@@ -1,0 +1,346 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Serve Abia | Land &amp; Property Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#dfe4dd",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "on-secondary-fixed": "#241a00",
+                        "forest-green": "#006838",
+                        "brass-gold": "#D4AF37",
+                        "on-surface-variant": "#3f4940",
+                        "tertiary": "#762732",
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#f6fbf3",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#0b6d3c",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary-container": "#943e48",
+                        "surface-bright": "#f6fbf3",
+                        "slate-gray": "#334155",
+                        "surface-container-high": "#e5e9e2",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#745c00",
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#fed65b",
+                        "on-tertiary-container": "#ffc3c6",
+                        "surface-container": "#ebefe8",
+                        "surface-variant": "#dfe4dd",
+                        "eagle-red": "#C41E3A",
+                        "secondary-fixed": "#ffe088",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary": "#ffffff",
+                        "state-white": "#FFFFFF",
+                        "on-primary-container": "#8ee4a8",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#006838",
+                        "surface": "#f6fbf3",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "inverse-on-surface": "#eef2eb",
+                        "outline-variant": "#bec9be",
+                        "inverse-primary": "#83d99d",
+                        "secondary": "#735c00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-surface": "#2d322d",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-surface": "#181d19",
+                        "outline": "#6f7a70",
+                        "surface-container-low": "#f1f5ee",
+                        "on-tertiary-fixed": "#40000e",
+                        "on-secondary-fixed-variant": "#574500",
+                        "surface-dim": "#d7dbd4",
+                        "secondary-fixed-dim": "#e9c349",
+                        "primary": "#004d28",
+                        "on-background": "#181d19"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "max-width": "1440px",
+                        "base": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-md": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #f6fbf3;
+            color: #181d19;
+            -webkit-font-smoothing: antialiased;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(8px);
+            border: 1px solid #E2E8F0;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-background dark:bg-inverse-surface border-b border-outline-variant dark:border-outline">
+<nav class="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
+<div class="flex items-center gap-4">
+<span class="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed">ABIA ONE</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Economy</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Digital Gov</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Governance</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors" href="#">Security</a>
+<div class="ml-4 px-6 py-2 bg-primary-container text-on-primary font-semibold rounded-lg cursor-pointer transition-all duration-200 active:opacity-80">
+                    Citizen Portal
+                </div>
+</div>
+<!-- Search Bar (on_right) -->
+<div class="flex items-center gap-2 bg-surface-container rounded-full px-4 py-2 border border-outline-variant">
+<span class="material-symbols-outlined text-on-surface-variant">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-body-md w-48" placeholder="Search services..." type="text">
+</div>
+</nav>
+</header>
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-20 h-screen w-64 bg-surface-container-low dark:bg-surface-dim border-r border-outline-variant flex flex-col py-6 hidden lg:flex">
+<div class="px-6 mb-8">
+<h2 class="font-headline-md text-headline-md font-bold text-primary">Navigation</h2>
+<p class="text-caption font-caption text-on-surface-variant">State Operating System</p>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span>Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 text-forest-green dark:text-primary-fixed font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+<span>Digital Government</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="#">
+<span class="material-symbols-outlined">gavel</span>
+<span>Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant dark:text-surface-variant px-4 py-3 hover:bg-surface-variant dark:hover:bg-inverse-surface transition-colors" href="#">
+<span class="material-symbols-outlined">verified_user</span>
+<span>Public Trust</span>
+</a>
+</nav>
+<div class="mt-auto px-4 py-6 border-t border-outline-variant">
+<button class="w-full bg-forest-green text-white py-3 rounded font-medium mb-4 transition-all duration-200 active:scale-95">Launch Service</button>
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-3 text-on-surface-variant px-4 py-2 hover:bg-surface-variant transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant px-4 py-2 hover:bg-surface-variant transition-colors" href="#">
+<span class="material-symbols-outlined">help</span>
+<span>Support</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="lg:ml-64 pt-24 pb-12 px-margin-mobile md:px-gutter max-w-max-width mx-auto">
+<!-- Hero Section -->
+<section class="mb-12 relative h-80 rounded-xl overflow-hidden flex items-center px-12">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="An expansive, high-angle aerial view of lush agricultural land in Abia State, featuring a mix of cultivated fields and rolling green hills under a bright, clear morning sun. The lighting is golden and warm, highlighting the rich textures of the terrain. The aesthetic is clean and professional, using a natural color palette of deep greens and earthy browns to convey growth and potential. This scene represents the vast land resources of the state being mapped and managed digitally." src="https://lh3.googleusercontent.com/aida-public/AB6AXuABvRDvNFkE3CS6ZDyFaLrMq7Cy6_MzkeIvHU2nXifi8_ZM9h47xKLmoBNHW27mSkQP21n93vvFmGaAnY2_NLcR-BxEZRhzBWJ8q7JI4UtnK7criMYeOByCmmBa_58Z1s-LMzIIH4Su9V0c3hN0OLc5jIAstgXqmTu9pPFbgRSFEpC4ExIyYWUdC-41wEOK8Gw7BomP_rNbyTxxP2LAC1_tF0JNyU7bmwpcLjgU1nJ5cwxhOjntMO8blWy5EHp3c6eVpfNDURb4TtE">
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 text-white max-w-2xl">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-4">Land &amp; Property Services</h1>
+<p class="font-body-lg text-body-lg opacity-90">Streamlining Certificate of Occupancy, GIS Mapping, and Land Use Charge payments for a transparent Abia.</p>
+</div>
+</section>
+<!-- Bento Grid Layout -->
+<div class="bento-grid">
+<!-- Track Land Title Widget -->
+<div class="col-span-12 md:col-span-4 bg-white border border-outline-variant p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-primary">Track Land Title</h3>
+<span class="material-symbols-outlined text-brass-gold">search_check</span>
+</div>
+<div class="space-y-4">
+<div>
+<label class="block text-caption font-caption text-on-surface-variant mb-1">Application Number</label>
+<input class="w-full bg-surface-container border border-outline-variant rounded px-4 py-2 focus:ring-2 focus:ring-forest-green outline-none font-label-md" placeholder="AB/LAND/2024/XXXX" type="text">
+</div>
+<button class="w-full bg-forest-green text-white py-3 rounded font-medium transition-all hover:opacity-90">Verify Status</button>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant flex gap-4">
+<div class="flex-1">
+<p class="text-caption font-caption text-on-surface-variant">Last Update</p>
+<p class="font-medium">14 mins ago</p>
+</div>
+<div class="flex-1">
+<p class="text-caption font-caption text-on-surface-variant">Total Queries</p>
+<p class="font-medium">12,402</p>
+</div>
+</div>
+</div>
+<!-- Core Services -->
+<div class="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Service Card 1 -->
+<div class="bg-white border border-outline-variant p-6 rounded-xl hover:border-brass-gold transition-colors group cursor-pointer">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center mb-4 group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">description</span>
+</div>
+<h4 class="font-headline-md text-[20px] font-semibold mb-2">C of O Application</h4>
+<p class="text-on-surface-variant font-body-md mb-4 leading-relaxed">Apply for digital Certificate of Occupancy with accelerated 30-day processing timelines.</p>
+<div class="flex items-center text-primary font-semibold gap-2">
+<span>Begin Application</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-white border border-outline-variant p-6 rounded-xl hover:border-brass-gold transition-colors group cursor-pointer">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center mb-4 group-hover:bg-primary-container group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<h4 class="font-headline-md text-[20px] font-semibold mb-2">Land Use Charge</h4>
+<p class="text-on-surface-variant font-body-md mb-4 leading-relaxed">Secure payment gateway for annual property levies and institutional land use charges.</p>
+<div class="flex items-center text-primary font-semibold gap-2">
+<span>Pay Now</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- GIS Mapping Card -->
+<div class="col-span-1 md:col-span-2 bg-inverse-surface text-white p-8 rounded-xl relative overflow-hidden">
+<div class="relative z-10 md:w-1/2">
+<span class="bg-brass-gold text-on-secondary px-3 py-1 text-caption font-label-md rounded mb-4 inline-block">GIS ACTIVE</span>
+<h3 class="font-headline-lg text-headline-lg mb-4">Statewide GIS Mapping</h3>
+<p class="opacity-80 mb-6">Interactive spatial data for investors and developers. Access topography, boundary lines, and infrastructure overlays in real-time.</p>
+<button class="border-2 border-brass-gold text-brass-gold px-8 py-3 rounded font-bold hover:bg-brass-gold hover:text-on-secondary transition-all">Explore Map Layers</button>
+</div>
+<div class="absolute top-0 right-0 h-full w-1/2 hidden md:block opacity-40">
+<img class="w-full h-full object-cover" data-alt="A sophisticated digital map interface displaying complex GIS data layers including topography, parcel boundaries, and utility lines. The UI is dark-themed with glowing neon blue and gold highlights to indicate data density. The composition is technical and precise, suggesting a powerful state-operated mapping software. It uses sharp lines and data visualizations to communicate transparency and institutional authority." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_6-0fxJUYVRYj-LVyh-DGg7e573D5BS8Ju-kGconlAzqBXY8RITK8q_cNTtabXy3sbUah_-rK6YmMwARanuaIQtDpT6cAX5ufG_JxMB2iyJUFgmv1PPAO-oB3mfnDSSwQa2koDH7Mru6weq8jBN-HNkWAQCfjTr1scuD435nQxQHa8hniYTYpV7jS6eLJxsS97UAqZ-zCTdyzooIyEey92ldost21Vir0cQnX9VAQYNT864gF-MQHXOgXhP1xEjwnjQbrZyzune8">
+</div>
+</div>
+</div>
+<!-- Recent Notifications / Statistics -->
+<div class="col-span-12 md:col-span-7 bg-surface-container-low border border-outline-variant p-8 rounded-xl">
+<h3 class="font-headline-md text-headline-md mb-6 flex items-center gap-3">
+<span class="w-1 h-8 bg-brass-gold"></span>
+                    Operational Statistics
+                </h3>
+<div class="grid grid-cols-3 gap-6">
+<div class="text-center">
+<p class="font-display-lg text-[40px] text-forest-green font-bold">8,540</p>
+<p class="text-caption font-caption uppercase tracking-wider text-on-surface-variant">C of O Issued</p>
+</div>
+<div class="text-center">
+<p class="font-display-lg text-[40px] text-forest-green font-bold">12.4k</p>
+<p class="text-caption font-caption uppercase tracking-wider text-on-surface-variant">Mapped Plots</p>
+</div>
+<div class="text-center">
+<p class="font-display-lg text-[40px] text-forest-green font-bold">98%</p>
+<p class="text-caption font-caption uppercase tracking-wider text-on-surface-variant">Online Success</p>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-5 flex flex-col gap-6">
+<div class="bg-white border border-outline-variant p-6 rounded-xl flex items-center gap-6">
+<div class="bg-eagle-red/10 text-eagle-red p-3 rounded">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">warning</span>
+</div>
+<div>
+<h5 class="font-bold">Public Notice</h5>
+<p class="text-body-md text-on-surface-variant">Renewal of all commercial leases due by Oct 31st.</p>
+</div>
+</div>
+<div class="bg-secondary-container p-6 rounded-xl flex items-center gap-6">
+<div class="bg-on-secondary-container text-white p-3 rounded">
+<span class="material-symbols-outlined">help_center</span>
+</div>
+<div>
+<h5 class="font-bold text-on-secondary-container">Need Assistance?</h5>
+<p class="text-body-md text-on-secondary-container">Talk to a Land Officer via Live Chat.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="relative bottom-0 w-full bg-surface-container-highest dark:bg-inverse-surface border-t border-outline-variant dark:border-outline">
+<div class="flex flex-col md:flex-row justify-between items-center py-gutter px-margin-desktop max-w-max-width mx-auto gap-8">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-headline-md text-headline-md text-primary mb-2">ABIA ONE</span>
+<p class="font-caption text-caption text-on-surface-variant text-center md:text-left">
+                    © 2024 Abia State Government. All rights reserved. Built for the future of governance.
+                </p>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-on-surface-variant dark:text-surface-variant font-caption text-caption hover:text-primary transition-colors" href="#">Institutional Links</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-caption text-caption hover:text-primary transition-colors" href="#">Transparency Info</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-caption text-caption hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-caption text-caption hover:text-primary transition-colors" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for input focus
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.classList.add('border-primary');
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.classList.remove('border-primary');
+            });
+        });
+
+        // Simple button click effect
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(button => {
+            button.addEventListener('mousedown', () => button.style.transform = 'scale(0.98)');
+            button.addEventListener('mouseup', () => button.style.transform = 'scale(1)');
+        });
+    </script>
+</body></html>

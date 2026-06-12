@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6fbf3;
+  --foreground: #181d19;
+  
+  --primary: #004d28;
+  --primary-container: #006838;
+  --secondary: #735c00;
+  --secondary-container: #fed65b;
+  --tertiary: #762732;
+  --tertiary-container: #943e48;
+  --surface: #f6fbf3;
+  --on-primary: #ffffff;
+  --on-secondary: #ffffff;
+  --on-tertiary: #ffffff;
+  --on-background: #181d19;
+  --on-surface: #181d19;
+  --outline: #6f7a70;
+  --outline-variant: #bec9be;
+  --slate-gray: #334155;
+  --brass-gold: #D4AF37;
+  --eagle-red: #C41E3A;
+  --forest-green: #006838;
+  --state-white: #FFFFFF;
+  --surface-container: #ebefe8;
+  --surface-container-high: #e5e9e2;
+  --surface-container-highest: #dfe4dd;
+  --surface-container-low: #f1f5ee;
+  --surface-container-lowest: #ffffff;
+  --surface-dim: #d7dbd4;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary-container);
+  --color-secondary: var(--secondary);
+  --color-secondary-container: var(--secondary-container);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-surface: var(--surface);
+  --color-on-primary: var(--on-primary);
+  --color-on-secondary: var(--on-secondary);
+  --color-on-tertiary: var(--on-tertiary);
+  --color-on-background: var(--on-background);
+  --color-on-surface: var(--on-surface);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-slate-gray: var(--slate-gray);
+  --color-brass-gold: var(--brass-gold);
+  --color-eagle-red: var(--eagle-red);
+  --color-forest-green: var(--forest-green);
+  --color-state-white: var(--state-white);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-dim: var(--surface-dim);
+
+  --font-sans: var(--font-montserrat);
+  --font-body: var(--font-hanken-grotesk);
+  --font-mono: var(--font-jetbrains-mono);
+  
+  --radius-four: 4px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom UI Utilities */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.brass-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+

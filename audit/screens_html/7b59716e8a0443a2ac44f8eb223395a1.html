@@ -1,0 +1,421 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ABIA ONE - State Operating System</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Theme Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed-variant": "#075135",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed-variant": "#574500",
+                    "outline": "#707972",
+                    "outline-variant": "#bfc9c1",
+                    "inverse-surface": "#2e312e",
+                    "surface-variant": "#e1e3df",
+                    "error-container": "#ffdad6",
+                    "on-surface-variant": "#404943",
+                    "sand-neutral": "#F9F8F3",
+                    "surface-container-low": "#f2f4f0",
+                    "secondary-fixed-dim": "#e9c349",
+                    "secondary-fixed": "#ffe088",
+                    "on-secondary-fixed": "#241a00",
+                    "on-tertiary-container": "#ec9996",
+                    "surface-tint": "#296a4b",
+                    "primary-fixed-dim": "#93d5af",
+                    "on-tertiary-fixed-variant": "#713433",
+                    "on-surface": "#191c1a",
+                    "inverse-primary": "#93d5af",
+                    "secondary-container": "#fed65b",
+                    "on-background": "#191c1a",
+                    "tertiary-container": "#6c302f",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f8faf5",
+                    "primary-fixed": "#aef1ca",
+                    "inverse-on-surface": "#eff1ed",
+                    "on-secondary-container": "#745c00",
+                    "tertiary": "#501b1b",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed": "#ffdad8",
+                    "primary": "#003420",
+                    "status-security": "#DC3545",
+                    "status-transparency": "#6C757D",
+                    "status-economic": "#0056B3",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#ffb3b0",
+                    "forest-deep": "#002E1E",
+                    "surface-dim": "#d8dbd6",
+                    "on-error": "#ffffff",
+                    "emerald-vibrant": "#008A5B",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed": "#002112",
+                    "on-primary-container": "#7cbd99",
+                    "surface": "#f8faf5",
+                    "brass-accent": "#B08D26",
+                    "surface-container-highest": "#e1e3df",
+                    "surface-container": "#ecefea",
+                    "primary-container": "#004d31",
+                    "secondary": "#735c00",
+                    "background": "#f8faf5",
+                    "on-tertiary-fixed": "#3a0a0b",
+                    "on-error-container": "#93000a",
+                    "surface-container-high": "#e6e9e4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "container-max-width": "1280px",
+                    "base-unit": "8px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "20px",
+                    "gutter-desktop": "24px",
+                    "gutter-mobile": "16px"
+            },
+            "fontFamily": {
+                    "label-caps": ["JetBrains Mono"],
+                    "body-md": ["Inter"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-xl": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "label-sm": ["Inter"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(191, 201, 193, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-sand-neutral text-on-surface">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-5 md:px-16 h-16 max-w-[1280px] mx-auto left-0 right-0 bg-surface/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex items-center gap-4">
+<img alt="Abia State Logo" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE3izPFfjpNfTlj3-6YrzlOE1H5OkjTDxWXEMONKK-L6RPS5sdFG4O0bHPM7wi9grvsfsf4Drgqi-lkOjPcJBXFac8iT4SeN7qpAiii4yoWx7-cQ1L3926ZtwJqmwYiKfwW-Al6vzGD2Op3Ej_ULlNKcKOusEFQsxtCzOt_uvXb5Mj6UgS2CGxGYgBXaS4EfONBJCtsRGk9VyE-XKaRWc6zLl3VIJzDjLI1XGbSwEHGKRsKpuMUg8x1lvGgMPZmevuz2XQutnR8rI">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Economy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:block px-4 py-2 bg-primary text-on-primary font-label-caps text-label-caps rounded-lg hover:opacity-90 transition-all active:scale-95">Citizen Portal</button>
+<button class="p-2 text-error hover:bg-error-container rounded-full transition-colors">
+<span class="material-symbols-outlined">emergency</span>
+</button>
+<div class="h-10 w-10 rounded-full bg-surface-container-highest flex items-center justify-center overflow-hidden border border-outline-variant">
+<span class="material-symbols-outlined text-on-surface-variant">person</span>
+</div>
+</div>
+</nav>
+<!-- SideNavBar (Shared Component - Desktop Only) -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 pt-20 bg-surface-container-low border-r border-outline-variant z-40">
+<div class="px-6 mb-8">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant opacity-60">ADMINISTRATIVE LAYERS</h2>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 py-3 px-4 mx-2 bg-secondary-container text-on-secondary-container rounded-lg translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">payments</span>
+<span class="font-label-sm text-label-sm">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-label-sm text-label-sm">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">mitre</span>
+<span class="font-label-sm text-label-sm">Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-4 mx-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">security</span>
+<span class="font-label-sm text-label-sm">Public Trust</span>
+</a>
+</nav>
+<div class="p-6 border-t border-outline-variant">
+<button class="w-full py-3 bg-forest-deep text-white rounded-lg font-label-caps text-label-caps hover:bg-primary transition-all">Citizen Feedback</button>
+<div class="mt-6 flex items-center justify-around text-on-surface-variant">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">settings</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">help</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="lg:pl-64 pt-20 pb-12 min-h-screen">
+<div class="max-w-[1280px] mx-auto px-5 md:px-16 py-8">
+<!-- Hero Dashboard Header -->
+<header class="mb-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<span class="font-label-caps text-label-caps text-brass-accent">STATE OPERATING SYSTEM</span>
+<h1 class="font-headline-xl text-headline-xl text-forest-deep mt-2">Dashboard Central</h1>
+</div>
+<div class="flex gap-4">
+<div class="bg-surface-container-highest p-4 rounded-xl flex items-center gap-4 border border-outline-variant">
+<div class="w-12 h-12 rounded-full bg-emerald-vibrant flex items-center justify-center text-white">
+<span class="material-symbols-outlined">trending_up</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-on-surface-variant">GDP GROWTH</p>
+<p class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep">+4.2%</p>
+</div>
+</div>
+<div class="bg-surface-container-highest p-4 rounded-xl flex items-center gap-4 border border-outline-variant">
+<div class="w-12 h-12 rounded-full bg-brass-accent flex items-center justify-center text-white">
+<span class="material-symbols-outlined">verified_user</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-on-surface-variant">DIGITAL LITERACY</p>
+<p class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep">68%</p>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Governor's Message -->
+<section class="md:col-span-8 bg-forest-deep rounded-xl p-8 text-white relative overflow-hidden flex flex-col justify-between min-h-[340px]">
+<div class="relative z-10 max-w-lg">
+<span class="inline-block px-3 py-1 bg-brass-accent/20 border border-brass-accent rounded-full text-[10px] font-label-caps text-brass-accent mb-6">OFFICE OF THE GOVERNOR</span>
+<h2 class="font-headline-lg text-headline-lg mb-4">"Building the foundation for a sustainable, digital economy in the heart of Igboland."</h2>
+<p class="font-body-md text-body-md text-surface-variant/80 mb-6">Our administration is committed to the Abia 2035 vision, transforming the state through infrastructure, security, and digital empowerment.</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-white/10 border border-white/20"></div>
+<div>
+<p class="font-label-sm text-label-sm font-bold">His Excellency, Dr. Alex Otti</p>
+<p class="font-label-sm text-[10px] opacity-70 uppercase">Executive Governor of Abia State</p>
+</div>
+</div>
+</div>
+<!-- Decorative Asset -->
+<div class="absolute right-0 bottom-0 top-0 w-1/2 opacity-20 pointer-events-none">
+
+</div>
+</section>
+<!-- Abia 2035 Tracker -->
+<section class="md:col-span-4 bg-white border border-outline-variant rounded-xl p-6 flex flex-col">
+<div class="flex justify-between items-start mb-8">
+<div>
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">ABIA 2035 TRACKER</h3>
+<p class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep mt-1">Goal: Industrial Hub</p>
+</div>
+<span class="material-symbols-outlined text-brass-accent">flag</span>
+</div>
+<div class="space-y-6 flex-1">
+<div>
+<div class="flex justify-between text-[11px] font-label-caps mb-2">
+<span>POWER ELECTRIFICATION</span>
+<span class="text-emerald-vibrant">72%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-emerald-vibrant h-full w-[72%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[11px] font-label-caps mb-2">
+<span>DIGITAL GOV MIGRATION</span>
+<span class="text-brass-accent">45%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-brass-accent h-full w-[45%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-[11px] font-label-caps mb-2">
+<span>SECURITY COVERAGE</span>
+<span class="text-status-security">88%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-status-security h-full w-[88%]"></div>
+</div>
+</div>
+</div>
+<button class="mt-8 text-primary font-label-caps text-label-caps flex items-center gap-2 hover:underline">
+                        VIEW FULL ROADMAP <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</section>
+<!-- Transformation Layers (Icon Grid) -->
+<section class="md:col-span-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="group bg-white border border-outline-variant rounded-xl p-6 hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-status-economic/10 text-status-economic flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">finance_chip</span>
+</div>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile font-bold mb-2">Economy</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Market digitization &amp; SME support hubs.</p>
+</div>
+<div class="group bg-white border border-outline-variant rounded-xl p-6 hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-emerald-vibrant/10 text-emerald-vibrant flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">cloud_done</span>
+</div>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile font-bold mb-2">Digital Gov</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Paperless administration &amp; citizen portal.</p>
+</div>
+<div class="group bg-white border border-outline-variant rounded-xl p-6 hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-brass-accent/10 text-brass-accent flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">visibility</span>
+</div>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile font-bold mb-2">Governance</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Open data initiatives &amp; budget tracking.</p>
+</div>
+<div class="group bg-white border border-outline-variant rounded-xl p-6 hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-status-security/10 text-status-security flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">shield_with_heart</span>
+</div>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile font-bold mb-2">Security</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Community policing &amp; emergency response.</p>
+</div>
+</section>
+<!-- Invest Abia Carousel (Latest Opportunities) -->
+<section class="md:col-span-12">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant">INVEST ABIA: LATEST OPPORTUNITIES</h3>
+<div class="flex gap-2">
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex gap-6 overflow-x-auto pb-4 no-scrollbar">
+<div class="min-w-[300px] bg-white border border-outline-variant rounded-xl overflow-hidden group">
+<div class="h-40 bg-surface-container-high relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A high-altitude drone view of a modern industrial park under construction in a lush tropical African landscape. The scene features large warehouse structures with silver roofs, paved roads, and clear architectural planning. Sunlight reflects off glass windows, projecting a sense of economic progress and industrialization within the Abia State design system." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpMNkJKXCibgCp2usmmiejkWUJvg7rGq4mYEL-Yu_tE2jABGkwU7DbX46oYJxj5W5lIXJOX2LWRcNOvIiDke6GtN2mWhJhtTy9OU4JJ9_kDOOxMNy5VPfatEXHu8hr5Bv864m6RVjKa2qlouHdmgn-RKPIIo4h1zQ21ImL1BjtlqAD7TjZuiOERMmhesvO19oCK168l_gByYTpyjUpiiKRb0s4OGKRm3cmuv5GSwcNvypp8QrcpGQGL6MraPppz4Ex3L9OoHvsrj8">
+<span class="absolute top-4 left-4 bg-emerald-vibrant text-white text-[10px] font-label-caps px-2 py-1 rounded">MANUFACTURING</span>
+</div>
+<div class="p-6">
+<h5 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep mb-2">Aba Textile Hub Phase 2</h5>
+<p class="text-sm text-on-surface-variant mb-4">Investment opportunity in modern garment production facilities.</p>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-brass-accent">EST. ROI: 12%</span>
+<span class="material-symbols-outlined text-on-surface-variant">open_in_new</span>
+</div>
+</div>
+</div>
+<div class="min-w-[300px] bg-white border border-outline-variant rounded-xl overflow-hidden group">
+<div class="h-40 bg-surface-container-high relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A macro shot of digital data visualizations on a sleek, high-resolution monitor. Bright blue and gold charts and graphs illustrate economic growth and market trends. The lighting is low and cinematic, emphasizing the professional, data-driven nature of the Abia One State Operating System and its focus on transparent governance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_ru-I8D-ulH-TCv05rLg2oLqLRdor6QIFO9nApsmmWVJOhTeWvmMoa1V-KNo6B7dE2pcle1qTmNbJ-OFjT2K8aMnfYG1Hps96YlgFkK_FZeO7qSavYxMTRpIUXIzujbLvaq12kMke6z8hGY42dwkqs8327v8Z-sIBOl1zY_4sIjCFE-u_VYkQP5E1mWVbaw_dvFEFb9DWGUF3TgaroSfJJDurBvcIxF6-p5l6iho_FtiG6bHdOjNinS16fuhOaqNMC4ML2MIP2qo">
+<span class="absolute top-4 left-4 bg-status-economic text-white text-[10px] font-label-caps px-2 py-1 rounded">TECHNOLOGY</span>
+</div>
+<div class="p-6">
+<h5 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep mb-2">Umuahia Tech Innovation Lab</h5>
+<p class="text-sm text-on-surface-variant mb-4">Funding call for the regional AI and software development incubator.</p>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-brass-accent">EST. ROI: 18%</span>
+<span class="material-symbols-outlined text-on-surface-variant">open_in_new</span>
+</div>
+</div>
+</div>
+<div class="min-w-[300px] bg-white border border-outline-variant rounded-xl overflow-hidden group">
+<div class="h-40 bg-surface-container-high relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A wide panoramic shot of fertile agricultural farmlands in Nigeria under a golden sunset. Vibrant green crops are arranged in neat rows stretching toward the horizon, where tropical trees stand tall. The lighting is warm and inspiring, capturing the essence of sustainable agriculture and food security, a core pillar of the Abia 2035 state vision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3O_7UoItnP2ihDFlEDU_cz5N5PhnUGQ0kD6p5He05xD8kKZBAWYJN7oi0Mb6yqOesd03Gqa0fJ85rM5PmxLNbokm1IwC6icfHVrxUeuNd3PVxsmaazO0lADKvTbm_jfweuSJWe0xtVbA-tM3ErwdbvYHfklSy6MaQ3Bs0qQyoYtKoCCPFAZg5hfWlqvizEXFTo7bNILHmCO87GhShlolO9ENY5zCkTeiUgkHfogqVvmVLJ9dt-oSdaYoNiJrAhKnksI-zH_tbNuo">
+<span class="absolute top-4 left-4 bg-forest-deep text-white text-[10px] font-label-caps px-2 py-1 rounded">AGRI-TECH</span>
+</div>
+<div class="p-6">
+<h5 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep mb-2">Sustainable Palm Oil Estates</h5>
+<p class="text-sm text-on-surface-variant mb-4">Modernizing traditional palm oil processing for global export.</p>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-brass-accent">EST. ROI: 15%</span>
+<span class="material-symbols-outlined text-on-surface-variant">open_in_new</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="lg:pl-64 w-full px-5 md:px-16 bg-surface-container-highest mt-auto border-t border-outline-variant py-12">
+<div class="max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+<div class="space-y-4">
+<span class="font-headline-lg text-headline-lg text-forest-deep font-bold">ABIA ONE</span>
+<p class="font-body-md text-body-md text-on-surface-variant">The unified digital interface for governance, commerce, and security in Abia State. Built for the citizens, by the future.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-all" href="#">Invest Abia</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-all" href="#">Serve Abia</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-all" href="#">Build Abia</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-all" href="#">Open Abia</a>
+</div>
+<div class="flex flex-col items-start md:items-end gap-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant">CITIZEN ASSISTANCE</span>
+<button class="px-6 py-2 bg-brass-accent text-white rounded-lg font-label-caps text-label-caps hover:opacity-90">Contact Us</button>
+<div class="flex gap-4 mt-2">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">public</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">share</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-outline-variant gap-4">
+<p class="font-body-md text-sm text-on-surface-variant">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-6">
+<a class="font-label-caps text-[10px] text-on-surface-variant hover:text-primary" href="#">Privacy Policy</a>
+<a class="font-label-caps text-[10px] text-on-surface-variant hover:text-primary" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions and subtle scroll effects
+        document.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 20) {
+                nav.classList.add('shadow-sm');
+            } else {
+                nav.classList.remove('shadow-sm');
+            }
+        });
+        
+        // Active state simulation for transformation layer cards
+        const cards = document.querySelectorAll('.group');
+        cards.forEach(card => {
+            card.addEventListener('mousedown', () => {
+                card.style.transform = 'scale(0.98)';
+            });
+            card.addEventListener('mouseup', () => {
+                card.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body></html>

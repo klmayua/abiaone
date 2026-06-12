@@ -1,0 +1,442 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Serve Abia | Abia One Citizen Portal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #006838;
+            border-radius: 10px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-error-container": "#93000a",
+                      "secondary-container": "#fed65b",
+                      "brass-gold": "#D4AF37",
+                      "primary-container": "#006838",
+                      "tertiary-fixed": "#ffdadb",
+                      "surface": "#f6fbf3",
+                      "secondary": "#735c00",
+                      "tertiary-fixed-dim": "#ffb2b7",
+                      "inverse-surface": "#2d322d",
+                      "surface-container": "#ebefe8",
+                      "tertiary-container": "#943e48",
+                      "forest-green": "#006838",
+                      "on-primary-fixed": "#00210e",
+                      "state-white": "#FFFFFF",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#00522b",
+                      "on-primary": "#ffffff",
+                      "surface-variant": "#dfe4dd",
+                      "surface-dim": "#d7dbd4",
+                      "primary": "#004d28",
+                      "on-surface": "#181d19",
+                      "on-tertiary-fixed": "#40000e",
+                      "background": "#f6fbf3",
+                      "secondary-fixed": "#ffe088",
+                      "primary-fixed": "#9ef5b8",
+                      "on-secondary-fixed-variant": "#574500",
+                      "eagle-red": "#C41E3A",
+                      "surface-container-low": "#f1f5ee",
+                      "slate-gray": "#334155",
+                      "surface-bright": "#f6fbf3",
+                      "surface-container-highest": "#dfe4dd",
+                      "inverse-on-surface": "#eef2eb",
+                      "inverse-primary": "#83d99d",
+                      "on-primary-container": "#8ee4a8",
+                      "on-secondary-container": "#745c00",
+                      "on-secondary": "#ffffff",
+                      "secondary-fixed-dim": "#e9c349",
+                      "outline": "#6f7a70",
+                      "on-background": "#181d19",
+                      "tertiary": "#762732",
+                      "on-surface-variant": "#3f4940",
+                      "on-secondary-fixed": "#241a00",
+                      "on-tertiary-fixed-variant": "#7b2b36",
+                      "on-tertiary-container": "#ffc3c6",
+                      "surface-container-high": "#e5e9e2",
+                      "on-error": "#ffffff",
+                      "error": "#ba1a1a",
+                      "error-container": "#ffdad6",
+                      "outline-variant": "#bec9be",
+                      "primary-fixed-dim": "#83d99d",
+                      "surface-tint": "#0b6d3c",
+                      "surface-container-lowest": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "base": "4px",
+                      "margin-desktop": "64px",
+                      "max-width": "1440px",
+                      "margin-mobile": "16px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "headline-lg": ["Montserrat"],
+                      "headline-md": ["Montserrat"],
+                      "display-lg": ["Montserrat"],
+                      "headline-lg-mobile": ["Montserrat"],
+                      "label-md": ["JetBrains Mono"],
+                      "caption": ["Hanken Grotesk"],
+                      "body-md": ["Hanken Grotesk"],
+                      "body-lg": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                      "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+      </script>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-surface border-b border-outline-variant">
+<nav class="flex justify-between items-center h-16 px-margin-desktop max-w-max-width mx-auto">
+<div class="flex items-center gap-8">
+<span class="font-headline-md text-headline-md text-forest-green font-semibold tracking-tighter cursor-pointer">ABIA ONE</span>
+<div class="hidden md:flex gap-6">
+<a class="font-body-md text-body-md text-forest-green border-b-2 border-forest-green pb-1 cursor-pointer transition-all" href="#">Serve Abia</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Jobs Abia</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">AI Academy</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-forest-green transition-colors cursor-pointer" href="#">Connect Abia</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex items-center gap-2 px-6 py-2 bg-forest-green text-state-white font-body-md rounded-lg active:opacity-80 transition-all">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+                    Citizen Portal
+                </button>
+<span class="material-symbols-outlined md:hidden text-on-surface cursor-pointer">menu</span>
+</div>
+</nav>
+</header>
+<main class="pt-16 min-h-screen">
+<!-- Hero Section -->
+<section class="relative w-full py-24 overflow-hidden">
+
+<div class="max-w-max-width mx-auto px-margin-desktop relative z-10">
+<div class="max-w-3xl">
+<h1 class="font-display-lg text-display-lg text-on-surface mb-6 leading-tight">
+                        Government Services, <br> <span class="text-forest-green">Simplified for You.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-xl">
+                        Access state services, track applications, and manage your interactions with the Abia State Government through one secure digital gateway.
+                    </p>
+<div class="relative group">
+<div class="absolute inset-y-0 left-5 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline">search</span>
+</div>
+<input class="w-full bg-state-white border-2 border-outline-variant h-16 pl-14 pr-32 rounded-xl font-body-lg focus:border-forest-green focus:ring-0 transition-all shadow-sm group-hover:shadow-md" placeholder="Search for a service (e.g. Land Permit, Tax)" type="text">
+<button class="absolute right-3 top-3 bottom-3 px-8 bg-forest-green text-state-white font-body-md rounded-lg hover:bg-primary transition-colors">
+                            Find Service
+                        </button>
+</div>
+<div class="mt-6 flex flex-wrap gap-4">
+<span class="font-label-md text-label-md text-on-surface-variant">Popular:</span>
+<a class="text-forest-green font-label-md underline underline-offset-4 decoration-outline-variant hover:decoration-forest-green transition-all" href="#">TIN Registration</a>
+<a class="text-forest-green font-label-md underline underline-offset-4 decoration-outline-variant hover:decoration-forest-green transition-all" href="#">ASOPADEC Grant</a>
+<a class="text-forest-green font-label-md underline underline-offset-4 decoration-outline-variant hover:decoration-forest-green transition-all" href="#">School Portal</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Services Grid & Tracker -->
+<section class="max-w-max-width mx-auto px-margin-desktop py-12">
+<div class="bento-grid">
+<!-- Quick Services -->
+<div class="col-span-12 lg:col-span-8">
+<div class="flex items-center justify-between mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface flex items-center gap-3">
+<span class="w-1.5 h-8 bg-brass-gold"></span>
+                            Quick Services
+                        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Service Card 1 -->
+<div class="group bg-state-white p-6 rounded-xl border border-outline-variant hover:border-forest-green hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-forest-green group-hover:text-state-white">business_center</span>
+</div>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Business Registration</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Register new business names and incorporate companies with the state ministry.</p>
+<span class="text-forest-green font-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">Start Application <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+<!-- Service Card 2 -->
+<div class="group bg-state-white p-6 rounded-xl border border-outline-variant hover:border-forest-green hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-forest-green group-hover:text-state-white">directions_car</span>
+</div>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Vehicle Licensing</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Renew vehicle documents, plate numbers, and driver certifications instantly.</p>
+<span class="text-forest-green font-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">Manage Fleet <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+<!-- Service Card 3 -->
+<div class="group bg-state-white p-6 rounded-xl border border-outline-variant hover:border-forest-green hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-forest-green group-hover:text-state-white">real_estate_agent</span>
+</div>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Property Taxes</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Check LUC status, pay land charges, and download official payment receipts.</p>
+<span class="text-forest-green font-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">Pay Now <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+<!-- Service Card 4 -->
+<div class="group bg-state-white p-6 rounded-xl border border-outline-variant hover:border-forest-green hover:shadow-lg transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-forest-green group-hover:text-state-white">health_and_safety</span>
+</div>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Health Insurance</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Enroll in Abia State Health Insurance Scheme (ASHIA) for affordable care.</p>
+<span class="text-forest-green font-label-md flex items-center gap-1 group-hover:translate-x-1 transition-transform">Enroll Today <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+</div>
+</div>
+<!-- Application Tracker Widget -->
+<div class="col-span-12 lg:col-span-4">
+<div class="bg-surface-container-low border border-outline-variant rounded-xl p-8 sticky top-24 h-fit">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-md text-[20px] text-on-surface">Application Tracker</h2>
+<span class="material-symbols-outlined text-forest-green">monitoring</span>
+</div>
+<div class="space-y-6">
+<!-- Track Item -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-forest-green flex items-center justify-center text-state-white">
+<span class="material-symbols-outlined text-[18px]" data-weight="fill">check</span>
+</div>
+<div class="w-0.5 h-full bg-outline-variant"></div>
+</div>
+<div class="pb-6">
+<p class="font-headline-md text-[16px] text-on-surface">Business Permit Application</p>
+<p class="font-caption text-caption text-on-surface-variant">Ref: AB-2024-88912</p>
+<div class="mt-2 inline-flex px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed text-[12px] font-bold">Approved</div>
+</div>
+</div>
+<!-- Track Item -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+</div>
+<div class="w-0.5 h-full bg-outline-variant"></div>
+</div>
+<div class="pb-6">
+<p class="font-headline-md text-[16px] text-on-surface">Certificate of Occupancy</p>
+<p class="font-caption text-caption text-on-surface-variant">Ref: AB-2024-77211</p>
+<div class="mt-2 inline-flex px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant text-[12px] font-bold">Reviewing Docs</div>
+</div>
+</div>
+<!-- Track Item -->
+<div class="flex gap-4">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full border-2 border-outline flex items-center justify-center text-outline">
+<span class="material-symbols-outlined text-[18px]">pending</span>
+</div>
+</div>
+<div>
+<p class="font-headline-md text-[16px] text-on-surface">Civil Servant ID Portal</p>
+<p class="font-caption text-caption text-on-surface-variant">Ref: AB-2024-90123</p>
+<div class="mt-2 inline-flex px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant text-[12px] font-bold">Pending</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant">
+<label class="block font-label-md text-on-surface-variant mb-2">Track by ID</label>
+<div class="flex gap-2">
+<input class="w-full h-10 px-4 bg-state-white border border-outline-variant rounded focus:border-forest-green focus:ring-0" placeholder="Enter Ref ID" type="text">
+<button class="h-10 px-4 bg-forest-green text-state-white rounded">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Directory -->
+<section class="bg-surface-container py-20">
+<div class="max-w-max-width mx-auto px-margin-desktop">
+<div class="mb-12">
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-2">Service Directory</h2>
+<p class="font-body-md text-on-surface-variant">Comprehensive listing of all state government digital touchpoints.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Business Sector -->
+<div class="space-y-6">
+<div class="flex items-center gap-3 border-b-2 border-brass-gold pb-3">
+<span class="material-symbols-outlined text-forest-green">storefront</span>
+<h3 class="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Business</h3>
+</div>
+<ul class="space-y-3">
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Tax Clearance Certificates</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Trade Licenses</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Small Business Grants</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Export Permits</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Contractor Registration</a></li>
+</ul>
+</div>
+<!-- Infrastructure Sector -->
+<div class="space-y-6">
+<div class="flex items-center gap-3 border-b-2 border-brass-gold pb-3">
+<span class="material-symbols-outlined text-forest-green">foundation</span>
+<h3 class="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Infrastructure</h3>
+</div>
+<ul class="space-y-3">
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Building Plan Approval</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Land Ownership Records</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Utility Connections</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Waste Management Fees</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">GIS Mapping Services</a></li>
+</ul>
+</div>
+<!-- Education Sector -->
+<div class="space-y-6">
+<div class="flex items-center gap-3 border-b-2 border-brass-gold pb-3">
+<span class="material-symbols-outlined text-forest-green">school</span>
+<h3 class="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Education</h3>
+</div>
+<ul class="space-y-3">
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Scholarship Applications</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Primary School Enrollment</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Teacher Certification</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Adult Literacy Programs</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Library Digital Access</a></li>
+</ul>
+</div>
+<!-- Health Sector -->
+<div class="space-y-6">
+<div class="flex items-center gap-3 border-b-2 border-brass-gold pb-3">
+<span class="material-symbols-outlined text-forest-green">medical_services</span>
+<h3 class="font-headline-md text-[18px] text-on-surface uppercase tracking-wider">Health</h3>
+</div>
+<ul class="space-y-3">
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Health Facility Finder</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Immunization Schedules</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Medical Practitioner License</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Blood Bank Registry</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Vital Statistics Reports</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section with Image -->
+<section class="relative h-96 w-full flex items-center justify-center overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A professional collaborative workspace with modern office design in Abia State. The scene features light-filled interiors, sleek wooden desks, and young Nigerian professionals engaged in technical discussions around laptops and large data displays. The lighting is bright and airy, reflecting a light-mode corporate aesthetic with Forest Green accents in the decor and digital interfaces. The atmosphere conveys innovation, government efficiency, and a prosperous digital future for the state." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWncER5DaRvyXOnn1jSt6tETHIspglQSQKYNu-dnhqL1gPKo6Ke8RE13rfK9-ASH-TpZinrbxcOTyVxz_iRgc5CqDcn0J3j9DyomZQj9r-DdxtOob-zyBSV09MVscE2cJ-6eFYPjOeNLyyfCLNtmvqsBCKl7RBRXN2Spmlj4BV2L_Se9wKVxCmWqtDgyK2IT5zxZzKCLE5JZkAGGkMCRtUUXM5jepvCBoSktgTHsw-w8YoAttPQGfpYjLSnGOEXJz9cul7NZuawq4">
+<div class="absolute inset-0 bg-forest-green/80 backdrop-blur-sm"></div>
+<div class="relative z-10 text-center max-w-2xl px-margin-mobile">
+<h2 class="font-headline-lg text-headline-lg text-state-white mb-6">Need expert assistance?</h2>
+<p class="font-body-lg text-state-white/90 mb-8">Our help desk is available 24/7 to guide you through any application process or technical issue.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="px-8 py-3 bg-brass-gold text-on-secondary-fixed font-bold rounded hover:opacity-90 transition-all">Start Live Chat</button>
+<button class="px-8 py-3 bg-transparent border-2 border-state-white text-state-white font-bold rounded hover:bg-state-white/10 transition-all">Visit FAQ Center</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-outline-variant">
+<div class="max-w-max-width mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-12">
+<div class="md:col-span-1">
+<span class="font-headline-md text-headline-md text-forest-green font-bold mb-4 block">ABIA ONE</span>
+<p class="font-caption text-caption text-on-surface-variant max-w-xs">The unified digital operating system for the Abia State Government. Empowering citizens through technology and transparent governance.</p>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-md text-on-surface font-bold uppercase mb-2">Resources</h4>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Transparency Portals</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Institutional News</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">State Budget</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-md text-on-surface font-bold uppercase mb-2">Legal</h4>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">FOI Requests</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-label-md text-on-surface font-bold uppercase mb-2">Support</h4>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Support</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Office Locator</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Report a Bug</a>
+</div>
+</div>
+<div class="max-w-max-width mx-auto px-margin-desktop py-6 border-t border-outline-variant flex justify-between items-center">
+<p class="font-caption text-caption text-on-surface-variant">© 2024 Abia State Government. All Rights Reserved.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-outline hover:text-forest-green cursor-pointer">face_nod</span>
+<span class="material-symbols-outlined text-outline hover:text-forest-green cursor-pointer">public</span>
+<span class="material-symbols-outlined text-outline hover:text-forest-green cursor-pointer">mail</span>
+</div>
+</div>
+</footer>
+<!-- Mobile Bottom Navigation -->
+<div class="md:hidden fixed bottom-0 left-0 w-full bg-surface border-t border-outline-variant h-16 flex items-center justify-around px-4 z-50">
+<button class="flex flex-col items-center gap-1 text-forest-green">
+<span class="material-symbols-outlined" data-weight="fill">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">explore</span>
+<span class="text-[10px]">Directory</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">description</span>
+<span class="text-[10px]">Track</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px]">Profile</span>
+</button>
+</div>
+<script>
+        // Micro-interactions for tracking widget
+        document.querySelectorAll('.bento-grid .group').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body></html>

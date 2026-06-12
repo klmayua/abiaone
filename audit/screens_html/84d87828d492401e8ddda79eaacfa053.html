@@ -1,0 +1,436 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Cooperative Societies &amp; Micro-Credit | ABIA ONE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#943e48",
+                        "inverse-surface": "#2d322d",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary-container": "#745c00",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-variant": "#dfe4dd",
+                        "on-surface": "#181d19",
+                        "primary": "#004d28",
+                        "on-tertiary-fixed": "#40000e",
+                        "background": "#f6fbf3",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "outline": "#6f7a70",
+                        "secondary-container": "#fed65b",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary": "#762732",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container-high": "#e5e9e2",
+                        "primary-fixed-dim": "#83d99d",
+                        "surface-dim": "#d7dbd4",
+                        "on-secondary-fixed-variant": "#574500",
+                        "outline-variant": "#bec9be",
+                        "brass-gold": "#D4AF37",
+                        "on-background": "#181d19",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-primary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "forest-green": "#006838",
+                        "eagle-red": "#C41E3A",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "slate-gray": "#334155",
+                        "surface-container-low": "#f1f5ee",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface": "#f6fbf3",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "on-primary-container": "#8ee4a8",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "base": "4px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #D4AF37;
+            border-radius: 10px;
+        }
+        .active-tab-indicator {
+            height: 2px;
+            background: #D4AF37;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed uppercase tracking-tight">ABIA ONE</span>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Economy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Digital Gov</a>
+<a class="font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1" href="#">Governance</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Security</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md hover:opacity-90 transition-all">Citizen Portal</button>
+<button class="border border-tertiary text-tertiary px-4 py-2 rounded-lg font-label-md text-label-md hover:bg-tertiary/5 transition-all">Emergency</button>
+</div>
+</header>
+<div class="flex flex-1 pt-16">
+<!-- SideNavBar (Desktop) -->
+<aside class="hidden lg:flex flex-col h-[calc(100vh-64px)] w-64 fixed left-0 top-16 bg-surface-container-low dark:bg-forest-deep border-r border-outline-variant">
+<div class="p-6 border-b border-outline-variant">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-primary">ABIA ONE</p>
+<p class="text-[10px] uppercase tracking-widest text-on-surface-variant">Governance OS</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 py-4 space-y-1">
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-body-md text-body-md">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">mitre</span>
+<span class="font-body-md text-body-md">Cooperative Portal</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-body-md text-body-md">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 px-6 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all mx-2 rounded-lg" href="#">
+<span class="material-symbols-outlined">security</span>
+<span class="font-body-md text-body-md">Public Trust</span>
+</a>
+</nav>
+<div class="p-4 border-t border-outline-variant">
+<button class="w-full bg-forest-green text-white py-3 rounded-lg font-label-md text-label-md flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">chat_bubble</span>
+                    Citizen Feedback
+                </button>
+<div class="mt-4 flex items-center justify-around text-on-surface-variant">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">settings</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">help</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 lg:ml-64 p-margin-mobile md:p-8 max-w-7xl mx-auto w-full">
+<!-- Hero Header -->
+<section class="mb-10 relative overflow-hidden rounded-xl h-64 flex items-end">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A panoramic wide-angle shot of a vibrant Nigerian market at sunset, capturing the energy of local trade and entrepreneurship. The lighting is warm and golden, casting long shadows across stalls filled with textiles and produce. The overall atmosphere is industrious and hopeful, reflecting a modern, progressive African economic landscape with a clean, light-mode corporate aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcLNXnfNnhdU2OLXwoaLdDLVmXdytR7W4XwoUDMcMa83ZMVcF3p89gtLvW-u_arFkiqtqLR1fUaow6_83shT5wwwWIk42gN4XhoxBF0hbSpOphm7ACGWwEcDF4QVep8h_rc1W_LrXox2JKrnNp0xg3bV8TbgzUaLGHDbeO8gTa8LMoyzxeRLRsDOv0ggVLcntBZa3Kd-ehEmHE4Uxy6RxToMny4W8-1cty-758yR8P43upUuhcrAK38wH7qMWlySAoom2rweEsrx8">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent"></div>
+<div class="relative z-10 p-8 w-full flex justify-between items-end">
+<div>
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-3 inline-block">Sovereign Infrastructure</span>
+<h1 class="font-display-lg text-white text-display-lg mb-2 leading-tight">Cooperative &amp; Micro-Credit Portal</h1>
+<p class="text-on-primary-container font-body-lg text-body-lg max-w-2xl">Empowering Abia's local trade networks through digitized registration, transparent lending, and institutional support.</p>
+</div>
+<div class="hidden md:flex gap-4">
+<div class="text-right text-white">
+<p class="text-3xl font-bold">₦1.2B+</p>
+<p class="text-xs opacity-80 uppercase tracking-widest">Disbursed This Quarter</p>
+</div>
+<div class="w-[1px] h-12 bg-white/20"></div>
+<div class="text-right text-white">
+<p class="text-3xl font-bold">450+</p>
+<p class="text-xs opacity-80 uppercase tracking-widest">Active Cooperatives</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid Section -->
+<div class="bento-grid">
+<!-- Main Action Card: Registration -->
+<div class="col-span-12 lg:col-span-8 glass-card rounded-xl p-8 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-start mb-6">
+<h2 class="font-headline-lg text-headline-lg text-forest-green flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl">how_to_reg</span>
+                                Cooperative Registration Portal
+                            </h2>
+<span class="text-label-md font-label-md text-brass-gold border border-brass-gold px-3 py-1 rounded">Open Enrollment</span>
+</div>
+<p class="text-on-surface-variant mb-8 max-w-xl">Formalize your trade group to unlock state benefits, including tax incentives, bulk purchasing power, and priority access to micro-loans.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-low hover:border-primary transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary mb-2">group_add</span>
+<p class="font-bold">New Registry</p>
+<p class="text-xs text-on-surface-variant">Standard formation protocol</p>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-low hover:border-primary transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary mb-2">update</span>
+<p class="font-bold">Renewal</p>
+<p class="text-xs text-on-surface-variant">Annual status verification</p>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-low hover:border-primary transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary mb-2">description</span>
+<p class="font-bold">Document Hub</p>
+<p class="text-xs text-on-surface-variant">By-laws &amp; Member lists</p>
+</div>
+</div>
+</div>
+<button class="bg-forest-green text-white w-full py-4 rounded-lg font-bold hover:shadow-lg transition-all flex items-center justify-center gap-2">
+                        Begin Registration Process
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<!-- Loan Status Quick View -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-highest rounded-xl p-6 border border-outline-variant">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Live Loan Metrics</h3>
+<div class="space-y-4">
+<div class="bg-white p-4 rounded-lg border border-outline-variant">
+<div class="flex justify-between items-center mb-2">
+<span class="text-label-md font-label-md">Processing Time</span>
+<span class="text-primary font-bold">4.2 Days</span>
+</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-[85%]"></div>
+</div>
+</div>
+<div class="bg-white p-4 rounded-lg border border-outline-variant">
+<div class="flex justify-between items-center mb-2">
+<span class="text-label-md font-label-md">Repayment Rate</span>
+<span class="text-forest-green font-bold">98.4%</span>
+</div>
+<div class="w-full bg-surface-variant h-1.5 rounded-full overflow-hidden">
+<div class="bg-forest-green h-full w-[98%]"></div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-4">Latest Disbursements</p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-sm">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="flex-1">Aba Textile Co-op</span>
+<span class="font-mono text-xs">₦450k</span>
+</li>
+<li class="flex items-center gap-3 text-sm">
+<div class="w-2 h-2 rounded-full bg-green-500"></div>
+<span class="flex-1">Ohafia Farmers Union</span>
+<span class="font-mono text-xs">₦1.2M</span>
+</li>
+<li class="flex items-center gap-3 text-sm">
+<div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+<span class="flex-1">Umuahia Tech Hub</span>
+<span class="font-mono text-xs italic">Pending</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Loan Application Section -->
+<div class="col-span-12 lg:col-span-6 border border-outline-variant rounded-xl overflow-hidden bg-white">
+<div class="bg-primary p-6 text-white">
+<h3 class="font-headline-md text-headline-md mb-2">Loan Application &amp; Tracking</h3>
+<p class="text-sm opacity-80">Access low-interest capital for scaling your business operations.</p>
+</div>
+<div class="p-6">
+<form class="space-y-4">
+<div>
+<label class="block text-label-md font-label-md mb-1">Select Cooperative Society</label>
+<select class="w-full border-slate-400 rounded-lg p-2 focus:ring-primary focus:border-primary">
+<option>Aba Shoe Makers Guild</option>
+<option>Leather Works Cooperative</option>
+<option>Agro-Processing Unit B</option>
+</select>
+</div>
+<div>
+<label class="block text-label-md font-label-md mb-1">Requested Amount (₦)</label>
+<input class="w-full border-slate-400 rounded-lg p-2 focus:ring-primary" placeholder="Enter amount" type="number">
+</div>
+<div>
+<label class="block text-label-md font-label-md mb-1">Purpose of Loan</label>
+<textarea class="w-full border-slate-400 rounded-lg p-2 focus:ring-primary" placeholder="Briefly describe how funds will be used..." rows="3"></textarea>
+</div>
+<button class="w-full bg-forest-green text-white py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors" type="submit">
+<span class="material-symbols-outlined">send</span>
+                                Submit Application
+                            </button>
+</form>
+</div>
+</div>
+<!-- Literacy Hub (Asymmetric Layout) -->
+<div class="col-span-12 lg:col-span-6 flex flex-col gap-6">
+<div class="bg-surface-container-low border border-outline-variant rounded-xl p-6 flex-1">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline-md text-headline-md text-forest-green">Literacy Hub</h3>
+<span class="material-symbols-outlined text-brass-gold">menu_book</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="group cursor-pointer">
+<div class="relative h-32 rounded-lg overflow-hidden mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="A detailed, professional overhead view of a desk featuring a digital tablet showing financial charts, a modern fountain pen, and a leather notebook. The lighting is bright and clean, emphasizing a workspace focused on financial planning and meticulous record-keeping. The style is corporate and sophisticated, adhering to a light-mode color palette of soft whites and deep forest greens." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFrnKhv0GsuJ03GUg_i0AdS6R9hrrv_QVC_2_oanLM7-uF8raKDYIWY9ErNvD_mjxFmIuZDceQuphdHzYjgyr2eIxNxkLf8altT9xgjRACRdgfzXQcSYroECeMDqgNSz_LY1dWfb95_AkhUsSsemhqm-jLT1jhXV7-YoDZ8QBnyAI-8d0W7M-41s5GK6HHld00P9elWchB1c8HH4MJIHQUbGjwyZ8Wwn4pNSk1PjaqkTG9uvA2UdPuHUdH01gxazSjLPmghsAFttI">
+</div>
+<h4 class="font-bold text-sm">Managing Cooperative Assets</h4>
+<p class="text-xs text-on-surface-variant">Course • 45 mins</p>
+</div>
+<div class="group cursor-pointer">
+<div class="relative h-32 rounded-lg overflow-hidden mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="A collaborative business meeting scene in a high-tech conference room, showing people discussing growth strategies with digital interfaces. The lighting is cool and professional, with a focus on data visualization and strategic planning. The aesthetic is clean and modern, representing the advancement of small-scale entrepreneurship through technology and state-backed resources." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrT1-JlJ2O2Re589iz3WIHL27lVYEwNB7Cn1AglWbqdI0F1bbUwn3xwl2KMux_rPAZMoRJAUf6r57E-DlwVv0lOtkpwU-330sjiObl6DjlV181gyZxGD1_m3z14BEMn78KDW1uKJpNtxLYZt7usL5k-JSZHusOSNCrklSDOqCrAxweCpSQitI0QvT0T_P4LKUfFKo7n4VE1nvpMa090EL1uZVWAR48TC5Zspx4p4xLdKKonCiXLCk4BViVUwrYDzuc17IHqeic-sQ">
+</div>
+<h4 class="font-bold text-sm">Scaling Your Micro-Business</h4>
+<p class="text-xs text-on-surface-variant">Video • 20 mins</p>
+</div>
+</div>
+</div>
+<div class="bg-secondary-container rounded-xl p-6 flex items-center justify-between border border-brass-gold/20">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-on-secondary-container rounded-full flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined">support_agent</span>
+</div>
+<div>
+<p class="font-bold text-on-secondary-container">Need Advisory Support?</p>
+<p class="text-sm text-on-secondary-fixed-variant">Talk to an Abia State Financial Consultant today.</p>
+</div>
+</div>
+<button class="bg-on-secondary-container text-secondary-container px-6 py-2 rounded-lg font-bold text-sm">Schedule</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest dark:bg-forest-deep mt-auto border-t border-outline-variant dark:border-outline py-12">
+<div class="max-w-container-max-width mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+<div class="col-span-1 md:col-span-2">
+<p class="font-headline-lg text-headline-lg text-forest-deep dark:text-primary-fixed font-bold mb-4">ABIA ONE</p>
+<p class="text-on-surface-variant max-w-sm font-body-md text-body-md">Building a sustainable digital ecosystem for every citizen of Abia State. Institutional integrity, economic prosperity.</p>
+</div>
+<div>
+<p class="font-label-caps text-label-caps font-bold mb-4 text-on-surface">Ecosystem</p>
+<ul class="space-y-2">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Build Abia</a></li>
+</ul>
+</div>
+<div>
+<p class="font-label-caps text-label-caps font-bold mb-4 text-on-surface">Legal &amp; Support</p>
+<ul class="space-y-2">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors underline decoration-transparent hover:decoration-brass-gold" href="#">Open Abia</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-on-surface-variant text-sm">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">face_nod</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">language</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">mail</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile) -->
+<nav class="md:hidden fixed bottom-0 w-full bg-surface-container-low border-t border-outline-variant flex justify-around py-3 z-50">
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold uppercase">Home</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">mitre</span>
+<span class="text-[10px] font-bold uppercase">Portal</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">payments</span>
+<span class="text-[10px] font-bold uppercase">Loans</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold uppercase">Profile</span>
+</div>
+</nav>
+<script>
+        // Micro-interactions
+        document.querySelectorAll('button, a, .glass-card').forEach(el => {
+            el.addEventListener('mousedown', () => {
+                el.style.transform = 'scale(0.98)';
+                el.style.opacity = '0.9';
+            });
+            el.addEventListener('mouseup', () => {
+                el.style.transform = 'scale(1)';
+                el.style.opacity = '1';
+            });
+        });
+    </script>
+</body></html>

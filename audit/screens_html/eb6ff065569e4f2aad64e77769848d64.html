@@ -1,0 +1,461 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Abia One - Tourism &amp; Cultural Heritage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                "error-container": "#ffdad6",
+                "on-tertiary-fixed-variant": "#7b2b36",
+                "forest-green": "#006838",
+                "surface-container-highest": "#dfe4dd",
+                "surface-container": "#ebefe8",
+                "state-white": "#FFFFFF",
+                "on-secondary-fixed-variant": "#574500",
+                "inverse-surface": "#2d322d",
+                "on-tertiary-fixed": "#40000e",
+                "primary-container": "#006838",
+                "surface-tint": "#0b6d3c",
+                "secondary": "#735c00",
+                "inverse-on-surface": "#eef2eb",
+                "tertiary-fixed-dim": "#ffb2b7",
+                "eagle-red": "#C41E3A",
+                "surface-container-lowest": "#ffffff",
+                "on-primary-fixed-variant": "#00522b",
+                "on-error-container": "#93000a",
+                "on-secondary-fixed": "#241a00",
+                "surface-bright": "#f6fbf3",
+                "on-secondary-container": "#745c00",
+                "secondary-fixed": "#ffe088",
+                "outline-variant": "#bec9be",
+                "surface-container-high": "#e5e9e2",
+                "surface-variant": "#dfe4dd",
+                "outline": "#6f7a70",
+                "tertiary-fixed": "#ffdadb",
+                "secondary-container": "#fed65b",
+                "on-error": "#ffffff",
+                "primary": "#004d28",
+                "on-tertiary-container": "#ffc3c6",
+                "on-secondary": "#ffffff",
+                "brass-gold": "#D4AF37",
+                "on-tertiary": "#ffffff",
+                "on-primary-container": "#8ee4a8",
+                "primary-fixed-dim": "#83d99d",
+                "on-surface": "#181d19",
+                "secondary-fixed-dim": "#e9c349",
+                "on-primary-fixed": "#00210e",
+                "slate-gray": "#334155",
+                "tertiary": "#762732",
+                "on-surface-variant": "#3f4940",
+                "tertiary-container": "#943e48",
+                "primary-fixed": "#9ef5b8",
+                "surface-dim": "#d7dbd4",
+                "on-background": "#181d19",
+                "surface": "#f6fbf3",
+                "surface-container-low": "#f1f5ee",
+                "background": "#f6fbf3",
+                "on-primary": "#ffffff",
+                "inverse-primary": "#83d99d",
+                "error": "#ba1a1a"
+              },
+              "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+              },
+              "spacing": {
+                "margin-mobile": "16px",
+                "gutter": "24px",
+                "max-width": "1440px",
+                "margin-desktop": "64px",
+                "base": "4px"
+              },
+              "fontFamily": {
+                "headline-lg": ["Montserrat"],
+                "caption": ["Hanken Grotesk"],
+                "label-md": ["JetBrains Mono"],
+                "headline-md": ["Montserrat"],
+                "display-lg": ["Montserrat"],
+                "body-md": ["Hanken Grotesk"],
+                "body-lg": ["Hanken Grotesk"],
+                "headline-lg-mobile": ["Montserrat"]
+              },
+              "fontSize": {
+                "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .brass-accent-line {
+            position: relative;
+        }
+        .brass-accent-line::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background-color: #D4AF37;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .mesh-bg {
+            background-color: #f6fbf3;
+            background-image: radial-gradient(at 0% 0%, rgba(0, 104, 56, 0.05) 0px, transparent 50%),
+                              radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.05) 0px, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-background font-body-md text-on-surface mesh-bg">
+<!-- TopNavBar (Shared Component) -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant h-16 max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center h-full">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden md:block px-4 py-2 border border-brass-gold text-secondary font-medium text-sm rounded-lg hover:bg-secondary-container transition-all">Emergency</button>
+<button class="bg-primary text-on-primary px-5 py-2 rounded-lg font-medium text-sm hover:opacity-90 active:scale-95 transition-all">Citizen Portal</button>
+</div>
+</header>
+<!-- SideNavBar (Desktop Only) -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-16 bg-surface-container-low border-r border-outline-variant z-40">
+<div class="p-6 flex flex-col gap-1">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 bg-forest-green rounded-full flex items-center justify-center text-state-white">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+</div>
+<div>
+<h2 class="font-headline-md text-sm font-bold text-forest-deep leading-tight">ABIA ONE</h2>
+<p class="text-[10px] text-outline uppercase tracking-widest font-bold">Modern Governance OS</p>
+</div>
+</div>
+<nav class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+<span class="font-label-md text-sm">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg transition-all translate-x-1" href="#">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">mitre</span>
+<span class="font-label-md text-sm">Cultural Heritage</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+<span class="font-label-md text-sm">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">security</span>
+<span class="font-label-md text-sm">Public Trust</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-4 border-t border-outline-variant">
+<button class="w-full bg-forest-green text-state-white py-3 rounded-lg font-medium text-sm mb-4">Citizen Feedback</button>
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant text-sm hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant text-sm hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">help</span>
+<span>Support</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Shell -->
+<main class="lg:pl-64 pt-16 min-h-screen">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-gutter py-12">
+<!-- Hero Section -->
+<section class="relative mb-16 rounded-xl overflow-hidden min-h-[500px] flex items-center">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A sweeping aerial panoramic view of the lush, rolling green hills and dense tropical rainforest of Abia State, Nigeria. The landscape is bathed in the warm, golden light of a late afternoon sun, casting long shadows across the undulating terrain. A distant river winds like a silver ribbon through the deep forest canopy. The atmosphere is majestic and serene, emphasizing the raw natural beauty and sovereign heritage of the region." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmUbMM1JCPXKeYJIQl9pZbKQOA5h7p_ODcS9RIp0dIqmTdfy9Ly3kEHnxp9k1mL7xn9uWC_zSIZtaqWwvEkC0wd7fBzU6MZTgJRFU-YDZDBoqUGVTIC_Sw7omM41HAItELOUel4ER2OeRVYdHkLF7lkqaG2twVSwXl_XclUAuZnWUo7z2EblfLbN7moTNg92oXY74GNMfDSQdN_k4H6hDjfWQwoChnkWJVeIpv3RmjJ_MfcIwkZRgHtfaWpyggCAv_4Ng3tTJuwko">
+<div class="absolute inset-0 bg-gradient-to-r from-forest-green/90 to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 md:p-16 max-w-2xl">
+<div class="mb-4 inline-block px-3 py-1 bg-brass-gold/20 border border-brass-gold text-brass-gold rounded-full text-xs font-bold tracking-widest uppercase">
+                        State Sovereign Infrastructure
+                    </div>
+<h1 class="font-display-lg text-display-lg text-state-white mb-6">Timeless Heritage. <br><span class="text-secondary-fixed">Future Infrastructure.</span></h1>
+<p class="font-body-lg text-body-lg text-surface-container-highest mb-8 opacity-90">
+                        Welcome to the Abia One Tourism Portal. We are digitizing our cultural legacy to bridge the gap between ancient wisdom and modern investment, preserving the soul of the 'God's Own State'.
+                    </p>
+<div class="flex gap-4">
+<button class="bg-brass-gold text-on-secondary px-8 py-4 rounded-lg font-bold shadow-lg hover:brightness-110 transition-all">Explore Archives</button>
+<button class="border-2 border-state-white text-state-white px-8 py-4 rounded-lg font-bold hover:bg-state-white hover:text-forest-green transition-all">Investor Directory</button>
+</div>
+</div>
+</section>
+<!-- Featured Heritage Grid -->
+<section class="mb-16">
+<div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
+<div class="max-w-xl">
+<h2 class="font-headline-lg text-headline-lg text-forest-deep brass-accent-line">Strategic Heritage Sites</h2>
+<p class="font-body-md text-on-surface-variant mt-4">Curated locations under active development for global tourism standards and cultural preservation.</p>
+</div>
+<div class="flex gap-2">
+<button class="w-10 h-10 border border-outline-variant flex items-center justify-center rounded-lg hover:bg-surface-variant"><span class="material-symbols-outlined">chevron_left</span></button>
+<button class="w-10 h-10 border border-outline-variant flex items-center justify-center rounded-lg hover:bg-surface-variant"><span class="material-symbols-outlined">chevron_right</span></button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Long Juju of Arochukwu -->
+<div class="md:col-span-7 group">
+<div class="relative h-96 rounded-xl overflow-hidden border border-outline-variant shadow-sm transition-transform duration-500 hover:-translate-y-1">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A dark, atmospheric, and mysterious stone cave entrance nestled within a dense, ancient jungle. Moss-covered boulders and twisting vines frame the entrance to the Long Juju of Arochukwu heritage site. Flickering sunlight filters through a thick green canopy, illuminating historical artifacts and carvings on the stone walls. The aesthetic is cinematic and high-contrast, evoking a sense of deep historical significance and spiritual power." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6aVSe-Rp2GyMPedJzbeyeC8T25cOnZvaXcRoJDQ8ZUzniIlbaNaJgES9Oyct3NvZ8CbzaPvDk7jxrkvQqrfu5yfox7IrdcnEy7uZ-xpC1_h0hiaJLNA-XA-aBIY1_tWEQBA2SGxFiDIqYdjl3zxXDcDqWzpBWW2w9kPUyLuF4cWzKwgN7jM7x64c-trbY2epILxf5XlvCfjqJJighBBdxkyp27v-F1Y2fw4zWo5movznwCYLHPSooynmDrEBlRqsdvmpONMMw82w">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<span class="bg-brass-gold text-[10px] font-bold text-state-white px-2 py-1 rounded-sm uppercase tracking-widest mb-3 inline-block">Ancestral Gateway</span>
+<h3 class="font-headline-lg text-state-white text-2xl">Long Juju of Arochukwu</h3>
+<p class="text-surface-variant text-sm mt-2 max-w-md">The historical religious and judicial complex. Currently undergoing UNESCO-standard digitization and site restoration.</p>
+</div>
+<div class="absolute top-6 right-6">
+<div class="bg-state-white/20 backdrop-blur-md rounded-full px-4 py-2 text-state-white font-label-md text-xs border border-state-white/30">
+                                    Status: Digital Mapping Phase
+                                </div>
+</div>
+</div>
+</div>
+<!-- Azumini Blue River -->
+<div class="md:col-span-5 flex flex-col gap-gutter">
+<div class="relative h-full rounded-xl overflow-hidden border border-outline-variant group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A crystalline, perfectly clear blue river flowing gently through a lush tropical landscape of white sand banks and emerald trees. The water of the Azumini Blue River is so transparent that every pebble on the riverbed is visible. Soft morning light creates sparkling highlights on the water's surface. The style is bright and ultra-high-definition, showcasing a luxurious and pristine eco-tourism destination with a corporate, clean finish." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBl3RrrIia9xo8zLwC1-_yF44sDkIvGuEFxCddXPelnYxca2DIMjd72_VA2A4m01PHYHjnVoB9KwgoNlOKA93DUPVQ63IDv6IPNbSwP6ONQ2SZYdU0NK6sc7bshHxQWq8DAkXOii1g5nVLXqcySLfnlnRppAjq6xbuNV0Uj3Q-rkftpmnYrGoNUwU9oLUPs5L4b3EgH0HDjj-HqV7GsKFpfcKcbIn3MhbJPk1ZB5GURSrtsHx__0gPKdAHfuHHtsPAJeaDPOjK-jmY">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="font-headline-md text-state-white text-xl">Azumini Blue River</h3>
+<p class="text-surface-variant text-xs mt-1">Hospitality Development Zone</p>
+<button class="mt-4 text-secondary-fixed font-bold text-xs flex items-center gap-1 hover:underline">VIEW MASTERPLAN <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Digital Archives & Statistics Bento -->
+<section class="mb-16">
+<h2 class="font-headline-lg text-headline-lg text-forest-deep mb-8">Ecosystem Dashboard</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Stat Card 1 -->
+<div class="glass-card p-6 rounded-xl border border-outline-variant flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-primary mb-4 text-3xl">cloud_download</span>
+<p class="font-label-md text-xs text-outline uppercase tracking-wider">Digital Artifacts</p>
+<h4 class="font-display-lg text-4xl text-forest-green mt-2">12,480</h4>
+</div>
+<p class="text-xs text-on-surface-variant mt-4">+12% increase this quarter in museum metadata indexing.</p>
+</div>
+<!-- Archive Preview Card -->
+<div class="md:col-span-2 glass-card p-6 rounded-xl border border-outline-variant flex gap-6">
+<div class="w-1/3 rounded-lg overflow-hidden h-full min-h-[140px] border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A collection of intricate, ancient African bronze artifacts and carved ivory sculptures displayed in a modern, minimalist museum setting with precise spotlights. The artifacts are from the Abia State digital archives, showing detailed geometric patterns and historical craftsmanship. The lighting is sophisticated, with deep shadows and sharp highlights, emphasizing a professional and sovereign archival environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaNe5sDAe1roaAzZUA8RtRTN-b9qyuYlJA0coAKOGuNh-4mStG365IyMEn9l_oeTQJ4T0WJlDbKjT5FmVHaqonku7LBTTzuZzX9L4W8d5y92Id9nHv6ytrm35GBZ6GMLAPz0852hU1_1rF-AOBAlGPUJTAvPOjIzO2rXaxZnIaMHv-CADVtLcE5HBAWOTq4yKGaESLypx05N8xPzTcXHYcJQDHuzcekGYyX_ZFOFv9yXDljvLUuSuhftfzFBWBUTqwO4N06aN43XA">
+</div>
+<div class="flex-1 flex flex-col justify-center">
+<h4 class="font-headline-md text-lg text-forest-deep">State Museum Digital Archive</h4>
+<p class="font-body-md text-sm text-on-surface-variant mt-2">Access high-resolution 3D scans of the Ohafia War Dance regalia and historical Nok-influence ceramics.</p>
+<a class="inline-flex items-center gap-2 text-forest-green font-bold text-sm mt-4 group" href="#">
+                                Open Explorer <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_right_alt</span>
+</a>
+</div>
+</div>
+<!-- Map/Location Card -->
+<div class="glass-card p-6 rounded-xl border border-outline-variant bg-forest-deep text-state-white">
+<div class="flex justify-between items-start mb-6">
+<h4 class="font-headline-md text-sm uppercase tracking-widest text-secondary-fixed">Global Connectivity</h4>
+<span class="material-symbols-outlined text-secondary-fixed">public</span>
+</div>
+<p class="text-xs opacity-80 leading-relaxed">Connecting Abia’s cultural nodes to the global tourism network via the Abia One OS.</p>
+<div class="mt-6 pt-6 border-t border-state-white/10">
+<div class="flex justify-between text-xs mb-2">
+<span>Site Accessibility</span>
+<span>88%</span>
+</div>
+<div class="w-full bg-state-white/10 h-1.5 rounded-full">
+<div class="bg-brass-gold h-full rounded-full" style="width: 88%"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Investor Directory Section -->
+<section class="bg-surface-container-high rounded-xl p-8 md:p-12 border border-outline-variant">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+<div class="lg:col-span-1">
+<h2 class="font-headline-lg text-headline-lg text-forest-deep brass-accent-line">Hospitality Investor Directory</h2>
+<p class="font-body-md text-on-surface-variant mt-8">Pre-approved development opportunities for international hotel chains and eco-lodge developers.</p>
+<ul class="mt-8 space-y-4">
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Tax Incentives &amp; PPP Frameworks
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Accelerated Land Acquisition
+                            </li>
+<li class="flex items-center gap-3 text-sm font-medium">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                Infrastructure Co-funding
+                            </li>
+</ul>
+</div>
+<div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Investor Card 1 -->
+<div class="bg-state-white p-6 rounded-lg border border-outline-variant hover:shadow-md transition-shadow">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green">hotel</span>
+</div>
+<div>
+<h5 class="font-bold text-forest-deep">Eco-Lodge Project B</h5>
+<p class="text-xs text-outline">Arochukwu Forest Rim</p>
+</div>
+</div>
+<div class="flex justify-between text-xs font-label-md mb-4 bg-surface-container-low p-2 rounded">
+<span class="text-on-surface-variant">CAPEX: $12M</span>
+<span class="text-forest-green font-bold">OPEN FOR BID</span>
+</div>
+<button class="w-full border border-forest-green text-forest-green py-2 rounded font-bold text-xs hover:bg-forest-green hover:text-state-white transition-colors">Review Prospectus</button>
+</div>
+<!-- Investor Card 2 -->
+<div class="bg-state-white p-6 rounded-lg border border-outline-variant hover:shadow-md transition-shadow">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green">waves</span>
+</div>
+<div>
+<h5 class="font-bold text-forest-deep">Azumini Resort Spa</h5>
+<p class="text-xs text-outline">Blue Riverfront Development</p>
+</div>
+</div>
+<div class="flex justify-between text-xs font-label-md mb-4 bg-surface-container-low p-2 rounded">
+<span class="text-on-surface-variant">CAPEX: $45M</span>
+<span class="text-forest-green font-bold">SHORTLISTING</span>
+</div>
+<button class="w-full border border-forest-green text-forest-green py-2 rounded font-bold text-xs hover:bg-forest-green hover:text-state-white transition-colors">Review Prospectus</button>
+</div>
+<!-- Investor Card 3 -->
+<div class="bg-state-white p-6 rounded-lg border border-outline-variant hover:shadow-md transition-shadow">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green">theater_comedy</span>
+</div>
+<div>
+<h5 class="font-bold text-forest-deep">Cultural Village Hub</h5>
+<p class="text-xs text-outline">Umuahia North Heritage Zone</p>
+</div>
+</div>
+<div class="flex justify-between text-xs font-label-md mb-4 bg-surface-container-low p-2 rounded">
+<span class="text-on-surface-variant">CAPEX: $8M</span>
+<span class="text-brass-gold font-bold">PROPOSAL STAGE</span>
+</div>
+<button class="w-full border border-forest-green text-forest-green py-2 rounded font-bold text-xs hover:bg-forest-green hover:text-state-white transition-colors">Review Prospectus</button>
+</div>
+<!-- Investor Card 4 -->
+<div class="bg-state-white p-6 rounded-lg border border-outline-variant hover:shadow-md transition-shadow">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-green">map</span>
+</div>
+<div>
+<h5 class="font-bold text-forest-deep">Heritage Trail Signage</h5>
+<p class="text-xs text-outline">Statewide Smart Signage</p>
+</div>
+</div>
+<div class="flex justify-between text-xs font-label-md mb-4 bg-surface-container-low p-2 rounded">
+<span class="text-on-surface-variant">CAPEX: $2.5M</span>
+<span class="text-forest-green font-bold">RFP ACTIVE</span>
+</div>
+<button class="w-full border border-forest-green text-forest-green py-2 rounded font-bold text-xs hover:bg-forest-green hover:text-state-white transition-colors">Review Prospectus</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest mt-auto py-12 border-t border-outline-variant">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="md:col-span-2">
+<span class="font-headline-lg text-headline-lg text-forest-deep font-bold mb-4 block">ABIA ONE</span>
+<p class="font-body-md text-on-surface-variant max-w-sm">
+                        Building the world's most transparent and citizen-centric state operating system. Empowering the people of Abia through technology and modern governance.
+                    </p>
+</div>
+<div>
+<h5 class="font-label-md text-sm font-bold text-forest-deep mb-4 uppercase tracking-widest">Connect</h5>
+<ul class="flex flex-col gap-2">
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Build Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Open Abia</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-md text-sm font-bold text-forest-deep mb-4 uppercase tracking-widest">Legal</h5>
+<ul class="flex flex-col gap-2">
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-on-surface-variant">
+<p>© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-6">
+<a class="hover:underline" href="#">Transparency Portal</a>
+<a class="hover:underline" href="#">E-Governance Hub</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- FAB (Suppressed on Details/Task screens, active here for primary action) -->
+<button class="fixed bottom-8 right-8 w-14 h-14 bg-forest-green text-state-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-50">
+<span class="material-symbols-outlined text-2xl">map</span>
+</button>
+<script>
+        // Micro-interactions for hovering cards
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-4px)';
+                card.style.transition = 'transform 0.3s ease';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Simple smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body></html>

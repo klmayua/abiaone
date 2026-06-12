@@ -1,0 +1,400 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Abia One - Youth &amp; Sports Transformation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "forest-green": "#006838",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary-fixed-variant": "#574500",
+                        "inverse-surface": "#2d322d",
+                        "on-tertiary-fixed": "#40000e",
+                        "primary-container": "#006838",
+                        "surface-tint": "#0b6d3c",
+                        "secondary": "#735c00",
+                        "inverse-on-surface": "#eef2eb",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "eagle-red": "#C41E3A",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#241a00",
+                        "surface-bright": "#f6fbf3",
+                        "on-secondary-container": "#745c00",
+                        "secondary-fixed": "#ffe088",
+                        "outline-variant": "#bec9be",
+                        "surface-container-high": "#e5e9e2",
+                        "surface-variant": "#dfe4dd",
+                        "outline": "#6f7a70",
+                        "tertiary-fixed": "#ffdadb",
+                        "secondary-container": "#fed65b",
+                        "on-error": "#ffffff",
+                        "primary": "#004d28",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-secondary": "#ffffff",
+                        "brass-gold": "#D4AF37",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#8ee4a8",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-surface": "#181d19",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary-fixed": "#00210e",
+                        "slate-gray": "#334155",
+                        "tertiary": "#762732",
+                        "on-surface-variant": "#3f4940",
+                        "tertiary-container": "#943e48",
+                        "primary-fixed": "#9ef5b8",
+                        "surface-dim": "#d7dbd4",
+                        "on-background": "#181d19",
+                        "surface": "#f6fbf3",
+                        "surface-container-low": "#f1f5ee",
+                        "background": "#f6fbf3",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#83d99d",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "max-width": "1440px",
+                        "margin-desktop": "64px",
+                        "base": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+        .sidebar-active { background-color: #fed65b; color: #241a00; border-radius: 0.25rem; }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .card-accent-line {
+            width: 40px;
+            height: 3px;
+            background-color: #D4AF37;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Security</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="px-4 py-2 border border-brass-gold text-secondary font-medium rounded-lg hover:bg-secondary-container transition-all">Emergency</button>
+<button class="px-4 py-2 bg-forest-green text-state-white font-medium rounded-lg hover:opacity-90 transition-all">Citizen Portal</button>
+</div>
+</header>
+<div class="flex flex-1 pt-16">
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col h-[calc(100vh-64px)] w-64 fixed left-0 top-16 bg-surface-container-low border-r border-outline-variant overflow-y-auto">
+<div class="p-6">
+<div class="flex items-center gap-3 mb-8">
+<div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-state-white">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+<div>
+<p class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep">ABIA ONE</p>
+<p class="text-xs uppercase tracking-widest text-outline">Governance OS</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-label-sm text-label-sm">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span class="font-label-sm text-label-sm">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg font-bold" href="#">
+<span class="material-symbols-outlined" data-icon="vptree">mitre</span>
+<span class="font-label-sm text-label-sm">Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+<span class="font-label-sm text-label-sm">Public Trust</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-6 border-t border-outline-variant">
+<button class="w-full py-3 bg-primary-container text-on-primary-container rounded-lg mb-4 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">chat</span>
+                    Citizen Feedback
+                </button>
+<div class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-sm">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg" href="#">
+<span class="material-symbols-outlined">help</span>
+<span class="text-sm">Support</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 lg:ml-64 p-margin-mobile md:p-gutter">
+<div class="max-w-max-width mx-auto">
+<!-- Header / Hero Section -->
+<div class="mb-10">
+<h1 class="font-display-lg text-display-lg text-primary mb-2">Youth &amp; Sports Transformation</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Empowering the next generation of Abia leaders and athletes through world-class infrastructure and systematic talent development.</p>
+</div>
+<!-- Dashboard Bento Grid -->
+<div class="bento-grid">
+<!-- ABYES Portal Card (Large) -->
+<div class="col-span-12 md:col-span-8 bg-surface-container-lowest border border-outline-variant p-8 rounded-xl relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-64 h-64 opacity-10 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-[160px] text-forest-green" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<div class="card-accent-line"></div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-4">Abia Youth Empowerment Scheme (ABYES)</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 max-w-lg">Current Application Cycle: Q3 2024. Over 15,000 grants disbursed this year. Access startup capital, mentorship, and enterprise tools.</p>
+<div class="flex flex-wrap gap-4">
+<button class="px-6 py-3 bg-forest-green text-state-white rounded-lg flex items-center gap-2 hover:shadow-lg transition-all">
+<span class="material-symbols-outlined">rocket_launch</span>
+                                Apply for Grant
+                            </button>
+<button class="px-6 py-3 border border-forest-green text-forest-green rounded-lg flex items-center gap-2 hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined">description</span>
+                                View Guidelines
+                            </button>
+</div>
+</div>
+<!-- Statistics Card -->
+<div class="col-span-12 md:col-span-4 bg-primary text-on-primary p-8 rounded-xl flex flex-col justify-between">
+<div>
+<span class="font-label-md text-label-md text-primary-fixed uppercase tracking-widest">Active Talent Pipeline</span>
+<div class="text-5xl font-bold mt-4">24,810</div>
+<p class="text-sm mt-2 opacity-80">Youths currently enrolled in skill-acquisition programs across 17 LGAs.</p>
+</div>
+<div class="mt-8 pt-8 border-t border-primary-fixed-dim/30">
+<div class="flex justify-between items-end">
+<div>
+<div class="text-2xl font-bold">₦4.2B</div>
+<p class="text-xs opacity-80">Total Investment YTD</p>
+</div>
+<div class="bg-brass-gold text-on-secondary px-3 py-1 rounded text-xs font-bold">+12% YoY</div>
+</div>
+</div>
+</div>
+<!-- Vocational Training (Middle Row) -->
+<div class="col-span-12 md:col-span-4 bg-surface-container-lowest border border-outline-variant p-6 rounded-xl">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-on-surface">Vocational Enrollment</h3>
+<span class="material-symbols-outlined text-brass-gold">engineering</span>
+</div>
+<div class="space-y-4">
+<div class="p-4 bg-surface-container-low rounded-lg flex items-center gap-4 hover:translate-x-1 transition-transform">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined">code</span>
+</div>
+<div class="flex-1">
+<p class="font-bold text-sm">Tech &amp; Software</p>
+<div class="w-full bg-outline-variant h-1.5 rounded-full mt-2">
+<div class="bg-forest-green h-1.5 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+</div>
+<div class="p-4 bg-surface-container-low rounded-lg flex items-center gap-4 hover:translate-x-1 transition-transform">
+<div class="w-12 h-12 bg-surface-container-highest rounded flex items-center justify-center">
+<span class="material-symbols-outlined">solar_power</span>
+</div>
+<div class="flex-1">
+<p class="font-bold text-sm">Renewable Energy</p>
+<div class="w-full bg-outline-variant h-1.5 rounded-full mt-2">
+<div class="bg-forest-green h-1.5 rounded-full" style="width: 62%"></div>
+</div>
+</div>
+</div>
+<button class="w-full text-center py-3 text-forest-green font-bold text-sm border border-outline-variant hover:bg-surface-container-high transition-all">Explore All Programs</button>
+</div>
+</div>
+<!-- Stadium Renewals Card -->
+<div class="col-span-12 md:col-span-8 bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden flex flex-col md:flex-row">
+<div class="w-full md:w-1/2 min-h-[240px] relative">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A modern architectural visualization of a renovated sports stadium in Nigeria. The stadium features sleek white cantilevered roofs, vibrant green natural turf, and seating in the Abia State colors. Dramatic cinematic lighting at sunset emphasizes the state-of-the-art sports infrastructure with a clean and professional aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5riLlwcNkqMW0FMIzhdAJ-lDzyS8r-cvBuIq9jwbUM7WFqiiK5u8xwu0TGrm8Uu1YwHmqIXp5SkTfr9wVMw6QeoNxCyLqqCWZ_9kuPTTNNgecqPCXcpn2x9VIfDlaYICVaTn4HQaoxz4xailnFVKCMdILpdPmX9Vi07Ccsi99GVrUNoGj0GsZ6ruxTdfPHFUQxHClPrCl3z9qz4aQK4rudLNIZbjsV6pOw1rA6tD-_APbB6y83WH4jC7OFVDhlTBpB6d9I_J29tY">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+<span class="bg-brass-gold text-on-secondary px-3 py-1 rounded text-xs font-bold uppercase tracking-widest">92% Complete</span>
+</div>
+</div>
+<div class="w-full md:w-1/2 p-6 flex flex-col justify-center">
+<div class="card-accent-line"></div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Stadium Infrastructure Renewals</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Phase 2: Enyimba International Stadium &amp; Umuahia Township Stadium. Modernizing pitches, lighting systems, and athlete recovery suites.</p>
+<div class="flex gap-4">
+<div class="flex-1 border-r border-outline-variant last:border-0">
+<p class="text-xs text-outline uppercase font-bold">Capacity</p>
+<p class="text-lg font-bold">30,000</p>
+</div>
+<div class="flex-1 border-r border-outline-variant last:border-0">
+<p class="text-xs text-outline uppercase font-bold">Contractor</p>
+<p class="text-lg font-bold">Julius Berger</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Talent Scouting Registry -->
+<div class="col-span-12 bg-surface-container-lowest border border-outline-variant p-6 rounded-xl">
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Talent Scouting Registry</h3>
+<p class="text-sm text-on-surface-variant">Centralized database for verified youth talent across all sporting disciplines.</p>
+</div>
+<div class="flex gap-2">
+<div class="relative">
+<input class="pl-10 pr-4 py-2 bg-surface-container border-outline-variant rounded-lg text-sm focus:ring-forest-green" placeholder="Search athletes..." type="text">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-outline text-sm">search</span>
+</div>
+<button class="px-4 py-2 bg-forest-green text-state-white rounded-lg text-sm font-bold">Register Talent</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="border-b border-outline-variant">
+<th class="pb-4 font-label-caps text-label-caps text-outline">Athlete Name</th>
+<th class="pb-4 font-label-caps text-label-caps text-outline">Discipline</th>
+<th class="pb-4 font-label-caps text-label-caps text-outline">Status</th>
+<th class="pb-4 font-label-caps text-label-caps text-outline">LGA</th>
+<th class="pb-4 font-label-caps text-label-caps text-outline">Last Assessment</th>
+<th class="pb-4 font-label-caps text-label-caps text-outline">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr>
+<td class="py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img data-alt="Close up portrait of a young professional athlete in a modern green sports uniform. Bright studio lighting with a clean professional background that emphasizes the energetic and high-performance theme of the design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjq5XiK9T-2vz-bsZXLzJaH2XJ-iHIe2kS3wwfeVYLGoNXY0rKUZPtx26JSjO8AMNo6TrTgS_UTZWRXSenSv397AoapgPYa5xVcINr4feGNA-E6P2o6fRpcNCFvOgjJ_5nZBTaqO72TGqIvIR-XFQScrKfItC1zhAOhcsGKuiMaQ8YuemdWBqt1ho1wwDE5aBoiZMTvqhdHQi0_XXUyZRM61Iat4vueo49CvYiC1t_x9N9ua1H38mhRzx4RcWWCNWXy0XNoUFjvV4">
+</div>
+<span class="font-bold">Chijioke Okoro</span>
+</div>
+</td>
+<td class="py-4">Football (ST)</td>
+<td class="py-4"><span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold uppercase">Elite Prospect</span></td>
+<td class="py-4">Aba South</td>
+<td class="py-4">12 Oct 2024</td>
+<td class="py-4"><button class="text-forest-green font-bold text-sm hover:underline">View Stats</button></td>
+</tr>
+<tr>
+<td class="py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img data-alt="A portrait of a focused young female runner in sportswear, her hair pulled back, with a determined expression. Soft, warm morning light in an outdoor stadium setting, conveying a sense of energy and sports transformation in Abia State." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJN0lilquWdrb9ig7RSyCeS3XDy3fLuavZlIgZiuXee4A7QUgFxFbzuwST62z9C62x3sPhxnGObZaG6nI2UEhvBPi_RoTItjdGh87YWiw7Vvv_coC_ejFvi0ZcpuVRklDAKwuIkR9CbVkLYTPOAHo8FNAOJtbhYCx0m4xZoJK7FNj14FIQo4mTGkPxs_LIFqlLNIULbfWAzsrEWo5IT3pTBgIYJ34iaZUJ3O5QuCIr6L4R69W_LB6fLcGMXqFOoWwa98n4b_mo0Vo">
+</div>
+<span class="font-bold">Amarachi Nwosu</span>
+</div>
+</td>
+<td class="py-4">Track (100m)</td>
+<td class="py-4"><span class="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold uppercase">Emerging</span></td>
+<td class="py-4">Ohafia</td>
+<td class="py-4">05 Oct 2024</td>
+<td class="py-4"><button class="text-forest-green font-bold text-sm hover:underline">View Stats</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest dark:bg-forest-deep py-12 border-t border-outline-variant">
+<div class="max-w-max-width mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="max-w-xs">
+<span class="font-headline-lg text-headline-lg text-forest-deep dark:text-primary-fixed block mb-4">ABIA ONE</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Modern Governance OS for the sustainable growth of Abia State. Built for the citizens, by the state.</p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-8">
+<div class="flex flex-col gap-2">
+<p class="font-label-caps text-label-caps text-primary font-bold mb-2">Initiatives</p>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Invest Abia</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Serve Abia</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Build Abia</a>
+</div>
+<div class="flex flex-col gap-2">
+<p class="font-label-caps text-label-caps text-primary font-bold mb-2">Public Info</p>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Open Abia</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors" href="#">Contact Us</a>
+</div>
+</div>
+</div>
+<div class="max-w-max-width mx-auto mt-12 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-primary">face_nod</span>
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-primary">public</span>
+<span class="material-symbols-outlined text-outline cursor-pointer hover:text-primary">rss_feed</span>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions and interactive elements
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', () => {
+                button.classList.add('opacity-80', 'scale-95');
+            });
+            button.addEventListener('mouseup', () => {
+                button.classList.remove('opacity-80', 'scale-95');
+            });
+        });
+    </script>
+</body></html>

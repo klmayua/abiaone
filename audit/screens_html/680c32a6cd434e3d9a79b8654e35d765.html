@@ -1,0 +1,459 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ABIA ONE | Science &amp; Technology Innovation Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "tertiary-container": "#943e48",
+                    "inverse-surface": "#2d322d",
+                    "surface-tint": "#0b6d3c",
+                    "on-secondary-container": "#745c00",
+                    "on-secondary-fixed": "#241a00",
+                    "primary-fixed": "#9ef5b8",
+                    "inverse-on-surface": "#eef2eb",
+                    "surface-variant": "#dfe4dd",
+                    "on-surface": "#181d19",
+                    "primary": "#004d28",
+                    "on-tertiary-fixed": "#40000e",
+                    "background": "#f6fbf3",
+                    "tertiary-fixed-dim": "#ffb2b7",
+                    "outline": "#6f7a70",
+                    "secondary-container": "#fed65b",
+                    "primary-container": "#006838",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed-variant": "#00522b",
+                    "tertiary": "#762732",
+                    "inverse-primary": "#83d99d",
+                    "surface-container-highest": "#dfe4dd",
+                    "surface-container-high": "#e5e9e2",
+                    "primary-fixed-dim": "#83d99d",
+                    "surface-dim": "#d7dbd4",
+                    "on-secondary-fixed-variant": "#574500",
+                    "outline-variant": "#bec9be",
+                    "brass-gold": "#D4AF37",
+                    "on-background": "#181d19",
+                    "on-tertiary-container": "#ffc3c6",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#3f4940",
+                    "forest-green": "#006838",
+                    "eagle-red": "#C41E3A",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed": "#ffdadb",
+                    "on-error": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "slate-gray": "#334155",
+                    "surface-container-low": "#f1f5ee",
+                    "surface-container": "#ebefe8",
+                    "state-white": "#FFFFFF",
+                    "on-secondary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "surface-bright": "#f6fbf3",
+                    "on-primary-fixed": "#00210e",
+                    "on-tertiary-fixed-variant": "#7b2b36",
+                    "surface": "#f6fbf3",
+                    "secondary-fixed-dim": "#e9c349",
+                    "secondary": "#735c00",
+                    "on-primary-container": "#8ee4a8",
+                    "secondary-fixed": "#ffe088"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "64px",
+                    "max-width": "1440px",
+                    "margin-mobile": "16px",
+                    "base": "4px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Montserrat"],
+                    "label-md": ["JetBrains Mono"],
+                    "headline-md": ["Montserrat"],
+                    "display-lg": ["Montserrat"],
+                    "headline-lg": ["Montserrat"],
+                    "caption": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .accent-line {
+            height: 2px;
+            width: 40px;
+            background: #D4AF37;
+            margin-bottom: 12px;
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #006838; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
+<div class="flex items-center gap-8">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
+<div class="hidden md:flex gap-6">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Digital Gov</a>
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-brass-accent pb-1" href="#">Governance</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-4 py-2 border border-brass-gold text-forest-green font-medium rounded-lg hover:bg-brass-gold/10 transition-all text-sm">Emergency</button>
+<button class="px-4 py-2 bg-forest-green text-state-white font-medium rounded-lg hover:opacity-90 transition-all text-sm">Citizen Portal</button>
+</div>
+</nav>
+<!-- Sidebar Navigation -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 pt-20 bg-surface-container-low dark:bg-forest-deep border-r border-outline-variant z-40">
+<div class="px-6 mb-8">
+<h2 class="font-headline-md text-headline-md text-forest-deep">Innovation Hub</h2>
+<p class="text-xs text-on-surface-variant opacity-70">Modern Governance OS</p>
+</div>
+<nav class="flex-1 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 transition-all translate-x-1" href="#">
+<span class="material-symbols-outlined">mitre</span>
+<span class="font-label-sm text-label-sm">Science &amp; Tech Hub</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-label-sm text-label-sm">Research Grants</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-label-sm text-label-sm">IP Protection</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">security</span>
+<span class="font-label-sm text-label-sm">Tech Parks</span>
+</a>
+</nav>
+<div class="p-4 mt-auto border-t border-outline-variant">
+<button class="w-full py-3 bg-forest-green text-white rounded-lg flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">campaign</span>
+<span class="font-label-sm text-label-sm">Citizen Feedback</span>
+</button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:ml-64 pt-20 pb-12 px-margin-mobile md:px-margin-desktop min-h-screen">
+<!-- Hero Section -->
+<header class="mb-12 relative overflow-hidden rounded-xl h-64 flex items-center p-8 lg:p-12">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-20 grayscale brightness-50" data-alt="A sophisticated, wide-angle shot of a high-tech research facility in Abia State, featuring clean laboratory benches, gleaming scientific equipment, and digital screens displaying complex data visualizations. The lighting is cold and clinical with blue and green undertones, reflecting a modern light-mode governance aesthetic. Soft sunlight filters through large glass windows, creating a bridge between institutional stability and futuristic scientific progress." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxfk5X2b7vr-YnHeVccfqP62AMsSd7U4_lbAtQOcYibBFxv352orMomQCGntfZYwl_z1qF9a1BgZcUMG9k148-iz4C-EUmudqzUXxnlpdXr6GB527HXm7M4lbwCk40ohuGGwpAItuFAycwNptfLGsi3QjsJHGrNVmc9AieFNO6n7rv6MDPPbfuvumjfDkMo4Tz9PlsnpWqpDxvgzw3mrUEZKcB2HNCdP9YZID1gheqaNlsvmd_TCkCX0KIQAxwBIYaYD6l3bNrqYM">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-forest-green/90 to-transparent z-10"></div>
+<div class="relative z-20 max-w-2xl">
+<div class="accent-line bg-brass-gold"></div>
+<h1 class="font-display-lg text-display-lg text-state-white mb-4">Pioneering the Abia Digital Frontier</h1>
+<p class="text-primary-fixed-dim font-body-lg max-w-lg">Managing the state's Research &amp; Development ecosystem, protecting intellectual capital, and scaling high-growth startups.</p>
+</div>
+</header>
+<!-- Bento Grid Dashboard -->
+<div class="bento-grid">
+<!-- Startup Incubation Tracker (Wide) -->
+<section class="col-span-12 lg:col-span-8 glass-card rounded-xl p-6 shadow-sm">
+<div class="flex justify-between items-center mb-6">
+<div>
+<div class="accent-line"></div>
+<h3 class="font-headline-md text-headline-md text-forest-green">Startup Incubation Tracker</h3>
+</div>
+<button class="text-primary font-label-caps text-xs flex items-center gap-1 hover:underline">
+                        View Ecosystem Map <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="border-b border-outline-variant text-on-surface-variant font-label-md text-xs uppercase tracking-wider">
+<th class="pb-4 font-semibold">Startup Entity</th>
+<th class="pb-4 font-semibold">Vertical</th>
+<th class="pb-4 font-semibold">Stage</th>
+<th class="pb-4 font-semibold">Metric</th>
+<th class="pb-4 font-semibold">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/30">
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-4 font-semibold text-forest-green">Aba-Smart Logistics</td>
+<td class="py-4 text-on-surface-variant">Supply Chain</td>
+<td class="py-4"><span class="px-2 py-1 bg-secondary-container text-on-secondary-container text-[10px] font-bold rounded-full">SERIES A</span></td>
+<td class="py-4 font-mono text-xs">84% Efficiency Gain</td>
+<td class="py-4 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-forest-green animate-pulse"></div>
+<span class="text-sm">Scaling</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 font-semibold text-forest-green">Umuahia Bio-Gen</td>
+<td class="py-4 text-on-surface-variant">AgriTech</td>
+<td class="py-4"><span class="px-2 py-1 bg-surface-variant text-on-surface-variant text-[10px] font-bold rounded-full">SEED</span></td>
+<td class="py-4 font-mono text-xs">12 Patents Pending</td>
+<td class="py-4 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-brass-gold"></div>
+<span class="text-sm">R&amp;D Phase</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-4 font-semibold text-forest-green">Enyimba FinCore</td>
+<td class="py-4 text-on-surface-variant">FinTech</td>
+<td class="py-4"><span class="px-2 py-1 bg-primary-container text-on-primary-container text-[10px] font-bold rounded-full">PRE-SEED</span></td>
+<td class="py-4 font-mono text-xs">$200k Raised</td>
+<td class="py-4 flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-forest-green animate-pulse"></div>
+<span class="text-sm">Active</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- IP Protection Card (Square) -->
+<section class="col-span-12 lg:col-span-4 glass-card rounded-xl p-6 border-l-4 border-brass-gold">
+<div class="accent-line"></div>
+<h3 class="font-headline-md text-headline-md text-forest-green mb-4">IP Protection Office</h3>
+<p class="text-on-surface-variant mb-6 text-sm">Safeguarding the innovations of Abia's citizens through state-backed legal frameworks and international registry assistance.</p>
+<div class="space-y-4">
+<div class="p-4 bg-surface-container rounded-lg flex items-start gap-3">
+<span class="material-symbols-outlined text-brass-gold">workspace_premium</span>
+<div>
+<p class="font-semibold text-sm">Active Patents</p>
+<p class="text-2xl font-bold text-forest-green">1,248</p>
+</div>
+</div>
+<div class="p-4 bg-surface-container rounded-lg flex items-start gap-3">
+<span class="material-symbols-outlined text-brass-gold">gavel</span>
+<div>
+<p class="font-semibold text-sm">Legal Disputes Resolved</p>
+<p class="text-2xl font-bold text-forest-green">142</p>
+</div>
+</div>
+</div>
+<button class="mt-6 w-full py-3 bg-white border border-forest-green text-forest-green font-bold rounded-lg hover:bg-forest-green hover:text-white transition-all">
+                    Register New Invention
+                </button>
+</section>
+<!-- Research Grant Applications (Full Row) -->
+<section class="col-span-12 glass-card rounded-xl p-8 overflow-hidden relative">
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-8">
+<div class="max-w-xl">
+<div class="accent-line"></div>
+<h3 class="font-headline-md text-headline-md text-forest-green">Research Grant Applications</h3>
+<p class="text-on-surface-variant mt-2">Active funding rounds for high-impact scientific research projects contributing to the Abia State 2030 Vision.</p>
+</div>
+<div class="flex gap-4">
+<div class="text-right">
+<p class="text-xs font-label-md text-on-surface-variant uppercase">Total Pool Available</p>
+<p class="text-3xl font-bold text-forest-green">₦4.2B</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Grant Card 1 -->
+<div class="p-6 bg-state-white rounded-xl border border-outline-variant hover:border-forest-green transition-all group">
+<div class="flex justify-between items-start mb-4">
+<span class="p-2 bg-primary-fixed-dim rounded-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-forest-green">bolt</span>
+</span>
+<span class="text-[10px] font-bold text-eagle-red uppercase tracking-tighter bg-error-container px-2 py-1 rounded">2 Days Left</span>
+</div>
+<h4 class="font-bold text-lg text-forest-green mb-2">Sustainable Energy Initiative</h4>
+<p class="text-sm text-on-surface-variant mb-6">Focus on solar grid innovations for industrial clusters in Aba.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="text-xs font-mono">Up to ₦50M</span>
+<button class="p-2 rounded-full border border-forest-green text-forest-green hover:bg-forest-green hover:text-white transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Grant Card 2 -->
+<div class="p-6 bg-state-white rounded-xl border border-outline-variant hover:border-forest-green transition-all group">
+<div class="flex justify-between items-start mb-4">
+<span class="p-2 bg-primary-fixed-dim rounded-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-forest-green">agriculture</span>
+</span>
+<span class="text-[10px] font-bold text-on-surface-variant uppercase tracking-tighter bg-surface-variant px-2 py-1 rounded">Open</span>
+</div>
+<h4 class="font-bold text-lg text-forest-green mb-2">Advanced Agritech Systems</h4>
+<p class="text-sm text-on-surface-variant mb-6">R&amp;D for pest-resistant crop variants and automated irrigation.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="text-xs font-mono">Up to ₦35M</span>
+<button class="p-2 rounded-full border border-forest-green text-forest-green hover:bg-forest-green hover:text-white transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Grant Card 3 -->
+<div class="p-6 bg-state-white rounded-xl border border-outline-variant hover:border-forest-green transition-all group">
+<div class="flex justify-between items-start mb-4">
+<span class="p-2 bg-primary-fixed-dim rounded-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-forest-green">biotech</span>
+</span>
+<span class="text-[10px] font-bold text-on-surface-variant uppercase tracking-tighter bg-surface-variant px-2 py-1 rounded">Open</span>
+</div>
+<h4 class="font-bold text-lg text-forest-green mb-2">Molecular Bio-Labs Fund</h4>
+<p class="text-sm text-on-surface-variant mb-6">Infrastructure grants for private biotech diagnostic facilities.</p>
+<div class="flex justify-between items-center mt-auto">
+<span class="text-xs font-mono">Up to ₦120M</span>
+<button class="p-2 rounded-full border border-forest-green text-forest-green hover:bg-forest-green hover:text-white transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Digital Innovation Labs Directory -->
+<section class="col-span-12 lg:col-span-12">
+<div class="mb-6">
+<div class="accent-line"></div>
+<h3 class="font-headline-md text-headline-md text-forest-green">Digital Innovation Labs Directory</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Lab 1 -->
+<div class="glass-card p-4 rounded-xl flex flex-col items-center text-center">
+<div class="w-full h-32 mb-4 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all">
+<img class="w-full h-full object-cover" data-alt="A futuristic robotics lab interior with modular workstations, 3D printers in operation, and prototype mechanical arms. The scene is bright with clean white light and metallic surfaces reflecting the forest green and brass accents of the Abia One brand. The composition is sleek and professional, highlighting a high-density information environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy3UWuOKnS92yVE6_apo_I-wAzfa5ByUEHGkj9lPMyM-nuItVv5qBm0ecz5h1bw61_VtBEZQzaKZ9wKk772jppJazysK9EHzq87jJr2Ch_UEAPOQXTOzSOj0tZlVzDk4lvRtnrz6Ulru_OrIn1dMC4bI5BZ6zjpb82IBgkIUd6JbU6GPWX_JxXGkTTr1Mg1gzXzXiERRdTho_sORr05qqYveMurgzE2PW8OvC-Nc8qubOBnTo1NB---7qrArFwE34f43bsMxe92PA">
+</div>
+<h5 class="font-bold text-forest-green">Abia Robotics Hub</h5>
+<p class="text-xs text-on-surface-variant mt-1">Industrial Automation &amp; Drone Tech</p>
+<div class="mt-4 flex gap-2">
+<span class="material-symbols-outlined text-sm text-forest-green">location_on</span>
+<span class="text-[10px] font-label-md">ABA DISTRICT</span>
+</div>
+</div>
+<!-- Lab 2 -->
+<div class="glass-card p-4 rounded-xl flex flex-col items-center text-center">
+<div class="w-full h-32 mb-4 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all">
+<img class="w-full h-full object-cover" data-alt="A sophisticated server room and data center with rows of illuminated blue and green server racks. The image captures a high-tech digital governance infrastructure atmosphere, with a sense of immense processing power and security. Clean, glossy floors reflect the blinking lights of the networking equipment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARkFA3iKDdmtHhXneNyFWPGfq7N0H5pdLX96qzpZ9-0ZJh2k9KFqFTua2RZok-51uVuNHa_EO_5LIKsJD4t2akKakf_J0j9P7PwWspgoeGCblt7DMCk-7yTEhk5mjHHPSL90oRwIzRPoTVQY0MIlfTNqHCHYjzyVWU-J30W6g5ISQhu2vCzXk1qT7KnqQ0_fgIGfqylAlvMBUtjUpNlVDOCkWimJz14WGLkQJl0Y_0mACmJylsjnH8Swh4zQI5U2SK36514XkOiMU">
+</div>
+<h5 class="font-bold text-forest-green">Cloud Nexus Data Center</h5>
+<p class="text-xs text-on-surface-variant mt-1">AI Training &amp; Big Data Storage</p>
+<div class="mt-4 flex gap-2">
+<span class="material-symbols-outlined text-sm text-forest-green">location_on</span>
+<span class="text-[10px] font-label-md">UMUAHIA CENTRAL</span>
+</div>
+</div>
+<!-- Lab 3 -->
+<div class="glass-card p-4 rounded-xl flex flex-col items-center text-center">
+<div class="w-full h-32 mb-4 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all">
+<img class="w-full h-full object-cover" data-alt="A modern chemical and biological laboratory with scientists in white coats working with glass beakers and pipettes. The environment is orderly and professional, with bright, even lighting and a clinical aesthetic. The focus is on precision, safety, and institutional reliability in research." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_JCo5X2Si02RMybAi7prIcavFURXjeJyCltyl0rYmlgSsyjBbnF4MAh4I36zcdxeN-ghjmO-gAF6DhRchgUGNZsr15HbQfHBsryFOC_XHZwavT0p2WmMoFzpnjeiDolb5_hwy3_jwLGF458Xlb7ILGWRga085btx_kSsDLuDWo8ZUd_rnnZur1h2E-RjYTrwDH-kOCoxOBbI-dO0IlRMwxwBacWH_hVwdwsfc1ofyrtvkxzbPYUiSg00LDeBPIquir4rE31rIzLQ">
+</div>
+<h5 class="font-bold text-forest-green">Bio-Future Research Lab</h5>
+<p class="text-xs text-on-surface-variant mt-1">Genomic Sequencing &amp; Pharma R&amp;D</p>
+<div class="mt-4 flex gap-2">
+<span class="material-symbols-outlined text-sm text-forest-green">location_on</span>
+<span class="text-[10px] font-label-md">OHAFIA TECH PARK</span>
+</div>
+</div>
+<!-- Lab 4 -->
+<div class="glass-card p-4 rounded-xl flex flex-col items-center text-center">
+<div class="w-full h-32 mb-4 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all">
+<img class="w-full h-full object-cover" data-alt="A minimalist, open-plan software development studio with ergonomic workstations, dual-monitor setups, and whiteboards covered in technical diagrams. The lighting is warm and natural, creating a productive yet high-tech workspace for coding and digital product design in the Abia tech ecosystem." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS2AnZrZxACkeWbhL6zmMGGOfzNtUTFBGVFiOY22PQmzx0OdHIBoquuFhp7Go3Qa5QH2hko88G-ktWu9p655xBqozZuw32xlml8TT2nc-ZUcpbfHERy2jYO64LYAik0fBS3qbj1XPUV4P7KeuQOboXpgftvJkWKG9c7S-DT-20pXwRIj47lCs-43YqHCijfrdCjNnI3zoXjhsKS5kE_c80YWqtLVjHrrfIFbdOhHsHOGbYDWMrscoX5wFH6wjRxKhW04KqTuQjazs">
+</div>
+<h5 class="font-bold text-forest-green">CodeAbia Studio</h5>
+<p class="text-xs text-on-surface-variant mt-1">Software Dev &amp; Cyber Security</p>
+<div class="mt-4 flex gap-2">
+<span class="material-symbols-outlined text-sm text-forest-green">location_on</span>
+<span class="text-[10px] font-label-md">OWERRINTA HUB</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest dark:bg-forest-deep mt-auto py-12 border-t border-outline-variant">
+<div class="max-w-container-max-width mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<span class="font-headline-lg text-headline-lg text-forest-deep dark:text-primary-fixed font-bold">ABIA ONE</span>
+<p class="text-sm text-on-surface-variant mt-4 leading-relaxed">The sovereign digital infrastructure of Abia State. Driving innovation through institutional excellence and transparent governance.</p>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h6 class="font-label-caps text-label-caps font-bold text-forest-green">Ecosystem</h6>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Invest Abia</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Serve Abia</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Build Abia</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h6 class="font-label-caps text-label-caps font-bold text-forest-green">Resources</h6>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">IP Protection Hub</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Open Data Portal</a>
+<a class="text-on-surface-variant hover:text-brass-accent transition-colors text-sm" href="#">Privacy Policy</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<h6 class="font-label-caps text-label-caps font-bold text-forest-green">Contact</h6>
+<p class="text-sm text-on-surface-variant">Govt House, Umuahia</p>
+<p class="text-sm text-on-surface-variant">innovation@abia.gov.ng</p>
+<div class="flex gap-4 mt-2">
+<span class="material-symbols-outlined text-forest-green cursor-pointer">public</span>
+<span class="material-symbols-outlined text-forest-green cursor-pointer">share</span>
+</div>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-outline-variant/30 text-center">
+<p class="font-body-md text-on-surface-variant opacity-60 text-sm">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+</div>
+</footer>
+<!-- Micro-interaction Scripts -->
+<script>
+        // Simple observer for reveal animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-8');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.glass-card').forEach(el => {
+            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-8');
+            observer.observe(el);
+        });
+    </script>
+</body></html>

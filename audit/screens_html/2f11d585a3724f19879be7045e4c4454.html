@@ -1,0 +1,438 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Abia One | Citizen Identity &amp; Civil Registry</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#943e48",
+                        "inverse-surface": "#2d322d",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary-container": "#745c00",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-variant": "#dfe4dd",
+                        "on-surface": "#181d19",
+                        "primary": "#004d28",
+                        "on-tertiary-fixed": "#40000e",
+                        "background": "#f6fbf3",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "outline": "#6f7a70",
+                        "secondary-container": "#fed65b",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary": "#762732",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container-high": "#e5e9e2",
+                        "primary-fixed-dim": "#83d99d",
+                        "surface-dim": "#d7dbd4",
+                        "on-secondary-fixed-variant": "#574500",
+                        "outline-variant": "#bec9be",
+                        "brass-gold": "#D4AF37",
+                        "on-background": "#181d19",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-primary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "forest-green": "#006838",
+                        "eagle-red": "#C41E3A",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "slate-gray": "#334155",
+                        "surface-container-low": "#f1f5ee",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface": "#f6fbf3",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "on-primary-container": "#8ee4a8",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "base": "4px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .card-accent-gold {
+            position: relative;
+        }
+        .card-accent-gold::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 24px;
+            background-color: #D4AF37;
+            border-radius: 0 4px 4px 0;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen flex">
+<!-- SideNavBar (The Anchor) -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 bg-surface-container-low border-r border-outline-variant z-50">
+<div class="p-6">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep">ABIA ONE</h1>
+<p class="font-label-md text-label-md text-on-surface-variant/70 mt-1 uppercase tracking-widest">Modern Governance OS</p>
+</div>
+<nav class="flex-1 mt-4 px-2 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span class="font-body-md text-body-md">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span class="font-body-md text-body-md">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<span class="material-symbols-outlined" data-icon="vptree">mitre</span>
+<span class="font-body-md text-body-md">Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 transition-all rounded-lg mx-2" href="#">
+<span class="material-symbols-outlined" data-icon="security">security</span>
+<span class="font-body-md text-body-md">Public Trust</span>
+</a>
+</nav>
+<div class="p-4 border-t border-outline-variant space-y-1">
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-label-sm text-label-sm">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+<span class="font-label-sm text-label-sm">Support</span>
+</a>
+<button class="w-full mt-4 bg-primary text-on-primary py-3 rounded-lg font-label-md text-label-md hover:opacity-90 transition-opacity">
+                Citizen Feedback
+            </button>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="flex-1 lg:ml-64 flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="fixed top-0 right-0 left-0 lg:left-64 z-40 bg-surface/80 backdrop-blur-md border-b border-outline-variant h-16 flex items-center justify-between px-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined lg:hidden" data-icon="menu">menu</span>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Economy</a>
+<a class="font-label-md text-label-md text-primary border-b-2 border-brass-accent pb-1" href="#">Digital Gov</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Governance</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Security</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex items-center gap-2 bg-eagle-red/10 text-eagle-red px-4 py-2 rounded font-label-md text-label-md border border-eagle-red/20">
+<span class="material-symbols-outlined text-sm" data-icon="emergency_home">emergency_home</span>
+                    Emergency
+                </button>
+<button class="bg-forest-green text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md shadow-sm">
+                    Citizen Portal
+                </button>
+<div class="h-10 w-10 rounded-full bg-surface-container-high border border-outline-variant overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdBwroHZEkfcx4Gqiq7pTA-agK4KrepWtKV-zAp15d-yFhQmLd9b_MKaQN809A4fpzZcfXiyOeR8281cf51-hhenTCNd0dOIqi6Us_OqaQJ7qc15PU_9D17u-vecbUyPJp2l2CcTwWpZQvBzbUiQMXSHRvDwuZDuGA0BA5FuudmTOS6AH8847dhhUyW0IPIZ4FkrxWhgBhZY9nXy-fzEP34eciGsB9_-BxFEdb-RT4w6sf2Mn--l60va9yKKiT4gbtaLl70aZVLcQ">
+</div>
+</div>
+</header>
+<!-- Content Area -->
+<div class="mt-16 p-6 md:p-10 max-w-7xl mx-auto w-full flex-1">
+<!-- Page Header -->
+<div class="mb-10">
+<h2 class="font-headline-lg text-headline-lg text-forest-deep">Citizen Identity &amp; Civil Registry</h2>
+<p class="text-on-surface-variant font-body-lg text-body-lg mt-2">Manage your sovereign digital residency, vital records, and state verification services.</p>
+</div>
+<!-- Bento Grid Content -->
+<div class="bento-grid">
+<!-- Digital Residency Dashboard (Main Feature) -->
+<section class="col-span-12 lg:col-span-8 bg-surface-container-lowest border border-outline-variant p-6 rounded-xl overflow-hidden relative group shadow-sm">
+<div class="flex flex-col md:flex-row gap-8">
+<div class="flex-1">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-forest-deep flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="badge">badge</span>
+                                    Digital Residency Card
+                                </h3>
+<span class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Verified</span>
+</div>
+<div class="space-y-6">
+<div class="grid grid-cols-2 gap-4">
+<div>
+<p class="font-label-md text-label-md text-on-surface-variant">Full Legal Name</p>
+<p class="font-body-lg text-body-lg font-semibold">Chidi Nnamdi Kanu</p>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface-variant">Residency ID</p>
+<p class="font-label-md text-label-md font-bold tracking-tighter">ABI-774-0092-221</p>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface-variant">Issue Date</p>
+<p class="font-body-md text-body-md">January 14, 2024</p>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface-variant">Linked NIN</p>
+<p class="font-body-md text-body-md">********3221</p>
+</div>
+</div>
+<div class="flex gap-3">
+<button class="bg-forest-green text-on-primary px-6 py-2 rounded font-label-md text-label-md flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="download">download</span> Download e-ID
+                                    </button>
+<button class="border border-brass-gold text-secondary px-6 py-2 rounded font-label-md text-label-md">
+                                        Renew Residency
+                                    </button>
+</div>
+</div>
+</div>
+<div class="w-full md:w-64 bg-surface-container border border-outline-variant rounded-lg p-4 flex flex-col items-center justify-center relative overflow-hidden">
+
+<div class="w-32 h-32 bg-white rounded-lg p-2 border border-outline-variant relative z-10 mb-4">
+<img alt="Identity Portrait" class="w-full h-full object-cover rounded shadow-inner" data-alt="A professional, close-up identification portrait of a confident West African man with clean-shaven hair, looking directly at the camera. The lighting is soft and flat as used in official state documents, set against a light grey professional studio background. The style is clear, sharp, and institutional, conveying a sense of citizenship and official digital identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4P4EMBFWbHYjRG-HhMofg6Sb3aHMvlMW9c6lRoNHW08_1KxevUKpuHRYDdrGL6ugYBUMIzxvP09tB0m2iXFq3pT8LL83VVO-OOhtvyjnUSY-vK6YnkWjUUixc2C831dgZhEmksJ4xVTopgdzmav5ruyXguwSkYIn27HgEZEL_BNhA_hW36O9-KZXEt8KNxMiXXxV1X-_CmaxoWvDBRS7QblnxfKiu4u47vrPCzXxyh6mBUSG2V_Kh5cKxBgDfMWpe4i5LHiEZxNA">
+</div>
+<div class="text-center relative z-10">
+<span class="material-symbols-outlined text-4xl text-forest-green mb-1" data-icon="qr_code_2">qr_code_2</span>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold tracking-widest">State Verification Link</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Authentication Gateway -->
+<section class="col-span-12 lg:col-span-4 bg-forest-deep text-on-primary p-6 rounded-xl border border-outline shadow-md flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md mb-2">Service Gateway</h3>
+<p class="text-primary-fixed-dim/80 font-body-md mb-6">Seamlessly access social benefits and government grants through state-verified biometrics.</p>
+<div class="space-y-3">
+<div class="bg-white/10 p-3 rounded flex items-center gap-3 border border-white/5">
+<span class="material-symbols-outlined text-brass-gold" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md">Agricultural Grant Eligibility</span>
+</div>
+<div class="bg-white/10 p-3 rounded flex items-center gap-3 border border-white/5">
+<span class="material-symbols-outlined text-brass-gold" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md">State Health Insurance (ABIA-CARE)</span>
+</div>
+<div class="bg-white/10 p-3 rounded flex items-center gap-3 border border-white/5 opacity-60">
+<span class="material-symbols-outlined text-slate-400" data-icon="pending" style="font-variation-settings: 'FILL' 1;">pending</span>
+<span class="font-body-md text-body-md">Public Transport Subsidy</span>
+</div>
+</div>
+</div>
+<button class="w-full bg-brass-gold text-forest-green py-3 mt-6 rounded font-label-md text-label-md hover:bg-white transition-colors">
+                        Re-Verify Identity
+                    </button>
+</section>
+<!-- Vital Statistics Records -->
+<section class="col-span-12 md:col-span-7 bg-surface-container-lowest border border-outline-variant p-6 rounded-xl shadow-sm card-accent-gold">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md text-forest-deep">Vital Statistics Records</h3>
+<button class="text-primary font-label-md text-label-md hover:underline">View All Records</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full">
+<thead>
+<tr class="text-left border-b border-outline-variant">
+<th class="pb-3 font-label-md text-label-md text-on-surface-variant">Record Type</th>
+<th class="pb-3 font-label-md text-label-md text-on-surface-variant">Reference No.</th>
+<th class="pb-3 font-label-md text-label-md text-on-surface-variant">Status</th>
+<th class="pb-3 font-label-md text-label-md text-on-surface-variant">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr>
+<td class="py-4 font-body-md text-body-md">Birth Registration</td>
+<td class="py-4 font-label-md text-label-md text-on-surface-variant">BR-2023-9941</td>
+<td class="py-4"><span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Approved</span></td>
+<td class="py-4"><span class="material-symbols-outlined text-forest-green cursor-pointer" data-icon="visibility">visibility</span></td>
+</tr>
+<tr>
+<td class="py-4 font-body-md text-body-md">Death Registry (Kin)</td>
+<td class="py-4 font-label-md text-label-md text-on-surface-variant">DR-2024-1102</td>
+<td class="py-4"><span class="bg-amber-100 text-amber-800 px-2 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Processing</span></td>
+<td class="py-4"><span class="material-symbols-outlined text-forest-green cursor-pointer" data-icon="info">info</span></td>
+</tr>
+<tr>
+<td class="py-4 font-body-md text-body-md">Change of Name</td>
+<td class="py-4 font-label-md text-label-md text-on-surface-variant">CN-2022-8837</td>
+<td class="py-4"><span class="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Certified</span></td>
+<td class="py-4"><span class="material-symbols-outlined text-forest-green cursor-pointer" data-icon="visibility">visibility</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-6 flex gap-4">
+<button class="flex-1 border border-outline text-on-surface px-4 py-3 rounded flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-surface-container">
+<span class="material-symbols-outlined" data-icon="add_circle">add_circle</span> Register Birth
+                        </button>
+<button class="flex-1 border border-outline text-on-surface px-4 py-3 rounded flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-surface-container">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span> File Death Report
+                        </button>
+</div>
+</section>
+<!-- Integration Status -->
+<section class="col-span-12 md:col-span-5 flex flex-col gap-6">
+<div class="bg-surface-container-high p-6 rounded-xl border border-outline-variant flex-1">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-white rounded flex items-center justify-center border border-outline-variant">
+<span class="material-symbols-outlined text-forest-green" data-icon="hub">hub</span>
+</div>
+<div>
+<h4 class="font-body-lg text-body-lg font-bold">NIN Integration</h4>
+<p class="text-sm text-on-surface-variant">Federal Sync: Last updated 2h ago</p>
+</div>
+</div>
+<div class="w-full bg-outline-variant/30 h-2 rounded-full mb-4 overflow-hidden">
+<div class="bg-forest-green h-full w-[94%]"></div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant italic">94% Data consistency across Abia &amp; National databases.</p>
+</div>
+<div class="bg-white border border-outline-variant rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="h-24 bg-surface-variant relative overflow-hidden">
+
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-forest-deep/30 text-5xl" data-icon="fingerprint">fingerprint</span>
+</div>
+</div>
+<div class="p-4">
+<h4 class="font-label-md text-label-md font-bold mb-1">State Biometrics</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Registered fingerprints and facial mapping are up to date. Used for instant service authentication.</p>
+<a class="mt-4 block text-forest-green font-label-md text-label-md font-bold flex items-center gap-1 group" href="#">
+                                Update Biometrics <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest mt-auto border-t border-outline-variant py-12">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+<div class="max-w-xs">
+<h2 class="font-headline-lg text-headline-lg text-forest-deep font-bold mb-4">ABIA ONE</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">The unified digital foundation for the Government of Abia State, powering citizen services and transparent governance for a better future.</p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-8">
+<div class="space-y-3">
+<p class="font-label-caps text-label-caps text-on-surface font-bold">Services</p>
+<ul class="space-y-2">
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Invest Abia</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Serve Abia</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Build Abia</a></li>
+</ul>
+</div>
+<div class="space-y-3">
+<p class="font-label-caps text-label-caps text-on-surface font-bold">Privacy &amp; Help</p>
+<ul class="space-y-2">
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Contact Us</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Open Abia</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-outline-variant flex flex-col sm:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer" data-icon="facebook">face_nod</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer" data-icon="public">public</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer" data-icon="alternate_email">alternate_email</span>
+</div>
+</div>
+</footer>
+</main>
+<!-- Mobile Bottom Navigation (Platform & Layout Anchor) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-md border-t border-outline-variant flex justify-around py-3 px-2 z-50">
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined" data-icon="badge" style="font-variation-settings: 'FILL' 1;">badge</span>
+<span class="text-[10px] font-bold">Identity</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span class="text-[10px] font-bold">Records</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-on-surface-variant" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[10px] font-bold">Profile</span>
+</a>
+</nav>
+<script>
+        // Micro-interaction: Active Navigation Logic (Contextual Mapping)
+        // Since we are in the 'Identity' portal which falls under 'Digital Government'
+        const navLinks = document.querySelectorAll('aside nav a');
+        navLinks.forEach(link => {
+            if (link.innerText.includes('Digital Government')) {
+                // Class already applied in static HTML as per JSON instruction
+            }
+        });
+
+        // Micro-interaction: Hover effects for bento cards
+        const bentoCards = document.querySelectorAll('.bento-grid section');
+        bentoCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('transition-all', 'duration-300', 'translate-y-[-2px]');
+            });
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('translate-y-[-2px]');
+            });
+        });
+    </script>
+</body></html>

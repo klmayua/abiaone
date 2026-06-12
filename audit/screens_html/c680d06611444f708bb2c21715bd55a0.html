@@ -1,0 +1,482 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ABIA ONE | Sovereign Fund &amp; Investment Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#943e48",
+                        "inverse-surface": "#2d322d",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary-container": "#745c00",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-variant": "#dfe4dd",
+                        "on-surface": "#181d19",
+                        "primary": "#004d28",
+                        "on-tertiary-fixed": "#40000e",
+                        "background": "#f6fbf3",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "outline": "#6f7a70",
+                        "secondary-container": "#fed65b",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary": "#762732",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container-high": "#e5e9e2",
+                        "primary-fixed-dim": "#83d99d",
+                        "surface-dim": "#d7dbd4",
+                        "on-secondary-fixed-variant": "#574500",
+                        "outline-variant": "#bec9be",
+                        "brass-gold": "#D4AF37",
+                        "on-background": "#181d19",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-primary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "forest-green": "#006838",
+                        "eagle-red": "#C41E3A",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "slate-gray": "#334155",
+                        "surface-container-low": "#f1f5ee",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface": "#f6fbf3",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "on-primary-container": "#8ee4a8",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "base": "4px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; background-color: #f6fbf3; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- Top Navigation Bar (JSON Anchor) -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex items-center gap-8">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+<div class="hidden md:flex gap-6">
+<a class="text-primary border-b-2 border-brass-accent pb-1 font-label-caps text-label-caps" href="#">Economy</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps" href="#">Digital Gov</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps" href="#">Governance</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps" href="#">Security</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-4 py-2 border border-brass-gold text-primary font-semibold text-sm rounded-lg hover:bg-surface-variant transition-all">Emergency</button>
+<button class="px-4 py-2 bg-primary text-on-primary font-semibold text-sm rounded-lg hover:opacity-90 active:scale-95 transition-all">Citizen Portal</button>
+</div>
+</nav>
+<!-- Sidebar Navigation (JSON Anchor) -->
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 pt-20 bg-surface-container-low border-r border-outline-variant">
+<div class="px-6 mb-8">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-forest-green flex items-center justify-center text-state-white">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+<div>
+<p class="font-bold text-forest-deep">ABIA ONE</p>
+<p class="text-xs text-on-surface-variant">Modern Governance OS</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-4 py-3 bg-secondary-container text-on-secondary-container rounded-lg mx-2 translate-x-1 duration-150" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-label-sm text-label-sm">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-label-sm text-label-sm">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<span class="material-symbols-outlined">mitre</span>
+<span class="font-label-sm text-label-sm">Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-variant/50 mx-2 transition-all" href="#">
+<span class="material-symbols-outlined">security</span>
+<span class="font-label-sm text-label-sm">Public Trust</span>
+</a>
+</nav>
+<div class="p-4 border-t border-outline-variant">
+<button class="w-full py-3 bg-primary/10 text-primary font-bold rounded-lg hover:bg-primary/20 transition-all text-sm mb-4">Citizen Feedback</button>
+<div class="space-y-1">
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-primary transition-all text-sm" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 text-on-surface-variant hover:text-primary transition-all text-sm" href="#">
+<span class="material-symbols-outlined">help</span>
+<span>Support</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="lg:ml-64 pt-24 pb-12 px-margin-mobile md:px-margin-desktop min-h-screen">
+<!-- Header & Portfolio Summary -->
+<header class="mb-10 flex flex-col md:flex-row justify-between items-end gap-6">
+<div class="max-w-2xl">
+<h1 class="font-display-lg text-display-lg text-forest-deep mb-2">State Sovereign Fund</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Strategic wealth management and institutional asset growth for the future of Abia State. Real-time transparency into sovereign portfolios and project finance.</p>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 px-4 py-2 bg-state-white border border-outline-variant rounded-lg font-semibold text-sm hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined text-sm">download</span>
+                    Download Annual Report
+                </button>
+<button class="flex items-center gap-2 px-4 py-2 bg-primary text-on-primary rounded-lg font-semibold text-sm hover:opacity-90 shadow-sm transition-all">
+<span class="material-symbols-outlined text-sm">add_chart</span>
+                    Propose Project
+                </button>
+</div>
+</header>
+<!-- Bento Dashboard Grid -->
+<div class="bento-grid">
+<!-- Main Performance Chart -->
+<section class="col-span-12 lg:col-span-8 bg-state-white border border-outline-variant rounded-xl p-6 relative overflow-hidden h-[450px] flex flex-col">
+<div class="flex justify-between items-center mb-8 relative z-10">
+<div>
+<h3 class="font-headline-md text-headline-md text-forest-deep">Portfolio Performance Metrics</h3>
+<p class="text-sm text-on-surface-variant">Annualized Growth &amp; Net Asset Value (NAV)</p>
+</div>
+<div class="flex items-center gap-2 bg-surface-container rounded-lg p-1">
+<button class="px-3 py-1 bg-state-white shadow-sm rounded font-medium text-xs">1Y</button>
+<button class="px-3 py-1 text-on-surface-variant font-medium text-xs">5Y</button>
+<button class="px-3 py-1 text-on-surface-variant font-medium text-xs">Max</button>
+</div>
+</div>
+<div class="flex-1 w-full relative">
+
+<!-- Simulated Chart UI -->
+<div class="absolute inset-0 flex flex-col justify-end p-4">
+<div class="flex justify-between items-end gap-1 h-3/4">
+<div class="w-1/12 bg-forest-green/20 h-[30%] rounded-t-sm transition-all hover:bg-forest-green/40"></div>
+<div class="w-1/12 bg-forest-green/20 h-[45%] rounded-t-sm transition-all hover:bg-forest-green/40"></div>
+<div class="w-1/12 bg-forest-green/20 h-[40%] rounded-t-sm transition-all hover:bg-forest-green/40"></div>
+<div class="w-1/12 bg-forest-green/30 h-[60%] rounded-t-sm transition-all hover:bg-forest-green/50"></div>
+<div class="w-1/12 bg-forest-green/30 h-[55%] rounded-t-sm transition-all hover:bg-forest-green/50"></div>
+<div class="w-1/12 bg-forest-green/40 h-[75%] rounded-t-sm transition-all hover:bg-forest-green/60"></div>
+<div class="w-1/12 bg-forest-green/40 h-[70%] rounded-t-sm transition-all hover:bg-forest-green/60"></div>
+<div class="w-1/12 bg-brass-gold h-[85%] rounded-t-sm animate-pulse"></div>
+<div class="w-1/12 bg-forest-green/60 h-[80%] rounded-t-sm transition-all hover:bg-forest-green/70"></div>
+<div class="w-1/12 bg-forest-green/60 h-[95%] rounded-t-sm transition-all hover:bg-forest-green/70"></div>
+<div class="w-1/12 bg-forest-green/80 h-[90%] rounded-t-sm transition-all hover:bg-forest-green/90"></div>
+<div class="w-1/12 bg-forest-green h-[100%] rounded-t-sm"></div>
+</div>
+<div class="flex justify-between mt-4 text-[10px] font-label-md text-on-surface-variant uppercase tracking-wider">
+<span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-4 mt-6 border-t border-outline-variant pt-6 relative z-10">
+<div>
+<p class="text-xs text-on-surface-variant uppercase font-label-md">Total Fund Value</p>
+<p class="text-2xl font-bold text-forest-deep">$1.42B <span class="text-xs text-forest-green font-normal">+12.4%</span></p>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase font-label-md">Public Market Capital</p>
+<p class="text-2xl font-bold text-forest-deep">$640.2M</p>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase font-label-md">Alternative Assets</p>
+<p class="text-2xl font-bold text-forest-deep">$780.8M</p>
+</div>
+</div>
+</section>
+<!-- Key Figures & Quick Stats -->
+<section class="col-span-12 lg:col-span-4 flex flex-col gap-6">
+<div class="bg-primary text-on-primary rounded-xl p-6 shadow-md relative overflow-hidden group">
+<div class="absolute top-[-20px] right-[-20px] w-32 h-32 bg-on-primary/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
+<div class="relative z-10">
+<span class="material-symbols-outlined text-brass-gold mb-4" style="font-variation-settings: 'FILL' 1;">stars</span>
+<h4 class="font-bold text-lg mb-1">Stability Rating</h4>
+<p class="text-3xl font-display-lg mb-2">AA+</p>
+<p class="text-sm opacity-80">Certified by Global Sovereign Index. Reflects transparent governance and strong asset-liability matching.</p>
+</div>
+</div>
+<div class="bg-state-white border border-outline-variant rounded-xl p-6 flex-1">
+<h4 class="font-bold text-forest-deep mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-brass-gold">pie_chart</span>
+                        Asset Allocation
+                    </h4>
+<div class="space-y-4">
+<div class="space-y-1">
+<div class="flex justify-between text-sm">
+<span>Infrastructure (Special Projects)</span>
+<span class="font-bold">42%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-forest-green h-full w-[42%]"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-sm">
+<span>Equity &amp; Venture Capital</span>
+<span class="font-bold">28%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-brass-gold h-full w-[28%]"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-sm">
+<span>Digital Economy Bonds</span>
+<span class="font-bold">15%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full w-[15%]"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-sm">
+<span>Cash &amp; Liquidity</span>
+<span class="font-bold">15%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-slate-gray h-full w-[15%]"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Finance Breakdown -->
+<section class="col-span-12 lg:col-span-7 bg-state-white border border-outline-variant rounded-xl p-6">
+<div class="flex justify-between items-center mb-6">
+<div>
+<h3 class="font-headline-md text-headline-md text-forest-deep">Project Finance Breakdown</h3>
+<p class="text-sm text-on-surface-variant">Active infrastructure and direct investment pipeline</p>
+</div>
+<button class="text-primary font-semibold text-sm flex items-center gap-1 hover:underline">
+                        View All Projects <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</button>
+</div>
+<div class="overflow-x-auto custom-scrollbar">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="border-b border-outline-variant">
+<th class="pb-4 font-label-md text-xs text-on-surface-variant uppercase tracking-wider">Project Entity</th>
+<th class="pb-4 font-label-md text-xs text-on-surface-variant uppercase tracking-wider">Sector</th>
+<th class="pb-4 font-label-md text-xs text-on-surface-variant uppercase tracking-wider">Stage</th>
+<th class="pb-4 font-label-md text-xs text-on-surface-variant uppercase tracking-wider text-right">Commitment</th>
+</tr>
+</thead>
+<tbody class="text-sm">
+<tr class="border-b border-outline-variant/30 hover:bg-surface-container-low transition-colors">
+<td class="py-4">
+<div class="flex items-center gap-3">
+<img alt="Enyimba City" class="w-8 h-8 rounded-lg object-cover" data-alt="Close-up architectural detail of a modern futuristic eco-city development project with solar panels and green spaces under a clear blue sky. Professional high-end real estate photography style for a governance investment portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-hBpJeSbGJCvq2Qe3IuGnjMTFhqQExyxdF_gnsuR7jDiXx2j9jd3-9zRsXGI9-HZrZiCcuEXQeR2Qg8mU-QNu3mv2C6I1ppois8G0eY7O-zGP1h2fq9WE_zsQYojWdmEf8F8zVJ4Fl78Y4y0RvkoUFPtqghsUhX3MiwCaRk7TZK7w8oxatMk_eYRZzz0NlMc6QMmDMIpJ6TT1OR-vgE0p0MF3-aOxHjYQ_Ia5B2FkpbL8VLB5TOCwssDvvCWCIZN0tco4sx37cKw">
+<div>
+<p class="font-bold">Enyimba Economic City</p>
+<p class="text-[10px] text-on-surface-variant">ID: ABIA-EEC-024</p>
+</div>
+</div>
+</td>
+<td class="py-4"><span class="px-2 py-1 bg-primary-container/10 text-primary-container rounded text-xs">Industrial</span></td>
+<td class="py-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-forest-green"></span>
+                                        Execution
+                                    </div>
+</td>
+<td class="py-4 text-right font-mono">$240.0M</td>
+</tr>
+<tr class="border-b border-outline-variant/30 hover:bg-surface-container-low transition-colors">
+<td class="py-4">
+<div class="flex items-center gap-3">
+<img alt="Agro-Processing" class="w-8 h-8 rounded-lg object-cover" data-alt="High-tech automated agriculture facility showing large scale processing machines and stainless steel containers. The lighting is clean and industrial, conveying a sense of modern efficient production within a state-managed investment fund." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJy856OeySUsZehg_K6h4xwEiNx-Bncs4TxW7K8a5uFIuBUMXDQM0sxWq9lbAPUggnt6sYaU5_qmdMl4RdA1JY27JmBrD3e5eo2zCzrnbjMt04dLS78ILEgrlo-2nb0QyuWRemcGvDzmmlpYNtqgo0K5tMOyUaR9rXz9QtDAgh9RQEINmF67RTKghLyRMb2UFOvexoNocQyE-V5gpVqeN51BMX6ICQaBg0pHwR4xD8yxIitRe_rsXimXxDNAtMQjKyHRC5uBtIOVM">
+<div>
+<p class="font-bold">Abia Agro-Hub v2</p>
+<p class="text-[10px] text-on-surface-variant">ID: ABIA-AGH-012</p>
+</div>
+</div>
+</td>
+<td class="py-4"><span class="px-2 py-1 bg-secondary-container/20 text-secondary rounded text-xs">Agriculture</span></td>
+<td class="py-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-brass-gold"></span>
+                                        Structuring
+                                    </div>
+</td>
+<td class="py-4 text-right font-mono">$85.5M</td>
+</tr>
+<tr class="border-b border-outline-variant/30 hover:bg-surface-container-low transition-colors">
+<td class="py-4">
+<div class="flex items-center gap-3">
+<img alt="Tech Hub" class="w-8 h-8 rounded-lg object-cover" data-alt="Interior of a modern data center or technology research hub with blue and violet server lights reflecting on glass surfaces. Cinematic professional tech photography suitable for a digital governance and state sovereign wealth fund dashboard." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBj_pUDlKjjrEL_tOckPzneve4Z9VUwbaTCAws5q22iLg1VJI8WR-wzP8BQOy1awFwbgAPL64YcXL7MeoNpMv0KfDD628O3cyYA8AbS0OykPN5Q8pi7I_GjBRkE1o4bXDXgRTW1phsnMztdT19bnjL9-Zh8JGtvQHnjBe0HthYloEuskJ4P6k_VCPR5NIAGZv_3IHLLEo4AFYv5494tp7L1CGG8F6Os-_SnsyH6UGzvb7gJgWAsylErTzsSYoQ08JABZC8YezOKv6o">
+<div>
+<p class="font-bold">Digital Infrastructure Bond</p>
+<p class="text-[10px] text-on-surface-variant">ID: ABIA-DIB-001</p>
+</div>
+</div>
+</td>
+<td class="py-4"><span class="px-2 py-1 bg-tertiary-container/10 text-tertiary rounded text-xs">Technology</span></td>
+<td class="py-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-forest-green"></span>
+                                        Disbursement
+                                    </div>
+</td>
+<td class="py-4 text-right font-mono">$112.2M</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- Institutional Investor Portal -->
+<section class="col-span-12 lg:col-span-5 bg-surface-container-high border border-outline-variant rounded-xl p-6">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-bold text-forest-deep">Institutional Investor Portal</h3>
+<span class="px-2 py-1 bg-forest-green text-state-white text-[10px] font-bold rounded uppercase tracking-tighter">Secure Access</span>
+</div>
+<div class="bg-state-white border border-outline-variant rounded-lg p-5 mb-6">
+<p class="text-xs text-on-surface-variant uppercase font-label-md mb-3">Portfolio Inquiries</p>
+<div class="space-y-4">
+<div class="p-3 bg-surface-container rounded border border-outline-variant/30 flex items-center justify-between hover:border-primary cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">description</span>
+<span class="text-sm font-semibold">Q3 Sovereign Audit Report</span>
+</div>
+<span class="material-symbols-outlined text-sm">lock</span>
+</div>
+<div class="p-3 bg-surface-container rounded border border-outline-variant/30 flex items-center justify-between hover:border-primary cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">database</span>
+<span class="text-sm font-semibold">Asset Inventory Dataset</span>
+</div>
+<span class="material-symbols-outlined text-sm">lock</span>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<p class="text-sm font-medium">Investor Relations Contact</p>
+<div class="flex items-center gap-4">
+<img alt="Director" class="w-12 h-12 rounded-full object-cover grayscale" data-alt="Professional headshot of a female financial director in a formal business suit, set against a blurred corporate office background. The lighting is sophisticated and professional, capturing authority and transparency for a sovereign wealth management portal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPh_TBYHwJUJdWmz7wpONIbxEjRq3pnWr_rFkGejABxIO0fpKeO8O497AQWQoVk_6dK4XqUb6WgP0mIPTqL2bj5vGnAEgHl9NZNSspiRLAuaSZljCJgnIgntW8FvM9bGD-5-9kkNYqLjTSnKkYve2t-FRyB6AmXPP0I-99gDHB0eQXbSbLcrnwcchnB044luxseKUaIkbFxoakZPUNA45CrrtLFFq4iWDLOJDb0OLQT_dpx3MTgPkNpgHpDGToKTVn-2NEoiJNCO8">
+<div>
+<p class="font-bold text-sm">Dr. Amara Okoro</p>
+<p class="text-xs text-on-surface-variant">Director of Strategic Investments</p>
+</div>
+</div>
+<button class="w-full py-3 bg-primary text-on-primary rounded font-bold text-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">mail</span>
+                        Request Institutional Briefing
+                    </button>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer (JSON Anchor) -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest mt-auto border-t border-outline-variant py-12">
+<div class="max-w-container-max-width mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-1">
+<span class="font-headline-lg text-headline-lg text-forest-deep font-bold">ABIA ONE</span>
+<p class="mt-4 text-on-surface-variant text-sm">The digital sovereign foundation for the state of Abia, Nigeria. Empowering citizens through transparency and modern governance.</p>
+</div>
+<div class="col-span-1">
+<p class="font-label-caps text-label-caps font-bold mb-6">Investment</p>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Build Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Open Abia</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<p class="font-label-caps text-label-caps font-bold mb-6">Support</p>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-accent hover:underline decoration-brass-accent transition-colors" href="#">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<p class="font-label-caps text-label-caps font-bold mb-6">Newsletter</p>
+<div class="flex gap-2">
+<input class="bg-state-white border border-outline-variant rounded px-3 py-2 text-sm flex-1 focus:ring-1 focus:ring-primary outline-none" placeholder="Email address" type="email">
+<button class="bg-primary text-on-primary px-4 py-2 rounded text-sm font-bold">Join</button>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-on-surface-variant text-sm font-body-md">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">public</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">share</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary">policy</span>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction for project table rows
+        document.querySelectorAll('tbody tr').forEach(row => {
+            row.addEventListener('mouseenter', () => {
+                row.querySelector('.font-bold').classList.add('text-primary');
+            });
+            row.addEventListener('mouseleave', () => {
+                row.querySelector('.font-bold').classList.remove('text-primary');
+            });
+        });
+    </script>
+</body></html>

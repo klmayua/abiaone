@@ -1,0 +1,415 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>GADA | Abia State Government</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .bento-item {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .bento-item:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "on-secondary-container": "#745c00",
+                        "secondary-container": "#fed65b",
+                        "primary": "#004d28",
+                        "on-surface-variant": "#3f4940",
+                        "background": "#f6fbf3",
+                        "outline": "#6f7a70",
+                        "surface-variant": "#dfe4dd",
+                        "slate-gray": "#334155",
+                        "on-surface": "#181d19",
+                        "error-container": "#ffdad6",
+                        "inverse-surface": "#2d322d",
+                        "on-secondary-fixed-variant": "#574500",
+                        "surface-container": "#ebefe8",
+                        "surface-tint": "#0b6d3c",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-secondary-fixed": "#241a00",
+                        "on-tertiary-fixed": "#40000e",
+                        "on-primary-container": "#8ee4a8",
+                        "surface-container-high": "#e5e9e2",
+                        "on-tertiary-container": "#ffc3c6",
+                        "inverse-on-surface": "#eef2eb",
+                        "on-error-container": "#93000a",
+                        "tertiary": "#762732",
+                        "surface": "#f6fbf3",
+                        "brass-gold": "#D4AF37",
+                        "secondary-fixed": "#ffe088",
+                        "surface-dim": "#d7dbd4",
+                        "on-primary-fixed-variant": "#00522b",
+                        "surface-bright": "#f6fbf3",
+                        "surface-container-highest": "#dfe4dd",
+                        "tertiary-container": "#943e48",
+                        "on-primary-fixed": "#00210e",
+                        "forest-green": "#006838",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#83d99d",
+                        "error": "#ba1a1a",
+                        "on-secondary": "#ffffff",
+                        "primary-fixed": "#9ef5b8",
+                        "primary-container": "#006838",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "inverse-primary": "#83d99d",
+                        "on-background": "#181d19",
+                        "eagle-red": "#C41E3A",
+                        "outline-variant": "#bec9be",
+                        "surface-container-low": "#f1f5ee",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "state-white": "#FFFFFF",
+                        "on-tertiary-fixed-variant": "#7b2b36"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "max-width": "1440px",
+                        "margin-desktop": "64px",
+                        "base": "4px",
+                        "margin-mobile": "16px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "display-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+</div>
+<div class="hidden md:flex gap-8">
+<a class="font-label-md text-label-md text-primary border-b-2 border-brass-gold pb-1 hover:text-primary transition-colors duration-200" href="#">Economy</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Digital Gov</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Governance</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Security</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:block bg-forest-green text-state-white px-6 py-2 rounded-lg font-label-md text-label-md hover:opacity-90 transition-all">Citizen Portal</button>
+<button class="bg-eagle-red text-state-white p-2 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined">emergency</span>
+</button>
+</div>
+</nav>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center px-margin-mobile md:px-margin-desktop overflow-hidden bg-forest-green">
+
+<div class="relative z-10 grid lg:grid-cols-2 gap-12 items-center w-full max-w-7xl mx-auto">
+<div class="text-state-white space-y-8">
+<div class="inline-flex items-center gap-2 bg-brass-gold/20 border border-brass-gold/30 px-4 py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-brass-gold animate-pulse"></span>
+<span class="font-label-md text-label-md text-brass-gold">GREATER ABA DEVELOPMENT AUTHORITY</span>
+</div>
+<h1 class="font-display-lg text-display-lg leading-[1.1] tracking-tight">
+                        Aba: The City of <br><span class="text-secondary-fixed">the Future.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed/80 max-w-xl">
+                        Revolutionizing Africa's industrial heartland through sustainable urban renewal, digital governance, and SME empowerment. Join the transformation of Enyimba City.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-brass-gold text-on-secondary-fixed px-8 py-4 rounded-lg font-headline-md flex items-center gap-3 hover:scale-105 transition-transform">
+<span class="material-symbols-outlined">report</span>
+                            Report an Urban Issue
+                        </button>
+<button class="border border-state-white/30 bg-state-white/10 backdrop-blur-md text-state-white px-8 py-4 rounded-lg font-headline-md hover:bg-state-white/20 transition-all">
+                            Explore Master Plan
+                        </button>
+</div>
+</div>
+<div class="hidden lg:grid grid-cols-2 gap-4 h-[500px]">
+<div class="space-y-4 pt-12">
+<div class="h-64 rounded-xl overflow-hidden shadow-2xl bento-item">
+<img alt="Aba Industry" class="w-full h-full object-cover" data-alt="A high-angle architectural photography shot of a bustling industrial district in a modern African city. The scene features clean lines of concrete structures, vibrant green vegetation integrated into the urban design, and a bright, sun-drenched atmosphere that reflects the modern governance style. The color palette emphasizes deep forest greens and warm gold accents from the afternoon sun, symbolizing industrial excellence and progress." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOMn3U3ftSgWkKyrVKb3uKLPHx1FaUMrkFQQEYOG5XiShmLgxDUv7uRvN-xNC05zpT233D3dIRzOgkQNu9gsK0IesmH4nJ9RVorjUkG1BhBFMj3jAxHznHHVphuXTFdM3owSeHcM9vQp70U0bFS41vPMfFrpawvgHFnaFkDbH_vsdPOClQ8-qoA3d6GuZW_GqtZ5IGYgr8-6uRlV159wpYVilhkcFcKmItE-CMGMEu-Z3ylGPaH_qTJRPyqhVCSjEBf1vlsAePDgw">
+</div>
+<div class="bg-secondary-container p-6 rounded-xl space-y-2 bento-item">
+<span class="font-label-md text-label-md text-on-secondary-container">ACTIVE PROJECTS</span>
+<div class="text-4xl font-bold text-on-secondary-container">142+</div>
+<p class="text-sm opacity-80">Infrastructure sites across the metropolis</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="bg-surface-container-highest p-6 rounded-xl space-y-2 bento-item border border-outline-variant">
+<span class="font-label-md text-label-md text-forest-green">SME GROWTH</span>
+<div class="text-4xl font-bold text-forest-green">8.4k</div>
+<p class="text-sm opacity-60">Artisans registered for GADA workshops</p>
+</div>
+<div class="h-80 rounded-xl overflow-hidden shadow-2xl bento-item">
+<img alt="Modern City Skyline" class="w-full h-full object-cover" data-alt="A conceptual 3D render of a futuristic urban skyline for a Nigerian metropolis, showing sleek glass buildings with traditional architectural motifs subtly integrated. The lighting is early morning gold, casting long, soft shadows over wide, tree-lined boulevards and modern public transport systems. The visual style is crisp and professional, utilizing a high-key light mode palette with corporate forest green highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBThvDxgZ05_eSRBRgOzfqiFYDWG6fHVgE9X2sVN9J0GAQrPembrR0__c5u5-eVvU9H1UCu7FF6D6XvZt6k_W7wlUDzSonLQQgxHLlf1KuvU6zylpcyGfJQBL0z4H5RtQquphlweQLMOD4j5QcmnALlFPoyq-lO_gpi-YcbcL1wm9J8Bb5DG_sN-S4btAabuTOUcVJTfMnhUcx9raYQfhKdpolTeYLjMnhrDq6xvIF-DX338uhTx7DCS06YCF9ZxXw6hz1gpHbTnoI">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Master Plan 2030 Viewer -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div class="max-w-2xl">
+<h2 class="font-headline-lg text-headline-lg text-forest-green mb-4">Master Plan 2030</h2>
+<p class="text-on-surface-variant font-body-lg">Tracking the structural evolution of Aba. Our vision is a sustainable, interconnected city that empowers commerce and residents alike.</p>
+</div>
+<div class="flex gap-2">
+<button class="p-3 border border-outline-variant rounded-lg hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined">filter_list</span>
+</button>
+<button class="px-6 py-3 bg-primary text-state-white rounded-lg flex items-center gap-2 font-label-md">
+<span class="material-symbols-outlined">map</span>
+                        Interactive View
+                    </button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Ariaria Revitalization -->
+<div class="group relative bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant hover:shadow-xl transition-all h-[400px]">
+<img alt="Market Progress" class="w-full h-full object-cover transition-transform group-hover:scale-105" data-alt="A detailed wide shot of a modern market complex under construction, featuring structured steel beams and large open spaces designed for airflow. The image is captured in bright, clear daylight with a professional corporate aesthetic. The focus is on the precision and quality of the engineering, with forest green safety equipment and gold-toned building materials visible in the composition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBRUgxlArxbhLn5BDZB_Vv7LpcarfSSsKy-N4G4Qho30NAP8-p2q0Cjy5WpSs5HdIl9aOx80UP_p1K8lxzpz-3zgNIzJHohEXvh7jiEDD9edn7qOO9j8yY-EIyJY6bwWHs9L2ER6X4NZDo1OqKK9HxfIJy8we2RjfsWfvkACmEfX34S5WPwA9YzjeQgmv-gQYQz4eEw1WKngCwBDl7ixnzSpyc11cPQ-zsnOgpZ6dLuJPcD4QTC4qujtad_IMwP33dvO4d3C_leKY">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-green/90 via-forest-green/20 to-transparent p-8 flex flex-col justify-end text-state-white">
+<span class="text-brass-gold font-label-md mb-2">PHASE 2 IN PROGRESS</span>
+<h3 class="font-headline-md text-headline-md mb-2">Ariaria International Revitalization</h3>
+<p class="text-sm opacity-80 mb-4 line-clamp-2">Complete reconstruction of internal drainage systems and central power grid for West Africa's largest trading hub.</p>
+<div class="w-full bg-white/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-brass-gold h-full w-3/4"></div>
+</div>
+<span class="text-xs mt-2 self-end">75% Complete</span>
+</div>
+</div>
+<!-- Digital Hub -->
+<div class="group relative bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant hover:shadow-xl transition-all h-[400px]">
+<img alt="Tech Hub" class="w-full h-full object-cover transition-transform group-hover:scale-105" data-alt="An interior shot of a minimalist, high-tech innovation center with glass walls, ergonomic wooden furniture, and sophisticated lighting systems. The environment is professional and data-driven, featuring subtle screens displaying data visualizations in teals and ochres. The overall mood is quiet concentration and technological advancement, reflecting a sovereign digital infrastructure for city management." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMyNAd7eKSW-A-m3Fq17vTo_DmK62HhnsJXtI2vUFkvbEOeCPJwZOUKuILfwEj_sD65jZSu0zpHDxHZVuoqsb3aqeK226IsBbRy4pomioxKJmVLCREcThfRST_VleHZfaRr3avmX1whLk3YgxAnz_eVGznxzcmRH8gayQeEuYi_hpWiRezJkuTuQpjsYLBXdDwKdX3EFXDU5aUiYKJbYafpJ5n3IF4llc7dSI5Tdguq8EfiZTbtsFA7px7WOBbEylHTIZ5mFClPcY">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-gray/90 via-slate-gray/20 to-transparent p-8 flex flex-col justify-end text-state-white">
+<span class="text-secondary-fixed font-label-md mb-2">NEW HUB</span>
+<h3 class="font-headline-md text-headline-md mb-2">Enyimba Tech District</h3>
+<p class="text-sm opacity-80 mb-4 line-clamp-2">Establishing a 50-hectare tech cluster to support digital startups and hardware engineers in the heart of Aba.</p>
+<div class="w-full bg-white/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed h-full w-1/4"></div>
+</div>
+<span class="text-xs mt-2 self-end">Planning Phase</span>
+</div>
+</div>
+<!-- Road Network -->
+<div class="group relative bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant hover:shadow-xl transition-all h-[400px]">
+<img alt="Aba Roads" class="w-full h-full object-cover transition-transform group-hover:scale-105" data-alt="A sweeping drone shot of a newly paved multi-lane highway winding through a green, lush urban landscape. The asphalt is crisp and dark, with bright white and yellow road markings. The scene is illuminated by the cool light of dawn, emphasizing order and high-quality infrastructure. The aesthetic is clean and corporate, mirroring the modern governance philosophy of Abia State." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRDpIBv7ZfNm8f-696DzyVRVxDFrQFa3-rV7FGtFi4-I2zcV-PRiiXraSogfbqr5y5yk4D5Ws-3c3Dv12PyuLMB77a7PjpJxTsNQJX6ZEXaL5fqQO-sOIcgxsFHSijBMfmwbegBV6_nSYpNJRzuKpYwITY0GkKg66uEzhUVxAY3Jdv3e-D6oxKGSkf2COVsCpflI7ZNvcakOqGrlXjpvix6k1Y6onOfE-KvAM1xXOjszPhz-KKj7jnk_j2AqG2jg7nSxat0q6A8Jc">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent p-8 flex flex-col justify-end text-state-white">
+<span class="text-primary-fixed font-label-md mb-2">INFRASTRUCTURE</span>
+<h3 class="font-headline-md text-headline-md mb-2">Metropolitan Ring Road</h3>
+<p class="text-sm opacity-80 mb-4 line-clamp-2">Expanding the city's arterial network to decongest the city center and facilitate 24/7 commercial logistics.</p>
+<div class="w-full bg-white/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary-fixed h-full w-1/2"></div>
+</div>
+<span class="text-xs mt-2 self-end">50% Complete</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Market Directory & SME Hub (Split Section) -->
+<section class="bg-surface-container-high py-24">
+<div class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+<!-- Market Directory -->
+<div class="space-y-8">
+<div class="space-y-4">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Market Directory</h2>
+<p class="text-on-surface-variant font-body-md">Locate specialized clusters and authorized trade zones within the GADA jurisdiction.</p>
+</div>
+<div class="space-y-3">
+<div class="bg-state-white p-4 rounded-lg border border-outline-variant flex items-center gap-4 hover:bg-surface transition-colors cursor-pointer group">
+<div class="w-12 h-12 rounded bg-forest-green/10 flex items-center justify-center text-forest-green">
+<span class="material-symbols-outlined">shopping_bag</span>
+</div>
+<div class="flex-1">
+<h4 class="font-semibold text-on-surface">Ariaria International</h4>
+<p class="text-sm text-on-surface-variant">General Merchandise, Apparel, Footwear</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-all">chevron_right</span>
+</div>
+<div class="bg-state-white p-4 rounded-lg border border-outline-variant flex items-center gap-4 hover:bg-surface transition-colors cursor-pointer group">
+<div class="w-12 h-12 rounded bg-forest-green/10 flex items-center justify-center text-forest-green">
+<span class="material-symbols-outlined">hardware</span>
+</div>
+<div class="flex-1">
+<h4 class="font-semibold text-on-surface">Cemetery Road Cluster</h4>
+<p class="text-sm text-on-surface-variant">Industrial Hardware &amp; Spare Parts</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-all">chevron_right</span>
+</div>
+<div class="bg-state-white p-4 rounded-lg border border-outline-variant flex items-center gap-4 hover:bg-surface transition-colors cursor-pointer group">
+<div class="w-12 h-12 rounded bg-forest-green/10 flex items-center justify-center text-forest-green">
+<span class="material-symbols-outlined">checkroom</span>
+</div>
+<div class="flex-1">
+<h4 class="font-semibold text-on-surface">Ngwa Road Market</h4>
+<p class="text-sm text-on-surface-variant">Textiles &amp; Finished Leather Goods</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-all">chevron_right</span>
+</div>
+</div>
+<button class="w-full py-4 border-2 border-primary text-primary rounded-lg font-headline-md hover:bg-primary hover:text-state-white transition-all">
+                        View Full Cluster Map
+                    </button>
+</div>
+<!-- SME Support Hub -->
+<div class="bg-forest-green rounded-2xl p-8 md:p-12 text-state-white relative overflow-hidden shadow-2xl">
+<div class="absolute top-0 right-0 w-64 h-64 bg-brass-gold opacity-10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+<div class="relative z-10 space-y-8">
+<div class="space-y-4">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded font-label-md text-xs uppercase tracking-wider">Growth Accelerator</span>
+<h2 class="font-headline-lg text-headline-lg">SME Support Hub</h2>
+<p class="text-primary-fixed/80">Access GADA-led workshops, equipment grants, and export facilitation services for local artisans.</p>
+</div>
+<form class="space-y-4">
+<div class="grid md:grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="text-xs font-label-md text-primary-fixed/60 uppercase">Full Name / Business Name</label>
+<input class="w-full bg-state-white/10 border-state-white/20 rounded-lg py-3 px-4 focus:ring-brass-gold focus:border-brass-gold text-state-white placeholder-state-white/40" placeholder="e.g. Enyimba Leather Works" type="text">
+</div>
+<div class="space-y-1">
+<label class="text-xs font-label-md text-primary-fixed/60 uppercase">Business Category</label>
+<select class="w-full bg-state-white/10 border-state-white/20 rounded-lg py-3 px-4 focus:ring-brass-gold focus:border-brass-gold text-state-white">
+<option class="bg-forest-green">Leather Works</option>
+<option class="bg-forest-green">Garment Production</option>
+<option class="bg-forest-green">Tech/Software</option>
+<option class="bg-forest-green">Metal Fabrication</option>
+</select>
+</div>
+</div>
+<div class="space-y-1">
+<label class="text-xs font-label-md text-primary-fixed/60 uppercase">Primary Goal</label>
+<textarea class="w-full bg-state-white/10 border-state-white/20 rounded-lg py-3 px-4 focus:ring-brass-gold focus:border-brass-gold text-state-white placeholder-state-white/40" placeholder="How can GADA support your growth?" rows="3"></textarea>
+</div>
+<button class="w-full py-4 bg-brass-gold text-on-secondary-fixed rounded-lg font-headline-md hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">app_registration</span>
+                                Register for SME Grants
+                            </button>
+</form>
+<p class="text-xs text-center text-primary-fixed/40">Registration requires a valid Abia State Social Security Number (ASSSN).</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Reporting Widget (Quick Action) -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto text-center">
+<h2 class="font-headline-lg text-headline-lg text-forest-green mb-12">See Something? Fix Something.</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+<button class="flex flex-col items-center p-8 bg-surface border border-outline-variant rounded-xl hover:border-brass-gold hover:bg-white transition-all group">
+<span class="material-symbols-outlined text-4xl mb-4 text-outline group-hover:text-brass-gold">phone</span>
+<span class="font-label-md">Pothole</span>
+</button>
+<button class="flex flex-col items-center p-8 bg-surface border border-outline-variant rounded-xl hover:border-brass-gold hover:bg-white transition-all group">
+<span class="material-symbols-outlined text-4xl mb-4 text-outline group-hover:text-brass-gold">lightbulb</span>
+<span class="font-label-md">Street Light</span>
+</button>
+<button class="flex flex-col items-center p-8 bg-surface border border-outline-variant rounded-xl hover:border-brass-gold hover:bg-white transition-all group">
+<span class="material-symbols-outlined text-4xl mb-4 text-outline group-hover:text-brass-gold">water_damage</span>
+<span class="font-label-md">Drainage Block</span>
+</button>
+<button class="flex flex-col items-center p-8 bg-surface border border-outline-variant rounded-xl hover:border-brass-gold hover:bg-white transition-all group">
+<span class="material-symbols-outlined text-4xl mb-4 text-outline group-hover:text-brass-gold">delete</span>
+<span class="font-label-md">Waste Pickup</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest mt-auto py-12 border-t border-outline-variant">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2 space-y-6">
+<span class="font-headline-lg text-headline-lg text-forest-deep">ABIA ONE</span>
+<p class="text-on-surface-variant max-w-sm">
+                        The sovereign digital infrastructure for the Greater Aba Development Authority. Committed to transparency, urban renewal, and economic prosperity.
+                    </p>
+</div>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface mb-6 uppercase tracking-wider">Framework</h5>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface mb-6 uppercase tracking-wider">Resources</h5>
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-outline flex flex-col md:flex-row justify-between gap-4">
+<p class="text-on-surface-variant font-body-md">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions and subtle scroll effects
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-10');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+                observer.observe(section);
+            });
+        });
+    </script>
+</body></html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Invest Abia | Digital Gateway</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "state-white": "#FFFFFF",
+                    "surface-container-low": "#f1f5ee",
+                    "tertiary": "#762732",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#0b6d3c",
+                    "eagle-red": "#C41E3A",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#dfe4dd",
+                    "on-primary-container": "#8ee4a8",
+                    "surface-container": "#ebefe8",
+                    "inverse-primary": "#83d99d",
+                    "primary-container": "#006838",
+                    "slate-gray": "#334155",
+                    "on-surface-variant": "#3f4940",
+                    "on-tertiary-fixed-variant": "#7b2b36",
+                    "on-primary-fixed-variant": "#00522b",
+                    "background": "#f6fbf3",
+                    "on-background": "#181d19",
+                    "on-secondary": "#ffffff",
+                    "forest-green": "#006838",
+                    "on-tertiary-fixed": "#40000e",
+                    "outline-variant": "#bec9be",
+                    "primary-fixed-dim": "#83d99d",
+                    "on-surface": "#181d19",
+                    "on-tertiary-container": "#ffc3c6",
+                    "secondary-fixed": "#ffe088",
+                    "on-secondary-container": "#745c00",
+                    "on-primary-fixed": "#00210e",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#943e48",
+                    "on-secondary-fixed-variant": "#574500",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff",
+                    "secondary-container": "#fed65b",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#2d322d",
+                    "tertiary-fixed": "#ffdadb",
+                    "surface-container-highest": "#dfe4dd",
+                    "surface-bright": "#f6fbf3",
+                    "primary": "#004d28",
+                    "inverse-on-surface": "#eef2eb",
+                    "surface": "#f6fbf3",
+                    "surface-container-high": "#e5e9e2",
+                    "outline": "#6f7a70",
+                    "secondary": "#735c00",
+                    "on-secondary-fixed": "#241a00",
+                    "surface-dim": "#d7dbd4",
+                    "tertiary-fixed-dim": "#ffb2b7",
+                    "primary-fixed": "#9ef5b8",
+                    "secondary-fixed-dim": "#e9c349",
+                    "brass-gold": "#D4AF37"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "gutter": "24px",
+                    "max-width": "1440px",
+                    "margin-desktop": "64px",
+                    "base": "4px"
+            },
+            "fontFamily": {
+                    "label-md": ["JetBrains Mono"],
+                    "caption": ["Hanken Grotesk"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "body-md": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "display-lg": ["Montserrat"]
+            },
+            "fontSize": {
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(0, 77, 40, 0.95) 0%, rgba(0, 104, 56, 0.8) 100%);
+        }
+        .card-border {
+            border: 1px solid #E2E8F0;
+        }
+        .brass-accent {
+            border-left: 4px solid #D4AF37;
+        }
+        body {
+            background-color: #f6fbf3;
+            color: #181d19;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background dark:bg-on-background border-b border-outline-variant dark:border-slate-gray">
+<div class="flex items-center justify-between px-margin-mobile h-16 w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green dark:text-primary-fixed-dim" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green dark:text-primary-fixed-dim tracking-tight">ABIA ONE</h1>
+</div>
+<button class="text-forest-green dark:text-primary-fixed-dim hover:opacity-80 transition-opacity active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+</header>
+<main class="mt-16">
+<!-- Hero Section -->
+<section class="relative h-[320px] w-full overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="A professional aerial view of a modern industrial park with clean architectural lines, featuring green landscape integration and state-of-the-art logistics infrastructure. The lighting is bright and clear, reflecting a modern corporate governance aesthetic with Forest Green and Brass Gold accents subtly present in the environment. High-fidelity and authoritative mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0U-f0HOToSDqt3xpPityJ6dWSzWhEbVT25nYh2W0AqEWLGKMn7Zbo6z1WRVRE7eMkgDEvG5yfixvEh1zKNzX6Co1i73LX0ffZg7sPYeSYYBL8-iaQ6R2Xbqi6Bodhao6M0UDbmSiIi0spFc9Vh4d3reyC1nwfza8wrgpZ8Fr3GU-ANHl02JoCVVBygo_-K3F-G7dYY1pIX6nox4ZIIIOvCV6dsb-pbcLznXLDU0RjYqv9BG2IhTglnh9w-_JH9y_9UjB9rQl634A">
+<div class="absolute inset-0 hero-gradient"></div>
+</div>
+<div class="relative z-10 px-margin-mobile pt-12 text-state-white">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile font-bold mb-2">Sovereign Investment Gateway</h2>
+<p class="font-body-md text-body-md opacity-90 max-w-xs mb-6">Securing the future through strategic industrial partnerships and capital excellence.</p>
+<div class="flex gap-3">
+<button class="bg-forest-green text-state-white px-6 py-2 rounded-lg font-medium font-body-md shadow-lg border border-primary">Explore Portfolio</button>
+<button class="bg-transparent border border-brass-gold text-brass-gold px-6 py-2 rounded-lg font-medium font-body-md">Diaspora Portal</button>
+</div>
+</div>
+</section>
+<!-- Key Metrics Bento Layout -->
+<section class="px-margin-mobile -mt-8 relative z-20 grid grid-cols-2 gap-3">
+<div class="bg-state-white card-border p-4 rounded-xl flex flex-col justify-between">
+<span class="text-on-surface-variant font-label-md text-caption uppercase tracking-wider">Aba Hub Growth</span>
+<div class="flex items-end gap-2 mt-2">
+<span class="text-forest-green font-headline-md text-headline-md">+14.2%</span>
+<span class="material-symbols-outlined text-forest-green text-sm pb-1" data-icon="trending_up">trending_up</span>
+</div>
+</div>
+<div class="bg-state-white card-border p-4 rounded-xl flex flex-col justify-between">
+<span class="text-on-surface-variant font-label-md text-caption uppercase tracking-wider">Active Projects</span>
+<div class="flex items-end gap-2 mt-2">
+<span class="text-on-surface font-headline-md text-headline-md">24</span>
+<span class="material-symbols-outlined text-brass-gold text-sm pb-1" data-icon="factory">factory</span>
+</div>
+</div>
+</section>
+<!-- Diaspora Bridge -->
+<section class="px-margin-mobile mt-8">
+<div class="bg-primary-container text-on-primary-container p-6 rounded-xl relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="font-headline-md text-headline-md mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="public">public</span>
+                        Diaspora Bridge
+                    </h3>
+<p class="font-body-md text-body-md mb-4 text-on-primary-container/90">Direct capital inflow channels for Ndi Abia abroad. Secure, transparent, and high-impact sovereign bonds.</p>
+<div class="bg-state-white/10 p-4 rounded-lg border border-state-white/20">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-md text-caption">Total Inflow FY24</span>
+<span class="font-label-md text-caption font-bold">$12.4M</span>
+</div>
+<div class="w-full bg-state-white/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-brass-gold h-full w-[65%]"></div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<!-- Industrial Hub Highlights -->
+<section class="px-margin-mobile mt-8">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-headline-md text-headline-md text-forest-green brass-accent pl-3">Strategic Hubs</h3>
+<span class="text-forest-green font-label-md text-caption cursor-pointer">See All</span>
+</div>
+<div class="flex flex-col gap-4">
+<!-- Leather Hub -->
+<div class="bg-state-white card-border rounded-xl overflow-hidden flex flex-row">
+<div class="w-32 h-32 flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close up of high-quality brown leather craftsmanship in a professional workshop setting. Warm, directional lighting highlights the textures and fine stitching, embodying institutional excellence and the leather industrial hub of Abia. The atmosphere is productive and artisan-focused, presented in a clean, modern corporate UI style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD-sx4QTbR5rUwHnBk0tK68xgFIMPbIEsNtGFAuYhUIo794lvdd6oKo_uROYxg6IGEEImMtfOPyFziK-F9hzshOp4x89h_zMRgaqF3_tJ98RMo56KJ638FYFDDOvTjrs7sZSbcHDP4klfMGVdkUcC9vBSkA2Ysetf-hq-3sg0B9MqVwxKH7_0EnihaPS5RVdt4ka1mnyZMfaDh0L42FB4VnnzsKa_tL8d-hU0mTNDzc_1pH9N7enXqJJvZrFF2qX-oInQBN0CSyog">
+</div>
+<div class="p-4 flex flex-col justify-center">
+<span class="bg-secondary-container text-on-secondary-container text-[10px] uppercase font-bold px-2 py-0.5 rounded-full w-fit mb-1">Leather Hub</span>
+<h4 class="font-headline-md text-body-lg font-bold">Aria Road Cluster</h4>
+<p class="text-on-surface-variant font-body-md text-caption line-clamp-1">Mechanized production lines for global export.</p>
+<div class="flex items-center gap-4 mt-2">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-forest-green" data-icon="groups">groups</span>
+<span class="font-label-md text-[12px]">2.5k Jobs</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-brass-gold" data-icon="star">star</span>
+<span class="font-label-md text-[12px]">4.8 Rating</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Garment Hub -->
+<div class="bg-state-white card-border rounded-xl overflow-hidden flex flex-row">
+<div class="w-32 h-32 flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="A clean, modern garment factory floor with organized rows of high-end sewing machinery. Bright, white studio lighting creates a professional and efficient atmosphere. Soft focus on the background to highlight the scale of the garment industrial hub. The color palette aligns with the forest green and slate gray of the Abia governance system." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg_JEVR6ui9-Hgz85P89PQPkWpkuzXvfB6YcbKmOtHaUZMFujq34_BZNzb386og5xAZStuOpLZ6y2hL1EYZknQFJp1WLuphddFjG0xev3vReV5AmyYcUEAYtPvMW_2AWQpZe4b2T3SCK5NqlFvlm890dtqYjnbh50Tid9BVZd-OvaZncuJxWN8GclGKow7eatGHZBS1CsvN_R9fv5enGJdyXMgakpN82FxDc_iy2fVbsasU3Pdx3jS0cbrToX6C2i_jNTWq-UAM_I">
+</div>
+<div class="p-4 flex flex-col justify-center">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant text-[10px] uppercase font-bold px-2 py-0.5 rounded-full w-fit mb-1">Garment Hub</span>
+<h4 class="font-headline-md text-body-lg font-bold">Enyimba Fashion Estate</h4>
+<p class="text-on-surface-variant font-body-md text-caption line-clamp-1">Automated textile weaving &amp; high-fashion assembly.</p>
+<div class="flex items-center gap-4 mt-2">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-forest-green" data-icon="groups">groups</span>
+<span class="font-label-md text-[12px]">4.1k Jobs</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-brass-gold" data-icon="star">star</span>
+<span class="font-label-md text-[12px]">4.9 Rating</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Pipeline / Global Opportunities -->
+<section class="px-margin-mobile mt-8 mb-8">
+<h3 class="font-headline-md text-headline-md text-forest-green brass-accent pl-3 mb-4">Investment Pipeline</h3>
+<div class="grid grid-cols-1 gap-4">
+<div class="bg-state-white card-border p-5 rounded-xl">
+<div class="flex justify-between items-start mb-3">
+<div>
+<h5 class="font-headline-md text-body-lg text-on-surface">Agro-Processing Zone 1</h5>
+<p class="text-on-surface-variant font-body-md text-caption">Palm Oil &amp; Kernel Crushing Facility</p>
+</div>
+<span class="bg-surface-container-high text-on-surface px-2 py-1 rounded text-[10px] font-bold">STAGE: BIDDING</span>
+</div>
+<div class="flex items-center justify-between mb-4">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-slate-gray flex items-center justify-center text-[10px] text-white">UK</div>
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-forest-green flex items-center justify-center text-[10px] text-white">NG</div>
+<div class="w-8 h-8 rounded-full border-2 border-state-white bg-brass-gold flex items-center justify-center text-[10px] text-white">CN</div>
+</div>
+<span class="text-forest-green font-label-md text-[12px]">$45M CapEx</span>
+</div>
+<button class="w-full bg-forest-green text-state-white py-3 rounded-lg font-bold font-body-md active:scale-[0.98] transition-transform">Download Prospectus</button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 rounded-t-full shadow-sm border-t border-outline-variant dark:border-slate-gray bg-surface-container-lowest dark:bg-on-background">
+<div class="flex justify-around items-center h-20 w-full px-base pb-safe">
+<!-- Dashboard Tab (Inactive) -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</button>
+<!-- Hub Tab (Active - Chosen as closest intent for 'Invest Gateway') -->
+<button class="flex flex-col items-center justify-center bg-secondary-container dark:bg-primary-container text-on-secondary-container dark:text-on-primary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</button>
+<!-- Alerts Tab (Inactive) -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</button>
+<!-- Profile Tab (Inactive) -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline-variant px-4 py-1 hover:bg-surface-variant dark:hover:bg-on-surface-variant transition-colors active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</div>
+</nav>
+<!-- Contextual FAB (Only for Home/Dashboard context) -->
+<button class="fixed right-6 bottom-24 bg-forest-green text-state-white w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined" data-icon="add_chart">add_chart</span>
+</button>
+<script>
+        // Micro-interactions for industrial cards
+        document.querySelectorAll('.card-border').forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.add('scale-[0.98]');
+                setTimeout(() => card.classList.remove('scale-[0.98]'), 150);
+            });
+        });
+    </script>
+</body></html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Abia One | Public Procurement &amp; Tenders Registry</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5ee;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #6f7a70;
+            border-radius: 10px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#943e48",
+                        "inverse-surface": "#2d322d",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary-container": "#745c00",
+                        "on-secondary-fixed": "#241a00",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-on-surface": "#eef2eb",
+                        "surface-variant": "#dfe4dd",
+                        "on-surface": "#181d19",
+                        "primary": "#004d28",
+                        "on-tertiary-fixed": "#40000e",
+                        "background": "#f6fbf3",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "outline": "#6f7a70",
+                        "secondary-container": "#fed65b",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary": "#762732",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-container-high": "#e5e9e2",
+                        "primary-fixed-dim": "#83d99d",
+                        "surface-dim": "#d7dbd4",
+                        "on-secondary-fixed-variant": "#574500",
+                        "outline-variant": "#bec9be",
+                        "brass-gold": "#D4AF37",
+                        "on-background": "#181d19",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-primary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "forest-green": "#006838",
+                        "eagle-red": "#C41E3A",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "slate-gray": "#334155",
+                        "surface-container-low": "#f1f5ee",
+                        "surface-container": "#ebefe8",
+                        "state-white": "#FFFFFF",
+                        "on-secondary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface": "#f6fbf3",
+                        "secondary-fixed-dim": "#e9c349",
+                        "secondary": "#735c00",
+                        "on-primary-container": "#8ee4a8",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "64px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "base": "4px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 bg-surface/80 backdrop-blur-md border-b border-outline-variant max-w-container-max-width mx-auto">
+<div class="flex items-center gap-2">
+<span class="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Economy</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Digital Gov</a>
+<a class="text-primary font-label-md text-label-md border-b-2 border-brass-gold pb-1" href="#">Governance</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="#">Security</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-forest-green text-white px-4 py-2 rounded-lg font-label-md text-label-md">Citizen Portal</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline">
+<img alt="User Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdV5JzJO38dQOexLfUtN9Rh-4KSODtR-iMwBKKAiBWu6ezW9jl-vwuTfOPNxkjTtSOHHCVPuc5YefSiSWYIYKyJ43ACzpU0dM2DYW-kzzbUViKSM7KFpcRjY9-29SQgcGnJQMpbC5MK85DoHVYPB2OE6noRR0n8I_THlbACICaUFDQOT_gVYiNGu360KYu2qtQnIOrwj9dL7KF1uHqdnKSnvJ6edqXbWFcSpABLTtVbvZEDQmn0OOOv3opaw3zTGyiDdtHsCEaIeQ">
+</div>
+</div>
+</nav>
+<aside class="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 bg-surface-container-low border-r border-outline-variant pt-20 z-40">
+<div class="px-6 mb-8">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-deep">OPEN ABIA</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Procurement Registry</p>
+</div>
+<nav class="flex-grow space-y-1">
+<a class="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg bg-secondary-container text-on-secondary-container transition-all" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-label-sm text-label-sm">Procurement Dashboard</span>
+</a>
+<a class="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-label-sm text-label-sm">Active Tenders</span>
+</a>
+<a class="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<span class="material-symbols-outlined">mitre</span>
+<span class="font-label-sm text-label-sm">Vendor Compliance</span>
+</a>
+<a class="flex items-center gap-3 mx-2 px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-variant/50 transition-all" href="#">
+<span class="material-symbols-outlined">security</span>
+<span class="font-label-sm text-label-sm">Audit Trails</span>
+</a>
+</nav>
+<div class="p-4 border-t border-outline-variant">
+<button class="w-full bg-brass-gold/10 text-primary border border-brass-gold py-2 rounded-lg font-label-md text-label-md">Citizen Feedback</button>
+</div>
+</aside>
+<main class="lg:ml-64 pt-24 pb-12 px-margin-mobile md:px-margin-desktop">
+<header class="mb-10">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+<div>
+<h1 class="font-display-lg text-display-lg text-forest-deep">Public Procurement &amp; Tenders</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Ensuring fiscal transparency and equal opportunity in Abia State through decentralized, open-access governance infrastructure.</p>
+</div>
+<div class="flex gap-3">
+<button class="bg-forest-green text-white px-6 py-3 rounded-lg font-label-md text-label-md flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                        Register as Vendor
+                    </button>
+</div>
+</div>
+</header>
+<section class="bento-grid mb-10">
+<div class="col-span-12 md:col-span-8 glass-card rounded-xl p-6 relative overflow-hidden">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline-md text-headline-md text-forest-deep flex items-center gap-2">
+<span class="w-1 h-6 bg-brass-gold rounded-full"></span>
+                        Procurement Analytics Dashboard
+                    </h3>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-primary/10 text-primary text-caption font-label-md rounded-full">2024 Fiscal Year</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-lowest">
+<p class="text-caption text-on-surface-variant font-label-md uppercase tracking-wider">Total Contract Volume</p>
+<p class="text-headline-lg font-bold text-primary mt-1">₦42.8B</p>
+<div class="flex items-center gap-1 text-primary mt-2">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span class="text-caption font-label-md">+12.4% vs prev. month</span>
+</div>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-lowest">
+<p class="text-caption text-on-surface-variant font-label-md uppercase tracking-wider">Active Tenders</p>
+<p class="text-headline-lg font-bold text-forest-deep mt-1">142</p>
+<div class="flex items-center gap-1 text-on-surface-variant mt-2">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="text-caption font-label-md">24 closing this week</span>
+</div>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg bg-surface-container-lowest">
+<p class="text-caption text-on-surface-variant font-label-md uppercase tracking-wider">Verified Vendors</p>
+<p class="text-headline-lg font-bold text-forest-deep mt-1">1,842</p>
+<div class="flex items-center gap-1 text-primary mt-2">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-caption font-label-md">98% compliance rate</span>
+</div>
+</div>
+</div>
+<div class="h-64 w-full bg-surface-container rounded-lg flex items-center justify-center relative">
+<div class="absolute inset-0 opacity-10">
+<img class="w-full h-full object-cover" data-alt="A sophisticated data visualization dashboard showing complex line graphs and bar charts in professional forest green and brass gold tones, representing government spending and fiscal transparency metrics on a sleek digital interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzNwzuRMt1ETKyUNXsJbFqkg-KOHRs_lBUyaRBp8XsVR8im5mijbNEPwDpBkA59ozMeM8MpIbOJ5sNMnUcBJl_N5Pfzo_HUXWYOEsFDaoo6JiYISd3mPM5aNBAPAeewZ7EbK307rVPV1es-j_1ReOJjq1ulXS95DuWAZ2NlkGaNfA2BLi9yLhcNYeZNlNGEFTODzK2soSFqkawI7B8c0BbdSzEdpVx7VMcFQ1u_nFk27kARXAhGF8jkBLQHw8hzhK_tjKdBKleqbE">
+</div>
+<div class="z-10 text-center">
+<p class="font-label-md text-label-md text-on-surface-variant mb-4">State Expenditure Distribution (Interactive View)</p>
+<div class="flex gap-4 justify-center">
+<div class="flex items-center gap-2"><div class="w-3 h-3 bg-forest-green rounded-full"></div><span class="text-caption">Infrastructure</span></div>
+<div class="flex items-center gap-2"><div class="w-3 h-3 bg-brass-gold rounded-full"></div><span class="text-caption">Education</span></div>
+<div class="flex items-center gap-2"><div class="w-3 h-3 bg-secondary rounded-full"></div><span class="text-caption">Healthcare</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 glass-card rounded-xl p-6 flex flex-col">
+<h3 class="font-headline-md text-headline-md text-forest-deep mb-6 flex items-center gap-2">
+<span class="w-1 h-6 bg-eagle-red rounded-full"></span>
+                    Live Bid Openings
+                </h3>
+<div class="flex-grow space-y-4">
+<div class="p-4 border-l-4 border-eagle-red bg-error-container/20 rounded-r-lg relative">
+<div class="absolute top-2 right-2">
+<span class="flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-eagle-red opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-eagle-red"></span>
+</span>
+</div>
+<p class="text-caption font-label-md text-eagle-red uppercase">Live Now</p>
+<p class="font-headline-md text-[18px] text-on-surface mt-1">Umuahia-Ikot Ekpene Road (Lot 2)</p>
+<p class="text-caption text-on-surface-variant mt-2">Opening session started at 10:00 AM</p>
+<button class="mt-3 text-primary font-label-md text-label-md flex items-center gap-1 hover:underline">
+                            Watch Stream <span class="material-symbols-outlined text-[16px]">videocam</span>
+</button>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg">
+<p class="text-caption font-label-md text-on-surface-variant uppercase">Coming Up: 2:30 PM</p>
+<p class="font-headline-md text-[18px] text-on-surface mt-1">Smart Schools Initiative Phase III</p>
+<div class="w-full bg-surface-container h-1.5 rounded-full mt-4 overflow-hidden">
+<div class="bg-forest-green h-full" style="width: 75%"></div>
+</div>
+</div>
+<div class="p-4 border border-outline-variant rounded-lg">
+<p class="text-caption font-label-md text-on-surface-variant uppercase">Scheduled: Tomorrow</p>
+<p class="font-headline-md text-[18px] text-on-surface mt-1">State Data Center Expansion</p>
+</div>
+</div>
+<button class="w-full mt-6 py-3 border border-outline-variant rounded-lg font-label-md text-label-md hover:bg-surface-variant transition-colors">View Bid Calendar</button>
+</div>
+</section>
+<section class="mb-10">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline-md text-headline-md text-forest-deep">Active Tenders &amp; Contracts</h3>
+<div class="flex gap-2">
+<div class="relative">
+<input class="pl-10 pr-4 py-2 bg-surface border border-outline-variant rounded-lg text-sm focus:ring-primary focus:border-primary" placeholder="Search Tenders..." type="text">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[20px]">search</span>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 border border-outline-variant rounded-lg text-sm font-medium hover:bg-surface-variant">
+<span class="material-symbols-outlined text-[18px]">filter_list</span>
+                        Filter
+                    </button>
+</div>
+</div>
+<div class="overflow-x-auto border border-outline-variant rounded-xl bg-surface-container-lowest">
+<table class="w-full text-left border-collapse">
+<thead class="bg-surface-container-low">
+<tr>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant">Tender ID</th>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant">Project Title</th>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant">Department</th>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant">Status</th>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant">Closing Date</th>
+<th class="p-4 font-label-md text-label-md text-on-surface-variant border-b border-outline-variant text-right">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr class="hover:bg-surface-variant/20 transition-colors">
+<td class="p-4 font-label-md text-label-md">AB/WORKS/24/012</td>
+<td class="p-4">
+<p class="font-body-md font-semibold">Umuahia Urban Renewal - Drainage Systems</p>
+<p class="text-caption text-on-surface-variant">Estimated Value: ₦240M</p>
+</td>
+<td class="p-4 text-on-surface-variant">Ministry of Works</td>
+<td class="p-4">
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-caption font-label-md rounded-full">Open</span>
+</td>
+<td class="p-4 font-label-md">14 Oct, 2024</td>
+<td class="p-4 text-right">
+<button class="text-primary font-bold hover:underline">Apply</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-variant/20 transition-colors">
+<td class="p-4 font-label-md text-label-md">AB/EDU/24/089</td>
+<td class="p-4">
+<p class="font-body-md font-semibold">Digital Literacy Labs for 12 Secondary Schools</p>
+<p class="text-caption text-on-surface-variant">Estimated Value: ₦115M</p>
+</td>
+<td class="p-4 text-on-surface-variant">Ministry of Education</td>
+<td class="p-4">
+<span class="px-3 py-1 bg-surface-container-highest text-on-surface-variant text-caption font-label-md rounded-full">Evaluating</span>
+</td>
+<td class="p-4 font-label-md">02 Oct, 2024</td>
+<td class="p-4 text-right">
+<button class="text-on-surface-variant font-bold hover:underline">View Results</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-variant/20 transition-colors">
+<td class="p-4 font-label-md text-label-md">AB/AGRI/24/004</td>
+<td class="p-4">
+<p class="font-body-md font-semibold">Tractor Leasing Program - Rural Cooperatives</p>
+<p class="text-caption text-on-surface-variant">Estimated Value: ₦500M</p>
+</td>
+<td class="p-4 text-on-surface-variant">Ministry of Agriculture</td>
+<td class="p-4">
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-caption font-label-md rounded-full">Open</span>
+</td>
+<td class="p-4 font-label-md">28 Oct, 2024</td>
+<td class="p-4 text-right">
+<button class="text-primary font-bold hover:underline">Apply</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="glass-card rounded-xl p-8 border-l-4 border-brass-gold">
+<h3 class="font-headline-md text-headline-md text-forest-deep mb-4">Contractor Compliance Registry</h3>
+<p class="font-body-md text-on-surface-variant mb-6">Maintain your eligibility for Abia State Government contracts by ensuring your documentation is up to date.</p>
+<div class="space-y-4 mb-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md">CAC Registration Verification</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md">Tax Clearance Certificate (TCC)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md">PenCom Compliance Certificate</span>
+</div>
+</div>
+<div class="flex gap-4">
+<button class="bg-forest-green text-white px-6 py-3 rounded-lg font-label-md text-label-md">Check Status</button>
+<button class="border border-outline-variant px-6 py-3 rounded-lg font-label-md text-label-md hover:bg-surface-variant">Renewal Guide</button>
+</div>
+</div>
+<div class="relative rounded-xl overflow-hidden group">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A professional aerial view of a large-scale construction site in a modernizing African city, showing heavy machinery, organized infrastructure development, and engineers in safety gear, captured in bright daylight with a focus on progress and transparent government-funded projects." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5FsBgN6TBY-w4icJtNqqJ_7BoFbyy1BK1C7hOtaTVzbbG-67BvZw6qc95qZsFgf7jKXhFSRkspSi44NHqTKMQTUdAJt9kU06hPyGSfMUBbVbZXYoo7dk5GRolRlTFVXjgux90HzddGk_4PWL4sevy_m95a8xmcpru3C7fq_gxOAvx87C00oyd_Q51f1zuilO8dbUUDIThrKJSETzpAP5AloKfhMIDjySuWYtxpC7oz05AiNxOdw9NlmyxCFiHgLJ2_AF6mze2YSs">
+<div class="absolute inset-0 bg-gradient-to-t from-forest-deep via-forest-deep/60 to-transparent p-8 flex flex-col justify-end">
+<h3 class="font-headline-md text-headline-md text-white mb-2">Vendor Success Story</h3>
+<p class="text-white/80 font-body-md mb-4">"The Abia One portal eliminated the middleman, allowing our local firm to compete and win on merit for the 2023 Rural Electrification Project."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full border-2 border-white/30 overflow-hidden">
+<img alt="Vendor Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9DF4F5-jxLTuilVP60VDybLhd-S7V5be0o-alr0mvpFQ70o4UCa0QU1NdNEUpypevOR_ybP6EbgKKmfVPS48j3NWnUZzS5zlOXk7P2v1eDtjYQ1bFxI92txBWGnb-nFiNNWAS1yw4-gVon2j7pdiqJgTdCB1OOE0b_0VtLF1ctC6xOPO4t6SrthW333JzsSNh1eiC9BWWKCEvegsExkzPH3-fkmzl4yMPPlxPlxEYn5_XJxCH0NsIBKcwb3oyMaKZZ7rCEZbECIw">
+</div>
+<div>
+<p class="text-white font-bold">Engr. Chinedu Okafor</p>
+<p class="text-white/60 text-caption">CEO, Abia Tech Solutions</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full px-margin-mobile md:px-margin-desktop bg-surface-container-highest mt-auto py-12 border-t border-outline-variant lg:ml-64 lg:w-[calc(100%-16rem)]">
+<div class="max-w-container-max-width mx-auto flex flex-col md:flex-row justify-between gap-8">
+<div>
+<h4 class="font-headline-lg text-headline-lg text-forest-deep font-bold mb-2">ABIA ONE</h4>
+<p class="font-body-md text-on-surface-variant max-w-xs">© 2024 Government of Abia State, Nigeria. Built for the Future.</p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-8">
+<div class="space-y-4">
+<p class="font-label-caps text-label-caps text-forest-deep font-bold">INITIATIVES</p>
+<ul class="space-y-2">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Invest Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Serve Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Build Abia</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<p class="font-label-caps text-label-caps text-forest-deep font-bold">LEGAL</p>
+<ul class="space-y-2">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Open Abia</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<p class="font-label-caps text-label-caps text-forest-deep font-bold">SUPPORT</p>
+<ul class="space-y-2">
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Help Desk</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Simple animation for the analytics bars or status chips if needed
+        document.addEventListener('DOMContentLoaded', () => {
+            const liveBadge = document.querySelector('.animate-ping');
+            if(liveBadge) {
+                console.log('Open Abia Live Bid Opening System Active');
+            }
+        });
+    </script>
+</body></html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Emergency Response Management | Abia One OS</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error": "#ba1a1a",
+                        "tertiary": "#762732",
+                        "on-secondary-fixed-variant": "#574500",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary-container": "#8ee4a8",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-primary": "#83d99d",
+                        "inverse-on-surface": "#eef2eb",
+                        "outline-variant": "#bec9be",
+                        "surface-variant": "#dfe4dd",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#e5e9e2",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "tertiary-fixed": "#ffdadb",
+                        "surface": "#f6fbf3",
+                        "on-tertiary-fixed": "#40000e",
+                        "eagle-red": "#C41E3A",
+                        "brass-gold": "#D4AF37",
+                        "on-secondary-container": "#745c00",
+                        "surface-tint": "#0b6d3c",
+                        "secondary": "#735c00",
+                        "on-primary": "#ffffff",
+                        "slate-gray": "#334155",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "on-error": "#ffffff",
+                        "forest-green": "#006838",
+                        "background": "#f6fbf3",
+                        "on-tertiary-container": "#ffc3c6",
+                        "outline": "#6f7a70",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-secondary-fixed": "#241a00",
+                        "secondary-fixed": "#ffe088",
+                        "on-surface": "#181d19",
+                        "tertiary-container": "#943e48",
+                        "state-white": "#FFFFFF",
+                        "primary": "#004d28",
+                        "on-background": "#181d19",
+                        "on-surface-variant": "#3f4940",
+                        "surface-dim": "#d7dbd4",
+                        "inverse-surface": "#2d322d",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#f6fbf3",
+                        "surface-container-highest": "#dfe4dd",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed": "#00210e",
+                        "surface-container": "#ebefe8",
+                        "surface-container-low": "#f1f5ee",
+                        "secondary-container": "#fed65b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "base": "4px",
+                        "max-width": "1440px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "display-lg": ["Montserrat"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .status-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5ee;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #bec9be;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Sidebar Navigation -->
+<aside class="h-screen w-64 fixed left-0 top-0 bg-surface-container-low dark:bg-surface-container-lowest border-r border-outline-variant dark:border-outline flex flex-col py-6 px-4 z-50">
+<div class="mb-8 px-2">
+<h1 class="font-headline-md text-headline-md text-forest-green">State Governance</h1>
+<p class="font-label-md text-label-md text-on-surface-variant opacity-70">Abia One OS v2.0</p>
+</div>
+<nav class="flex-grow space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant rounded-lg transition-all scale-98" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-md text-label-md">Command Center</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">campaign</span>
+<span class="font-label-md text-label-md">Communications</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">agriculture</span>
+<span class="font-label-md text-label-md">Agriculture</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-label-md text-label-md">Health</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">location_city</span>
+<span class="font-label-md text-label-md">GADA</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg transition-all" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-label-md text-label-md">Analytics</span>
+</a>
+</nav>
+<div class="mt-auto space-y-1 border-t border-outline-variant pt-4">
+<button class="w-full bg-forest-green text-white py-2 rounded-lg font-headline-md text-sm mb-4 flex items-center justify-center gap-2 hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-sm">add</span>
+                New Initiative
+            </button>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg" href="#">
+<span class="material-symbols-outlined">cloud_done</span>
+<span class="font-label-md text-label-md">System Status</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface rounded-lg" href="#">
+<span class="material-symbols-outlined">help_center</span>
+<span class="font-label-md text-label-md">Support</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 min-h-screen">
+<!-- Top Nav Bar -->
+<header class="bg-surface dark:bg-surface-dim border-b border-outline-variant dark:border-outline sticky top-0 z-40">
+<div class="flex justify-between items-center px-gutter w-full max-w-max-width mx-auto h-16">
+<div class="flex items-center gap-4">
+<span class="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim">Abia One OS</span>
+<span class="h-6 w-[1px] bg-outline-variant"></span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Emergency Response Center</h2>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative">
+<input class="pl-10 pr-4 py-1.5 bg-surface-container-low border border-outline-variant rounded-full text-sm focus:ring-2 focus:ring-forest-green focus:border-transparent outline-none w-64" placeholder="Search resources..." type="text">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg">search</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant">
+<button class="hover:text-forest-green transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-eagle-red rounded-full"></span>
+</button>
+<button class="hover:text-forest-green transition-colors">
+<span class="material-symbols-outlined">account_balance</span>
+</button>
+<button class="hover:text-forest-green transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant">
+<img alt="User profile" data-alt="A professional headshot of a government official wearing a clean suit, looking focused and authoritative. The lighting is crisp and studio-quality, emphasizing a modern corporate aesthetic. The background is a soft, out-of-focus office environment with neutral tones, aligning with a high-fidelity digital governance platform." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxsJyzW4sSWLxX_efKKi8swhc-JNx7elEV1KC1dR5Ag1r_FNgW3BGlo_7UrdiuHZVQXz_5j6HOmQRnSdqdSGcd07tlzffOPdj_FcJtrCwEEE8f-TdBXA4HynU_drQFaTMI1PVnC51o80zAwevLN5fZcwwEGAl7-nzvnW2rcVmdWb6gQUeJNPUSHLTy0e1eAgTaLzNqPH19AC169aYdMVR8bIur_9NC0w_QYGIZ1T_DdRJuw5NThJYVA7ZoQszH4esJXbr8tbaVe-c">
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="p-gutter max-w-max-width mx-auto">
+<!-- Alert Banner -->
+<div class="mb-8 flex items-center justify-between p-4 bg-tertiary-container text-on-tertiary-container rounded-lg border border-tertiary animate-pulse">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-3xl">warning</span>
+<div>
+<p class="font-bold font-headline-md text-sm">CRITICAL ALERT: SEVERE WEATHER WARNING</p>
+<p class="text-xs font-body-md opacity-90">Heavy flash flood warning for Umuahia North. Responders on high alert. Deploy emergency drainage teams to Sector 4.</p>
+</div>
+</div>
+<button class="bg-on-tertiary-container text-tertiary px-4 py-1.5 rounded font-bold text-xs uppercase hover:opacity-90 transition-opacity">Acknowledge</button>
+</div>
+<!-- Dashboard Grid -->
+<div class="bento-grid">
+<!-- Resource Deployment Visualization (Large Card) -->
+<section class="col-span-8 bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline-md text-headline-md text-on-surface flex items-center gap-2">
+<span class="w-1 h-6 bg-brass-gold"></span>
+                            Resource Deployment
+                        </h3>
+<div class="flex gap-2">
+<span class="px-3 py-1 bg-surface-container rounded-full text-xs font-label-md text-on-surface-variant">Live Sync</span>
+<span class="px-3 py-1 bg-on-primary-container text-forest-green rounded-full text-xs font-label-md flex items-center gap-1">
+<span class="w-1.5 h-1.5 bg-forest-green rounded-full status-pulse"></span> Optimal
+                            </span>
+</div>
+</div>
+<!-- Stats Grid -->
+<div class="grid grid-cols-3 gap-6 mb-8">
+<div class="p-4 bg-surface-container rounded-lg border border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<span class="material-symbols-outlined text-primary-container">local_police</span>
+<span class="text-xs font-label-md text-forest-green">88% Active</span>
+</div>
+<p class="text-2xl font-bold font-display-lg text-on-surface">142/160</p>
+<p class="text-xs text-on-surface-variant font-body-md mb-3">Police Units Deployed</p>
+<div class="w-full bg-outline-variant/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-forest-green h-full w-[88%]"></div>
+</div>
+</div>
+<div class="p-4 bg-surface-container rounded-lg border border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<span class="material-symbols-outlined text-eagle-red">medical_services</span>
+<span class="text-xs font-label-md text-eagle-red">65% Active</span>
+</div>
+<p class="text-2xl font-bold font-display-lg text-on-surface">42/65</p>
+<p class="text-xs text-on-surface-variant font-body-md mb-3">Ambulances En Route</p>
+<div class="w-full bg-outline-variant/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-eagle-red h-full w-[65%]"></div>
+</div>
+</div>
+<div class="p-4 bg-surface-container rounded-lg border border-outline-variant/30">
+<div class="flex justify-between items-start mb-2">
+<span class="material-symbols-outlined text-brass-gold">engineering</span>
+<span class="text-xs font-label-md text-on-secondary-container">92% Active</span>
+</div>
+<p class="text-2xl font-bold font-display-lg text-on-surface">210/228</p>
+<p class="text-xs text-on-surface-variant font-body-md mb-3">SEMA Responders</p>
+<div class="w-full bg-outline-variant/20 h-1.5 rounded-full overflow-hidden">
+<div class="bg-brass-gold h-full w-[92%]"></div>
+</div>
+</div>
+</div>
+<!-- Map/Visual Section -->
+<div class="relative h-80 rounded-xl overflow-hidden border border-outline-variant bg-surface-dim">
+<img class="w-full h-full object-cover grayscale opacity-60 mix-blend-multiply" data-alt="A highly detailed satellite map view of an urban Nigerian city, specifically Umuahia, showing intricate street networks and dense building layouts. The map is overlaid with digital data markers in neon forest-green and eagle-red, representing emergency resource locations and incident hotspots. The aesthetic is clean, professional, and analytical, utilizing a desaturated color palette to emphasize the data visualization layers." data-location="Umuahia, Nigeria" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaYnLU9e1BpyFMIRMAMJrVNfBN3PfIYe3Uu2x6ramMLk-hz2a81ml4AnFngTvnjYVPDrdtbd2i01lcv03kAIu5qhRv_yYY1re3-AQuEbN008r1AifvNINJzRkpM7ojWG1VMDnPkUbZpKPBisin2WCXVpvQTNDA0dNWpoZtVP5-1-I4QzfZMFKkEFl3DW0yZztWvw8Ofa70jIzCOn1AstrzYFqTuevE6lxz3q9AZSKuu0L1CU1g1b9JJXEpN7sIfRjtyLvihAB6qIs">
+<div class="absolute top-4 right-4 flex flex-col gap-2">
+<button class="bg-surface-container-lowest p-2 shadow-lg rounded-lg hover:bg-surface-container transition-colors"><span class="material-symbols-outlined">layers</span></button>
+<button class="bg-surface-container-lowest p-2 shadow-lg rounded-lg hover:bg-surface-container transition-colors"><span class="material-symbols-outlined">my_location</span></button>
+</div>
+<!-- Mock Map Pins -->
+<div class="absolute top-1/4 left-1/3 w-4 h-4 bg-eagle-red rounded-full border-2 border-white status-pulse shadow-lg"></div>
+<div class="absolute bottom-1/3 right-1/4 w-3 h-3 bg-forest-green rounded-full border-2 border-white shadow-lg"></div>
+<div class="absolute top-1/2 right-1/2 w-3 h-3 bg-brass-gold rounded-full border-2 border-white shadow-lg"></div>
+</div>
+</section>
+<!-- Public Alerts Section -->
+<section class="col-span-4 flex flex-col gap-6">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm h-full">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-6 flex items-center gap-2">
+<span class="w-1 h-6 bg-eagle-red"></span>
+                            Public Alerts
+                        </h3>
+<div class="space-y-4 custom-scrollbar overflow-y-auto max-h-[400px] pr-2">
+<!-- Weather Advisory -->
+<div class="p-4 bg-surface rounded-lg border-l-4 border-brass-gold shadow-sm">
+<div class="flex justify-between items-start mb-1">
+<span class="font-bold text-sm text-on-surface">Weather Advisory</span>
+<span class="text-[10px] font-label-md text-on-surface-variant">12 MIN AGO</span>
+</div>
+<p class="text-xs text-on-surface-variant font-body-md leading-relaxed">Incoming storm system expected to reach Aba-Port Harcourt Expressway by 18:00. High risk of hydroplaning.</p>
+</div>
+<!-- Flash Flood Alert -->
+<div class="p-4 bg-error-container/20 rounded-lg border-l-4 border-error shadow-sm">
+<div class="flex justify-between items-start mb-1">
+<span class="font-bold text-sm text-on-surface">Flood Warning</span>
+<span class="text-[10px] font-label-md text-error">CRITICAL</span>
+</div>
+<p class="text-xs text-on-surface-variant font-body-md leading-relaxed">River Aba water levels exceeding 4.2m. Low-lying areas in Ndiegoro must evacuate immediately.</p>
+</div>
+<!-- Health Alert -->
+<div class="p-4 bg-surface rounded-lg border-l-4 border-forest-green shadow-sm">
+<div class="flex justify-between items-start mb-1">
+<span class="font-bold text-sm text-on-surface">Cholera Prevention</span>
+<span class="text-[10px] font-label-md text-on-surface-variant">2 HRS AGO</span>
+</div>
+<p class="text-xs text-on-surface-variant font-body-md leading-relaxed">State Ministry of Health advises boiling water in Umuahia North following pipeline maintenance.</p>
+</div>
+</div>
+<button class="w-full mt-6 py-2 border border-outline-variant text-on-surface-variant font-label-md text-xs hover:bg-surface-container transition-colors rounded">View All Broadcasts</button>
+</div>
+</section>
+<!-- Road Clearance Status (Full Width Bottom) -->
+<section class="col-span-12 bg-surface-container-lowest border border-outline-variant rounded-xl p-6 shadow-sm">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline-md text-headline-md text-on-surface flex items-center gap-2">
+<span class="w-1 h-6 bg-slate-gray"></span>
+                            Road Clearance Status
+                        </h3>
+<div class="flex gap-4">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-forest-green"></span>
+<span class="text-xs text-on-surface-variant">Clear</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-brass-gold"></span>
+<span class="text-xs text-on-surface-variant">Slow/Work Zone</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-eagle-red"></span>
+<span class="text-xs text-on-surface-variant">Blocked</span>
+</div>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead class="border-b border-outline-variant">
+<tr>
+<th class="py-3 px-4 font-label-md text-label-md text-on-surface-variant">Route Name</th>
+<th class="py-3 px-4 font-label-md text-label-md text-on-surface-variant">Current Status</th>
+<th class="py-3 px-4 font-label-md text-label-md text-on-surface-variant">Active Incident</th>
+<th class="py-3 px-4 font-label-md text-label-md text-on-surface-variant">Est. Clearance</th>
+<th class="py-3 px-4 font-label-md text-label-md text-on-surface-variant">Assigned Team</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/30">
+<tr class="hover:bg-surface transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-sm text-on-surface">Umuahia - Ikot Ekpene Rd</div>
+<div class="text-[10px] text-on-surface-variant">Section KM 12.5</div>
+</td>
+<td class="py-4 px-4">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container text-[10px] font-bold uppercase">Slow</span>
+</td>
+<td class="py-4 px-4 text-xs font-body-md">Minor Road Surface Repair</td>
+<td class="py-4 px-4 text-xs font-label-md">14:45 (Today)</td>
+<td class="py-4 px-4">
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border border-surface bg-slate-gray flex items-center justify-center text-[10px] text-white">TM</div>
+<div class="w-6 h-6 rounded-full border border-surface bg-forest-green flex items-center justify-center text-[10px] text-white">SE</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-sm text-on-surface">Enugu-Port Harcourt Expy</div>
+<div class="text-[10px] text-on-surface-variant">Arungwa Junction</div>
+</td>
+<td class="py-4 px-4">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container text-[10px] font-bold uppercase">Blocked</span>
+</td>
+<td class="py-4 px-4 text-xs font-body-md text-error">Heavy Vehicle Collision</td>
+<td class="py-4 px-4 text-xs font-label-md text-error">Calculating...</td>
+<td class="py-4 px-4">
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full border border-surface bg-eagle-red flex items-center justify-center text-[10px] text-white">ER</div>
+<div class="w-6 h-6 rounded-full border border-surface bg-slate-gray flex items-center justify-center text-[10px] text-white">LE</div>
+<div class="w-6 h-6 rounded-full border border-surface bg-brass-gold flex items-center justify-center text-[10px] text-white">HE</div>
+</div>
+</td>
+</tr>
+<tr class="hover:bg-surface transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-sm text-on-surface">Aba-Owerri Road</div>
+<div class="text-[10px] text-on-surface-variant">Osisioma Flyover Area</div>
+</td>
+<td class="py-4 px-4">
+<span class="px-2 py-0.5 rounded-full bg-on-primary-container/20 text-forest-green text-[10px] font-bold uppercase border border-forest-green/20">Clear</span>
+</td>
+<td class="py-4 px-4 text-xs font-body-md">None</td>
+<td class="py-4 px-4 text-xs font-label-md">N/A</td>
+<td class="py-4 px-4">
+<span class="text-[10px] text-on-surface-variant italic">Monitoring Only</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer -->
+<footer class="mt-12 bg-surface-container dark:bg-surface-dim border-t border-outline-variant dark:border-outline w-full py-6">
+<div class="flex justify-between items-center px-gutter w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-4">
+<span class="font-label-md text-label-md font-bold text-slate-gray uppercase">Abia One OS</span>
+<span class="text-on-surface-variant text-caption font-caption">© 2024 Abia State Government | Digital Infrastructure Division</span>
+</div>
+<div class="flex gap-6">
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-forest-green transition-colors opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-forest-green transition-colors opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-caption text-caption hover:text-forest-green transition-colors opacity-80 hover:opacity-100" href="#">Security Audit</a>
+</div>
+</div>
+</footer>
+</main>
+<script>
+        // Micro-interactions for dashboard cards
+        document.querySelectorAll('section').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('shadow-md');
+                card.style.transform = 'translateY(-2px)';
+                card.style.transition = 'all 0.3s ease-out';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('shadow-md');
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Simulating live data updates
+        setInterval(() => {
+            const progressBars = document.querySelectorAll('.w-full > .h-full');
+            progressBars.forEach(bar => {
+                const currentWidth = parseFloat(bar.style.width || "50");
+                const jitter = (Math.random() - 0.5) * 2;
+                const newWidth = Math.min(Math.max(currentWidth + jitter, 10), 100);
+                // bar.style.width = `${newWidth}%`; // Kept commented to prevent layout shift during viewing
+            });
+        }, 3000);
+    </script>
+</body></html>

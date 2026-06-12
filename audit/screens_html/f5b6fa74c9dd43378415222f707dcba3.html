@@ -1,0 +1,434 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ABIA ONE | State Budget Transparency</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#dfe4dd",
+                    "tertiary-fixed-dim": "#ffb2b7",
+                    "on-secondary-fixed": "#241a00",
+                    "forest-green": "#006838",
+                    "brass-gold": "#D4AF37",
+                    "on-surface-variant": "#3f4940",
+                    "tertiary": "#762732",
+                    "on-secondary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "background": "#f6fbf3",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#0b6d3c",
+                    "on-primary-fixed-variant": "#00522b",
+                    "tertiary-container": "#943e48",
+                    "surface-bright": "#f6fbf3",
+                    "slate-gray": "#334155",
+                    "surface-container-high": "#e5e9e2",
+                    "tertiary-fixed": "#ffdadb",
+                    "on-error-container": "#93000a",
+                    "on-secondary-container": "#745c00",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#fed65b",
+                    "on-tertiary-container": "#ffc3c6",
+                    "surface-container": "#ebefe8",
+                    "surface-variant": "#dfe4dd",
+                    "eagle-red": "#C41E3A",
+                    "secondary-fixed": "#ffe088",
+                    "on-primary-fixed": "#00210e",
+                    "on-tertiary": "#ffffff",
+                    "state-white": "#FFFFFF",
+                    "on-primary-container": "#8ee4a8",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#006838",
+                    "surface": "#f6fbf3",
+                    "on-tertiary-fixed-variant": "#7b2b36",
+                    "inverse-on-surface": "#eef2eb",
+                    "outline-variant": "#bec9be",
+                    "inverse-primary": "#83d99d",
+                    "secondary": "#735c00",
+                    "primary-fixed": "#9ef5b8",
+                    "inverse-surface": "#2d322d",
+                    "on-error": "#ffffff",
+                    "primary-fixed-dim": "#83d99d",
+                    "on-surface": "#181d19",
+                    "outline": "#6f7a70",
+                    "surface-container-low": "#f1f5ee",
+                    "on-tertiary-fixed": "#40000e",
+                    "on-secondary-fixed-variant": "#574500",
+                    "surface-dim": "#d7dbd4",
+                    "secondary-fixed-dim": "#e9c349",
+                    "primary": "#004d28",
+                    "on-background": "#181d19"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "max-width": "1440px",
+                    "base": "4px",
+                    "margin-mobile": "16px",
+                    "margin-desktop": "64px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Montserrat"],
+                    "caption": ["Hanken Grotesk"],
+                    "label-md": ["JetBrains Mono"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "headline-lg": ["Montserrat"],
+                    "display-lg": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "body-md": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .naira::before {
+            content: "₦";
+            margin-right: 2px;
+        }
+        .chart-container {
+            background-image: radial-gradient(circle at 2px 2px, #bec9be 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5ee;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #006838;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
+<div class="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
+<div class="flex items-center gap-8">
+<span class="font-display-lg text-[32px] font-bold text-primary">ABIA ONE</span>
+<nav class="hidden md:flex items-center gap-6">
+<a class="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Economy</a>
+<a class="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Digital Gov</a>
+<a class="font-semibold text-primary border-b-2 border-brass-gold pb-1 cursor-pointer" href="#">Governance</a>
+<a class="font-medium text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#">Security</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-6 py-2 bg-primary text-on-primary font-medium rounded-lg hover:opacity-90 transition-all">Citizen Portal</button>
+</div>
+</div>
+</header>
+<!-- Side Navigation Bar -->
+<aside class="fixed left-0 top-20 h-[calc(100vh-80px)] w-64 bg-surface-container-low border-r border-outline-variant hidden md:flex flex-col py-6">
+<div class="px-6 mb-8">
+<h3 class="font-headline-md text-headline-md font-bold text-primary">Navigation</h3>
+<p class="text-caption text-on-surface-variant">State Operating System</p>
+</div>
+<nav class="flex-1 overflow-y-auto custom-scrollbar">
+<div class="flex flex-col">
+<a class="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-body-md">Economic Transformation</span>
+</a>
+<a class="flex items-center gap-3 text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-6 py-3 transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+<span class="font-body-md">Digital Government</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="#">
+<span class="material-symbols-outlined">gavel</span>
+<span class="font-body-md">Transparent Governance</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant px-6 py-3 hover:bg-surface-variant transition-all" href="#">
+<span class="material-symbols-outlined">verified_user</span>
+<span class="font-body-md">Public Trust</span>
+</a>
+</div>
+</nav>
+<div class="mt-auto px-6 border-t border-outline-variant pt-6">
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-3 text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-caption">Settings</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">help</span>
+<span class="font-caption">Support</span>
+</a>
+</div>
+<button class="w-full mt-6 py-3 border border-brass-gold text-secondary font-medium rounded-lg hover:bg-secondary-container transition-all">Launch Service</button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="md:ml-64 pt-20 min-h-screen">
+<div class="max-w-max-width mx-auto p-gutter">
+<!-- Header Section -->
+<div class="mb-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="inline-flex items-center px-3 py-1 bg-surface-container-highest text-primary font-label-md text-label-md rounded-full mb-4">
+                            OPEN ABIA LAYER • FISCAL YEAR 2024
+                        </span>
+<h1 class="font-display-lg text-display-lg text-primary mb-2">Budget Transparency Dashboard</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                            Real-time monitoring of Abia State's fiscal health, revenue streams, and developmental expenditures.
+                        </p>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 px-4 py-2 bg-state-white border border-outline-variant rounded-lg font-medium text-slate-gray hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined">download</span> Export PDF
+                        </button>
+<button class="flex items-center gap-2 px-4 py-2 bg-forest-green text-on-primary rounded-lg font-medium hover:shadow-lg transition-all">
+<span class="material-symbols-outlined">calendar_today</span> FY 2024
+                        </button>
+</div>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="bento-grid">
+<!-- Main Spending Card (Large) -->
+<div class="col-span-12 lg:col-span-8 bg-state-white border border-outline-variant p-8 relative overflow-hidden group">
+<div class="flex justify-between items-start mb-12">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary mb-1">Budget Execution Overview</h2>
+<div class="w-12 h-1 bg-brass-gold"></div>
+</div>
+<div class="text-right">
+<p class="text-caption uppercase tracking-wider text-on-surface-variant">Total State Budget</p>
+<p class="font-display-lg text-[40px] text-primary naira">564.2B</p>
+</div>
+</div>
+<div class="h-64 chart-container flex items-end justify-between gap-4 relative">
+<!-- Simulated Bar Chart -->
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-surface-container-highest h-[40%] rounded-t-lg transition-all hover:bg-forest-green relative">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover/bar:opacity-100 bg-inverse-surface text-state-white px-2 py-1 text-caption rounded transition-opacity naira">42.1B</div>
+</div>
+<span class="text-caption mt-2 text-on-surface-variant">Jan</span>
+</div>
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-surface-container-highest h-[55%] rounded-t-lg transition-all hover:bg-forest-green relative">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover/bar:opacity-100 bg-inverse-surface text-state-white px-2 py-1 text-caption rounded transition-opacity naira">58.3B</div>
+</div>
+<span class="text-caption mt-2 text-on-surface-variant">Feb</span>
+</div>
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-primary h-[85%] rounded-t-lg relative">
+<div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-inverse-surface text-state-white px-2 py-1 text-caption rounded naira">89.4B</div>
+</div>
+<span class="text-caption mt-2 text-on-surface-variant font-bold">Mar</span>
+</div>
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-surface-container-highest h-[60%] rounded-t-lg transition-all hover:bg-forest-green relative"></div>
+<span class="text-caption mt-2 text-on-surface-variant">Apr</span>
+</div>
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-surface-container-highest h-[45%] rounded-t-lg transition-all hover:bg-forest-green relative"></div>
+<span class="text-caption mt-2 text-on-surface-variant">May</span>
+</div>
+<div class="flex-1 flex flex-col items-center group/bar">
+<div class="w-full bg-surface-container-highest h-[70%] rounded-t-lg transition-all hover:bg-forest-green relative"></div>
+<span class="text-caption mt-2 text-on-surface-variant">Jun</span>
+</div>
+</div>
+</div>
+<!-- Revenue Sources (Medium) -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-low border border-outline-variant p-8">
+<h2 class="font-headline-md text-headline-md text-primary mb-6">Revenue Mix</h2>
+<div class="space-y-6">
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-center text-body-md">
+<span class="font-semibold">FAAC Allocation</span>
+<span class="font-label-md text-primary">62%</span>
+</div>
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-forest-green" style="width: 62%"></div>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-center text-body-md">
+<span class="font-semibold">IGR (Internal)</span>
+<span class="font-label-md text-primary">28%</span>
+</div>
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-brass-gold" style="width: 28%"></div>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-center text-body-md">
+<span class="font-semibold">Grants &amp; Loans</span>
+<span class="font-label-md text-primary">10%</span>
+</div>
+<div class="h-2 bg-surface-variant rounded-full overflow-hidden">
+<div class="h-full bg-tertiary" style="width: 10%"></div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant">
+<button class="w-full text-center py-2 text-primary font-semibold hover:underline">Download Revenue Audit</button>
+</div>
+</div>
+<!-- KPI Cards -->
+<div class="col-span-12 md:col-span-4 bg-state-white border border-outline-variant p-6 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-forest-green p-2 bg-surface-container rounded">engineering</span>
+<span class="text-caption text-forest-green font-bold">+12.4% vs LY</span>
+</div>
+<p class="text-on-surface-variant font-medium mb-1">Capital Expenditure</p>
+<p class="font-headline-lg text-headline-lg naira">342.8B</p>
+<p class="text-caption text-on-surface-variant mt-2">Allocated to 142 active projects</p>
+</div>
+<div class="col-span-12 md:col-span-4 bg-state-white border border-outline-variant p-6 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-tertiary p-2 bg-tertiary-fixed rounded">payments</span>
+<span class="text-caption text-tertiary font-bold">-4.2% vs LY</span>
+</div>
+<p class="text-on-surface-variant font-medium mb-1">Debt Servicing</p>
+<p class="font-headline-lg text-headline-lg naira">84.5B</p>
+<p class="text-caption text-on-surface-variant mt-2">Domestic and foreign obligations</p>
+</div>
+<div class="col-span-12 md:col-span-4 bg-state-white border border-outline-variant p-6 hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-4">
+<span class="material-symbols-outlined text-secondary p-2 bg-secondary-container rounded">groups</span>
+<span class="text-caption text-secondary font-bold">Stable</span>
+</div>
+<p class="text-on-surface-variant font-medium mb-1">Recurrent Expenditure</p>
+<p class="font-headline-lg text-headline-lg naira">136.9B</p>
+<p class="text-caption text-on-surface-variant mt-2">Personnel and overhead costs</p>
+</div>
+<!-- Recent Transactions / Line Items -->
+<div class="col-span-12 bg-state-white border border-outline-variant overflow-hidden">
+<div class="px-8 py-6 border-b border-outline-variant flex justify-between items-center">
+<h2 class="font-headline-md text-headline-md text-primary">Significant Budget Outflows</h2>
+<div class="flex gap-4">
+<input class="px-4 py-2 border border-outline-variant rounded bg-surface text-on-surface focus:ring-1 focus:ring-primary outline-none text-body-md" placeholder="Search line items..." type="text">
+<button class="material-symbols-outlined p-2 text-on-surface-variant hover:bg-surface-variant rounded">filter_list</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-semibold">
+<th class="px-8 py-4 border-b border-outline-variant">Description</th>
+<th class="px-8 py-4 border-b border-outline-variant">Category</th>
+<th class="px-8 py-4 border-b border-outline-variant text-right">Amount</th>
+<th class="px-8 py-4 border-b border-outline-variant">Status</th>
+<th class="px-8 py-4 border-b border-outline-variant">Date</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant">
+<tr class="hover:bg-surface transition-colors">
+<td class="px-8 py-4 font-semibold">Umuahia-Ikot Ekpene Road Rehab</td>
+<td class="px-8 py-4">
+<span class="px-2 py-1 bg-surface-container-highest text-primary text-caption rounded">Infrastructure</span>
+</td>
+<td class="px-8 py-4 text-right font-label-md naira">4,200,000,000</td>
+<td class="px-8 py-4">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-forest-green"></span>
+<span class="text-caption">Disbursed</span>
+</div>
+</td>
+<td class="px-8 py-4 text-on-surface-variant">Oct 12, 2024</td>
+</tr>
+<tr class="hover:bg-surface transition-colors">
+<td class="px-8 py-4 font-semibold">Medical Equipment for General Hospitals</td>
+<td class="px-8 py-4">
+<span class="px-2 py-1 bg-tertiary-fixed text-tertiary text-caption rounded">Healthcare</span>
+</td>
+<td class="px-8 py-4 text-right font-label-md naira">1,850,000,000</td>
+<td class="px-8 py-4">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="text-caption">Pending Audit</span>
+</div>
+</td>
+<td class="px-8 py-4 text-on-surface-variant">Oct 10, 2024</td>
+</tr>
+<tr class="hover:bg-surface transition-colors">
+<td class="px-8 py-4 font-semibold">Agricultural Seedling Distribution</td>
+<td class="px-8 py-4">
+<span class="px-2 py-1 bg-secondary-container text-secondary text-caption rounded">Agric &amp; Rural</span>
+</td>
+<td class="px-8 py-4 text-right font-label-md naira">420,000,000</td>
+<td class="px-8 py-4">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-forest-green"></span>
+<span class="text-caption">Disbursed</span>
+</div>
+</td>
+<td class="px-8 py-4 text-on-surface-variant">Oct 08, 2024</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="relative bottom-0 w-full bg-surface-container-highest border-t border-outline-variant">
+<div class="flex flex-col md:flex-row justify-between items-center py-gutter px-margin-desktop max-w-max-width mx-auto">
+<div class="mb-8 md:mb-0">
+<span class="font-headline-md text-headline-md text-primary block mb-2">ABIA ONE</span>
+<p class="font-caption text-on-surface-variant max-w-sm">
+                    © 2024 Abia State Government. All rights reserved. Built for the future of governance. 
+                    Institutional transparency is our sovereign mandate.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-x-12 gap-y-4">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-caption underline-offset-4" href="#">Institutional Links</a>
+<a class="text-brass-gold underline hover:text-primary transition-colors font-caption underline-offset-4" href="#">Transparency Info</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-caption underline-offset-4" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-caption underline-offset-4" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<!-- Interactive Layer -->
+<script>
+        // Micro-interaction for bar charts
+        document.querySelectorAll('.chart-container > div > div').forEach(bar => {
+            bar.addEventListener('mouseenter', () => {
+                bar.style.transform = 'scaleY(1.05)';
+            });
+            bar.addEventListener('mouseleave', () => {
+                bar.style.transform = 'scaleY(1)';
+            });
+        });
+
+        // Simple currency formatter logic (visual only)
+        console.log("Budget Transparency System initialized. Currency: Naira (NGN)");
+    </script>
+</body></html>

@@ -1,0 +1,450 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Secure Abia | Command Center</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;family=JetBrains+Mono:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(246, 251, 243, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #E2E8F0;
+        }
+        .scanline {
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #006838, transparent);
+            position: absolute;
+            top: 0;
+            animation: scan 4s linear infinite;
+            z-index: 10;
+        }
+        @keyframes scan {
+            from { top: 0; }
+            to { top: 100%; }
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5ee;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #bec9be;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #006838;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error": "#ba1a1a",
+                        "tertiary": "#762732",
+                        "on-secondary-fixed-variant": "#574500",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-primary-container": "#8ee4a8",
+                        "primary-fixed": "#9ef5b8",
+                        "inverse-primary": "#83d99d",
+                        "inverse-on-surface": "#eef2eb",
+                        "outline-variant": "#bec9be",
+                        "surface-variant": "#dfe4dd",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#e5e9e2",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "tertiary-fixed": "#ffdadb",
+                        "surface": "#f6fbf3",
+                        "on-tertiary-fixed": "#40000e",
+                        "eagle-red": "#C41E3A",
+                        "brass-gold": "#D4AF37",
+                        "on-secondary-container": "#745c00",
+                        "surface-tint": "#0b6d3c",
+                        "secondary": "#735c00",
+                        "on-primary": "#ffffff",
+                        "slate-gray": "#334155",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "on-error": "#ffffff",
+                        "forest-green": "#006838",
+                        "background": "#f6fbf3",
+                        "on-tertiary-container": "#ffc3c6",
+                        "outline": "#6f7a70",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-secondary-fixed": "#241a00",
+                        "secondary-fixed": "#ffe088",
+                        "on-surface": "#181d19",
+                        "tertiary-container": "#943e48",
+                        "state-white": "#FFFFFF",
+                        "primary": "#004d28",
+                        "on-background": "#181d19",
+                        "on-surface-variant": "#3f4940",
+                        "surface-dim": "#d7dbd4",
+                        "inverse-surface": "#2d322d",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-bright": "#f6fbf3",
+                        "surface-container-highest": "#dfe4dd",
+                        "primary-container": "#006838",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed": "#00210e",
+                        "surface-container": "#ebefe8",
+                        "surface-container-low": "#f1f5ee",
+                        "secondary-container": "#fed65b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "base": "4px",
+                        "max-width": "1440px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "caption": ["Hanken Grotesk"],
+                        "display-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen flex overflow-hidden">
+<!-- SideNavBar (Authority: JSON) -->
+<aside class="h-screen w-64 fixed left-0 top-0 bg-surface-container-low dark:bg-surface-container-lowest border-r border-outline-variant dark:border-outline flex flex-col py-6 px-4 z-50">
+<div class="mb-10 px-2">
+<h1 class="font-headline-md text-headline-md text-forest-green font-bold leading-tight">State Governance</h1>
+<p class="font-label-md text-label-md text-on-surface-variant opacity-70">Abia One OS v2.0</p>
+</div>
+<nav class="flex-1 space-y-1">
+<!-- Command Center is Active -->
+<a class="flex items-center gap-3 px-3 py-3 text-forest-green dark:text-primary-fixed-dim font-bold bg-surface-container-highest dark:bg-surface-variant rounded-lg transition-all group" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-md text-label-md">Command Center</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">campaign</span>
+<span class="font-label-md text-label-md">Communications</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">agriculture</span>
+<span class="font-label-md text-label-md">Agriculture</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-label-md text-label-md">Health</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">location_city</span>
+<span class="font-label-md text-label-md">GADA</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-inverse-surface transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="font-label-md text-label-md">Analytics</span>
+</a>
+</nav>
+<div class="mt-auto space-y-4">
+<button class="w-full py-3 px-4 bg-forest-green text-white rounded-lg font-label-md flex items-center justify-center gap-2 hover:brightness-110 transition-all">
+<span class="material-symbols-outlined text-sm">add</span>
+                New Initiative
+            </button>
+<div class="pt-4 border-t border-outline-variant">
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:text-forest-green transition-colors" href="#">
+<span class="material-symbols-outlined">cloud_done</span>
+<span class="font-label-md text-label-md">System Status</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:text-forest-green transition-colors" href="#">
+<span class="material-symbols-outlined">help_center</span>
+<span class="font-label-md text-label-md">Support</span>
+</a>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="flex-1 ml-64 flex flex-col h-screen overflow-hidden">
+<!-- TopAppBar (Authority: JSON) -->
+<header class="bg-surface dark:bg-surface-dim border-b border-outline-variant dark:border-outline flex justify-between items-center px-gutter w-full h-16 z-40 sticky top-0">
+<div class="flex items-center gap-4">
+<span class="font-headline-md text-headline-md font-bold text-forest-green">Secure Abia</span>
+<div class="hidden md:flex h-6 w-px bg-outline-variant mx-2"></div>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-forest-green font-bold border-b-2 border-forest-green py-5 font-label-md text-label-md" href="#">Real-Time Ops</a>
+<a class="text-on-surface-variant hover:text-forest-green py-5 transition-colors font-label-md text-label-md" href="#">Incident Logs</a>
+<a class="text-on-surface-variant hover:text-forest-green py-5 transition-colors font-label-md text-label-md" href="#">Asset Tracking</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative">
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer">notifications</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-eagle-red rounded-full"></span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer">account_balance</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-forest-green cursor-pointer">settings</span>
+<div class="w-10 h-10 rounded-full border border-outline overflow-hidden">
+<img alt="User profile" class="w-full h-full object-cover" data-alt="A professional headshot of a government official in a sharp, modern suit, set against a blurred background of a clean, technologically advanced office. The lighting is soft and professional, reflecting a high-authority governance environment with a neutral and focused expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOvjIaUiZmsEbZT_xZfYN4_DsrklpKNFyIMTsMgUDwZJ3nCM-3UTaqRpnO6GSvWWm8y1_mapbDq66Y1ta-4jhljDNyJV57zpmW9xLKpwHXq3Vjv15ehoQBJXrLAx55q0PKmW33WfsYM4r3--n7pkR3Bmra3tCu2tQHfT06fa9ZqGgRsQXtwAhXrk2vR0gRBymLvgFjmiBkVyQ8UCE95m76mIubwF91MnrXXSVoI14D_Ph26I-PIjSXllchNwjIo--0ipNyFlvkGeY">
+</div>
+</div>
+</header>
+<!-- Command Dashboard Grid -->
+<section class="flex-1 overflow-hidden grid grid-cols-12 p-6 gap-6">
+<!-- Left: High-Level Metrics -->
+<div class="col-span-3 flex flex-col gap-6 overflow-y-auto pr-2">
+<div class="bg-surface-container-lowest border border-outline-variant p-5 rounded-lg">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-on-surface-variant uppercase tracking-wider">System Health</span>
+<span class="px-2 py-0.5 bg-primary-fixed text-on-primary-fixed-variant text-[10px] font-bold rounded-sm">NOMINAL</span>
+</div>
+<div class="space-y-4">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="font-headline-md text-forest-green">99.98%</h3>
+<span class="text-caption text-forest-green flex items-center gap-1"><span class="material-symbols-outlined text-xs">arrow_upward</span> 0.02%</span>
+</div>
+<p class="text-caption text-on-surface-variant uppercase">Uptime Reliability</p>
+</div>
+<div class="h-1 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-forest-green w-[99.98%]"></div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-outline-variant p-5 rounded-lg">
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-on-surface-variant uppercase tracking-wider">Response Index</span>
+<span class="material-symbols-outlined text-brass-gold">bolt</span>
+</div>
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="font-headline-md text-forest-green">4.2 <span class="text-body-md font-normal">mins</span></h3>
+<span class="text-caption text-eagle-red flex items-center gap-1"><span class="material-symbols-outlined text-xs">arrow_downward</span> 12s</span>
+</div>
+<p class="text-caption text-on-surface-variant uppercase">Avg Response Time</p>
+</div>
+</div>
+<div class="flex-1 bg-surface-container-lowest border border-outline-variant p-5 rounded-lg flex flex-col">
+<h3 class="font-label-md text-on-surface-variant uppercase mb-4 border-b border-outline-variant pb-2 flex items-center justify-between">
+                        Deployment Status
+                        <span class="material-symbols-outlined text-sm">groups</span>
+</h3>
+<div class="space-y-6 flex-1 py-2">
+<div class="flex items-center gap-4">
+<div class="w-2 h-2 bg-forest-green rounded-full"></div>
+<div class="flex-1">
+<p class="text-body-md font-medium">Umuahia North</p>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1">
+<div class="bg-forest-green w-[85%] h-full"></div>
+</div>
+</div>
+<span class="font-label-md">85%</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-2 h-2 bg-forest-green rounded-full"></div>
+<div class="flex-1">
+<p class="text-body-md font-medium">Aba South</p>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1">
+<div class="bg-forest-green w-[92%] h-full"></div>
+</div>
+</div>
+<span class="font-label-md">92%</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-2 h-2 bg-brass-gold rounded-full"></div>
+<div class="flex-1">
+<p class="text-body-md font-medium">Ohafia Ops</p>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1">
+<div class="bg-brass-gold w-[64%] h-full"></div>
+</div>
+</div>
+<span class="font-label-md">64%</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-2 h-2 bg-forest-green rounded-full"></div>
+<div class="flex-1">
+<p class="text-body-md font-medium">Bende Patrol</p>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1">
+<div class="bg-forest-green w-[78%] h-full"></div>
+</div>
+</div>
+<span class="font-label-md">78%</span>
+</div>
+</div>
+<button class="mt-4 w-full py-2 border border-outline text-on-surface-variant font-label-md text-sm hover:bg-surface-container transition-colors">VIEW DETAILED LOGS</button>
+</div>
+</div>
+<!-- Center: Geospatial Intelligence Map -->
+<div class="col-span-6 relative rounded-lg border border-outline-variant overflow-hidden group">
+<!-- Map Layer -->
+<div class="absolute inset-0 bg-slate-200">
+<img alt="State Map" class="w-full h-full object-cover grayscale opacity-60" data-alt="A highly detailed satellite-style digital map overlay of a metropolitan area, rendered in muted slate grays and deep greens. Glowing data points and semi-transparent vector lines representing traffic flow and infrastructure grids are superimposed on the terrain, creating a sophisticated geospatial intelligence interface." data-location="Abia State, Nigeria" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNLD69D-DjGpmzdXXm4PMYhwbW3J0zHX84eSU7K-U3R3UYNxr9hKY39e-O9HzF0DdNDiJL1-WzJUIANISJEAK7TwOSo4pwas18xjhyMY5CWOp8knCIwRhoNjfmToEgzpmJwmJPS4vs-wFoG_SmqpjSOlUYZ05o9IYCCMSWtdiczBpqRQfh6MbV6ThS558YAyTMuQJJSn8Zb-kOaj8t-kXHgk3pf36P_ZwDD4nNsLD4nozirOuvJ_mbBfH1wtkiDUOOMQC01XaPGqk">
+<div class="absolute inset-0 bg-gradient-to-t from-surface/40 to-transparent pointer-events-none"></div>
+</div>
+<!-- Animated Scanline -->
+<div class="scanline"></div>
+<!-- Map UI Overlays -->
+<div class="absolute top-4 left-4 flex gap-2">
+<div class="glass-panel px-3 py-2 flex items-center gap-2 rounded shadow-sm">
+<span class="w-2 h-2 bg-forest-green rounded-full animate-pulse"></span>
+<span class="font-label-md text-xs uppercase text-slate-gray">Live Tracking: Active</span>
+</div>
+</div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end">
+<div class="glass-panel p-4 flex gap-6 rounded-lg shadow-lg max-w-sm">
+<div>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold mb-1">Active Patrols</p>
+<p class="font-headline-md text-forest-green">142</p>
+</div>
+<div class="w-px bg-outline-variant h-10 self-center"></div>
+<div>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold mb-1">Alert Points</p>
+<p class="font-headline-md text-eagle-red">08</p>
+</div>
+<div class="w-px bg-outline-variant h-10 self-center"></div>
+<div>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold mb-1">CCTV Nodes</p>
+<p class="font-headline-md text-forest-green">1.2k</p>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<button class="w-10 h-10 bg-surface-container-lowest border border-outline-variant flex items-center justify-center hover:bg-surface-container transition-colors shadow-md">
+<span class="material-symbols-outlined">add</span>
+</button>
+<button class="w-10 h-10 bg-surface-container-lowest border border-outline-variant flex items-center justify-center hover:bg-surface-container transition-colors shadow-md">
+<span class="material-symbols-outlined">remove</span>
+</button>
+<button class="w-10 h-10 bg-forest-green text-white flex items-center justify-center hover:brightness-110 transition-colors shadow-md">
+<span class="material-symbols-outlined">my_location</span>
+</button>
+</div>
+</div>
+<!-- Interactive Marker Example -->
+<div class="absolute top-1/2 left-1/3 group/marker cursor-pointer">
+<div class="relative">
+<div class="absolute -inset-4 bg-eagle-red opacity-20 rounded-full animate-ping"></div>
+<div class="relative w-4 h-4 bg-eagle-red rounded-full border-2 border-white shadow-lg"></div>
+</div>
+<div class="absolute top-6 left-1/2 -translate-x-1/2 opacity-0 group-hover/marker:opacity-100 transition-opacity bg-inverse-surface text-inverse-on-surface text-[10px] p-2 whitespace-nowrap rounded pointer-events-none z-20">
+<p class="font-bold">INCIDENT #4922</p>
+<p>Traffic Congestion - Aba Rd</p>
+</div>
+</div>
+</div>
+<!-- Right: Real-time Intelligence Feed -->
+<div class="col-span-3 flex flex-col bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden">
+<header class="p-4 border-b border-outline-variant flex items-center justify-between">
+<h2 class="font-label-md text-on-surface-variant uppercase flex items-center gap-2">
+<span class="material-symbols-outlined text-sm text-forest-green">rss_feed</span>
+                        Intelligence Feed
+                    </h2>
+<span class="text-[10px] bg-surface-container px-2 py-1 rounded">LIVE</span>
+</header>
+<div class="flex-1 overflow-y-auto p-4 space-y-4">
+<!-- Traffic Alert -->
+<div class="border-l-4 border-brass-gold bg-secondary-container/10 p-3 rounded-r-md">
+<div class="flex justify-between items-start mb-1">
+<span class="text-[10px] font-bold text-on-secondary-container uppercase">Traffic Alert</span>
+<span class="text-[10px] text-on-surface-variant">2m ago</span>
+</div>
+<p class="text-body-md font-medium leading-snug">Heavy congestion reported at Osisioma Junction due to vehicle breakdown.</p>
+<div class="mt-2 flex gap-2">
+<button class="text-[10px] text-forest-green font-bold uppercase hover:underline">Deploy Units</button>
+<button class="text-[10px] text-on-surface-variant font-bold uppercase hover:underline">Dismiss</button>
+</div>
+</div>
+<!-- Weather Warning -->
+<div class="border-l-4 border-eagle-red bg-error-container/20 p-3 rounded-r-md">
+<div class="flex justify-between items-start mb-1">
+<span class="text-[10px] font-bold text-on-error-container uppercase">Weather Warning</span>
+<span class="text-[10px] text-on-surface-variant">15m ago</span>
+</div>
+<p class="text-body-md font-medium leading-snug">Flash flood advisory for Bende areas. Rainfall exceeding 40mm expected within 2 hours.</p>
+</div>
+<!-- Community Update -->
+<div class="border-l-4 border-forest-green bg-primary-container/10 p-3 rounded-r-md">
+<div class="flex justify-between items-start mb-1">
+<span class="text-[10px] font-bold text-on-primary-container uppercase">Community</span>
+<span class="text-[10px] text-on-surface-variant">42m ago</span>
+</div>
+<p class="text-body-md font-medium leading-snug">Successful neighborhood watch meeting concluded in Umuahia North. Integration with digital SOS system complete.</p>
+</div>
+<!-- Infrastructure -->
+<div class="border-l-4 border-slate-gray bg-surface-container/30 p-3 rounded-r-md">
+<div class="flex justify-between items-start mb-1">
+<span class="text-[10px] font-bold text-slate-gray uppercase">Infrastructure</span>
+<span class="text-[10px] text-on-surface-variant">1h ago</span>
+</div>
+<p class="text-body-md font-medium leading-snug">Street light maintenance scheduled for Bank Road (22:00 - 04:00).</p>
+</div>
+<!-- Another Traffic Alert -->
+<div class="border-l-4 border-brass-gold bg-secondary-container/10 p-3 rounded-r-md">
+<div class="flex justify-between items-start mb-1">
+<span class="text-[10px] font-bold text-on-secondary-container uppercase">Traffic Alert</span>
+<span class="text-[10px] text-on-surface-variant">2h ago</span>
+</div>
+<p class="text-body-md font-medium leading-snug">Rerouting successful for state convoy on Ikot Ekpene Road.</p>
+</div>
+</div>
+<footer class="p-3 border-t border-outline-variant bg-surface-container-low">
+<div class="flex items-center gap-2 bg-surface-container-lowest px-3 py-2 rounded border border-outline-variant">
+<span class="material-symbols-outlined text-sm text-on-surface-variant">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-xs flex-1 p-0" placeholder="Filter intelligence..." type="text">
+</div>
+</footer>
+</div>
+</section>
+<!-- Footer (Authority: JSON) -->
+<footer class="bg-surface-container dark:bg-surface-dim border-t border-outline-variant dark:border-outline w-full h-12 flex items-center z-40">
+<div class="flex justify-between items-center px-gutter w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-6">
+<span class="font-label-md text-label-md font-bold text-slate-gray">Abia One OS</span>
+<span class="font-caption text-caption text-on-surface-variant">© 2024 Abia State Government | Digital Infrastructure Division</span>
+</div>
+<div class="flex gap-4">
+<a class="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Privacy Policy</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Terms of Service</a>
+<a class="font-caption text-caption text-on-surface-variant hover:text-forest-green transition-colors" href="#">Security Audit</a>
+</div>
+</div>
+</footer>
+</main>
+<script>
+        // Simple Micro-interaction for marker
+        document.querySelectorAll('.marker-trigger').forEach(marker => {
+            marker.addEventListener('click', () => {
+                alert('Incident details loading for node ' + Math.floor(Math.random() * 10000));
+            });
+        });
+
+        // Dynamic timestamp update simulation
+        setInterval(() => {
+            const feed = document.querySelector('.overflow-y-auto.p-4');
+            // Logic to occasionally flash a border would go here for realism
+        }, 5000);
+    </script>
+</body></html>

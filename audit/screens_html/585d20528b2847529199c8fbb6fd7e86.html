@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GADA - Greater Aba Development Authority</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "state-white": "#FFFFFF",
+                      "surface-container-low": "#f1f5ee",
+                      "tertiary": "#762732",
+                      "error-container": "#ffdad6",
+                      "surface-tint": "#0b6d3c",
+                      "eagle-red": "#C41E3A",
+                      "on-tertiary": "#ffffff",
+                      "surface-variant": "#dfe4dd",
+                      "on-primary-container": "#8ee4a8",
+                      "surface-container": "#ebefe8",
+                      "inverse-primary": "#83d99d",
+                      "primary-container": "#006838",
+                      "slate-gray": "#334155",
+                      "on-surface-variant": "#3f4940",
+                      "on-tertiary-fixed-variant": "#7b2b36",
+                      "on-primary-fixed-variant": "#00522b",
+                      "background": "#f6fbf3",
+                      "on-background": "#181d19",
+                      "on-secondary": "#ffffff",
+                      "forest-green": "#006838",
+                      "on-tertiary-fixed": "#40000e",
+                      "outline-variant": "#bec9be",
+                      "primary-fixed-dim": "#83d99d",
+                      "on-surface": "#181d19",
+                      "on-tertiary-container": "#ffc3c6",
+                      "secondary-fixed": "#ffe088",
+                      "on-secondary-container": "#745c00",
+                      "on-primary-fixed": "#00210e",
+                      "on-primary": "#ffffff",
+                      "tertiary-container": "#943e48",
+                      "on-secondary-fixed-variant": "#574500",
+                      "error": "#ba1a1a",
+                      "on-error": "#ffffff",
+                      "secondary-container": "#fed65b",
+                      "on-error-container": "#93000a",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-surface": "#2d322d",
+                      "tertiary-fixed": "#ffdadb",
+                      "surface-container-highest": "#dfe4dd",
+                      "surface-bright": "#f6fbf3",
+                      "primary": "#004d28",
+                      "inverse-on-surface": "#eef2eb",
+                      "surface": "#f6fbf3",
+                      "surface-container-high": "#e5e9e2",
+                      "outline": "#6f7a70",
+                      "secondary": "#735c00",
+                      "on-secondary-fixed": "#241a00",
+                      "surface-dim": "#d7dbd4",
+                      "tertiary-fixed-dim": "#ffb2b7",
+                      "primary-fixed": "#9ef5b8",
+                      "secondary-fixed-dim": "#e9c349",
+                      "brass-gold": "#D4AF37"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "gutter": "24px",
+                      "max-width": "1440px",
+                      "margin-desktop": "64px",
+                      "base": "4px"
+              },
+              "fontFamily": {
+                      "label-md": ["JetBrains Mono"],
+                      "caption": ["Hanken Grotesk"],
+                      "headline-lg": ["Montserrat"],
+                      "headline-md": ["Montserrat"],
+                      "headline-lg-mobile": ["Montserrat"],
+                      "body-md": ["Hanken Grotesk"],
+                      "body-lg": ["Hanken Grotesk"],
+                      "display-lg": ["Montserrat"]
+              },
+              "fontSize": {
+                      "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                      "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                      "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f6fbf3;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #E2E8F0;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body-md text-on-background selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top App Bar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background border-b border-outline-variant">
+<div class="flex items-center justify-between px-margin-mobile h-16 w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green tracking-tight">ABIA ONE</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="active:scale-95 transition-transform text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-high border border-outline-variant">
+<img alt="Profile" data-alt="A professional portrait of a young Nigerian man with a friendly expression, wearing a clean white shirt. The background is a soft, out-of-focus urban environment in Aba, bathed in warm afternoon sunlight that aligns with the forest green and brass gold brand colors of Abia State." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVHL8dvnDgTv92Njugi7YmQHoKwWjub-_rR_u5nbrRJafBSQEoll99JCSGww9dHW4I-YRoF__sKZ_y55D2tsG3Ngi6Low-li5v_Kzme2WFHchwyT6vjUBmjOTAwnNpnB193LLVLUX0yTuthcfUrYpVsGK2NfkJsDlStrybJQOriL3b6Q1_Tmui4kePQMapuvqXEOlDXxwWmyz-CL_mLA1APtQ3vD3UYKUoLA1WxFfWoIyeZ26UDxpceJQvW4jL9Ov_FW2-mMV8NOY"/>
+</div>
+</div>
+</div>
+</header>
+<main class="pt-20 pb-24 px-margin-mobile max-w-max-width mx-auto space-y-6">
+<!-- Hero Section / Identity -->
+<section class="space-y-2">
+<h2 class="font-headline-md text-headline-md text-forest-green">GADA Portal</h2>
+<p class="font-body-md text-on-surface-variant">Empowering Aba residents through digital governance and rapid urban renewal.</p>
+</section>
+<!-- Civic Pulse (Bento Grid) -->
+<section class="bento-grid">
+<!-- Report Issue (Primary Action) -->
+<div class="col-span-2 bg-forest-green text-on-primary p-5 rounded-xl shadow-sm relative overflow-hidden active:scale-[0.98] transition-transform">
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-4">
+<span class="material-symbols-outlined text-4xl" data-icon="report_problem">report_problem</span>
+<span class="bg-primary-container text-on-primary-container px-2 py-1 rounded text-caption font-label-md">LIVE REPUTATION</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-1">Report Urban Issue</h3>
+<p class="text-on-primary-container opacity-90 text-caption font-body-md">Roads, waste, or infrastructure damage reporting.</p>
+</div>
+<!-- Subtle texture -->
+<div class="absolute -right-4 -bottom-4 opacity-10">
+<span class="material-symbols-outlined text-9xl" data-icon="location_city">location_city</span>
+</div>
+</div>
+<!-- Renewal Plan -->
+<div class="bg-state-white border border-outline-variant p-4 rounded-xl flex flex-col justify-between active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-forest-green" data-icon="architecture">architecture</span>
+<div>
+<h4 class="font-headline-md text-headline-md-mobile text-[18px] leading-tight mt-2">Aba 2025</h4>
+<p class="text-caption text-on-surface-variant font-body-md">Urban Masterplan</p>
+</div>
+</div>
+<!-- Project Tracker -->
+<div class="bg-surface-container-low border border-outline-variant p-4 rounded-xl flex flex-col justify-between active:scale-[0.98] transition-transform">
+<span class="material-symbols-outlined text-eagle-red" data-icon="potted_plant">potted_plant</span>
+<div>
+<h4 class="font-headline-md text-headline-md-mobile text-[18px] leading-tight mt-2">Green Spaces</h4>
+<p class="text-caption text-on-surface-variant font-body-md">12 active projects</p>
+</div>
+</div>
+</section>
+<!-- Ongoing Renewal Projects (Horizontal Scroll) -->
+<section class="space-y-3">
+<div class="flex justify-between items-end">
+<h3 class="font-headline-md text-headline-md-mobile border-l-4 border-brass-gold pl-3">Active Works</h3>
+<a class="font-label-md text-label-md text-forest-green" href="#">View Map</a>
+</div>
+<div class="flex overflow-x-auto gap-4 pb-2 hide-scrollbar">
+<!-- Project Card 1 -->
+<div class="min-w-[280px] bg-state-white border border-outline-variant rounded-xl overflow-hidden shadow-sm">
+<div class="h-32 bg-surface-container-highest relative">
+<img alt="Port Harcourt Road Reconstruction" class="w-full h-full object-cover" data-alt="A cinematic high-angle shot of a major road reconstruction project in a bustling West African city center. Workers in high-visibility vests and orange hard hats are operating modern paving machinery. The scene is bright and optimistic, emphasizing progress and high-quality civil engineering infrastructure development in Abia State." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCijYfezhxlWKG5PyO-h0g2GWOG8I2cEN_Mbj0DdTtGy7eijpg1CVPwiIan8BEM9eWJveRrRIMMZFkPvrhJaME3PLdaISTBqAYgjI5wkSF3qNXLc2ii80Imc3RKSY3V7hxuthzVEpS0S2HVU5YpC417VpWVhZFgNTXjEyiDuUTXzVlwJFMW0u7LO3TBhqDr3dlN8cPzC0sKKNVWjvjOvRGJPhAG_JMFIy2EWzY2jO2rcD0qrNW8WQEcaBrIqP9rDKifJzUTZ0nsHN0"/>
+<div class="absolute top-2 right-2 bg-forest-green text-state-white px-2 py-1 rounded-full text-[10px] font-bold">75% COMPLETE</div>
+</div>
+<div class="p-3">
+<h5 class="font-headline-md text-[16px]">Port Harcourt Rd Phase 1</h5>
+<p class="text-caption text-on-surface-variant font-body-md mt-1">Dualization and drainage works near Flyover.</p>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="min-w-[280px] bg-state-white border border-outline-variant rounded-xl overflow-hidden shadow-sm">
+<div class="h-32 bg-surface-container-highest relative">
+<img alt="Ariaria Market Digitalization" class="w-full h-full object-cover" data-alt="A clean, modern office interior with professional government officials discussing urban plans over large digital tablets and architectural blueprints. The aesthetic is corporate and modern with forest green accents. Large windows show a hint of a modernizing city skyline under clear blue skies." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6UZH0V-ftfIhknhmlbIZofhR1FOeLihxdzZaeGb95odWhu-H27L3vbFDT7HKnKClImCx9Ta8NB2tmZm00PrFz7PqQUvAcUzaauaWv8PnAdzhaYPX5wtztIns-KcYUD9BRiBd8jcPE1LPDnNCrs8tgFIiPDhVt8eXzV7qPHquT0vciRYMrKpyaf8SUcY9IFH_WzemDhzGfFLiwkVYtdQBghCuwdlz3YDRcVqnfEtjaT2y0l8M0vYKLhuJ07rZ1kdznAkt38MfG2c4"/>
+<div class="absolute top-2 right-2 bg-brass-gold text-on-secondary-container px-2 py-1 rounded-full text-[10px] font-bold">PLANNING</div>
+</div>
+<div class="p-3">
+<h5 class="font-headline-md text-[16px]">Ariaria Market Digital Hub</h5>
+<p class="text-caption text-on-surface-variant font-body-md mt-1">Smart commerce integration for SME traders.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Quick Access -->
+<section class="space-y-3">
+<h3 class="font-headline-md text-headline-md-mobile border-l-4 border-brass-gold pl-3">Aba Services</h3>
+<div class="grid grid-cols-1 gap-3">
+<!-- Service Item -->
+<button class="flex items-center gap-4 p-4 bg-state-white border border-outline-variant rounded-lg active:bg-surface-container-low transition-colors text-left">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined" data-icon="electric_bolt">electric_bolt</span>
+</div>
+<div class="flex-1">
+<div class="font-headline-md text-[16px]">Geometric Power Support</div>
+<p class="text-caption text-on-surface-variant">Request meter or report power outage.</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="chevron_right">chevron_right</span>
+</button>
+<!-- Service Item -->
+<button class="flex items-center gap-4 p-4 bg-state-white border border-outline-variant rounded-lg active:bg-surface-container-low transition-colors text-left">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+</div>
+<div class="flex-1">
+<div class="font-headline-md text-[16px]">Levy Payments</div>
+<p class="text-caption text-on-surface-variant">Pay trade licenses and tenement rates.</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="chevron_right">chevron_right</span>
+</button>
+<!-- Service Item -->
+<button class="flex items-center gap-4 p-4 bg-state-white border border-outline-variant rounded-lg active:bg-surface-container-low transition-colors text-left">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="health_and_safety">health_and_safety</span>
+</div>
+<div class="flex-1">
+<div class="font-headline-md text-[16px]">ASCHIA Health</div>
+<p class="text-caption text-on-surface-variant">Find the nearest primary healthcare center.</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</section>
+<!-- Community Feed Overlay Preview -->
+<section class="glass-card p-5 rounded-2xl border-forest-green/20 relative overflow-hidden">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-eagle-red animate-pulse"></span>
+<span class="font-label-md text-label-md text-on-surface-variant">ABA COMMUNITY FEED</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="groups">groups</span>
+</div>
+<div class="space-y-4">
+<div class="flex gap-3 items-start">
+<div class="w-8 h-8 rounded-full bg-primary-container flex-shrink-0"></div>
+<div>
+<p class="text-[13px] font-body-md"><span class="font-bold">Engr. Kalu</span> reported a drainage blockage at Umungasi.</p>
+<p class="text-[11px] text-on-surface-variant font-caption">2 minutes ago</p>
+</div>
+</div>
+<div class="flex gap-3 items-start opacity-70">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex-shrink-0"></div>
+<div>
+<p class="text-[13px] font-body-md"><span class="font-bold">Grace O.</span> shared a photo of the new street lights.</p>
+<p class="text-[11px] text-on-surface-variant font-caption">15 minutes ago</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-4 py-2 border border-forest-green text-forest-green rounded font-label-md active:bg-forest-green active:text-white transition-all">
+                Join Conversation
+            </button>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest border-t border-outline-variant shadow-sm">
+<div class="flex justify-around items-center h-20 w-full px-base pb-safe">
+<!-- Active Tab -->
+<button class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 duration-200">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 duration-200">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant transition-colors active:scale-90 duration-200">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</div>
+</nav>
+<!-- Contextual FAB for Reporting -->
+<button class="fixed right-6 bottom-24 w-14 h-14 rounded-full bg-forest-green text-on-primary shadow-xl flex items-center justify-center active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined text-3xl" data-icon="add_a_photo">add_a_photo</span>
+</button>
+<script>
+        // Micro-interaction for feedback
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('touchstart', () => {
+                btn.style.opacity = '0.7';
+            });
+            btn.addEventListener('touchend', () => {
+                btn.style.opacity = '1';
+            });
+        });
+
+        // Simple scroll observer for the top app bar shadow
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>

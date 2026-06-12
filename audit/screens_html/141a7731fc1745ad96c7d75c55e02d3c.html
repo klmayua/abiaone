@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABIA ONE - Ministry of Education Monitor</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-error-container": "#93000a",
+                        "eagle-red": "#C41E3A",
+                        "tertiary-container": "#943e48",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "inverse-on-surface": "#eef2eb",
+                        "state-white": "#FFFFFF",
+                        "surface-container-low": "#f1f5ee",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#bec9be",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-variant": "#dfe4dd",
+                        "outline": "#6f7a70",
+                        "on-secondary-fixed-variant": "#574500",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "forest-green": "#006838",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#f6fbf3",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#d7dbd4",
+                        "on-surface": "#181d19",
+                        "secondary": "#735c00",
+                        "background": "#f6fbf3",
+                        "primary-container": "#006838",
+                        "inverse-surface": "#2d322d",
+                        "on-primary-container": "#8ee4a8",
+                        "primary-fixed": "#9ef5b8",
+                        "surface-bright": "#f6fbf3",
+                        "secondary-container": "#fed65b",
+                        "primary": "#004d28",
+                        "surface-container-high": "#e5e9e2",
+                        "on-tertiary-fixed": "#40000e",
+                        "tertiary": "#762732",
+                        "on-secondary-fixed": "#241a00",
+                        "surface-container": "#ebefe8",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-background": "#181d19",
+                        "brass-gold": "#D4AF37",
+                        "on-secondary-container": "#745c00",
+                        "error": "#ba1a1a",
+                        "slate-gray": "#334155",
+                        "on-primary-fixed": "#00210e",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "max-width": "1440px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "base": "4px",
+                        "margin-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; background-color: #f6fbf3; color: #181d19; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid #E2E8F0; }
+        .data-bar { transition: width 1s ease-in-out; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background min-h-screen pb-24 md:pb-0">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 border-b border-outline-variant bg-background h-16">
+<div class="flex items-center justify-between px-margin-mobile h-full w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green tracking-tight">ABIA ONE</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95" data-icon="search">search</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95" data-icon="notifications">notifications</button>
+<div class="w-8 h-8 rounded-full bg-forest-green/10 flex items-center justify-center border border-forest-green/20">
+<span class="material-symbols-outlined text-forest-green text-[18px]" data-icon="person">person</span>
+</div>
+</div>
+</div>
+</header>
+<main class="pt-24 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto pb-12">
+<!-- Dashboard Header -->
+<section class="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">MINISTRY OF EDUCATION</span>
+<h2 class="font-headline-lg text-headline-lg text-on-background mt-1">Infrastructure &amp; Literacy Monitor</h2>
+</div>
+<div class="flex gap-2">
+<button class="bg-surface-container-highest px-4 py-2 rounded-lg font-label-md text-label-md flex items-center gap-2 hover:bg-outline-variant transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="calendar_today">calendar_today</span>
+                    LAST 30 DAYS
+                </button>
+<button class="bg-forest-green text-state-white px-4 py-2 rounded-lg font-label-md text-label-md flex items-center gap-2 shadow-sm hover:opacity-90 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[18px]" data-icon="download">download</span>
+                    EXPORT REPORT
+                </button>
+</div>
+</section>
+<!-- Main Bento Grid -->
+<div class="bento-grid">
+<!-- Hero Stat: Certification Progress -->
+<div class="col-span-12 lg:col-span-7 glass-card p-6 rounded-xl border border-outline-variant relative overflow-hidden group">
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-6">
+<div>
+<h3 class="font-headline-md text-headline-md">Digital Literacy</h3>
+<p class="text-on-surface-variant font-body-md">Certification progress in secondary schools</p>
+</div>
+<div class="text-right">
+<span class="text-display-lg font-display-lg text-forest-green block leading-none">68.2%</span>
+<span class="font-label-md text-label-md text-forest-green flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="trending_up">trending_up</span> +4.5%
+                            </span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="bg-surface-container-high rounded-full h-4 w-full overflow-hidden">
+<div class="bg-forest-green h-full rounded-full data-bar" style="width: 68%;"></div>
+</div>
+<div class="grid grid-cols-3 gap-4">
+<div class="p-3 bg-surface rounded-lg border border-outline-variant/30">
+<span class="block font-label-md text-label-md text-on-surface-variant">Umuahia North</span>
+<span class="block font-headline-md text-headline-md text-forest-green">82%</span>
+</div>
+<div class="p-3 bg-surface rounded-lg border border-outline-variant/30">
+<span class="block font-label-md text-label-md text-on-surface-variant">Aba South</span>
+<span class="block font-headline-md text-headline-md text-forest-green">54%</span>
+</div>
+<div class="p-3 bg-surface rounded-lg border border-outline-variant/30">
+<span class="block font-label-md text-label-md text-on-surface-variant">Ohafia</span>
+<span class="block font-headline-md text-headline-md text-forest-green">61%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Decorative element -->
+<div class="absolute -right-16 -bottom-16 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[240px] text-forest-green" data-icon="school" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+</div>
+<!-- AI Academy Broadband Status -->
+<div class="col-span-12 lg:col-span-5 glass-card p-6 rounded-xl border border-outline-variant">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-md text-headline-md">AI Academy Hubs</h3>
+<span class="material-symbols-outlined text-brass-gold" data-icon="wifi_tethering">wifi_tethering</span>
+</div>
+<div class="space-y-4">
+<div class="flex items-center justify-between p-3 bg-surface rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-forest-green animate-pulse"></div>
+<div>
+<p class="font-body-md font-semibold">Umuahia Hub A</p>
+<p class="text-caption font-caption text-on-surface-variant">1.2 Gbps Broadband</p>
+</div>
+</div>
+<span class="bg-primary-fixed text-on-primary-fixed text-caption font-caption px-2 py-1 rounded">ACTIVE</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface rounded-lg border border-outline-variant/50">
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-forest-green animate-pulse"></div>
+<div>
+<p class="font-body-md font-semibold">Aba Innovation Lab</p>
+<p class="text-caption font-caption text-on-surface-variant">800 Mbps Fiber</p>
+</div>
+</div>
+<span class="bg-primary-fixed text-on-primary-fixed text-caption font-caption px-2 py-1 rounded">ACTIVE</span>
+</div>
+<div class="flex items-center justify-between p-3 bg-surface rounded-lg border border-outline-variant/50 opacity-60">
+<div class="flex items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-secondary"></div>
+<div>
+<p class="font-body-md font-semibold">Ohafia Tech Center</p>
+<p class="text-caption font-caption text-on-surface-variant">System Upgrade</p>
+</div>
+</div>
+<span class="bg-secondary-container text-on-secondary-container text-caption font-caption px-2 py-1 rounded">MAINTENANCE</span>
+</div>
+</div>
+<button class="w-full mt-6 py-2 border border-outline text-on-surface-variant rounded-lg font-label-md text-label-md hover:bg-surface-variant transition-colors">
+                    VIEW NETWORK MAP
+                </button>
+</div>
+<!-- Infrastructure Completion Rate Map/Visual -->
+<div class="col-span-12 lg:col-span-8 bg-on-background text-state-white rounded-xl overflow-hidden relative min-h-[400px]">
+<div class="absolute inset-0 opacity-40">
+<div class="w-full h-full grayscale opacity-30" data-alt="A detailed aerial view of a modern secondary school campus in a lush tropical landscape with structured buildings and paved paths, shown through a data-driven UI overlay with glowing green and gold geometric markers representing infrastructure progress and completion data in a sleek corporate modern style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA3MT118WQM1EgG9lvQ2Sb7Jq49JPgWbPGCLrPIasfoMT3ZcgV5DdY-hYRyc4JQfyyE7a47as9kW7Ug2-moZ7aRyObP6xoAeKE7R9XdpgyFauzVBU6PHEOcBmOA5EHUC20cxxNoxKYmy7AGNIqyWpmqGdhQQClJqeghzB-8285dkagEl4Q-YF5T_ctomsHtGxINCMmg2QU7dtjyusSxMuYN16ZV9cYbFsufKhLc7pj_ukvscDJMXwbfrOcz-CI3ywAvYgER1sznxB4'); background-size: cover; background-position: center;"></div>
+
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div>
+<h3 class="font-headline-lg text-headline-lg text-primary-fixed">Infrastructure Upgrade</h3>
+<p class="text-surface-variant font-body-lg max-w-md">Real-time completion tracking across 17 Local Government Areas (LGAs).</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div>
+<span class="block text-primary-fixed-dim font-display-lg leading-tight">42</span>
+<span class="text-caption font-caption text-outline-variant uppercase">Labs Completed</span>
+</div>
+<div>
+<span class="block text-primary-fixed-dim font-display-lg leading-tight">12</span>
+<span class="text-caption font-caption text-outline-variant uppercase">Under Renovation</span>
+</div>
+<div>
+<span class="block text-secondary-fixed-dim font-display-lg leading-tight">88%</span>
+<span class="text-caption font-caption text-outline-variant uppercase">Overall Goal</span>
+</div>
+<div class="flex items-end">
+<button class="bg-brass-gold text-on-secondary-fixed px-6 py-3 rounded-lg font-label-md text-label-md hover:scale-105 transition-transform flex items-center gap-2">
+                                VIEW DETAILS
+                                <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Maintenance Feed / Activity Log -->
+<div class="col-span-12 lg:col-span-4 glass-card p-6 rounded-xl border border-outline-variant">
+<h3 class="font-headline-md text-headline-md mb-4">Activity Log</h3>
+<div class="space-y-6">
+<div class="relative pl-6 border-l-2 border-forest-green/20">
+<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-forest-green border-4 border-background"></div>
+<p class="text-caption font-caption text-secondary">TODAY, 10:24 AM</p>
+<p class="font-body-md font-semibold">Broadband Active: Aba Hub</p>
+<p class="text-caption font-caption text-on-surface-variant">Fiber connection verified at 940 Mbps stable.</p>
+</div>
+<div class="relative pl-6 border-l-2 border-forest-green/20">
+<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-brass-gold border-4 border-background"></div>
+<p class="text-caption font-caption text-secondary">TODAY, 08:15 AM</p>
+<p class="font-body-md font-semibold">Certification Update</p>
+<p class="text-caption font-caption text-on-surface-variant">140 new students certified in Umuahia North.</p>
+</div>
+<div class="relative pl-6 border-l-2 border-forest-green/20">
+<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-eagle-red border-4 border-background"></div>
+<p class="text-caption font-caption text-secondary">YESTERDAY</p>
+<p class="font-body-md font-semibold">Incident: Isuikwuato</p>
+<p class="text-caption font-caption text-on-surface-variant">Power surge reported at ICT center. Maintenance dispatched.</p>
+</div>
+<div class="relative pl-6 border-l-2 border-forest-green/20">
+<div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-slate-gray border-4 border-background"></div>
+<p class="text-caption font-caption text-secondary">2 DAYS AGO</p>
+<p class="font-body-md font-semibold">Project Started</p>
+<p class="text-caption font-caption text-on-surface-variant">Roofing phase begun at Item High School.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Shell (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 rounded-t-full border-t border-outline-variant bg-surface-container-lowest shadow-sm h-20">
+<div class="flex justify-around items-center h-full px-base pb-safe">
+<button class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant active:scale-90 transition-all duration-200">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant active:scale-90 transition-all duration-200">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:bg-surface-variant active:scale-90 transition-all duration-200">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</button>
+</div>
+</nav>
+<!-- Sidebar Navigation (Desktop) -->
+<aside class="hidden md:flex fixed left-0 top-16 bottom-0 w-24 flex-col items-center py-8 bg-surface-container-low border-r border-outline-variant space-y-8 z-40">
+<div class="p-3 bg-secondary-container text-on-secondary-container rounded-lg cursor-pointer transition-all hover:scale-105">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+</div>
+<div class="p-3 text-on-surface-variant rounded-lg cursor-pointer hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined" data-icon="cast_for_education">cast_for_education</span>
+</div>
+<div class="p-3 text-on-surface-variant rounded-lg cursor-pointer hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined" data-icon="router">router</span>
+</div>
+<div class="p-3 text-on-surface-variant rounded-lg cursor-pointer hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined" data-icon="construction">construction</span>
+</div>
+<div class="p-3 text-on-surface-variant rounded-lg cursor-pointer hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined" data-icon="bar_chart">bar_chart</span>
+</div>
+<div class="mt-auto p-3 text-on-surface-variant rounded-lg cursor-pointer hover:bg-surface-variant transition-all">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</div>
+</aside>
+<script>
+        // Micro-interactions and data animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const bars = document.querySelectorAll('.data-bar');
+            bars.forEach(bar => {
+                const targetWidth = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = targetWidth;
+                }, 300);
+            });
+
+            // Card hover effects
+            const cards = document.querySelectorAll('.glass-card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-2px)';
+                    card.style.boxShadow = '0 10px 25px -5px rgba(0, 104, 56, 0.05)';
+                });
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0)';
+                    card.style.boxShadow = 'none';
+                });
+                card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            });
+        });
+    </script>
+</body></html>

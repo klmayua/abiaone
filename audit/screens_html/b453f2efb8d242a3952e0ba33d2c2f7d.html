@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Connect Abia | Digital Town Hall</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#181d19",
+                        "secondary-fixed": "#ffe088",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "on-surface": "#181d19",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-primary-container": "#8ee4a8",
+                        "eagle-red": "#C41E3A",
+                        "tertiary": "#762732",
+                        "primary": "#004d28",
+                        "on-secondary-container": "#745c00",
+                        "surface-container": "#ebefe8",
+                        "secondary-container": "#fed65b",
+                        "on-surface-variant": "#3f4940",
+                        "tertiary-container": "#943e48",
+                        "inverse-primary": "#83d99d",
+                        "on-primary-fixed": "#00210e",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#e5e9e2",
+                        "on-tertiary-container": "#ffc3c6",
+                        "surface-tint": "#0b6d3c",
+                        "inverse-surface": "#2d322d",
+                        "on-error": "#ffffff",
+                        "surface-dim": "#d7dbd4",
+                        "outline-variant": "#bec9be",
+                        "surface-container-low": "#f1f5ee",
+                        "primary-fixed": "#9ef5b8",
+                        "surface": "#f6fbf3",
+                        "slate-gray": "#334155",
+                        "secondary": "#735c00",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "on-secondary-fixed-variant": "#574500",
+                        "tertiary-fixed": "#ffdadb",
+                        "primary-container": "#006838",
+                        "background": "#f6fbf3",
+                        "surface-variant": "#dfe4dd",
+                        "on-tertiary-fixed": "#40000e",
+                        "surface-container-highest": "#dfe4dd",
+                        "outline": "#6f7a70",
+                        "on-primary": "#ffffff",
+                        "brass-gold": "#D4AF37",
+                        "primary-fixed-dim": "#83d99d",
+                        "forest-green": "#006838",
+                        "surface-bright": "#f6fbf3",
+                        "state-white": "#FFFFFF",
+                        "inverse-on-surface": "#eef2eb",
+                        "on-secondary-fixed": "#241a00",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "base": "4px",
+                        "max-width": "1440px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "display-lg": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md min-h-screen pb-20">
+<!-- Top App Bar -->
+<header class="bg-surface border-b border-outline-variant flex justify-between items-center w-full px-margin-mobile h-16 z-50 sticky top-0">
+<div class="flex items-center gap-4">
+<button class="hover:bg-surface-variant/50 transition-colors p-2 rounded-full active:scale-95 duration-150">
+<span class="material-symbols-outlined text-primary">menu</span>
+</button>
+<h1 class="font-headline-md text-headline-md-mobile font-bold text-primary">Abia One</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="hover:bg-surface-variant/50 transition-colors p-2 rounded-full active:scale-95 duration-150">
+<span class="material-symbols-outlined text-primary">emergency_share</span>
+</button>
+</div>
+</header>
+<main class="px-margin-mobile pt-6 space-y-8 max-w-md mx-auto">
+<!-- Hero Section: Dynamic Engagement -->
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md-mobile text-on-surface">Connect Abia</h2>
+<span class="bg-primary/10 text-primary px-3 py-1 rounded-full font-label-md text-label-md">LIVE</span>
+</div>
+<div class="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-sm border border-outline-variant group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A cinematic low-angle shot of a vibrant community gathering in a modern, open-air urban space in Abia State. Warm, golden hour sunlight washes over diverse citizens engaged in active conversation, surrounded by lush green tropical plants and sleek glass architectural elements. The atmosphere is optimistic and professional, with a clean color palette of forest green and soft cream. Professional corporate photography style, emphasizing civil unity and progress." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAh4STtZSgcg9hlexcKCcsip8HTg9bAUjR3P6FPlNKzyAkzXlEuHBZajbeyhHYfCYdsVlO-zWnZ8ylnQvpSTMkXKYPZeeNqE7qhSYmGNP0wWAU7rYIEUCFfU_lb77wKbRyDltsbDbQbgq-rPIzHbrRkIvj0C-Grmfh66MjiR_Mv1OsRTXnNByKJumIJThvYWakTicsGMvRary8zOdC_x-5BSUX-sR2jfLfxKMf11OhBQWmq3Vi0AvcqAnFsCJfpxdL2pZUJEQHktk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-4">
+<p class="font-label-md text-label-md text-white/80 uppercase tracking-widest">Town Hall</p>
+<h3 class="font-headline-md text-headline-md-mobile text-white">Infrastructure Update: Umuahia 2025</h3>
+<button class="mt-3 w-max bg-brass-gold text-on-background font-label-md text-label-md px-6 py-2 rounded-lg font-medium active:scale-95 transition-all">
+                        Join Stream
+                    </button>
+</div>
+</div>
+</section>
+<!-- Digital Town Hall: Upcoming Events -->
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md-mobile text-on-surface">Town Hall Schedule</h2>
+<button class="text-primary font-label-md text-label-md flex items-center gap-1">
+                    See All <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="flex overflow-x-auto gap-4 pb-4 hide-scrollbar">
+<div class="min-w-[280px] bg-white border border-outline-variant rounded-xl p-4 flex flex-col gap-3">
+<div class="flex justify-between items-start">
+<div class="bg-secondary-container text-on-secondary-container px-2 py-1 rounded font-label-md text-xs">
+                            MAY 12
+                        </div>
+<span class="material-symbols-outlined text-outline">calendar_today</span>
+</div>
+<h4 class="font-headline-md text-body-lg font-semibold">Agro-Innovation Forum</h4>
+<p class="text-on-surface-variant font-body-md text-sm">Discussing the 2025 Farmer Support Program with the Commissioner.</p>
+<div class="flex -space-x-2 mt-2">
+<img class="w-8 h-8 rounded-full border-2 border-white" data-alt="Close-up headshot of a professional African man smiling warmly, representing an official government representative in a modern Abia State portal. The lighting is soft and studio-quality, with a background consisting of a blurred corporate office setting. The aesthetic is clean, professional, and trustworthy, using subtle green accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANMEY91nNWrpo_2b4388cPwNrMzqMwt1kic6A0v_W3Yzh_c0jCl7zox1o0O9SC1OkxdsURkX01Ui3tZBhB-byhLaM5I1DkVRdoy1avoFpJ6bPB53ORZumcZhtWEsDcuPyoI6EzZ6VSwezhiABsdNChxGK3k_oq6tmOjF8mHNTnjxWNM4B-uGWUCOkn_IEnR3gff10brM2j7XjkPEq0CVfxqnaFHqHf1E_zZx8tajnf_sJGppzXupG76r_VTgJ_Ub8bYHuBxVYP3Ig"/>
+<img class="w-8 h-8 rounded-full border-2 border-white" data-alt="Close-up headshot of a professional African woman with a confident expression, representing a technical expert in the Abia One ecosystem. High-key lighting highlights her features against a minimalist, white-walled architectural background. The overall style is modern governance, focusing on reliability and human-centric design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbYsjxauFfvBPjLHj3OdVcPgUqS8fDz-qNRfwffGCULHsXctXY8u0wij-3yrobW3CNFK9wy6lJFq7z69wi3Parm1L0-WCKU4Ts_GckwyjfSVCNykJ7o1NbOtG0pnYZJugd3LsdMogfvZy1LwqiumcrReNJMZVYV5ipapocZmfivOXvGp9-nLHFQvCJpTzUCZQfgHPZtqpA5Bpl181h-ByRD1FitY05x88kc3GKD0DRgwH_7Z-kLQESzG19i9kWAXXzaWKBwdp4Yt0"/>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-surface-variant flex items-center justify-center font-label-md text-[10px] text-on-surface-variant">
+                            +4k
+                        </div>
+</div>
+</div>
+<div class="min-w-[280px] bg-white border border-outline-variant rounded-xl p-4 flex flex-col gap-3">
+<div class="flex justify-between items-start">
+<div class="bg-surface-variant text-on-surface-variant px-2 py-1 rounded font-label-md text-xs">
+                            MAY 15
+                        </div>
+<span class="material-symbols-outlined text-outline">video_call</span>
+</div>
+<h4 class="font-headline-md text-body-lg font-semibold">SME Grant Q&amp;A</h4>
+<p class="text-on-surface-variant font-body-md text-sm">Live walkthrough of the application process for trade grants.</p>
+<div class="flex items-center gap-2 mt-2">
+<span class="material-symbols-outlined text-primary text-sm">notifications</span>
+<span class="text-primary font-label-md text-xs">Reminder set</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Voice Your Opinion: Surveys -->
+<section class="bg-primary rounded-2xl p-6 text-white space-y-6 relative overflow-hidden">
+
+<div class="relative z-10">
+<h2 class="font-headline-md text-headline-md-mobile">Voice Your Opinion</h2>
+<p class="text-on-primary-container text-body-md mt-2">Help shape the future of Abia. Your feedback directly impacts policy decisions.</p>
+</div>
+<div class="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 relative z-10 space-y-4">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-xs uppercase tracking-tighter opacity-80 text-white">Active Survey</span>
+<span class="bg-brass-gold text-on-background px-2 py-0.5 rounded text-[10px] font-bold">TOPICAL</span>
+</div>
+<h4 class="font-headline-md text-body-lg font-medium leading-tight">Public Transport Expansion: Route Preferences</h4>
+<div class="space-y-3 pt-2">
+<button class="w-full text-left bg-white/5 border border-white/20 hover:bg-white/10 p-3 rounded-lg flex items-center justify-between transition-colors group">
+<span class="font-body-md">Expand Aba-Port Harcourt Link</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">check_circle</span>
+</button>
+<button class="w-full text-left bg-white/5 border border-white/20 hover:bg-white/10 p-3 rounded-lg flex items-center justify-between transition-colors group">
+<span class="font-body-md">New Umuahia City Shuttles</span>
+<span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity">check_circle</span>
+</button>
+</div>
+</div>
+</section>
+<!-- State News Feed -->
+<section class="space-y-4 pb-8">
+<h2 class="font-headline-md text-headline-md-mobile text-on-surface">State News</h2>
+<!-- Feed Item 1 -->
+<article class="bg-white rounded-xl border border-outline-variant overflow-hidden">
+<img class="w-full h-48 object-cover" data-alt="A professional aerial view of a newly constructed modern solar power plant in a lush green landscape in Abia State. Rows of dark blue solar panels reflect the clear sky, symbolizing technological advancement and clean energy initiatives. The lighting is bright and optimistic, with a clean, high-contrast finish that aligns with modern corporate governance aesthetic. Dominant colors are forest green and deep tech-blue." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK_Gzt5_ZsxuL5-HjGGPwTnOL0oWZ_p_dfTBH2_jWVsJw0MWMtRGZ2eyJ6VEdF-86VJod0tbr7242V78DLIRN4bYGJzHjUG9_VJGxCH2wpEKl0va_BY7-Uf77AEJoUDjcZiHWddgj71gVdFwztukmeWoyGYBNF1i9om4u7qnDhZn9R95_Dd9JZ0EvJZ_06fl-yYRTqZ_CIItmPfiNr9v1VNcZiZ_5U46yUMO-0x2tbdg4z0qQYtKsN-7n6rVsUz_8T17THP7PyWKA"/>
+<div class="p-4 space-y-2">
+<div class="flex items-center gap-2 text-outline font-label-md text-xs">
+<span class="material-symbols-outlined text-sm">description</span>
+<span>Official Bulletin</span>
+<span>•</span>
+<span>2h ago</span>
+</div>
+<h3 class="font-headline-md text-body-lg font-bold">New Clean Energy Initiative Launched for Industrial Clusters</h3>
+<p class="text-on-surface-variant font-body-md text-sm line-clamp-2">The state government today announced a partnership with private investors to provide 24/7 power to major manufacturing zones...</p>
+<div class="flex items-center justify-between pt-4">
+<div class="flex items-center gap-4 text-outline">
+<button class="flex items-center gap-1 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-lg">thumb_up</span>
+<span class="font-label-md text-xs">842</span>
+</button>
+<button class="flex items-center gap-1 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-lg">chat_bubble</span>
+<span class="font-label-md text-xs">124</span>
+</button>
+</div>
+<button class="material-symbols-outlined text-outline">share</button>
+</div>
+</div>
+</article>
+<!-- Feed Item 2 -->
+<article class="bg-white rounded-xl border border-outline-variant p-4 flex gap-4">
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-2 text-outline font-label-md text-xs">
+<span class="material-symbols-outlined text-sm">event</span>
+<span>Jobs Portal Update</span>
+</div>
+<h3 class="font-headline-md text-body-md font-bold leading-snug">Governor Inspects Ongoing Digital Skills Training at Innovation Hub</h3>
+<div class="flex items-center gap-3 text-outline pt-2">
+<span class="material-symbols-outlined text-lg">favorite</span>
+<span class="material-symbols-outlined text-lg">share</span>
+</div>
+</div>
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="A focused close-up of young Nigerian students working on high-end laptops in a bright, modern technology hub. The interior design is sleek with minimalist furniture and vibrant green wall accents. Soft, natural daylight pours in through large windows, creating a productive and professional atmosphere. The image emphasizes innovation, education, and digital transformation within Abia State." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBityRApugxm9FcJvE_VxwpdoLMj0dBkJtR2b9PBQAIQykHwY5mT6FDnOKZdjiT3_Ml7d5rUuwCEj8C0T7UjGgsv1R_UdP87BJjY1uhu9d_lMu3-o5DYCDFLVpUepgdqfVArj06yjHBNje6xyESZuSCa9pjkJmkort5mTG_UszFJmAYghugBzxfG1bf0psvMU4og2B3T7XXRtcoTCG-llajlth39VcogXfDxuweBdMR0-V_yeMcQ2mmRcQSixvqNa_FMHs0j0QdBCs"/>
+</div>
+</article>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 w-full z-50 flex justify-around items-center px-4 py-2 bg-surface border-t border-outline-variant shadow-sm rounded-t-full">
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="font-label-md text-[10px]">Dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">notifications_active</span>
+<span class="font-label-md text-[10px]">Alerts</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">apps</span>
+<span class="font-label-md text-[10px]">Hub</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:text-primary transition-all duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label-md text-[10px]">Profile</span>
+</a>
+</nav>
+<!-- Floating Action Button: Contextual for Hub/Engagement -->
+<button class="fixed right-6 bottom-24 w-14 h-14 bg-forest-green text-white rounded-full shadow-lg flex items-center justify-center active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">add</span>
+</button>
+<script>
+        // Micro-interactions for the engagement portals
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                // Subtle tactile feedback simulation
+                if (window.navigator.vibrate) {
+                    window.navigator.vibrate(10);
+                }
+            });
+        });
+
+        // Simple scroll reveal for news cards
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('article').forEach(el => {
+            el.classList.add('transition-all', 'duration-500', 'opacity-0', 'translate-y-4');
+            observer.observe(el);
+        });
+    </script>
+</body></html>

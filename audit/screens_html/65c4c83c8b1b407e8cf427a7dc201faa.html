@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABIA ONE - Ministry of Health Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=JetBrains+Mono:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-tertiary-container": "#ffc3c6",
+                        "on-error-container": "#93000a",
+                        "eagle-red": "#C41E3A",
+                        "tertiary-container": "#943e48",
+                        "surface-tint": "#0b6d3c",
+                        "on-secondary": "#ffffff",
+                        "on-surface-variant": "#3f4940",
+                        "inverse-on-surface": "#eef2eb",
+                        "state-white": "#FFFFFF",
+                        "surface-container-low": "#f1f5ee",
+                        "primary-fixed-dim": "#83d99d",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#bec9be",
+                        "surface-container-highest": "#dfe4dd",
+                        "surface-variant": "#dfe4dd",
+                        "outline": "#6f7a70",
+                        "on-secondary-fixed-variant": "#574500",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "forest-green": "#006838",
+                        "inverse-primary": "#83d99d",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#f6fbf3",
+                        "on-primary-fixed-variant": "#00522b",
+                        "tertiary-fixed": "#ffdadb",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#d7dbd4",
+                        "on-surface": "#181d19",
+                        "secondary": "#735c00",
+                        "background": "#f6fbf3",
+                        "primary-container": "#006838",
+                        "inverse-surface": "#2d322d",
+                        "on-primary-container": "#8ee4a8",
+                        "primary-fixed": "#9ef5b8",
+                        "surface-bright": "#f6fbf3",
+                        "secondary-container": "#fed65b",
+                        "primary": "#004d28",
+                        "surface-container-high": "#e5e9e2",
+                        "on-tertiary-fixed": "#40000e",
+                        "tertiary": "#762732",
+                        "on-secondary-fixed": "#241a00",
+                        "surface-container": "#ebefe8",
+                        "on-primary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-background": "#181d19",
+                        "brass-gold": "#D4AF37",
+                        "on-secondary-container": "#745c00",
+                        "error": "#ba1a1a",
+                        "slate-gray": "#334155",
+                        "on-primary-fixed": "#00210e",
+                        "secondary-fixed": "#ffe088"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "max-width": "1440px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "base": "4px",
+                        "margin-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Montserrat"],
+                        "display-lg": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #f6fbf3; color: #181d19; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(226, 232, 240, 1); }
+        .border-accent { border-left: 4px solid #D4AF37; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body-md text-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background border-b border-outline-variant">
+<div class="flex items-center justify-between px-margin-mobile md:px-margin-desktop h-16 w-full max-w-max-width mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="account_balance">account_balance</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile font-bold text-forest-green tracking-tight">ABIA ONE</h1>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<nav class="flex gap-6">
+<a class="font-label-md text-label-md text-forest-green hover:opacity-80 transition-opacity" href="#">Health Services</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Logistics</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:opacity-80 transition-opacity" href="#">Reporting</a>
+</nav>
+<button class="relative p-2 text-on-surface-variant hover:opacity-80 transition-opacity active:scale-95 transition-transform">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-eagle-red rounded-full"></span>
+</button>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-32 px-margin-mobile md:px-margin-desktop max-w-max-width mx-auto">
+<!-- Dashboard Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+<div>
+<p class="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2">Ministry of Health • Operational Command</p>
+<h2 class="font-display-lg text-display-lg text-on-surface">Health Intelligence Dashboard</h2>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 px-6 py-2 border border-slate-400 font-label-md text-label-md rounded-lg hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+                    EXPORT REPORT
+                </button>
+<button class="flex items-center gap-2 px-6 py-2 bg-forest-green text-state-white font-label-md text-label-md rounded-lg hover:opacity-90 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span>
+                    NEW INCIDENT
+                </button>
+</div>
+</div>
+<!-- Bento Grid Content -->
+<div class="bento-grid">
+<!-- Urgent Alerts: Fusion Centre (Col-Span 12 / Top Priority) -->
+<section class="col-span-12 glass-card rounded-xl p-6 border-l-8 border-eagle-red shadow-sm overflow-hidden relative">
+<div class="absolute top-0 right-0 p-4 opacity-5">
+<span class="material-symbols-outlined text-9xl" data-icon="warning">warning</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
+<div class="flex items-start gap-4">
+<div class="bg-eagle-red/10 p-3 rounded-lg">
+<span class="material-symbols-outlined text-eagle-red" data-icon="security" style="font-variation-settings: 'FILL' 1;">security</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-eagle-red mb-1">State Intelligence Fusion Centre (SIFC) Alert</h3>
+<p class="text-on-surface-variant max-w-2xl">Localized outbreak suspected in Umuahia North LGA. Preliminary data suggests elevated gastrointestinal cases reported from 3 PHC nodes within the last 24 hours.</p>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-md text-label-md text-eagle-red bg-eagle-red/10 px-3 py-1 rounded-full mb-2">URGENT ACTION REQUIRED</span>
+<a class="text-eagle-red font-semibold flex items-center gap-1 hover:underline" href="#">
+                            View Deployment Protocols
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Hospital Capacity (Col-Span 8) -->
+<section class="col-span-12 lg:col-span-8 glass-card rounded-xl overflow-hidden border border-outline-variant">
+<div class="p-6 border-b border-outline-variant flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-forest-green" data-icon="local_hospital">local_hospital</span>
+<h3 class="font-headline-md text-headline-md">Hospital Capacity by LGA</h3>
+</div>
+<select class="bg-transparent border-none font-label-md text-label-md text-secondary focus:ring-0">
+<option>Real-time (Live)</option>
+<option>Last 24 Hours</option>
+</select>
+</div>
+<div class="p-6 overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="text-on-surface-variant font-label-md text-label-md uppercase tracking-tighter">
+<th class="pb-4 border-b border-outline-variant">LGA Region</th>
+<th class="pb-4 border-b border-outline-variant">ICU Occupancy</th>
+<th class="pb-4 border-b border-outline-variant">General Bed Gap</th>
+<th class="pb-4 border-b border-outline-variant">Staffing Ratio</th>
+<th class="pb-4 border-b border-outline-variant">Status</th>
+</tr>
+</thead>
+<tbody class="font-body-md">
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="py-4 border-b border-outline-variant font-semibold">Aba North</td>
+<td class="py-4 border-b border-outline-variant">
+<div class="w-32 h-2 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="bg-forest-green h-full" style="width: 82%"></div>
+</div>
+<span class="text-caption font-label-md mt-1 block">82% (14/17 Beds)</span>
+</td>
+<td class="py-4 border-b border-outline-variant">-12</td>
+<td class="py-4 border-b border-outline-variant">1:4.2</td>
+<td class="py-4 border-b border-outline-variant">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Elevated</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="py-4 border-b border-outline-variant font-semibold">Umuahia North</td>
+<td class="py-4 border-b border-outline-variant">
+<div class="w-32 h-2 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="bg-eagle-red h-full" style="width: 95%"></div>
+</div>
+<span class="text-caption font-label-md mt-1 block">95% (21/22 Beds)</span>
+</td>
+<td class="py-4 border-b border-outline-variant">-2</td>
+<td class="py-4 border-b border-outline-variant">1:6.8</td>
+<td class="py-4 border-b border-outline-variant">
+<span class="bg-red-100 text-eagle-red px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Critical</span>
+</td>
+</tr>
+<tr class="hover:bg-surface-container transition-colors group">
+<td class="py-4 border-b border-outline-variant font-semibold">Ohafia</td>
+<td class="py-4 border-b border-outline-variant">
+<div class="w-32 h-2 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="bg-forest-green h-full" style="width: 45%"></div>
+</div>
+<span class="text-caption font-label-md mt-1 block">45% (9/20 Beds)</span>
+</td>
+<td class="py-4 border-b border-outline-variant">+42</td>
+<td class="py-4 border-b border-outline-variant">1:3.1</td>
+<td class="py-4 border-b border-outline-variant">
+<span class="bg-green-100 text-forest-green px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Stable</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- ASHIA Metrics (Col-Span 4) -->
+<section class="col-span-12 lg:col-span-4 glass-card rounded-xl p-6 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-brass-gold" data-icon="verified_user">verified_user</span>
+<h3 class="font-headline-md text-headline-md">ASHIA Enrollment</h3>
+</div>
+<div class="space-y-6">
+<div class="flex items-end justify-between">
+<div>
+<p class="text-on-surface-variant font-label-md">Total Citizens Enrolled</p>
+<p class="font-display-lg text-headline-lg text-on-surface">1,244,892</p>
+</div>
+<span class="text-forest-green font-bold flex items-center gap-1 text-sm">
+<span class="material-symbols-outlined text-sm" data-icon="trending_up">trending_up</span>
+                                4.2%
+                            </span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between text-caption font-label-md">
+<span>Enrollment Target (FY24)</span>
+<span>68% achieved</span>
+</div>
+<div class="h-4 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="bg-brass-gold h-full w-[68%]"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant">
+<p class="text-on-surface-variant text-caption mb-4">Latest Enrollment Site Activity</p>
+<div class="flex -space-x-2">
+<img alt="Health Worker" class="w-8 h-8 rounded-full border-2 border-surface" data-alt="A professional headshot of a Nigerian health officer wearing a clinical white coat and a stethoscope, smiling confidently in a modern medical administrative setting with soft natural lighting and corporate green accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3DLrsV_QYiPr1o4Rfp2Nmq2_DOXXqI0g8acoYLT8uERFESAukYQLSoUp4nXJyG5O0K5kEhTZUxS6bUpHBCYlWRIV9kqlK4fnPMhKSQsjNcZX3yE7-H3I4Fn79Yo91cR2hSXDeJjHRciWL_hsLUa-8VgoMA8DM2VUXuI_dL3HZ7aYS5w4qVU-bgCPdN7FjoOC_VQrdct5mOtvD3wIP50nh14k_2dZomQy9AdbZQzIdGnbJ99CSkEc_97cG0rT0zQtmaewC_0lgA8s"/>
+<img alt="Admin Specialist" class="w-8 h-8 rounded-full border-2 border-surface" data-alt="A close-up portrait of a West African female medical administrator in a bright office space, looking professional and capable. The lighting is crisp and modern, focusing on her friendly yet serious expression as a leader in state health services." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWoPuWVRf-gOJnSGdMl-5eV-u-I8IpdEwnRUduqeeaWjjKPgYHZT1HfMjnakyayhF5NOIfOLCZ7NpkRbQfOGK6Hfsdw2itzcHfr97Ad2jTe-lfd1UvtU6Khc8CenFuOUbFleP0arYv22vhiobqlGQWyh0sjaXC1_jvFtP8FQTbxamZ8cEv_LeYlcB5TYh_eEcZqIy5JuuAoVetJmD73T1YJOWxtigEMAyjfZh98N4-PsgxZOBVhc1Xz3sf1OpHi0LfojxlZXTpJPM"/>
+<div class="w-8 h-8 rounded-full border-2 border-surface bg-surface-container-highest flex items-center justify-center text-[10px] font-bold">+12</div>
+</div>
+</div>
+</section>
+<!-- Vaccine Distribution (Col-Span 12 / Dynamic Dashboard Row) -->
+<section class="col-span-12 glass-card rounded-xl p-8">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">Vaccine Distribution Status</h3>
+<p class="text-on-surface-variant max-w-xl">Tracking cold-chain integrity and stock levels for Routine Immunization and COVID-19 boosters across 17 LGAs.</p>
+</div>
+<div class="flex gap-4">
+<div class="bg-surface-container p-4 rounded-lg text-center">
+<p class="text-caption font-label-md text-on-surface-variant">Active Cold Chain</p>
+<p class="text-headline-md font-bold text-forest-green">98.2%</p>
+</div>
+<div class="bg-surface-container p-4 rounded-lg text-center">
+<p class="text-caption font-label-md text-on-surface-variant">Last-Mile Deliveries</p>
+<p class="text-headline-md font-bold text-brass-gold">142/150</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<div class="border border-outline-variant rounded-lg p-4 hover:border-forest-green transition-colors cursor-pointer group">
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-forest-green" data-icon="vaccines">vaccines</span>
+<span class="text-xs bg-green-100 text-forest-green px-2 py-0.5 rounded">High Stock</span>
+</div>
+<h4 class="font-bold text-on-surface">BCG/Pentavalent</h4>
+<p class="text-caption text-on-surface-variant">Main Depot: Umuahia Central</p>
+<div class="mt-4 h-1 w-full bg-surface-container-highest rounded-full">
+<div class="bg-forest-green h-full w-[88%]"></div>
+</div>
+</div>
+<div class="border border-outline-variant rounded-lg p-4 hover:border-forest-green transition-colors cursor-pointer group">
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-forest-green" data-icon="thermostat">thermostat</span>
+<span class="text-xs bg-yellow-100 text-secondary px-2 py-0.5 rounded">Cold-Chain Syncing</span>
+</div>
+<h4 class="font-bold text-on-surface">HPV Vaccine</h4>
+<p class="text-caption text-on-surface-variant">Main Depot: Aba Logistics Hub</p>
+<div class="mt-4 h-1 w-full bg-surface-container-highest rounded-full">
+<div class="bg-brass-gold h-full w-[42%]"></div>
+</div>
+</div>
+<div class="border border-outline-variant rounded-lg p-4 hover:border-forest-green transition-colors cursor-pointer group">
+<div class="flex items-center justify-between mb-3">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-forest-green" data-icon="inventory_2">inventory_2</span>
+<span class="text-xs bg-red-100 text-eagle-red px-2 py-0.5 rounded">Low Stock</span>
+</div>
+<h4 class="font-bold text-on-surface">COVID-19 Booster</h4>
+<p class="text-caption text-on-surface-variant">Main Depot: Regional Central</p>
+<div class="mt-4 h-1 w-full bg-surface-container-highest rounded-full">
+<div class="bg-eagle-red h-full w-[12%]"></div>
+</div>
+</div>
+<div class="relative rounded-lg overflow-hidden group cursor-pointer border border-outline-variant">
+<img alt="Cold storage" class="absolute inset-0 w-full h-full object-cover opacity-20 grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A sophisticated close-up of a high-tech medical cold storage refrigerator used for vaccine distribution. The environment is sterile and professional, with a cool clinical blue and surgical white color palette. LED readouts and laboratory-grade glass shelves reflect a modern, data-driven governance aesthetic in a Nigerian healthcare facility." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB63DZJDZX1wGN-NIeMVkqJgGOfRwj6vmnR8MEIArlz-Oy0TzDkNYLwBVXgYZlB7x09sl4xqJEYNxuAgjZoVartpA2zQxMqpz6Qlz2peGSGrDG31kQuw1gjP3BHFyTYLlCxLMjVC029KSstfjwSw3zjEd55_JCndB3z_IknMofTiWYOW6QvvhuoQwwHbsa8rdWxG58duLrtlBoFvDD2gb6OJqdY1og5v4JlDmeg1YcZTg4Uv0rCJ2EKeCVXZ-M8PD98V4ArlnapQE"/>
+<div class="relative z-10 p-4 h-full flex flex-col justify-between">
+<h4 class="font-bold text-on-surface">Supply Chain Map</h4>
+<div class="flex items-center gap-1 text-forest-green text-caption font-bold">
+                                View Interactive Grid
+                                <span class="material-symbols-outlined text-xs" data-icon="map">map</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 rounded-t-full bg-surface-container-lowest border-t border-outline-variant shadow-sm px-base pb-safe h-20 flex justify-around items-center">
+<a class="flex flex-col items-center justify-center bg-secondary-container text-on-secondary-container rounded-full px-4 py-1 transition-transform active:scale-90 duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-label-md">Dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 transition-transform active:scale-90 duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="notifications_active">notifications_active</span>
+<span class="font-label-md text-label-md">Alerts</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 transition-transform active:scale-90 duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="font-label-md text-label-md">Hub</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 transition-transform active:scale-90 duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-label-md text-label-md">Profile</span>
+</a>
+</nav>
+<!-- Contextual FAB -->
+<button class="fixed bottom-24 right-6 md:bottom-8 md:right-8 bg-forest-green text-state-white w-14 h-14 rounded-xl flex items-center justify-center shadow-xl hover:scale-105 active:scale-95 transition-all z-40 group">
+<span class="material-symbols-outlined" data-icon="send">send</span>
+<span class="absolute right-16 bg-on-background text-state-white px-3 py-1 rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Deploy Rapid Response Team</span>
+</button>
+<script>
+        // Simple Micro-interactions
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-2px)';
+                card.style.transition = 'transform 0.3s ease';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Initialize notification ping
+        setInterval(() => {
+            const dot = document.querySelector('.bg-eagle-red.rounded-full');
+            if(dot) {
+                dot.style.opacity = dot.style.opacity === '0' ? '1' : '0';
+                dot.style.transition = 'opacity 0.5s ease';
+            }
+        }, 1000);
+    </script>
+</body></html>

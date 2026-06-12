@@ -1,0 +1,356 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Secure Abia | Abia State Government</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#e9c349",
+                        "on-secondary": "#ffffff",
+                        "brass-gold": "#D4AF37",
+                        "surface-variant": "#dfe4dd",
+                        "surface-tint": "#0b6d3c",
+                        "secondary": "#735c00",
+                        "slate-gray": "#334155",
+                        "on-surface-variant": "#3f4940",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb2b7",
+                        "on-primary-fixed-variant": "#00522b",
+                        "on-tertiary-container": "#ffc3c6",
+                        "inverse-primary": "#83d99d",
+                        "on-primary-container": "#8ee4a8",
+                        "surface": "#f6fbf3",
+                        "on-tertiary-fixed": "#40000e",
+                        "on-surface": "#181d19",
+                        "secondary-fixed": "#ffe088",
+                        "secondary-container": "#fed65b",
+                        "forest-green": "#006838",
+                        "surface-container-low": "#f1f5ee",
+                        "inverse-surface": "#2d322d",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#eef2eb",
+                        "on-secondary-fixed-variant": "#574500",
+                        "on-tertiary-fixed-variant": "#7b2b36",
+                        "surface-dim": "#d7dbd4",
+                        "on-primary-fixed": "#00210e",
+                        "background": "#f6fbf3",
+                        "primary": "#004d28",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#9ef5b8",
+                        "primary-fixed-dim": "#83d99d",
+                        "tertiary-fixed": "#ffdadb",
+                        "tertiary-container": "#943e48",
+                        "surface-container": "#ebefe8",
+                        "on-background": "#181d19",
+                        "state-white": "#FFFFFF",
+                        "tertiary": "#762732",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f6fbf3",
+                        "on-primary": "#ffffff",
+                        "outline-variant": "#bec9be",
+                        "surface-container-highest": "#dfe4dd",
+                        "on-error-container": "#93000a",
+                        "eagle-red": "#C41E3A",
+                        "error": "#ba1a1a",
+                        "outline": "#6f7a70",
+                        "on-secondary-container": "#745c00",
+                        "primary-container": "#006838",
+                        "surface-container-high": "#e5e9e2",
+                        "on-secondary-fixed": "#241a00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "max-width": "1440px",
+                        "margin-desktop": "64px",
+                        "base": "4px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Montserrat"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg": ["Montserrat"],
+                        "caption": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "headline-md": ["Montserrat"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "display-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Hanken Grotesk', sans-serif;
+            background-color: #f6fbf3;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<header class="bg-surface fixed top-0 w-full z-50 border-b border-outline-variant">
+<nav class="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-16">
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md font-bold text-forest-green">ABIA ONE</span>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Invest</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Jobs</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Serve</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-forest-green transition-colors" href="#">Verify</a>
+<a class="font-label-md text-label-md text-forest-green border-b-2 border-brass-gold pb-1" href="#">Governance</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-forest-green">language</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-forest-green">notifications</span>
+</div>
+<button class="bg-forest-green text-white px-6 py-2 rounded-lg font-label-md text-label-md hover:opacity-90 transition-opacity">
+                    Sign In
+                </button>
+</div>
+</nav>
+</header>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative h-[870px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-forest-green/90 to-transparent z-10"></div>
+<img alt="Abia State Landmark" class="w-full h-full object-cover" data-alt="A panoramic high-definition view of Umuahia cityscape during the golden hour, showcasing modern Abia architecture and lush greenery under a serene sky. The composition emphasizes a peaceful, secure urban environment with soft warm sunlight reflecting off buildings, maintaining a professional and institutional aesthetic in line with the Abia State Government visual identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDW1xTU686_QEgr_qxj061icb43-gYgyAUeERFIuUZVVBKH4bSAC_g-lgYVw4nYTt_F5cJQgfrYsY0sQMqAv3fKoKL8WEsNlt45vDl_WeYg8DkA3sbHK8vLacg3UXxXZdFDvf9qdMmTjYFNMfWY2hYJ0N0BZYNMEEcYabcoXfBIUU1veRXF77yHJXlYE9mRnKY5bvfaeRIcJVISt9j-LiXY7s-QWVoKS0-hCS_EbeKBF51TXc4ngz4PWniMttRV4-m2Cg972O0_JkM">
+</div>
+<div class="relative z-20 px-margin-desktop max-w-max-width mx-auto w-full">
+<div class="max-w-2xl text-white">
+<h1 class="font-display-lg text-display-lg mb-6">Security for All: A Safer Abia Starts Together</h1>
+<p class="font-body-lg text-body-lg mb-10 opacity-90">Our commitment to public safety is built on transparency, rapid response, and community-driven intelligence. Access resources and help us protect our home.</p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-eagle-red hover:bg-red-700 text-white px-8 py-4 rounded font-headline-md flex items-center gap-3 transition-all transform hover:scale-105" href="tel:112">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+                            Emergency: 112
+                        </a>
+<a class="bg-brass-gold hover:bg-yellow-600 text-on-secondary-fixed px-8 py-4 rounded font-headline-md flex items-center gap-3 transition-all" href="#resources">
+<span class="material-symbols-outlined">security</span>
+                            Safety Resources
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Safety Resources Grid -->
+<section class="py-24 bg-surface px-margin-desktop" id="resources">
+<div class="max-w-max-width mx-auto">
+<div class="mb-16 border-l-4 border-brass-gold pl-6">
+<h2 class="font-headline-lg text-headline-lg text-forest-green uppercase tracking-tight">Safety Resources</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-2">Tools and information designed to empower every citizen in maintaining a secure environment.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Resource 1 -->
+<div class="bg-white border border-outline-variant p-8 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-forest-green text-3xl">location_on</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Station Finder</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Locate your nearest police command, fire station, or emergency medical service point in seconds.</p>
+<a class="text-forest-green font-label-md flex items-center gap-2 hover:underline" href="#">
+                            Open Map <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Resource 2 -->
+<div class="bg-white border border-outline-variant p-8 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-forest-green text-3xl">campaign</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Reporting Guides</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Learn how to effectively report incidents, including anonymous tips and evidence preservation.</p>
+<a class="text-forest-green font-label-md flex items-center gap-2 hover:underline" href="#">
+                            Read Guides <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Resource 3 -->
+<div class="bg-white border border-outline-variant p-8 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-forest-green text-3xl">shield</span>
+</div>
+<h3 class="font-headline-md text-headline-md mb-4">Safety Tips</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Daily safety protocols for home, transit, and business owners curated by security experts.</p>
+<a class="text-forest-green font-label-md flex items-center gap-2 hover:underline" href="#">
+                            View All Tips <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Community Intelligence Section -->
+<section class="py-24 bg-inverse-surface text-white relative overflow-hidden">
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-10">
+
+</div>
+<div class="max-w-max-width mx-auto px-margin-desktop grid md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline-lg text-headline-lg mb-8">Data-Driven Protection: Community Intelligence</h2>
+<p class="font-body-lg text-body-lg mb-8 opacity-80 leading-relaxed">
+                        Through the "Secure Abia" initiative, we utilize advanced data analytics to identify risk patterns before they escalate. By integrating citizen feedback with regional surveillance, we deploy resources precisely where they are needed most.
+                    </p>
+<ul class="space-y-4">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-brass-gold">check_circle</span>
+<span class="font-body-md">Real-time incident heatmapping for tactical deployment.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-brass-gold">check_circle</span>
+<span class="font-body-md">Transparent reporting on response times and outcomes.</span>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-brass-gold">check_circle</span>
+<span class="font-body-md">Community feedback loops integrated into state policy.</span>
+</li>
+</ul>
+</div>
+<div class="relative rounded-xl overflow-hidden border border-outline/30 aspect-video">
+<img alt="Command Center" class="w-full h-full object-cover" data-alt="A sleek, modern government command center interior with large digital wall displays showing glowing heat maps and data visualizations of Abia State. The lighting is cool-toned and professional, featuring high-end ergonomic workstations where security analysts work collaboratively. The scene conveys high-tech precision, institutional authority, and transparent governance in a data-rich environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7UUAYwx6rMLMfJqUCV-kSXkAL4xDT2Gz0QdI437WjU7DWMR24TKhDVcdmWuQSrNbFq7GblcvOySU-EsxWoYGUcJ8zNoPl1NB6Zm2GfdXtYD3f4C6t8wZTxXYpJAUwBl_JWDY9z9_mckHobYho7Zi4tPYTqmbcoy96waMr8mlRuDRqLHrDWnUdZQ-ufVgeityDl-h9PC-BR6isffT8pEsli-R1coCF0QHMnkQMFMIY_LeMUUjIdY8JKyJ43G_QCGFJ86ItOBpvZlY">
+</div>
+</div>
+</section>
+<!-- Transparency Feed -->
+<section class="py-24 bg-surface-container-low px-margin-desktop">
+<div class="max-w-max-width mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-forest-green">Transparency Feed</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">Real-time updates on state safety measures and community engagement.</p>
+</div>
+<button class="mt-4 md:mt-0 border border-forest-green text-forest-green px-6 py-2 rounded font-label-md hover:bg-forest-green hover:text-white transition-all">
+                        Subscribe to Alerts
+                    </button>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Feed Item 1 -->
+<div class="glass-card p-6 flex flex-col h-full opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4">
+<span class="bg-forest-green/10 text-forest-green px-3 py-1 rounded-full font-label-md text-xs">OFFICIAL ALERT</span>
+<span class="text-caption font-caption text-on-surface-variant">2 hours ago</span>
+</div>
+<h4 class="font-headline-md text-lg mb-3">Traffic Management: Aba-Owerri Road</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">New security checkpoints established for holiday transit. Expect minor delays but enhanced safety protocols.</p>
+<div class="pt-4 border-t border-outline-variant flex justify-between items-center">
+<span class="text-caption font-caption">Verified by ASG</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">share</span>
+</div>
+</div>
+<!-- Feed Item 2 -->
+<div class="glass-card p-6 flex flex-col h-full border-l-4 border-l-brass-gold opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-md text-xs">COMMUNITY MEETING</span>
+<span class="text-caption font-caption text-on-surface-variant">Yesterday</span>
+</div>
+<h4 class="font-headline-md text-lg mb-3">Town Hall: Security Architecture</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Summary of the recent community policing dialogue held in Umuahia North. Key outcomes published.</p>
+<div class="pt-4 border-t border-outline-variant flex justify-between items-center">
+<span class="text-caption font-caption">Public Document</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">description</span>
+</div>
+</div>
+<!-- Feed Item 3 -->
+<div class="glass-card p-6 flex flex-col h-full opacity-100 translate-y-0">
+<div class="flex justify-between items-center mb-4">
+<span class="bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full font-label-md text-xs">IMPROVEMENT</span>
+<span class="text-caption font-caption text-on-surface-variant">3 days ago</span>
+</div>
+<h4 class="font-headline-md text-lg mb-3">Light-Up Abia: Phase 4 Complete</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Installation of solar-powered street lighting across 15 key residential corridors finished.</p>
+<div class="pt-4 border-t border-outline-variant flex justify-between items-center">
+<span class="text-caption font-caption">Infrastructure</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">image</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-16 bg-white border-y border-outline-variant">
+<div class="max-w-max-width mx-auto px-margin-desktop text-center">
+<h3 class="font-headline-lg text-headline-lg text-forest-green mb-4">Stay Vigilant. Stay Safe.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 max-w-2xl mx-auto">Download the Abia One mobile app to receive instant geo-fenced safety alerts and direct access to emergency responders.</p>
+<div class="flex justify-center gap-4">
+<button class="bg-inverse-surface text-white px-8 py-3 rounded flex items-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined">apps</span> App Store
+                    </button>
+<button class="bg-inverse-surface text-white px-8 py-3 rounded flex items-center gap-2 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined">play_arrow</span> Google Play
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest border-t border-outline-variant">
+<div class="w-full py-8 px-margin-desktop flex flex-col md:flex-row justify-between items-center max-w-max-width mx-auto">
+<div class="flex flex-col items-center md:items-start mb-6 md:mb-0">
+<span class="font-headline-sm text-headline-sm font-bold text-forest-green">ABIA ONE</span>
+<p class="font-caption text-caption text-on-surface-variant mt-1">© 2024 Abia State Government. All Rights Reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Contact Us</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-brass-gold transition-colors" href="#">Press Office</a>
+</div>
+</div>
+</footer>
+<script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple intersection observer for reveal animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.glass-card, .bg-white.border').forEach(el => {
+            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+            observer.observe(el);
+        });
+    </script>
+</body></html>
