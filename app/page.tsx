@@ -11,10 +11,10 @@ export default function Page() {
       <div className="bg-background text-on-surface font-body-md overflow-x-hidden">
         
 {/*  TopNavBar Navigation Shell  */}
-<header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-outline-variant/50">
+<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
 <nav className="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
 <div className="flex items-center gap-2">
-<img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-12 w-auto" />
+<img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-16 w-auto" />
 </div>
 <div className="hidden md:flex gap-8 items-center">
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/citizen-consultations">Discover</a>
@@ -32,40 +32,28 @@ export default function Page() {
 </nav>
 </header>
 <main className="pt-20">
-{/*  Hero Section with Glassmorphism  */}
-<section className="relative h-[600px] overflow-hidden flex items-center">
-{/*  Background Image  */}
+{/*  Hero Section  */}
+<section className="relative h-[500px] overflow-hidden flex items-center px-margin-desktop bg-surface-dim">
 <div className="absolute inset-0 z-0">
 <img className="w-full h-full object-cover" alt="Abia State iconic statue and roundabout" src="https://images.unsplash.com/photo-1590846083693-f23fdede3a7e?w=1920&q=80" />
-<div className="absolute inset-0 bg-gradient-to-r from-forest-green/90 via-forest-green/70 to-transparent"></div>
-<div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
+<div className="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
 </div>
-
-{/*  Glassmorphism Content Card  */}
-<div className="relative z-10 px-margin-desktop max-w-max-width mx-auto w-full">
-<div className="max-w-xl">
-{/*  Glass Card Container  */}
-<div className="bg-white/10 backdrop-blur-2xl border border-white/20 rounded-3xl p-10 shadow-2xl">
-<div className="flex items-center gap-3 mb-6">
-<div className="w-12 h-1 bg-brass-gold rounded-full"></div>
-<span className="font-label-md text-label-md uppercase text-white/90 font-bold tracking-wider">The Sovereign Hub</span>
+<div className="relative z-10 max-w-2xl">
+<div className="flex items-center gap-2 mb-4">
+<span className="h-1 w-12 bg-brass-gold"></span>
+<span className="font-label-md text-label-md uppercase text-primary font-bold">The Sovereign Hub</span>
 </div>
-<h1 className="font-display-lg text-display-lg text-white mb-4 leading-tight">
-                    Building the Future of
-                    <span className="text-brass-gold block">Abia State</span>
-                </h1>
-<p className="font-body-lg text-lg text-white/80 leading-relaxed mb-8">
-                    A unified digital platform connecting citizens, investors, and government for sustainable development in the heart of Igboland.
+<h1 className="font-display-lg text-display-lg text-primary mb-6">Dashboard Central</h1>
+<p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    "Building the foundation for a sustainable, digital economy in the heart of Igboland."
                 </p>
-<div className="flex flex-wrap gap-4">
-<button className="bg-brass-gold text-white px-8 py-4 rounded-xl font-semibold flex items-center gap-2 hover:bg-brass-gold/90 transition-all shadow-lg hover:shadow-xl hover:scale-105">
+<div className="mt-8 flex gap-4">
+<button className="bg-forest-green text-white px-8 py-4 rounded-lg font-semibold flex items-center gap-2 hover:bg-primary-container transition-all">
                         Explore Vision <span className="material-symbols-outlined">arrow_forward</span>
 </button>
-<button className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/20 transition-all">
+<button className="border border-brass-gold text-primary px-8 py-4 rounded-lg font-semibold hover:bg-surface-container transition-all">
                         Investor Portal
                     </button>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -261,7 +249,7 @@ export default function Page() {
 <footer className="bg-surface-container-highest border-t border-outline-variant">
 <div className="flex flex-col md:flex-row justify-between items-center py-gutter px-margin-desktop max-w-max-width mx-auto">
 <div className="mb-6 md:mb-0">
-<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-10 w-auto mb-2" />
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-14 w-auto mb-2" />
 <p className="text-on-surface-variant text-caption mt-2">© 2024 Abia State Government. All rights reserved. Built for the future of governance.</p>
 </div>
 <div className="flex flex-wrap justify-center gap-8">
