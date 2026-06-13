@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .brass-border-left {\n            border-left: 4px solid #D4AF37;\n        }\n        .sidebar-active {\n            background-color: #fed65b; /* secondary-container */\n            color: #745c00; /* on-secondary-container */\n            border-radius: 0.25rem;\n        }\n        .glass-card {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid #E2E8F0;\n        }\n        ::-webkit-scrollbar {\n            width: 6px;\n        }\n        ::-webkit-scrollbar-track {\n            background: #f1f5ee;\n        }\n        ::-webkit-scrollbar-thumb {\n            background: #6f7a70;\n            border-radius: 10px;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .brass-border-left {\n            border-left: 4px solid #D4AF37;\n        }\n        .sidebar-active {\n            background-color: #fed65b; /* secondary-container */\n            color: #745c00; /* on-secondary-container */\n            border-radius: 0.25rem;\n        }\n        .glass-card {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid #E2E8F0;\n        }\n        ::-webkit-scrollbar {\n            width: 6px;\n        }\n        ::-webkit-scrollbar-track {\n            background: #f1f5ee;\n        }\n        ::-webkit-scrollbar-thumb {\n            background: #6f7a70;\n            border-radius: 10px;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-surface font-body-md text-on-surface flex min-h-screen">
@@ -13,7 +16,7 @@ export default function Page() {
 {/*  SideNavBar (Authority: JSON Component)  */}
 <aside className="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 bg-surface-container-low border-r border-outline-variant z-50">
 <div className="p-6">
-<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" />
 <p className="font-body-md text-body-md opacity-70">Modern Governance OS</p>
 </div>
 <nav className="flex-1 px-2 space-y-1">

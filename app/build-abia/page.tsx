@@ -5,16 +5,18 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .map-pin {\n            cursor: pointer;\n            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n        }\n        .map-pin:hover {\n            transform: scale(1.3) translateY(-4px);\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-track {\n            background: transparent;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #bec9be;\n            border-radius: 10px;\n        }\n        .bento-card {\n            border: 1px solid #E2E8F0;\n            transition: all 0.3s ease;\n        }\n        .bento-card:hover {\n            border-color: #D4AF37;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);\n        }\n        .active-pill {\n            background: linear-gradient(90deg, #006838 0%, #004d28 100%);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .map-pin {\n            cursor: pointer;\n            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n        }\n        .map-pin:hover {\n            transform: scale(1.3) translateY(-4px);\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-track {\n            background: transparent;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #bec9be;\n            border-radius: 10px;\n        }\n        .bento-card {\n            border: 1px solid #E2E8F0;\n            transition: all 0.3s ease;\n        }\n        .bento-card:hover {\n            border-color: #D4AF37;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);\n        }\n        .active-pill {\n            background: linear-gradient(90deg, #006838 0%, #004d28 100%);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background font-body-md text-body-md overflow-x-hidden">
         
 {/*  TopNavBar  */}
-<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant h-20">
+<header className="fixed top-0 w-full z-50 glass-nav h-24">
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
 <div className="flex items-center gap-8">
-<img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-10 w-auto" />
+<img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-20 w-auto" />
 <nav className="hidden md:flex gap-6 items-center">
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Digital Gov</a>

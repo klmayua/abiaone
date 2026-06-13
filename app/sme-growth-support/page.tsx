@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .glass-panel { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }\n        .bento-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n        .bento-card:hover { transform: translateY(-4px); }\n        .brass-line { position: relative; }\n        .brass-line::after { content: ''; position: absolute; left: 0; bottom: -8px; width: 40px; height: 3px; background-color: #D4AF37; }\n        ::-webkit-scrollbar { width: 6px; }\n        ::-webkit-scrollbar-track { background: #f1f5ee; }\n        ::-webkit-scrollbar-thumb { background: #004d28; border-radius: 10px; }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); } font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .glass-panel { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }\n        .bento-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n        .bento-card:hover { transform: translateY(-4px); }\n        .brass-line { position: relative; }\n        .brass-line::after { content: ''; position: absolute; left: 0; bottom: -8px; width: 40px; height: 3px; background-color: #D4AF37; }\n        ::-webkit-scrollbar { width: 6px; }\n        ::-webkit-scrollbar-track { background: #f1f5ee; }\n        ::-webkit-scrollbar-thumb { background: #004d28; border-radius: 10px; }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface min-h-screen flex">

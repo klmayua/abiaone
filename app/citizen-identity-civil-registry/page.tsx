@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-accent-gold {\n            position: relative;\n        }\n        .card-accent-gold::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 4px;\n            height: 24px;\n            background-color: #D4AF37;\n            border-radius: 0 4px 4px 0;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-accent-gold {\n            position: relative;\n        }\n        .card-accent-gold::before {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 4px;\n            height: 24px;\n            background-color: #D4AF37;\n            border-radius: 0 4px 4px 0;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface min-h-screen flex">

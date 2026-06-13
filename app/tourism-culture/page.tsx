@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".brass-accent-line {\n            position: relative;\n        }\n        .brass-accent-line::after {\n            content: '';\n            position: absolute;\n            bottom: -8px;\n            left: 0;\n            width: 40px;\n            height: 3px;\n            background-color: #D4AF37;\n        }\n        .glass-card {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(226, 232, 240, 0.8);\n        }\n        .mesh-bg {\n            background-color: #f6fbf3;\n            background-image: radial-gradient(at 0% 0%, rgba(0, 104, 56, 0.05) 0px, transparent 50%),\n                              radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.05) 0px, transparent 50%);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".brass-accent-line {\n            position: relative;\n        }\n        .brass-accent-line::after {\n            content: '';\n            position: absolute;\n            bottom: -8px;\n            left: 0;\n            width: 40px;\n            height: 3px;\n            background-color: #D4AF37;\n        }\n        .glass-card {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(226, 232, 240, 0.8);\n        }\n        .mesh-bg {\n            background-color: #f6fbf3;\n            background-image: radial-gradient(at 0% 0%, rgba(0, 104, 56, 0.05) 0px, transparent 50%),\n                              radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.05) 0px, transparent 50%);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background font-body-md text-on-surface mesh-bg">
@@ -13,7 +16,7 @@ export default function Page() {
 {/*  TopNavBar (Shared Component)  */}
 <header className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant h-16 max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center">
 <div className="flex items-center gap-4">
-<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" />
 </div>
 <nav className="hidden md:flex gap-8 items-center h-full">
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>

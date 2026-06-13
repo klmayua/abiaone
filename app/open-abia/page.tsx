@@ -5,13 +5,16 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            display: inline-block;\n            vertical-align: middle;\n        }\n        .naira::before {\n            content: \"₦\";\n            margin-right: 2px;\n        }\n        .chart-container {\n            background-image: radial-gradient(circle at 2px 2px, #bec9be 1px, transparent 0);\n            background-size: 24px 24px;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-track {\n            background: #f1f5ee;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #006838;\n            border-radius: 10px;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            display: inline-block;\n            vertical-align: middle;\n        }\n        .naira::before {\n            content: \"₦\";\n            margin-right: 2px;\n        }\n        .chart-container {\n            background-image: radial-gradient(circle at 2px 2px, #bec9be 1px, transparent 0);\n            background-size: 24px 24px;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-track {\n            background: #f1f5ee;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #006838;\n            border-radius: 10px;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
         
 {/*  Top Navigation Bar  */}
-<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
+<header className="fixed top-0 w-full z-50 glass-nav">
 <div className="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
 <div className="flex items-center gap-8">
 <span className="font-display-lg text-[32px] font-bold text-primary">ABIA ONE</span>

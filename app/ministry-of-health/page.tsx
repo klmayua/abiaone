@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .custom-scrollbar::-webkit-scrollbar { width: 4px; }\n        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }\n        .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }\n        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }\n        .card-clinical { background: #ffffff; border: 1px solid #E2E8F0; transition: box-shadow 0.2s ease; }\n        .card-clinical:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.05); }\n        .brass-accent { border-top: 3px solid #D4AF37; }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .custom-scrollbar::-webkit-scrollbar { width: 4px; }\n        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }\n        .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }\n        .bento-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }\n        .card-clinical { background: #ffffff; border: 1px solid #E2E8F0; transition: box-shadow 0.2s ease; }\n        .card-clinical:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.05); }\n        .brass-accent {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); } border-top: 3px solid #D4AF37; }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-surface text-on-surface">

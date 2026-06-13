@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body {\n            font-family: 'Hanken Grotesk', sans-serif;\n            background-color: #f6fbf3;\n            color: #181d19;\n            overflow-x: hidden;\n        }\n        .material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-shadow {\n            box-shadow: 0 1px 2px rgba(0,0,0,0.05);\n        }\n        .glass-panel {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body {\n            font-family: 'Hanken Grotesk', sans-serif;\n            background-color: #f6fbf3;\n            color: #181d19;\n            overflow-x: hidden;\n        }\n        .material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-shadow {\n            box-shadow: 0 1px 2px rgba(0,0,0,0.05);\n        }\n        .glass-panel {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="min-h-screen flex flex-col">
@@ -13,7 +16,7 @@ export default function Page() {
 {/*  Top Navigation Bar  */}
 <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
 <div className="flex items-center gap-8">
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
+<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" /></span>
 <div className="hidden md:flex gap-6">
 <a className="font-label-md text-label-md text-primary dark:text-primary-fixed-dim border-b-2 border-brass-accent pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/economic-transformation">Economy</a>
 <a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/serve-abia">Digital Gov</a>

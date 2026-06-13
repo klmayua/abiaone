@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .glass-panel { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }\n        .no-scrollbar::-webkit-scrollbar { display: none; }\n        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }\n        .before-after-slider { position: relative; width: 100%; height: 400px; overflow: hidden; border-radius: 0.25rem; }\n        .slider-handle { position: absolute; top: 0; bottom: 0; width: 4px; background: white; cursor: ew-resize; z-index: 10; display: flex; align-items: center; justify-content: center; transform: translateX(-50%); }\n        .slider-handle::after { content: \"↔\"; background: #004d28; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }\n        .img-after { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }\n        .img-before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; clip-path: inset(0 50% 0 0); transition: none; }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); } font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }\n        .glass-panel { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }\n        .no-scrollbar::-webkit-scrollbar { display: none; }\n        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }\n        .before-after-slider { position: relative; width: 100%; height: 400px; overflow: hidden; border-radius: 0.25rem; }\n        .slider-handle { position: absolute; top: 0; bottom: 0; width: 4px; background: white; cursor: ew-resize; z-index: 10; display: flex; align-items: center; justify-content: center; transform: translateX(-50%); }\n        .slider-handle::after { content: \"↔\"; background: #004d28; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }\n        .img-after { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }\n        .img-before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; clip-path: inset(0 50% 0 0); transition: none; }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background selection:bg-brass-gold/30">
@@ -13,7 +16,7 @@ export default function Page() {
 {/*  TopNavBar  */}
 <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
 <div className="flex items-center gap-4">
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
+<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" /></span>
 <span className="hidden md:block h-6 w-px bg-outline-variant"></span>
 <span className="hidden md:block font-label-md text-label-md text-on-surface-variant tracking-wider">ABA 2.0 PORTAL</span>
 </div>

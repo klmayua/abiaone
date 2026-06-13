@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .card-accent {\n            border-top: 2px solid #D4AF37;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .glass-panel {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .card-accent {\n            border-top: 2px solid #D4AF37;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .glass-panel {\n            background: rgba(255, 255, 255, 0.7);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface font-body-md selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
@@ -74,7 +77,7 @@ export default function Page() {
 {/*  TopAppBar (Predicted Component)  */}
 <header className="h-16 flex justify-between items-center w-full px-12 bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline z-40 sticky top-0">
 <div className="flex items-center">
-<h2 className="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim uppercase tracking-tight"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></h2>
+<h2 className="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim uppercase tracking-tight"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" /></h2>
 <div className="mx-6 h-6 w-px bg-outline-variant"></div>
 <nav className="hidden md:flex space-x-8">
 <a className="font-label-md text-forest-green dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1 transition-opacity active:opacity-80" href="/invest-in-aba">Invest</a>

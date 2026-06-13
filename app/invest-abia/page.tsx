@@ -5,26 +5,29 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        vertical-align: middle;\n      }\n      .custom-scrollbar::-webkit-scrollbar { width: 6px; }\n      .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }\n      .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }\n      .brass-accent { border-left: 4px solid #D4AF37; }\n      .glass-effect { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(8px); }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        vertical-align: middle;\n      }\n      .custom-scrollbar::-webkit-scrollbar { width: 6px; }\n      .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }\n      .custom-scrollbar::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }\n      .brass-accent { border-left: 4px solid #D4AF37; }\n      .glass-effect { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(8px); }
+      .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
         
 {/*  TopNavBar  */}
-<nav className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant h-20">
+<nav className="fixed top-0 w-full z-50 glass-nav h-24">
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
-<img className="h-10 w-auto" src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" />
+<img className="h-20 w-auto" src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" />
 <div className="hidden md:flex gap-8">
 <a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer transition-all duration-200" href="/economic-transformation">Economy</a>
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Digital Gov</a>
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/local-governance">Governance</a>
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/secure-abia">Security</a>
 </div>
-<button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-medium hover:opacity-90 active:opacity-80 transition-all">Citizen Portal</button>
+<a className="bg-primary text-on-primary px-6 py-2 rounded-lg font-medium hover:opacity-90 active:opacity-80 transition-all" href="/citizen-identity-civil-registry">Citizens Portal</a>
 </div>
 </nav>
 {/*  SideNavBar  */}
-<aside className="fixed left-0 top-20 h-[calc(100vh-5rem)] w-64 bg-surface-container-low border-r border-outline-variant hidden md:flex flex-col py-6">
+<aside className="fixed left-0 top-24 h-[calc(100vh-6rem)] w-64 bg-surface-container-low border-r border-outline-variant hidden md:flex flex-col py-6">
 <div className="px-6 mb-8">
 <h2 className="font-headline-md text-headline-md font-bold text-primary">Navigation</h2>
 <p className="font-caption text-caption text-on-surface-variant opacity-70">State Operating System</p>
@@ -62,7 +65,7 @@ export default function Page() {
 </div>
 </aside>
 {/*  Main Content Canvas  */}
-<main className="md:ml-64 pt-20 min-h-screen">
+<main className="md:ml-64 pt-24 min-h-screen">
 <div className="max-w-max-width mx-auto px-6 md:px-margin-desktop py-10 space-y-12">
 {/*  Hero Section  */}
 <section className="relative h-[480px] rounded-xl overflow-hidden shadow-sm group">

@@ -5,16 +5,19 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .active-gold-accent {\n            position: relative;\n        }\n        .active-gold-accent::after {\n            content: '';\n            position: absolute;\n            bottom: -4px;\n            left: 0;\n            width: 24px;\n            height: 3px;\n            background-color: #D4AF37;\n        }\n        ::-webkit-scrollbar { width: 6px; }\n        ::-webkit-scrollbar-track { background: #f1f5ee; }\n        ::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .active-gold-accent {\n            position: relative;\n        }\n        .active-gold-accent::after {\n            content: '';\n            position: absolute;\n            bottom: -4px;\n            left: 0;\n            width: 24px;\n            height: 3px;\n            background-color: #D4AF37;\n        }\n        ::-webkit-scrollbar { width: 6px; }\n        ::-webkit-scrollbar-track { background: #f1f5ee; }\n        ::-webkit-scrollbar-thumb { background: #bec9be; border-radius: 10px; }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface font-body-md overflow-x-hidden">
         
 {/*  Top Navigation Bar  */}
-<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant h-20">
+<header className="fixed top-0 w-full z-50 glass-nav h-24">
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
 <div className="flex items-center gap-2">
-<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-20 w-auto" /></span>
 <span className="hidden md:inline-block h-6 w-[1px] bg-outline-variant mx-4"></span>
 <span className="hidden md:inline-block font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Connect Abia</span>
 </div>

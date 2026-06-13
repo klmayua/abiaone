@@ -5,16 +5,19 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body {\n            font-family: 'Hanken Grotesk', sans-serif;\n            -webkit-font-smoothing: antialiased;\n        }\n        .material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .hover-lift {\n            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n        }\n        .hover-lift:hover {\n            transform: translateY(-4px);\n        }\n        .brass-border {\n            border-bottom: 3px solid #D4AF37;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body {\n            font-family: 'Hanken Grotesk', sans-serif;\n            -webkit-font-smoothing: antialiased;\n        }\n        .material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .hover-lift {\n            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n        }\n        .hover-lift:hover {\n            transform: translateY(-4px);\n        }\n        .brass-border {\n            border-bottom: 3px solid #D4AF37;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background">
         
 {/*  Top Navigation Bar  */}
-<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
+<header className="fixed top-0 w-full z-50 glass-nav">
 <div className="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
 <div className="flex items-center gap-2">
-<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-20 w-auto" /></span>
 <span className="font-label-md text-caption bg-secondary-container px-2 py-0.5 rounded text-on-secondary-container">PUBLIC PORTAL</span>
 </div>
 <nav className="hidden md:flex items-center gap-8">

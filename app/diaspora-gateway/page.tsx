@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }\n        .accent-line { position: relative; }\n        .accent-line::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 40px; height: 3px; background: #D4AF37; }\n        .no-scrollbar::-webkit-scrollbar { display: none; }\n        .bento-item { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n        .bento-item:hover { transform: translateY(-4px); }" }} />
+      <style dangerouslySetInnerHTML={{ __html: "body { font-family: 'Hanken Grotesk', sans-serif; }\n        .glass-card {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); } background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }\n        .accent-line { position: relative; }\n        .accent-line::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 40px; height: 3px; background: #D4AF37; }\n        .no-scrollbar::-webkit-scrollbar { display: none; }\n        .bento-item { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n        .bento-item:hover { transform: translateY(-4px); }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface">

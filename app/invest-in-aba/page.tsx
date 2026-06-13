@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            display: inline-block;\n            line-height: 1;\n        }\n        .glass-card {\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }\n        .bento-item {\n            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n        }\n        .bento-item:hover {\n            transform: translateY(-4px);\n            box-shadow: 0 12px 24px -10px rgba(0, 77, 40, 0.15);\n        }\n        .brass-gradient {\n            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            display: inline-block;\n            line-height: 1;\n        }\n        .glass-card {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(226, 232, 240, 0.5);\n        }\n        .bento-item {\n            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n        }\n        .bento-item:hover {\n            transform: translateY(-4px);\n            box-shadow: 0 12px 24px -10px rgba(0, 77, 40, 0.15);\n        }\n        .brass-gradient {\n            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface font-body-md overflow-x-hidden">

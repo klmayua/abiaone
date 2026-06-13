@@ -5,15 +5,18 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        body {\n            background-color: #f6fbf3;\n            color: #181d19;\n            font-family: 'Hanken Grotesk', sans-serif;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #006838;\n            border-radius: 10px;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        body {\n            background-color: #f6fbf3;\n            color: #181d19;\n            font-family: 'Hanken Grotesk', sans-serif;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .custom-scrollbar::-webkit-scrollbar {\n            width: 4px;\n        }\n        .custom-scrollbar::-webkit-scrollbar-thumb {\n            background: #006838;\n            border-radius: 10px;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="overflow-x-hidden">
         
 {/*  TopNavBar  */}
-<header className="fixed top-0 w-full z-50 bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline">
-<nav className="flex justify-between items-center h-16 px-margin-desktop max-w-max-width mx-auto">
-<div className="font-headline-md text-headline-md text-forest-green dark:text-primary-fixed font-semibold cursor-pointer"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></div>
+<header className="fixed top-0 w-full z-50 glass-nav">
+<nav className="flex justify-between items-center h-24 px-margin-desktop max-w-max-width mx-auto">
+<img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-20 w-auto" />
 <div className="hidden md:flex items-center gap-8 font-body-md text-body-md">
 <a className="text-on-surface-variant dark:text-surface-variant hover:text-forest-green dark:hover:text-primary-fixed transition-colors" href="/serve-abia">Serve Abia</a>
 <a className="text-forest-green dark:text-primary-fixed border-b-2 border-forest-green dark:border-primary-fixed pb-1" href="/jobs-abia">Jobs Abia</a>

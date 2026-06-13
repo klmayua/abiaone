@@ -5,7 +5,9 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .brass-border-accent {\n            border-left: 4px solid #D4AF37;\n        }\n        .bento-card {\n            transition: transform 0.2s ease, box-shadow 0.2s ease;\n        }\n        .bento-card:hover {\n            transform: translateY(-2px);\n        }\n        .glass-nav {\n            backdrop-filter: blur(12px);\n            -webkit-backdrop-filter: blur(12px);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .brass-border-accent {\n            border-left: 4px solid #D4AF37;\n        }\n        .bento-card {\n            transition: transform 0.2s ease, box-shadow 0.2s ease;\n        }\n        .bento-card:hover {\n            transform: translateY(-2px);\n        }\n        .glass-nav {\n            backdrop-filter: blur(12px);\n            -webkit-backdrop-filter: blur(12px);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface font-body-md overflow-x-hidden">
@@ -13,7 +15,7 @@ export default function Page() {
 {/*  TopNavBar (Shared Component)  */}
 <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant">
 <div className="flex items-center gap-4">
-<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" />
 </div>
 <div className="hidden md:flex gap-8 items-center">
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="/economic-transformation">Economy</a>

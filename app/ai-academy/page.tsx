@@ -5,16 +5,19 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .course-card-hover {\n            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n        }\n        .course-card-hover:hover {\n            transform: translateY(-4px);\n            box-shadow: 0 4px 20px -4px rgba(0, 104, 56, 0.1);\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .glass-accent {\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(8px);\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .course-card-hover {\n            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n        }\n        .course-card-hover:hover {\n            transform: translateY(-4px);\n            box-shadow: 0 4px 20px -4px rgba(0, 104, 56, 0.1);\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .glass-accent {\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(8px);\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background min-h-screen flex flex-col font-body-md">
         
 {/*  Top Navigation Bar  */}
-<header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
+<header className="fixed top-0 w-full z-50 glass-nav">
 <nav className="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
 <div className="flex items-center gap-4">
-<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-20 w-auto" /></span>
 <div className="hidden md:flex items-center gap-8 ml-12">
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
 <a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 cursor-pointer" href="/serve-abia">Digital Gov</a>

@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .glass-card {\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(191, 201, 193, 0.4);\n        }\n        .map-container {\n            background-image: radial-gradient(circle at 2px 2px, #bfc9c1 1px, transparent 0);\n            background-size: 24px 24px;\n        }\n        ::-webkit-scrollbar {\n            width: 6px;\n        }\n        ::-webkit-scrollbar-track {\n            background: #f2f4f0;\n        }\n        ::-webkit-scrollbar-thumb {\n            background: #707972;\n            border-radius: 10px;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n        }\n        .glass-card {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            background: rgba(255, 255, 255, 0.8);\n            backdrop-filter: blur(12px);\n            border: 1px solid rgba(191, 201, 193, 0.4);\n        }\n        .map-container {\n            background-image: radial-gradient(circle at 2px 2px, #bfc9c1 1px, transparent 0);\n            background-size: 24px 24px;\n        }\n        ::-webkit-scrollbar {\n            width: 6px;\n        }\n        ::-webkit-scrollbar-track {\n            background: #f2f4f0;\n        }\n        ::-webkit-scrollbar-thumb {\n            background: #707972;\n            border-radius: 10px;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-surface font-body-md overflow-x-hidden">
@@ -19,7 +22,7 @@ export default function Page() {
 <nav className="fixed top-10 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width left-1/2 -translate-x-1/2 bg-surface/80 backdrop-blur-md border-b border-outline-variant">
 <div className="flex items-center gap-4">
 <img alt="Abia State Crest" className="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE3izPFfjpNfTlj3-6YrzlOE1H5OkjTDxWXEMONKK-L6RPS5sdFG4O0bHPM7wi9grvsfsf4Drgqi-lkOjPcJBXFac8iT4SeN7qpAiii4yoWx7-cQ1L3926ZtwJqmwYiKfwW-Al6vzGD2Op3Ej_ULlNKcKOusEFQsxtCzOt_uvXb5Mj6UgS2CGxGYgBXaS4EfONBJCtsRGk9VyE-XKaRWc6zLl3VIJzDjLI1XGbSwEHGKRsKpuMUg8x1lvGgMPZmevuz2XQutnR8rI" />
-<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-20 w-auto" />
 </div>
 <div className="hidden md:flex items-center gap-8">
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>

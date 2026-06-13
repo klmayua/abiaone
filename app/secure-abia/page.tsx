@@ -5,7 +5,10 @@ export default function Page() {
     <>
       
       {/* Visual stylesheet overrides for this screen */}
-      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-outline {\n            border: 1px solid #E2E8F0;\n        }\n        .brass-accent {\n            border-left: 4px solid #D4AF37;\n        }\n        @keyframes pulse-slow {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.6; }\n        }\n        .status-pulse {\n            animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n        }" }} />
+      <style dangerouslySetInnerHTML={{ __html: ".material-symbols-outlined {\n            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;\n            vertical-align: middle;\n        }\n        .bento-grid {\n            display: grid;\n            grid-template-columns: repeat(12, 1fr);\n            gap: 24px;\n        }\n        .card-outline {\n            border: 1px solid #E2E8F0;\n        }\n        .brass-accent {
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n            border-left: 4px solid #D4AF37;\n        }\n        @keyframes pulse-slow {\n            0%, 100% { opacity: 1; }\n            50% { opacity: 0.6; }\n        }\n        .status-pulse {\n            animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n        }" 
+        .glass-nav { background: rgba(255, 255, 255, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        }} />
   
       {/* Screen markup */}
       <div className="bg-background text-on-background font-body-md overflow-x-hidden">
