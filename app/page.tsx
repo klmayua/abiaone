@@ -17,12 +17,13 @@ export default function Page() {
 <span className="font-display-lg text-display-lg font-bold text-primary">ABIA ONE</span>
 </div>
 <div className="hidden md:flex gap-8 items-center">
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Digital Gov</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/local-governance">Governance</a>
-<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/secure-abia">Security</a>
-<div className="h-6 w-px bg-outline-variant"></div>
-<button className="bg-primary text-on-primary px-6 py-2 rounded-lg font-medium hover:bg-primary-container transition-all active:opacity-80">Citizen Portal</button>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/citizen-consultations">Discover</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/invest-abia">Invest</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/serve-abia">Live</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/jobs-abia">Work</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/build-abia">Build</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/governors-command-center">Govern</a>
+<a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/open-abia">Connect</a>
 </div>
 {/*  Mobile Menu Trigger (Simplified)  */}
 <button className="md:hidden text-primary">
@@ -30,50 +31,7 @@ export default function Page() {
 </button>
 </nav>
 </header>
-{/*  SideNavBar (Persistent Desktop)  */}
-<aside className="hidden md:flex fixed left-0 top-20 h-screen w-64 flex-col py-6 bg-surface-container-low border-r border-outline-variant z-40">
-<div className="px-6 mb-8">
-<h3 className="font-headline-md text-headline-md font-bold text-primary">Navigation</h3>
-<p className="text-on-surface-variant text-caption uppercase tracking-widest mt-1">State Operating System</p>
-</div>
-<nav className="flex-1 space-y-1">
-<div className="text-forest-green font-bold border-l-4 border-brass-gold bg-surface-container-high px-4 py-3 flex items-center gap-3 cursor-pointer">
-<span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
-<span>Dashboard Central</span>
-</div>
-<div className="text-on-surface-variant px-4 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3 cursor-pointer">
-<span className="material-symbols-outlined" data-icon="payments">payments</span>
-<span>Economic Transformation</span>
-</div>
-<div className="text-on-surface-variant px-4 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3 cursor-pointer">
-<span className="material-symbols-outlined" data-icon="account_balance">account_balance</span>
-<span>Digital Government</span>
-</div>
-<div className="text-on-surface-variant px-4 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3 cursor-pointer">
-<span className="material-symbols-outlined" data-icon="gavel">gavel</span>
-<span>Transparent Governance</span>
-</div>
-<div className="text-on-surface-variant px-4 py-3 hover:bg-surface-variant transition-colors flex items-center gap-3 cursor-pointer">
-<span className="material-symbols-outlined" data-icon="verified_user">verified_user</span>
-<span>Public Trust</span>
-</div>
-</nav>
-<div className="p-6 border-t border-outline-variant">
-<button className="w-full bg-forest-green text-white py-3 rounded-lg font-medium flex items-center justify-center gap-2">
-<span className="material-symbols-outlined" style={{"fontVariationSettings":"'FILL' 1"}}>rocket_launch</span>
-                Launch Service
-            </button>
-<div className="mt-6 space-y-2">
-<div className="flex items-center gap-2 text-on-surface-variant text-sm cursor-pointer hover:text-primary">
-<span className="material-symbols-outlined text-[18px]" data-icon="settings">settings</span> Settings
-                </div>
-<div className="flex items-center gap-2 text-on-surface-variant text-sm cursor-pointer hover:text-primary">
-<span className="material-symbols-outlined text-[18px]" data-icon="help">help</span> Support
-                </div>
-</div>
-</div>
-</aside>
-<main className="md:ml-64 pt-20">
+<main className="pt-20">
 {/*  Hero Section  */}
 <section className="relative h-[500px] overflow-hidden flex items-center px-margin-desktop bg-surface-dim">
 <div className="absolute inset-0 z-0">
@@ -288,7 +246,7 @@ export default function Page() {
 </section>
 </main>
 {/*  Footer  */}
-<footer className="md:ml-64 bg-surface-container-highest border-t border-outline-variant">
+<footer className="bg-surface-container-highest border-t border-outline-variant">
 <div className="flex flex-col md:flex-row justify-between items-center py-gutter px-margin-desktop max-w-max-width mx-auto">
 <div className="mb-6 md:mb-0">
 <span className="font-headline-md text-headline-md text-primary font-bold">ABIA ONE</span>

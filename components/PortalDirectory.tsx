@@ -3,59 +3,21 @@
 import { useState } from "react";
 
 const routes = [
-  { category: "Core Dashboards", title: "Unified Transformation Dashboard (Home)", path: "/", device: "DESKTOP" },
-  { category: "Core Dashboards", title: "Governor's Command Center", path: "/governors-command-center", device: "DESKTOP" },
-  { category: "Core Dashboards", title: "Secure Abia | Command Dashboard", path: "/secure-abia-2", device: "DESKTOP" },
-  { category: "Core Dashboards", title: "MDA Performance Dashboard", path: "/mda-performance", device: "DESKTOP" },
-  { category: "Core Dashboards", title: "Live Incident Feed", path: "/live-incident-feed", device: "DESKTOP" },
-  { category: "Core Dashboards", title: "Public Reporting Hub", path: "/public-reporting", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Discover Abia", path: "/citizen-consultations", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Invest in Abia", path: "/invest-abia", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Live in Abia", path: "/serve-abia", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Work in Abia", path: "/jobs-abia", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Build Abia", path: "/build-abia", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Govern Abia", path: "/governors-command-center", device: "DESKTOP" },
+  { category: "Core Experiences", title: "Connect Abia", path: "/open-abia", device: "DESKTOP" },
 
-  { category: "Citizen Portals", title: "GADA | Citizen Portal", path: "/gada", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Serve Abia | Digital Gov Services", path: "/serve-abia", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Civil Service Portal", path: "/civil-service-portal", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "AI Academy | Learning Hub", path: "/ai-academy", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Jobs Abia | Employment Marketplace", path: "/jobs-abia", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Employer Portal", path: "/employer-portal", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Open Abia | Procurement & Tenders", path: "/procurement-tenders-registry", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Open Abia | Budget Transparency", path: "/open-abia", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Build Abia | Infrastructure Progress", path: "/build-abia", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Citizen Consultations & Town Halls", path: "/citizen-consultations", device: "DESKTOP" },
-  { category: "Citizen Portals", title: "Citizen Identity & Civil Registry", path: "/citizen-identity-civil-registry", device: "DESKTOP" },
+  { category: "Dashboards", title: "Governor's Command Center", path: "/governors-command-center", device: "DESKTOP" },
+  { category: "Dashboards", title: "MDA Performance Dashboard", path: "/mda-performance", device: "DESKTOP" },
+  { category: "Dashboards", title: "Live Incident Feed", path: "/live-incident-feed", device: "DESKTOP" },
 
-  { category: "Ministries & Departments", title: "Ministry of Agriculture", path: "/ministry-of-agriculture", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Ministry of Health", path: "/ministry-of-health", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Ministry of Communication", path: "/ministry-of-communication", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "SME Growth & Support", path: "/sme-growth-support", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Cooperatives & Micro-Credit", path: "/cooperatives-micro-credit", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Housing & Urban Development", path: "/housing-urban-development", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Land & Property Services", path: "/land-property", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Transport & Mobility", path: "/transport-mobility", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Water Resources & Irrigation", path: "/water-resources-irrigation", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Women & Gender Affairs", path: "/women-gender-affairs", device: "DESKTOP" },
-  { category: "Ministries & Departments", title: "Youth & Sports", path: "/youth-sports", device: "DESKTOP" },
-
-  { category: "Growth & Heritage", title: "Invest in Aba | Industrial Marketplace", path: "/invest-in-aba", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Invest Abia | Global Gateway", path: "/invest-abia", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Greater Aba Development Authority (GADA)", path: "/greater-aba-development-authority", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Diaspora Gateway", path: "/diaspora-gateway", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Industrial Hubs", path: "/industrial-hubs", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Digital Archives & Heritage", path: "/digital-archives-heritage", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "State Archives", path: "/state-archives", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Border Trade & Logistics", path: "/border-trade-logistics", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Science & Technology", path: "/science-technology", device: "DESKTOP" },
-  { category: "Growth & Heritage", title: "Tourism & Culture", path: "/tourism-culture", device: "DESKTOP" },
-
-  { category: "Mobile Views", title: "Unified Dashboard (Mobile)", path: "/home-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "GADA | Citizen Portal (Mobile)", path: "/gada-mobile-2", device: "MOBILE" },
-  { category: "Mobile Views", title: "Serve Abia (Mobile)", path: "/serve-abia-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "AI Academy (Mobile)", path: "/ai-academy-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "Jobs Abia (Mobile)", path: "/jobs-abia-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "Secure Abia | Safety Portal (Mobile)", path: "/secure-abia-mobile-2", device: "MOBILE" },
-  { category: "Mobile Views", title: "Open Abia | Transparency Monitor (Mobile)", path: "/open-abia-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "Ministry of Health Portal (Mobile)", path: "/ministry-of-health-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "Ministry of Agriculture Portal (Mobile)", path: "/ministry-of-agriculture-mobile-2", device: "MOBILE" },
-  { category: "Mobile Views", title: "Civil Service Admin Portal (Mobile)", path: "/civil-service-mobile", device: "MOBILE" },
-  { category: "Mobile Views", title: "Aba 2.0 | Urban Renewal Hub (Mobile)", path: "/aba-20-mobile", device: "MOBILE" }
+  { category: "Ministries", title: "Ministry of Agriculture", path: "/ministry-of-agriculture", device: "DESKTOP" },
+  { category: "Ministries", title: "Ministry of Health", path: "/ministry-of-health", device: "DESKTOP" },
+  { category: "Ministries", title: "Ministry of Communication", path: "/ministry-of-communication", device: "DESKTOP" },
 ];
 
 export default function PortalDirectory() {
@@ -97,7 +59,7 @@ export default function PortalDirectory() {
                 <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
                   <span className="material-symbols-outlined text-brass-gold">explore</span> ABIA ONE Portal Navigator
                 </h2>
-                <p className="text-on-surface-variant text-sm mt-1">Jump to any specific operational dashboard, citizen portal, or mobile design</p>
+                <p className="text-on-surface-variant text-sm mt-1">Jump to any core experience, dashboard, or ministry</p>
               </div>
               <button 
                 onClick={() => setIsOpen(false)}
@@ -163,7 +125,7 @@ export default function PortalDirectory() {
             
             {/* Footer Status */}
             <div className="border-t border-outline-variant/30 pt-4 flex justify-between items-center text-xs text-on-surface-variant">
-              <span>Status: Active Operating System (61 Routes Live)</span>
+              <span>Status: Active Operating System (55 Routes Live)</span>
               <span>© Abia State Government</span>
             </div>
           </div>
