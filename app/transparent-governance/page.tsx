@@ -19,7 +19,7 @@ export default function Page() {
 <nav className="fixed top-10 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width left-1/2 -translate-x-1/2 bg-surface/80 backdrop-blur-md border-b border-outline-variant">
 <div className="flex items-center gap-4">
 <img alt="Abia State Crest" className="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE3izPFfjpNfTlj3-6YrzlOE1H5OkjTDxWXEMONKK-L6RPS5sdFG4O0bHPM7wi9grvsfsf4Drgqi-lkOjPcJBXFac8iT4SeN7qpAiii4yoWx7-cQ1L3926ZtwJqmwYiKfwW-Al6vzGD2Op3Ej_ULlNKcKOusEFQsxtCzOt_uvXb5Mj6UgS2CGxGYgBXaS4EfONBJCtsRGk9VyE-XKaRWc6zLl3VIJzDjLI1XGbSwEHGKRsKpuMUg8x1lvGgMPZmevuz2XQutnR8rI" />
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
 </div>
 <div className="hidden md:flex items-center gap-8">
 <a className="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>

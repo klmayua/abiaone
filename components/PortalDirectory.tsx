@@ -56,9 +56,10 @@ export default function PortalDirectory() {
             {/* Header */}
             <div className="flex justify-between items-center mb-6">
               <div>
-                <h2 className="text-2xl font-bold text-primary flex items-center gap-2">
-                  <span className="material-symbols-outlined text-brass-gold">explore</span> ABIA ONE Portal Navigator
-                </h2>
+<div className="flex items-center gap-3">
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-10 w-auto" />
+<span className="text-xl font-bold text-primary">Portal Navigator</span>
+</div>
                 <p className="text-on-surface-variant text-sm mt-1">Jump to any core experience, dashboard, or ministry</p>
               </div>
               <button 

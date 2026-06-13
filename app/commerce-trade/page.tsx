@@ -13,7 +13,7 @@ export default function Page() {
 {/*  Top Navigation Bar  */}
 <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 max-w-container-max-width mx-auto bg-surface/80 dark:bg-forest-deep/80 backdrop-blur-md border-b border-outline-variant dark:border-outline">
 <div className="flex items-center gap-8">
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed">ABIA ONE</span>
+<span className="font-headline-lg text-headline-lg font-bold text-forest-deep dark:text-primary-fixed"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
 <div className="hidden md:flex gap-6">
 <a className="font-label-md text-label-md text-primary dark:text-primary-fixed-dim border-b-2 border-brass-accent pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/economic-transformation">Economy</a>
 <a className="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="/serve-abia">Digital Gov</a>

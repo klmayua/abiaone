@@ -14,7 +14,7 @@ export default function Page() {
 <header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant h-20">
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
 <div className="flex items-center gap-8">
-<span className="font-display-lg text-headline-md font-bold text-primary">ABIA ONE</span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
 <nav className="hidden md:flex gap-6">
 <a className="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer" href="/economic-transformation">Economy</a>
 <a className="text-primary border-b-2 border-brass-gold font-semibold pb-1 transition-colors cursor-pointer" href="/jobs-abia">Jobs</a>

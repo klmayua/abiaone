@@ -13,7 +13,7 @@ export default function Page() {
 {/*  TopNavBar (Shared Component)  */}
 <header className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant h-16 max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center">
 <div className="flex items-center gap-4">
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
 </div>
 <nav className="hidden md:flex gap-8 items-center h-full">
 <a className="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="/economic-transformation">Economy</a>

@@ -14,7 +14,7 @@ export default function Page() {
 <header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant">
 <div className="flex justify-between items-center px-margin-desktop h-20 max-w-max-width mx-auto">
 <div className="flex items-center gap-2">
-<span className="font-display-lg text-headline-md font-bold text-primary">ABIA ONE</span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
 <span className="font-label-md text-caption bg-secondary-container px-2 py-0.5 rounded text-on-secondary-container">PUBLIC PORTAL</span>
 </div>
 <nav className="hidden md:flex items-center gap-8">

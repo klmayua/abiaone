@@ -13,7 +13,7 @@ export default function Page() {
 {/*  SideNavBar (Authority: JSON Component)  */}
 <aside className="hidden lg:flex flex-col h-full w-64 fixed left-0 top-0 bg-surface-container-low border-r border-outline-variant z-50">
 <div className="p-6">
-<h1 className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</h1>
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
 <p className="font-body-md text-body-md opacity-70">Modern Governance OS</p>
 </div>
 <nav className="flex-1 px-2 space-y-1">

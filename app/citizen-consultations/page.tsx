@@ -14,7 +14,7 @@ export default function Page() {
 <header className="fixed top-0 w-full z-50 bg-background border-b border-outline-variant h-20">
 <div className="flex justify-between items-center px-margin-desktop h-full max-w-max-width mx-auto">
 <div className="flex items-center gap-2">
-<span className="font-display-lg text-headline-md font-bold text-primary">ABIA ONE</span>
+<span className="font-display-lg text-headline-md font-bold text-primary"><img src="/Logos/Abia_One_Logo_Standard.png" alt="ABIA ONE" className="h-8 w-auto" /></span>
 <span className="hidden md:inline-block h-6 w-[1px] bg-outline-variant mx-4"></span>
 <span className="hidden md:inline-block font-label-md text-label-md text-on-surface-variant uppercase tracking-widest">Connect Abia</span>
 </div>

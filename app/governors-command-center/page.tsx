@@ -74,7 +74,7 @@ export default function Page() {
 {/*  TopAppBar (Predicted Component)  */}
 <header className="h-16 flex justify-between items-center w-full px-12 bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline z-40 sticky top-0">
 <div className="flex items-center">
-<h2 className="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim uppercase tracking-tight">ABIA ONE</h2>
+<h2 className="font-headline-md text-headline-md font-bold text-forest-green dark:text-primary-fixed-dim uppercase tracking-tight"><img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" /></h2>
 <div className="mx-6 h-6 w-px bg-outline-variant"></div>
 <nav className="hidden md:flex space-x-8">
 <a className="font-label-md text-forest-green dark:text-primary-fixed-dim border-b-2 border-brass-gold pb-1 transition-opacity active:opacity-80" href="/invest-in-aba">Invest</a>

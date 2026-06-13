@@ -12,7 +12,7 @@ export default function Page() {
         
 <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-16 bg-surface/80 backdrop-blur-md border-b border-outline-variant max-w-container-max-width mx-auto">
 <div className="flex items-center gap-2">
-<span className="font-headline-lg text-headline-lg font-bold text-forest-deep">ABIA ONE</span>
+<img src="/Logos/Abia_One_No_Background.png" alt="ABIA ONE" className="h-8 w-auto" />
 </div>
 <div className="hidden md:flex items-center gap-8">
 <a className="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" href="/economic-transformation">Economy</a>
